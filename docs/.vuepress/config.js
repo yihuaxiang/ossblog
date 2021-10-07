@@ -20,7 +20,8 @@ module.exports = {
         sidebarDepth: 1,    // 可选的, 默认值是 1
         children: [
           '/tech/first',
-          '/tech/second'
+          '/tech/second',
+          '/tech/third'
         ]
       }
     ]
