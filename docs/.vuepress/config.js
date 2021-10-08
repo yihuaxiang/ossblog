@@ -1,6 +1,7 @@
 module.exports = {
   title: '符栋栋的博客',
   description: '符栋栋的博客',
+  plugins: ['social-share'],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
     // sidebar: 'auto',
