@@ -36,4 +36,4 @@ jobs:
           wget https://fudongdong.com/bin/ossutil64 && 
           chmod +x ./ossutil64 &&
           ls && 
-          ./ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com
+          ./ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com --recursive
