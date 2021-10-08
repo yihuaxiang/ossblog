@@ -7,9 +7,12 @@ export default ({
                     isServer // 当前应用配置是处于 服务端渲染 或 客户端
                 }) => {
     // ...做一些其他的应用级别的优化
+
     console.log('enhanceApp')
     const onlineHosts = ['fudongdong.cn', 'fudongdong.com']
-    if(location.protocol === 'http:' && onlineHosts.includes(location.host)) {
-        location.assign(location.href.replace('http://', 'https://'));
+    if(typeof window) {
+        if(window.location.protocol === 'http:' && onlineHosts.includes(window.location.host)) {
+            window.location.assign(window.location.href.replace('http://', 'https://'));
+        }
     }
 }
