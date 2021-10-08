@@ -6,8 +6,6 @@
 
 ![img_1.png](./3.jpeg)
 
-![img_2.png](./4.jpeg)
-
 ![img_3.png](./5.jpeg)
 
 ![img_4.png](./6.jpeg)
