@@ -1,7 +1,16 @@
 module.exports = {
   title: '符栋栋的博客',
   description: '符栋栋的博客',
-  plugins: ['social-share'],
+  plugins: [
+      [
+          'social-share',
+          {
+              networks: ["facebook" , "line" , "reddit" , "email" , "skype" , "telegram" , "twitter" , "weibo" , "qq" , "douban" , "whatsapp"],
+              autoQuote: true,
+              isPlain: true
+          },
+      ],
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
     // sidebar: 'auto',
