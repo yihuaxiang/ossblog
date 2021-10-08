@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 构建
         run: |
-          npm run docs:build,
-          wget https://fudongdong.com/bin/ossutil64,
-          chmod +x ./ossutil64,
+          npm run docs:build && 
+          wget https://fudongdong.com/bin/ossutil64 && 
+          chmod +x ./ossutil64 &&
           ./ossutil64 ls oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com
