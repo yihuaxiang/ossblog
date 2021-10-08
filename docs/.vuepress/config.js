@@ -23,6 +23,7 @@ module.exports = {
         ],
       '/life/': [
           '',
+          'food',
           'first',
           'second',
           'third'
