@@ -122,13 +122,87 @@ _// react-router V3 用于接收子工程的路由_ **export** **default** () =>
 根据我们业务的实际情况，目前静态资源的大小是可控的，无需注册多个，单一入口地址完全能够满足我们的业务需求，并且由于我们的改造完全基于现有技术栈。如果业务很复杂，完全可以在子工程中通过webpack的动态import进行路由懒加载，也就是说，子工程完全可以按照路由再次切分成chunks来减少JS的包体积。至于CSS本身就很小，长期也不会有进行切分的需要。
 ### 子工程接口方案
 子工程需要暴露它要注册给基座工程的对象，来进行基座工程加载子工程的过程。在子工程入口文件中定义registerApp来传递注册的对象，主要代码如下：
-**import** reducers **from** 'common/store/labor/reducer'; **import** sagas **from** 'common/store/labor/saga'; **import** routes **from** './routes/index'; **function** **registerApp**(dep: any = {}): **any** {     **return** {         routes, _// 子工程路由组件_         reducers, _// 子工程Redux的reducer_         sagas, _// 子工程的Redux副作用处理saga_     }; } **export** **default** registerApp
+```vue
+import reducers from 'common/store/labor/reducer';
+import sagas from 'common/store/labor/saga';
+import routes from './routes/index';
+function registerApp(dep: any = {}): any {
+    return {
+        routes, // 子工程路由组件
+        reducers, // 子工程Redux的reducer
+        sagas, // 子工程的Redux副作用处理saga
+    };
+}
+export default registerApp
+```
 我们这里暴露了子工程的三个对象：这里最重要的就是routes路由组件，就是在写React-Router（版本4及以上）的路由。子工程开发者只需要配置routes对象即可，没有任何学习成本，其代码如下：
-_/**  * 子工程路由注册说明  * 如注册的路由如下：  * path: 'index'  * 路由前缀会被追加上，路由前缀规则见变量urlPrefix  * 在主工程的访问路劲为：/subapp/${工程注册名称}/index  */_ **const** urlPrefix = `/subapp/${microConfig.name}/`; **const** routes = [     {         path: 'index',         component: IndexPage,     }, ]; **const** AppRoutes = () => (     <Switch>         {             routes.map(item => (                 <Route                     key={item.path}                     exact                     path={`${urlPrefix}${item.path}`}                     component={item.component}                 />             ))         }         <Redirect to="/" />     </Switch> ); export default AppRoutes;
+```vue
+/**
+ * 子工程路由注册说明
+ * 如注册的路由如下：
+ * path: 'index'
+ * 路由前缀会被追加上，路由前缀规则见变量urlPrefix
+ * 在主工程的访问路劲为：/subapp/${工程注册名称}/index
+ */
+const urlPrefix = `/subapp/${microConfig.name}/`;
+const routes = [
+    {
+        path: 'index',
+        component: IndexPage,
+    },
+];
+const AppRoutes = () => (
+    <Switch>
+        {
+            routes.map(item => (
+                <Route
+                    key={item.path}
+                    exact
+                    path={`${urlPrefix}${item.path}`}
+                    component={item.component}
+                />
+            ))
+        }
+        <Redirect to="/" />
+    </Switch>
+);
+export default AppRoutes;
+```
 除了上方的routes对象，还剩下两个接口对象是：reducers和sagas，用于动态注册全局Store相关的数据和副作用处理。这两个接口我们在子工程中暂时没有开放，因为按照业务线拆分过后，由于业务线间独立性很强，全局Store的意义就不大了。我们希望子工程可以自行处理自己的Store，即每个业务线维护自己的Store，这里就不再展开进行说明了。
 ### 复用方案
 基座工程除了路由管理之外，还作为共享层共享全局的基建，例如框架基本库、业务组件等。这样做的目的是，子业务线间如果有相同的依赖，切换的时候就不会出现重复加载的问题。例如下面的代码，我们把React相关库都以全局的方式导出，而子工程加载的时候就会以external的形式加载这些库，这样子工程的开发者不需要额外的第三方模块加载器，直接引用即可，和平时开发React应用一致，没有任何学习成本。而和各个业务都相关的公用组件等，我们会放到wmadMicro的全局命名空间下进行管理。主要代码如下：
-**import** * **as** React **from** 'react'; **import** * **as** ReactDOM **from** 'react-dom'; **import** * **as** ReactRouterDOM **from** 'react-router-dom'; **import** * **as** Axios **from** 'axios'; **import** * **as** History **from** 'history'; **import** * **as** ReactRedux **from** 'react-redux'; **import** * **as** Immutable **from** 'immutable'; **import** * **as** ReduxSagaEffects **from** 'redux-saga/effects'; **import** Echarts **from** 'echarts'; **import** ReactSlick **from** 'react-slick';  **function** **registerGlobal**(root: any, deps: any) {     Object.keys(deps).forEach((key) => {         root[key] = deps[key];     }); } registerGlobal(window, {     _// 在这里注册暴露给子工程的全局变量_     React,     ReactDOM,     ReactRouterDOM,     Axios,     History,     ReactRedux,     Immutable,     ReduxSagaEffects,     Echarts,     ReactSlick, }); **export** **default** registerGlobal;
+```vue
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import * as ReactRouterDOM from 'react-router-dom';
+import * as Axios from 'axios';
+import * as History from 'history';
+import * as ReactRedux from 'react-redux';
+import * as Immutable from 'immutable';
+import * as ReduxSagaEffects from 'redux-saga/effects';
+import Echarts from 'echarts';
+import ReactSlick from 'react-slick';
+​
+function registerGlobal(root: any, deps: any) {
+    Object.keys(deps).forEach((key) => {
+        root[key] = deps[key];
+    });
+}
+registerGlobal(window, {
+    // 在这里注册暴露给子工程的全局变量
+    React,
+    ReactDOM,
+    ReactRouterDOM,
+    Axios,
+    History,
+    ReactRedux,
+    Immutable,
+    ReduxSagaEffects,
+    Echarts,
+    ReactSlick,
+});
+export default registerGlobal;
+```
 ### 流程方案
 在确定了程序拆分运行的整体衔接之后，我们还要确定开发方案、部署方案以及回滚方案。我们如何开始开发一个子工程？以及我们如何部署我们的子工程？
 **开发流程**
