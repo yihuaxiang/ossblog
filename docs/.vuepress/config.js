@@ -27,7 +27,7 @@ module.exports = {
     sidebar: {
         '/tech/': [
             '',
-            'first',
+            'mfe',
             'second',
             'third'
         ],
