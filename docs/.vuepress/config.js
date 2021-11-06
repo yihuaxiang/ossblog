@@ -36,7 +36,8 @@ module.exports = {
           'food',
           'first',
           'second',
-          'third'
+          'third',
+          "chromeext"
       ]
     }
   }
