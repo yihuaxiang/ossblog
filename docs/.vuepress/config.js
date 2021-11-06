@@ -29,15 +29,15 @@ module.exports = {
             '',
             'mfe',
             'second',
-            'third'
+            'third',
+            "chromeext"
         ],
       '/life/': [
           '',
           'food',
           'first',
           'second',
-          'third',
-          "chromeext"
+          'third'
       ]
     }
   }
