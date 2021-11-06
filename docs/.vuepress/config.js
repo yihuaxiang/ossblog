@@ -38,6 +38,10 @@ module.exports = {
           'first',
           'second',
           'third'
+      ],
+      '/misc/': [
+        '',
+        '2021-11-06'
       ]
     }
   }
