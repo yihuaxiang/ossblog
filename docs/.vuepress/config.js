@@ -10,6 +10,7 @@ module.exports = {
               isPlain: true
           },
       ],
+    'img-lazy'
   ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
