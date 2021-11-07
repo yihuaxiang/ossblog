@@ -29,16 +29,11 @@ module.exports = {
         '/tech/': [
             '',
             'mfe',
-            'second',
-            'third',
             "chromeext"
         ],
       '/life/': [
           '',
           'food',
-          'first',
-          'second',
-          'third',
           'firstsnow',
           'snow'
       ],
