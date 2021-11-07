@@ -1,4 +1,15 @@
 module.exports = {
+  head: [
+    [
+      // 添加cnzz统计
+      [
+        "script",
+        {
+          src: "https://v1.cnzz.com/z_stat.php?id=1280548058&web_id=1280548058"
+        }
+      ]
+    ]
+  ],
   title: '符栋栋的博客',
   description: '符栋栋的博客',
   plugins: [
