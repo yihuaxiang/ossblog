@@ -38,7 +38,8 @@ module.exports = {
           'food',
           'first',
           'second',
-          'third'
+          'third',
+          'snow'
       ],
       '/misc/': [
         '',
