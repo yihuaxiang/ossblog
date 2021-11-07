@@ -10,7 +10,25 @@ module.exports = {
               isPlain: true
           },
       ],
-    'img-lazy'
+    'img-lazy',
+    '@vuepress/nprogress',
+    '@vuepress/back-to-top',
+    [
+      'copyright',
+      {
+        noCopy: true, // 选中的文字将无法被复制
+        minLength: 100, // 如果长度超过 100 个字符
+        authorName: 'https://fudongdong.com'
+      },
+    ],
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        delay: 1000,
+        options: {
+        },
+      },
+    ],
   ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean

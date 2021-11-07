@@ -11,7 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-nprogress": "^1.8.2",
     "vuepress": "^1.8.2",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-medium-zoom": "^1.1.9",
     "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
