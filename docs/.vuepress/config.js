@@ -6,6 +6,12 @@ module.exports = {
       {
         src: "https://v1.cnzz.com/z_stat.php?id=1280548058&web_id=1280548058"
       }
+    ],[
+      'meta',
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+      }
     ]
   ],
   title: '符栋栋的博客',
