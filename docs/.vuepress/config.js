@@ -11,14 +11,28 @@ module.exports = {
   title: '符栋栋的博客',
   description: '符栋栋的博客',
   plugins: [
-      [
-          'social-share',
-          {
-              networks: ["facebook" , "line" , "reddit" , "email" , "skype" , "telegram" , "twitter" , "weibo" , "qq" , "douban" , "whatsapp"],
-              autoQuote: true,
-              isPlain: true
-          },
-      ],
+    // 评论插件
+    [
+      "vuepress-plugin-comment",
+      {
+        choosen: "valine",
+        // options选项中的所有参数，会传给Valine的配置
+        options: {
+          el: "#valine-vuepress-comment",
+          appId: "yWol7msCKGE7rhKvJ8GF2wvT-gzGzoHsz",
+          appKey: "U22GE79KAkhSrl66FaHi1qqx",
+          path: '<%- frontmatter.to.path %>'
+        }
+      }
+    ],
+    [
+        'social-share',
+        {
+            networks: ["facebook" , "line" , "reddit" , "email" , "skype" , "telegram" , "twitter" , "weibo" , "qq" , "douban" , "whatsapp"],
+            autoQuote: true,
+            isPlain: true
+        },
+    ],
     'img-lazy',
     '@vuepress/nprogress',
     '@vuepress/back-to-top',
