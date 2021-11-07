@@ -16,6 +16,7 @@
     "vuepress": "^1.8.2",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-plugin-medium-zoom": "^1.1.9",
+    "vuepress-plugin-seo": "^0.1.4",
     "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
