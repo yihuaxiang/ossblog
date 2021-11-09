@@ -14,4 +14,4 @@
 
 # 2021-11-09 更新
 尴尬了，删除默认快捷键后没测就提交了。。还得重新等待审核
-![](.chromeext_images/86cbe934.png)
+![](./.chromeext_images/86cbe934.png)
