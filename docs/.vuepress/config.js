@@ -100,7 +100,8 @@ module.exports = {
           'food',
           'firstsnow',
           'snow',
-          'halloween'
+          'halloween',
+          'sea'
       ],
       '/misc/': [
         '',
