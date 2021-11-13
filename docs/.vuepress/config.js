@@ -87,6 +87,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '技术文章', link: '/tech/' },
       { text: '生活', link: '/life/' },
+      { text: '我和大海', link: '/life/sea' },
       { text: '琐碎', link: '/misc/'}
     ],
     sidebar: {
