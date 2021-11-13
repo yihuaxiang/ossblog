@@ -8,8 +8,6 @@
 
 ![](./.sea_images/efb965e1.png)
 
-![](./.sea_images/636d0ee4.png)
-
 ![](./.sea_images/7057c0cb.png)
 
 ![](./.sea_images/563ab86a.png)
