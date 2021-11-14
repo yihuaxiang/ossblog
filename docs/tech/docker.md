@@ -4,6 +4,8 @@
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
 
+![](.docker_images/2a5b216d.png)
+
 ## 通过`docker`发布应用
 
 1. 找到`OpenJDK`的镜像，地址：[https://hub.docker.com/_/openjdk](https://hub.docker.com/_/openjdk)
