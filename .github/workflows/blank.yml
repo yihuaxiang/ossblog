@@ -37,3 +37,11 @@ jobs:
           chmod +x ./ossutil64 &&
           ls &&
           ./ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com --recursive --force
+
+
+      # 百度站长网址推送
+      - name: 构建
+        run: cd bdzz &&
+          sh ./push.sh
+
+
