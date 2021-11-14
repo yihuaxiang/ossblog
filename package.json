@@ -21,6 +21,7 @@
     "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
+    "dayjs": "^1.10.7",
     "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }

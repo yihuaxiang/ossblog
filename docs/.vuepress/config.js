@@ -1,3 +1,9 @@
+const dayjs = require('dayjs');
+const timezone = require('dayjs/plugin/timezone')
+const utc = require('dayjs/plugin/utc')
+dayjs.extend(utc)
+dayjs.extend(timezone);
+
 module.exports = {
   head: [
     // 添加cnzz统计
@@ -72,7 +78,12 @@ module.exports = {
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
       }
-    ]
+    ],
+    ['@vuepress/last-updated', {
+      transformer: timestamp => {
+        return dayjs(timestamp).tz("Asia/Shanghai").format("YYYY-MM-DD HH:mm:ss") + '(北京时间)';
+      }
+    }]
   ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
