@@ -102,7 +102,8 @@ module.exports = {
           'firstsnow',
           'snow',
           'halloween',
-          'sea'
+          'sea',
+          'switch'
       ],
       '/misc/': [
         '',
