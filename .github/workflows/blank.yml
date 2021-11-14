@@ -32,7 +32,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 构建
         run: |
-          npm run docs:build &&
+          npm run docs:build
+
+      - name: 上传OSS
+        run: |
           wget https://fudongdong.com/bin/ossutil64 &&
           chmod +x ./ossutil64 &&
           ls &&
@@ -40,7 +43,7 @@ jobs:
 
 
       # 百度站长网址推送
-      - name: 构建
+      - name: 推送到百度站长
         run: sh ./bdzz/generateUrls.sh &&
           cat urls.txt &&
           cd bdzz &&
