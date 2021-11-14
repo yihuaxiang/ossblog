@@ -6,7 +6,7 @@ module.exports = {
       {
         src: "https://v1.cnzz.com/z_stat.php?id=1280548058&web_id=1280548058"
       }
-    ],[
+    ], [
       'meta',
       {
         name: 'viewport',
@@ -32,12 +32,12 @@ module.exports = {
       }
     ],
     [
-        'social-share',
-        {
-            networks: ["facebook" , "line" , "reddit" , "email" , "skype" , "telegram" , "twitter" , "weibo" , "qq" , "douban" , "whatsapp"],
-            autoQuote: true,
-            isPlain: true
-        },
+      'social-share',
+      {
+        networks: ["facebook", "line", "reddit", "email", "skype", "telegram", "twitter", "weibo", "qq", "douban", "whatsapp"],
+        autoQuote: true,
+        isPlain: true
+      },
     ],
     'img-lazy',
     '@vuepress/nprogress',
@@ -54,8 +54,7 @@ module.exports = {
       'vuepress-plugin-medium-zoom',
       {
         delay: 1000,
-        options: {
-        },
+        options: {},
       },
     ],
     [
@@ -84,30 +83,26 @@ module.exports = {
     // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
     prevLinks: true,
     nav: [
-      { text: '首页', link: '/' },
-      { text: '技术文章', link: '/tech/' },
-      { text: '生活', link: '/life/' },
-      { text: '我和大海', link: '/life/sea' },
-      { text: '琐碎', link: '/misc/'}
+      {text: '首页', link: '/'},
+      {text: '技术文章', link: '/tech/'},
+      {text: '生活', link: '/life/'},
+      {text: '琐碎', link: '/misc/'}
     ],
     sidebar: {
-        '/tech/': [
-            '',
-            'mfe',
-            "chromeext",
-            "docker"
-        ],
+      '/tech/': [
+        'mfe',
+        "chromeext",
+        "docker"
+      ],
       '/life/': [
-          '',
-          'food',
-          'firstsnow',
-          'snow',
-          'halloween',
-          'sea',
-          'switch'
+        'food',
+        'firstsnow',
+        'snow',
+        'halloween',
+        'sea',
+        'switch'
       ],
       '/misc/': [
-        '',
         '2021-11-06'
       ]
     }
