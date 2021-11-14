@@ -42,6 +42,7 @@ jobs:
       # 百度站长网址推送
       - name: 构建
         run: sh ./bdzz/generateUrls.sh &&
+          cat urls.txt &&
           cd bdzz &&
           sh ./push.sh
 
