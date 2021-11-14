@@ -109,7 +109,8 @@ module.exports = {
       '/tech/': [
         'mfe',
         "chromeext",
-        "docker"
+        "docker",
+        "bdzz"
       ],
       '/life/': [
         'food',
