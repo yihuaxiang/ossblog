@@ -1,4 +1,6 @@
 # This is a basic workflow to help you get started with Actions
+before_install:
+  - export TZ='Asia/Shanghai' # 设置时区
 
 name: CI
 
@@ -32,8 +34,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 构建
         run: |
-          npm run docs:build && 
-          wget https://fudongdong.com/bin/ossutil64 && 
+          npm run docs:build &&
+          wget https://fudongdong.com/bin/ossutil64 &&
           chmod +x ./ossutil64 &&
-          ls && 
+          ls &&
           ./ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com --recursive --force
