@@ -1,5 +1,15 @@
 # 美食之家
 
+![](./assets/food-1636880703793.png)
+
+![](./assets/food-1636880720845.png)
+
+![](./assets/food-1636880728973.png)
+
+![](./assets/food-1636880736011.png)
+
+![](./assets/food-1636880743432.png)
+
 ![img_12.png](./0.jpeg)
 
 ![img.png](./1.jpeg)
