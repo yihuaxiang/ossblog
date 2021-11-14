@@ -53,7 +53,7 @@ jobs:
 
       - name: 上传OSS
         run: |
-          ls &&
+          ls && ls docs && ls docs/.vuepress &&
           ./ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com --recursive --force
 
   seo:
