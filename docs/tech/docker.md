@@ -131,3 +131,8 @@ docker push fudocker/fddweb:tagname
 docker run -d -p 8811:8080 fudocker/fddweb:latest
 ```
 运行后访问`http:localhost:8811`即可
+
+
+## 参考文档
+1. https://www.runoob.com/docker/docker-dockerfile.html
+2. https://docs.docker.com/get-started/
