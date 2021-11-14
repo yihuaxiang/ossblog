@@ -18,6 +18,12 @@ module.exports = {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
       }
+    ], [
+      'meta',
+      {
+        name: 'baidu-site-verification',
+        content: 'code-zlxkNua3Rq'
+      }
     ]
   ],
   title: '符栋栋的博客',
