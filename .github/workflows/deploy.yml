@@ -53,8 +53,7 @@ jobs:
 
       - name: 下载OSS客户端
         run: |
-          wget https://fudongdong.com/bin/ossutil64 &&
-          chmod +x ./ossutil64
+          chmod +x ./bin/ossutil64
 
       - uses: actions/download-artifact@v2
         with:
@@ -64,7 +63,7 @@ jobs:
       - name: 上传OSS
         run: |
           ls && ls docs && ls docs/.vuepress &&
-          ./ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com --recursive --force
+          ./bin/ossutil64 cp ./docs/.vuepress/dist  oss://51shazhu  --access-key-secret=${{secrets.OSSSECRET}} --access-key-id=${{secrets.OSSKEYID}} -e oss-cn-hongkong.aliyuncs.com --recursive --force
 
   seo:
     # The type of runner that the job will run on
