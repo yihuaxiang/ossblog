@@ -1,11 +1,14 @@
 # 超级马力欧：奥德赛
 
 
-![](./.switch_images/bb0c5e0d.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/981c23a9878d481d8c703edd0569c34a.png)
 
-![](./.switch_images/3ee8bc85.png)
 
-![](./.switch_images/2c5bc4b7.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/570520d0680d4a6fbc26023db887063d.png)
+
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/cf5e19bdc6ca4719a7b0925f86f2b652.png)
+
 
 
 
