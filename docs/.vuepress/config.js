@@ -12,23 +12,33 @@ module.exports = {
       {
         src: "https://v1.cnzz.com/z_stat.php?id=1280548058&web_id=1280548058"
       }
-    ], [
+    ],
+    [
       'meta',
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
       }
-    ], [
+    ],
+    [
       'meta',
       {
         name: 'baidu-site-verification',
         content: 'code-zlxkNua3Rq'
       }
-    ], [
+    ],
+    [
       'meta',
       {
         name: '360-site-verification',
         content: 'bf083d8bf20aa759b43de197e6005e59'
+      }
+    ],
+    [
+      "script",
+      {
+        src: "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js",
+        id: "sozz"
       }
     ]
   ],
