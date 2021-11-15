@@ -116,7 +116,8 @@ module.exports = {
         'mfe',
         "chromeext",
         "docker",
-        "bdzz"
+        "bdzz",
+        "360zz"
       ],
       '/life/': [
         'food',
