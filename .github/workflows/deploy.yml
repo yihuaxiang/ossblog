@@ -51,7 +51,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: 下载OSS客户端
+      - name: 环境初始化
         run: |
           chmod +x ./bin/ossutil64
 

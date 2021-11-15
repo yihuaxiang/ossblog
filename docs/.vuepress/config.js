@@ -24,6 +24,12 @@ module.exports = {
         name: 'baidu-site-verification',
         content: 'code-zlxkNua3Rq'
       }
+    ], [
+      'meta',
+      {
+        name: '360-site-verification',
+        content: 'bf083d8bf20aa759b43de197e6005e59'
+      }
     ]
   ],
   title: '符栋栋的博客',
