@@ -4,7 +4,8 @@
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
 
-![](./.docker_images/2a5b216d.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 ## 通过`docker`发布应用
 

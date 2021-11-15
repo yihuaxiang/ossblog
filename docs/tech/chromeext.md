@@ -14,7 +14,8 @@
 
 # 2021-11-09 更新
 尴尬了，删除默认快捷键后没测就提交了。。还得重新等待审核
-![](./.chromeext_images/86cbe934.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/efc061658d504072acd12c962ed4b8e0.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 # 2021-11-11 更新
 上线成功👏👏👏
