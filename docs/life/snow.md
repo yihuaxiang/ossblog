@@ -4,6 +4,7 @@
 堆了一个大雪球，直径一米多😄
 
 
-![Xnip2021-11-07_20-04-45.jpg](./assets/snow-1636286758366.jpg)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/2e459a4752f748349c069c401da7431c.png?x-oss-process=image/resize,w_800/quality,q_80)
 
-![img_14.png](./img_14.png)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/a644329c6c714c35af481426615f07d6.png?x-oss-process=image/resize,w_800/quality,q_80)
