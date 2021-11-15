@@ -20,19 +20,25 @@
 
 
 白雪纷飞
-![](./.firstsnow_images/a1e081ab.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/73de228197a245d1b8e62397da94353d.png)
+
 
 她在丛中笑
-![](./.firstsnow_images/770b904b.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/eb6e95cc912b46ca8e0a792ee9463089.png)
+
 
 仙女散花
-![](./.firstsnow_images/78b0fb5c.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/13034135a12344f7898e47c91eb3cfb4.png)
+
 
 厚厚的白雪
-![](./.firstsnow_images/6e1da8a7.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/ef6464e0b6814de5b9e1cbd532669b5d.png)
+
 
 滚雪球
-![](./.firstsnow_images/966c7928.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/ea8b8e028b3a4510b8318b07616da99b.png)
+
 
 大雪球
-![](./.firstsnow_images/0f17910f.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/4edba0a5c39b4a52b5f57e6645574cc3.png)
+
