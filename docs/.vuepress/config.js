@@ -136,7 +136,8 @@ module.exports = {
         'halloween',
         'sea',
         'switch',
-        'switchfitness'
+        'switchfitness',
+        'tianmen'
       ],
       '/misc/': [
         '2021-11-06'
