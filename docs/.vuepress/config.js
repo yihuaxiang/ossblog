@@ -137,7 +137,8 @@ module.exports = {
         'sea',
         'switch',
         'switchfitness',
-        'tianmen'
+        'tianmen',
+        'tsingtao'
       ],
       '/misc/': [
         '2021-11-06'
