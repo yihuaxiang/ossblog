@@ -75,6 +75,9 @@ tags: ["网站", "备案", "域名"]
 
 开开心心的给网站添加`ICP`号啦~
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211118/079473f9753c46928ac1beafea3032d0.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 
 
 
