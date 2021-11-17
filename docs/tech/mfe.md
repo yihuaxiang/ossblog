@@ -1,3 +1,7 @@
+---
+tags: ["前端", "微前端", "巨石应用"]
+---
+
 # 微前端在美团外卖的实践
 
 原链接：https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html
