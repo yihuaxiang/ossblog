@@ -127,7 +127,8 @@ module.exports = {
         "chromeext",
         "docker",
         "bdzz",
-        "360zz"
+        "360zz",
+        "beian"
       ],
       '/life/': [
         'food',
