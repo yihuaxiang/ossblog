@@ -57,7 +57,10 @@ tags: ["网站", "备案", "域名"]
 
 3. 提交备案
 
-4. 腾讯审核
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211118/2be227120a4c4c4c9297c23f1d2c3220.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
+5. 腾讯审核
 
 腾讯审核过程中会打电话咨询，可能会对备案内容做稍微调整
 
