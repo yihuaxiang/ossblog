@@ -140,7 +140,8 @@ module.exports = {
         'switchfitness',
         'tianmen',
         'tsingtao',
-        'thatgirl'
+        'thatgirl',
+        'billiards'
       ],
       '/misc/': [
         '2021-11-06'
