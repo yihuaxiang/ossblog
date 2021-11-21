@@ -14,6 +14,9 @@
 
 ### 第二次体验
 
+在大众点评上买了一张18元一小时的优惠券，去了才发现，啊，只能工作日使用，😌，不过现场八折优惠啊，👏👏
+
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211121/0180c64a58b048f48c299a18808ef3c0.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211121/2322c9eead474a4e8c5c9307e570ecb7.png?x-oss-process=image/resize,w_800/quality,q_80)
+
