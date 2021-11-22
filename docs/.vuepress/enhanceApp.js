@@ -8,7 +8,6 @@ export default ({
                 }) => {
     // ...做一些其他的应用级别的优化
 
-    console.log('enhanceApp')
     const onlineHosts = ['fudongdong.cn', 'fudongdong.com']
     if(typeof window) {
         if(window.location.protocol === 'http:' && onlineHosts.includes(window.location.host)) {
