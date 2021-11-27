@@ -6,7 +6,6 @@ export default ({
                     siteData, // 站点元数据
                     isServer // 当前应用配置是处于 服务端渲染 或 客户端
                 }) => {
-
     const onlineHosts = ['fudongdong.cn', 'fudongdong.com']
     if(typeof window) {
         if(window.location.protocol === 'http:' && onlineHosts.includes(window.location.host)) {
@@ -18,7 +17,6 @@ export default ({
    * 路由切换事件处理
    */
   router.beforeEach((to, from, next) => {
-
     //发送cnzz的pv统计
     if (typeof _czc != "undefined") {
       if (to.path) {
