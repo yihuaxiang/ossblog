@@ -141,7 +141,8 @@ module.exports = {
         'tianmen',
         'tsingtao',
         'thatgirl',
-        'billiards'
+        'billiards',
+        'flowercountry'
       ],
       '/misc/': [
         '2021-11-06'
