@@ -125,7 +125,7 @@ karabiner 中我常用的功能分三种，如下
 
 上图中`com.google.Chrome`为谷歌浏览器的标识，那如何知道谷歌浏览器的标识的呢？
 
-下载`Karabiner-EventViewer`，改程序会显示激活程序的标识，也可以用来调试、排查问题
+下载`Karabiner-EventViewer`，该程序会显示激活程序的标识，也可以用来调试、排查问题
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/41db4dcde8b24416b4db916ec0b1a4dd.png?x-oss-process=image/resize,w_800/quality,q_80)
 
@@ -135,5 +135,5 @@ karabiner 中我常用的功能分三种，如下
 
 ## 链接
 
-[karabiner](https://karabiner-elements.pqrs.org/)
-[Command+E rule](https://genesy.github.io/karabiner-complex-rules-generator/#eyJ0aXRsZSI6IltjaHJvbWVdIC0gMiIsInJ1bGVzIjpbeyJkZXNjcmlwdGlvbiI6ImNoYW5nZSBDb21tYW5kK0UgdG8gQ29tbWFuZCtTaGlmdCtBIiwibWFuaXB1bGF0b3JzIjpbeyJ0eXBlIjoiYmFzaWMiLCJmcm9tIjp7Im1vZGlmaWVycyI6eyJtYW5kYXRvcnkiOlsibGVmdF9ndWkiXX0sImtleV9jb2RlIjoiZSJ9LCJjb25kaXRpb25zIjpbeyJ0eXBlIjoiZnJvbnRtb3N0X2FwcGxpY2F0aW9uX2lmIiwiYnVuZGxlX2lkZW50aWZpZXJzIjpbImNvbS5nb29nbGUuQ2hyb21lIl19XSwidG8iOlt7InJlcGVhdCI6dHJ1ZSwia2V5X2NvZGUiOiJhIiwibW9kaWZpZXJzIjpbImxlZnRfZ3VpIiwibGVmdF9zaGlmdCJdfV19XX1dfQ==)
+1. [karabiner](https://karabiner-elements.pqrs.org/)
+2. [Command+E rule](https://genesy.github.io/karabiner-complex-rules-generator/#eyJ0aXRsZSI6IltjaHJvbWVdIC0gMiIsInJ1bGVzIjpbeyJkZXNjcmlwdGlvbiI6ImNoYW5nZSBDb21tYW5kK0UgdG8gQ29tbWFuZCtTaGlmdCtBIiwibWFuaXB1bGF0b3JzIjpbeyJ0eXBlIjoiYmFzaWMiLCJmcm9tIjp7Im1vZGlmaWVycyI6eyJtYW5kYXRvcnkiOlsibGVmdF9ndWkiXX0sImtleV9jb2RlIjoiZSJ9LCJjb25kaXRpb25zIjpbeyJ0eXBlIjoiZnJvbnRtb3N0X2FwcGxpY2F0aW9uX2lmIiwiYnVuZGxlX2lkZW50aWZpZXJzIjpbImNvbS5nb29nbGUuQ2hyb21lIl19XSwidG8iOlt7InJlcGVhdCI6dHJ1ZSwia2V5X2NvZGUiOiJhIiwibW9kaWZpZXJzIjpbImxlZnRfZ3VpIiwibGVmdF9zaGlmdCJdfV19XX1dfQ==)
