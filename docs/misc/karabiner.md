@@ -4,18 +4,23 @@
 
 我最喜欢 IDEA 的一个原因就是`Command+E`可以切换最近的问题
 
-同样的特向一直想在`Google chrome`中拥有
+同样的特性一直想在`Google chrome`中拥有
 
 作为实践，曾开发过一个[标签选择器](https://chrome.google.com/webstore/detail/%E6%A0%87%E7%AD%BE%E9%80%89%E6%8B%A9%E5%99%A8/klhihaelmoenimgekhdaenjgloipcacf) ，效果还是不错的，通过`Command+E`就能切换任意标签，还支持拼音搜索👏👏
 
-最近开发`Google chrome`支持了原生的"标签选择"功能
+自卖自夸一下😂
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/2d22e40dd1f94fcabc623a7a17b79274.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
+最近发现`Google chrome`支持了原生的"标签选择"功能
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/9ee6318c08fe407d9dd9a35e9e7e1da8.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
 针不戳、针不戳
 
-不过每种不足的是
+不过美中不足的是
 1. 不支持拼音搜索
 2. 快捷键好别扭，`Command+Shift+A`，一个手按下去太别扭，两个手按下去有感觉成本太高
 
