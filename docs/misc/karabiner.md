@@ -1,6 +1,6 @@
 # 神器的 karabiner
 
-## 背景
+### 背景
 
 我最喜欢 IDEA 的一个原因就是`Command+E`可以切换最近的问题
 
@@ -30,7 +30,7 @@
 
 那就解决第二个问题吧
 
-## 思路
+### 思路
 
 `MacOS` 系统中修改快捷键有两种方式
 
@@ -58,7 +58,7 @@ karabiner 简介：
 
 karabiner 中我常用的功能分三种，如下
 
-### 简单映射（Simple modifications）
+#### 简单映射（Simple modifications）
 
 将键盘上的某个键位映射为任意指定的其他键位
 
@@ -68,7 +68,7 @@ karabiner 中我常用的功能分三种，如下
 
 
 
-### 功能键映射（Function keys）
+#### 功能键映射（Function keys）
 
 将键盘上的功能键（Fn）映射为任意指定的其他键位
 
@@ -76,7 +76,7 @@ karabiner 中我常用的功能分三种，如下
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/cdf8070f0a4041d492370a1e76a42f1f.png?x-oss-process=image/resize,w_800/quality,q_80)
 
-### 复杂映射（Complex modifications）
+#### 复杂映射（Complex modifications）
 
 其他复杂情况需要使用该功能
 
@@ -90,7 +90,7 @@ karabiner 中我常用的功能分三种，如下
 
 然而，具体到我的这个需求，就比较小众化了，得自定义规则
 
-#### 自定义规则
+##### 自定义规则
 
 进入 [Karabiner-Elements complex_modifications rules](https://ke-complex-modifications.pqrs.org/) 后如果找不到合适的规则配置，那就得自定义规则了。
 
@@ -102,7 +102,7 @@ karabiner 中我常用的功能分三种，如下
 
 界面全英文的，但是还是比较易懂的
 
-#### 开始配置规则
+##### 开始配置规则
 
 首先明确我的目的
 1. 如果当前应用为`Google chrome`
@@ -133,7 +133,7 @@ karabiner 中我常用的功能分三种，如下
 
 最终结果[Command+E  标签选择](https://genesy.github.io/karabiner-complex-rules-generator/#eyJ0aXRsZSI6IltjaHJvbWVdIC0gMiIsInJ1bGVzIjpbeyJkZXNjcmlwdGlvbiI6ImNoYW5nZSBDb21tYW5kK0UgdG8gQ29tbWFuZCtTaGlmdCtBIiwibWFuaXB1bGF0b3JzIjpbeyJ0eXBlIjoiYmFzaWMiLCJmcm9tIjp7Im1vZGlmaWVycyI6eyJtYW5kYXRvcnkiOlsibGVmdF9ndWkiXX0sImtleV9jb2RlIjoiZSJ9LCJjb25kaXRpb25zIjpbeyJ0eXBlIjoiZnJvbnRtb3N0X2FwcGxpY2F0aW9uX2lmIiwiYnVuZGxlX2lkZW50aWZpZXJzIjpbImNvbS5nb29nbGUuQ2hyb21lIl19XSwidG8iOlt7InJlcGVhdCI6dHJ1ZSwia2V5X2NvZGUiOiJhIiwibW9kaWZpZXJzIjpbImxlZnRfZ3VpIiwibGVmdF9zaGlmdCJdfV19XX1dfQ==)
 
-## 链接
+### 链接
 
 1. [karabiner](https://karabiner-elements.pqrs.org/)
 2. [Command+E rule](https://genesy.github.io/karabiner-complex-rules-generator/#eyJ0aXRsZSI6IltjaHJvbWVdIC0gMiIsInJ1bGVzIjpbeyJkZXNjcmlwdGlvbiI6ImNoYW5nZSBDb21tYW5kK0UgdG8gQ29tbWFuZCtTaGlmdCtBIiwibWFuaXB1bGF0b3JzIjpbeyJ0eXBlIjoiYmFzaWMiLCJmcm9tIjp7Im1vZGlmaWVycyI6eyJtYW5kYXRvcnkiOlsibGVmdF9ndWkiXX0sImtleV9jb2RlIjoiZSJ9LCJjb25kaXRpb25zIjpbeyJ0eXBlIjoiZnJvbnRtb3N0X2FwcGxpY2F0aW9uX2lmIiwiYnVuZGxlX2lkZW50aWZpZXJzIjpbImNvbS5nb29nbGUuQ2hyb21lIl19XSwidG8iOlt7InJlcGVhdCI6dHJ1ZSwia2V5X2NvZGUiOiJhIiwibW9kaWZpZXJzIjpbImxlZnRfZ3VpIiwibGVmdF9zaGlmdCJdfV19XX1dfQ==)
