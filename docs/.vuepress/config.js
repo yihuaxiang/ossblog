@@ -150,7 +150,8 @@ module.exports = {
         '2021-12-26',
         'shortcut',
         'religious',
-        'karabiner'
+        'karabiner',
+        'ishot'
       ]
     }
   }
