@@ -6,6 +6,11 @@ iShot 截图
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220126/998bbbd9df3e487bbd921b4d0caf907b.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+多窗口截屏
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220126/c1d0b5cd298044519180a7eee6b61083.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 VS
 
 钉钉截图
