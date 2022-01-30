@@ -144,7 +144,8 @@ module.exports = {
         'billiards',
         'flowercountry',
         'first-snow-in-2022',
-        'the-winter-olympics'
+        'the-winter-olympics',
+        'solana'
       ],
       '/misc/': [
         '2021-11-06',
