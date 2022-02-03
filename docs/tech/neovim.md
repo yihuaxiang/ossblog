@@ -60,6 +60,17 @@ echo "alias vim=\"nvim\"" >> ~/.bashrc
 
 到此，通过执行`type vim`能看到 `vim`已经被映射到了`nvim`，方便后续使用`nvim`
 
+### 包管理器
+
+#### vim-plug
+
+vim-plug简单理解就是一个容器，里面可以配置很多插件，然后使用命令让它自己去下载，然后配置到neovim中去
+
+官网地址：[github vim-plug](https://github.com/junegunn/vim-plug)
+
+使用方式如下：进入命令模式，执行 PlugInstall 即可安装所配置的插件
+![](https://raw.githubusercontent.com/junegunn/i/master/vim-plug/installer.gif)
+
 ### 常用插件
 
 单有`neovim`还不够，其强大的生态更是不可获取的，下面是我常用的插件以及配置
@@ -115,3 +126,15 @@ FZF 命令行使用效果如下：
 
 
 ##### 安装 fzf.vim
+
+[github fzf.vim](https://github.com/junegunn/fzf.vim)
+
+通过 `vim-plug` 插件管理器进行安装
+
+在 `init.vim` 文件中增加插件
+
+```shell
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+```
+
