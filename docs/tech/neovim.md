@@ -76,7 +76,7 @@ echo "alias vim=\"nvim\"" >> ~/.bashrc
 
 链接：[fzf github](https://github.com/junegunn/fzf)
 
-##### 安装
+##### 安装 fzf
 
 在`centos 8`下只能通过源码安装
 
@@ -102,12 +102,16 @@ git clone --depth 1 https://gitee.com/yzymickey/fzf.git ~/.fzf
 安装后需重启终端或重新加载`bashrc`文件，重启后即可输入`fzf`进行文件查找了
 
 
-FZF 命令行使用效果如下：
-
-![fzf.git.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif)
-
-
 ```shell
 # 重新加载 bashrc
 source ~/.bashrc
 ```
+
+FZF 命令行使用效果如下：
+
+![fzf.git.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif)
+
+截至目前我们已经安装了了`fzf`，但是尚未和`nvim`建立任何整合，整合则需要借助 `fzf.vim` 插件
+
+
+##### 安装 fzf.vim
