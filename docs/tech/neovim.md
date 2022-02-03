@@ -182,3 +182,21 @@ Plug 'preservim/nerdtree'
 ```shell
 map <F2> :NERDTreeToggle<CR>
 ```
+
+
+### 键盘映射
+
+该配置写在`init.vim`中
+
+```shell
+" 窗口切换快捷键"
+map <Leader>wc <C-w><C-c><Esc>
+map <Leader>ws <C-w><C-s><Esc>
+map <Leader>wv <C-w><C-v><Esc>
+map <Leader>ww <C-w><C-w><Esc>
+map <Leader>wh <C-w><C-h><Esc>
+
+" 保存快捷键
+map <Leader>s :w<CR>
+
+```
