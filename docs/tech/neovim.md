@@ -47,5 +47,5 @@ yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarc
 yum install -y neovim python3-neovim
 ```
 
-![iShot2022-02-03 17.39.49.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif?x-oss-process=image/resize,w_800/quality,q_80)
+![iShot2022-02-03 17.39.49.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif)
 
