@@ -142,3 +142,5 @@ Plug 'junegunn/fzf.vim'
 
 ![asdf.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/b25e996392df47369cc92dbbab85fc7f.gif)
 
+此外，通过设置`iTerms`的按键映射，当按下`Ctrl+P`的时候自动触发`:Files`命令，实现文件查找的快捷键
+
