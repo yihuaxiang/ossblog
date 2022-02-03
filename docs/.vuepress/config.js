@@ -128,7 +128,8 @@ module.exports = {
         "docker",
         "bdzz",
         "360zz",
-        "beian"
+        "beian",
+        'neovim'
       ],
       '/life/': [
         'food',
