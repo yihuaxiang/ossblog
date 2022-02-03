@@ -164,3 +164,21 @@ export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_mo
 
 
 通过 `iTerms` 设置快捷键 `Command+Shift+F`进行全局搜索，效果杠杆的~
+
+
+#### nerd-tree
+
+`nerd-tree` 是`vim`中的文件管理插件
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/76de3d0cf73649a496d708f801353b6c.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+安装：
+```shell
+Plug 'preservim/nerdtree'
+```
+
+在`init.vim`中可以设置键映射，通过 `F2`即可打开 `NerdTree`
+
+```shell
+map <F2> :NERDTreeToggle<CR>
+```
