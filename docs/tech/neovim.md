@@ -140,6 +140,8 @@ Plug 'junegunn/fzf.vim'
 
 运行效果如下呐
 
+1. 文件搜索
+
 ![asdf.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/b25e996392df47369cc92dbbab85fc7f.gif)
 
 此外，通过设置`iTerms`的按键映射，当按下`Ctrl+P`的时候自动触发`:Files`命令，实现文件查找的快捷键
@@ -150,3 +152,15 @@ Plug 'junegunn/fzf.vim'
 ```shell
 export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_modules} --hidden --type f"
 ```
+
+
+2. 内容搜索
+
+`fzf.vim` 提供了 `:Ag` 命令，可以进行文件内容搜索，但是在此之前需要安装[ag](https://github.com/ggreer/the_silver_searcher)
+
+运行效果如下：
+
+![ag.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/fbc3b5b87e5b467392d4942ccc48c154.gif)
+
+
+通过 `iTerms` 设置快捷键 `Command+Shift+F`进行全局搜索，效果杠杆的~
