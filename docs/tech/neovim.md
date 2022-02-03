@@ -49,6 +49,12 @@ yum install -y neovim python3-neovim
 
 ![iShot2022-02-03 17.39.49.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif)
 
-![50a8b21c9aed4349af93e5a52a8cb6b2.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/723b9870649c4f76a13e9467e31339f8.gif?x-oss-process=image/resize,w_800/quality,q_80)
+![iShot2022-02-03 17.43.11.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/f8c164e653644520a180a475421236d4.gif)
 
+
+此时，已经`nvim`使用`neovim`了，为方便期间，设置别名，操作如下：
+
+```shell
+echo "alias vim=\"nvim\"" >> ~/.bashrc
+```
 
