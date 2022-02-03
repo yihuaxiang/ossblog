@@ -144,3 +144,9 @@ Plug 'junegunn/fzf.vim'
 
 此外，通过设置`iTerms`的按键映射，当按下`Ctrl+P`的时候自动触发`:Files`命令，实现文件查找的快捷键
 
+其他配置：
+
+推荐使用 [fd](https://github.com/sharkdp/fd) 替换默认的查找命令，可以在`bashrc`中增加如下配置
+```shell
+export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_modules} --hidden --type f"
+```
