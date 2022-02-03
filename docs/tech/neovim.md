@@ -58,3 +58,56 @@ yum install -y neovim python3-neovim
 echo "alias vim=\"nvim\"" >> ~/.bashrc
 ```
 
+到此，通过执行`type vim`能看到 `vim`已经被映射到了`nvim`，方便后续使用`nvim`
+
+### 常用插件
+
+单有`neovim`还不够，其强大的生态更是不可获取的，下面是我常用的插件以及配置
+
+#### FZF (fuzzy finder)
+
+`FZF `是一款使用 `GO `语言编写的交互式的 `Unix `命令行工具。可以用来查找任何 列表 内容，文件、`Git `分支、进程等。所有的命令行工具可以生成列表输出的都可以再通过管道 `pipe` 到 `fzf `上进行搜索和查找
+
+优点如下：
+1. GO 语言编写，编译完生成可执行文件没有任何依赖
+2. 搜索/查找速度飞快
+3. 功能全面/可视化界面体验很棒
+4. 周边插件丰富 (vim, tmux, fuzzy auto-completion)
+
+链接：[fzf github](https://github.com/junegunn/fzf)
+
+##### 安装
+
+在`centos 8`下只能通过源码安装
+
+```shell
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+无奈，国内的机器没法访问`github`，只能曲线下载了，从`gitee`找到对应的项目 [gitee fzf](https://gitee.com/yzymickey/fzf?_from=gitee_search)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/ac739d17ec2f4797ac5badbcbae8251b.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/892222cc5823444ebf5f0409ccb3a174.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
+
+```shell
+git clone --depth 1 https://gitee.com/yzymickey/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+
+安装后需重启终端或重新加载`bashrc`文件，重启后即可输入`fzf`进行文件查找了
+
+
+FZF 命令行使用效果如下：
+
+![fzf.git.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif)
+
+
+```shell
+# 重新加载 bashrc
+source ~/.bashrc
+```
