@@ -138,3 +138,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 ```
 
+运行效果如下呐
+
+![asdf.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220203/b25e996392df47369cc92dbbab85fc7f.gif)
+
