@@ -61,7 +61,7 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 	tool = vimdiff
 ```
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png)
 
 
 
