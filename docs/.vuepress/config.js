@@ -44,6 +44,7 @@ module.exports = {
   ],
   title: '符栋栋的博客',
   description: '符栋栋的博客',
+  lang: 'zh-cn',
   plugins: [
     // 评论插件
     [
