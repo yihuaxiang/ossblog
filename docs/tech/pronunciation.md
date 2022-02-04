@@ -3,7 +3,7 @@
 > from [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
 
 
-中国程序员容易发音错误的单词(点击🔊收听正确读音)
+中国程序员容易发音错误的单词(点击▶️收听正确读音)
 
 
 | 单词            | 发音                            | 在线发音                                                                   |
