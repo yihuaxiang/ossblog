@@ -132,7 +132,8 @@ module.exports = {
         "beian",
         'neovim',
         'git',
-        'pronunciation'
+        'pronunciation',
+        'ripgrep'
       ],
       '/life/': [
         'food',
