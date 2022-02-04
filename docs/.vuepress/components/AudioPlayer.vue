@@ -15,6 +15,9 @@ export default {
       required: false
     }
   },
+  mounted() {
+    console.info('this.$site', this.$site);
+  },
   methods: {
     handleAudioClick() {
       console.info('handleAudioClick', this.link)
