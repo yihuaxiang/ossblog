@@ -47,7 +47,7 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 
 ```
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png)
 
 
 ### git 其他配置
