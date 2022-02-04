@@ -78,7 +78,6 @@
 | resort        | /rɪˈzɔ:t/                     | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=resort&amp;type=1" />        |
 | retina        | /'retɪnə/                     | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=retina&amp;type=1" />        |
 | route         | /ruːt/                        | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=route&amp;type=1" />         |
-| San           | /s&aelig;nhəu'zei/ Jose       | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=san%20jose&amp;type=1" />    |
 | safari        | /sə'fɑːrɪ/                    | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=safari&amp;type=1" />        |
 | scheme        | /skiːm/                       | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=scheme&amp;type=1" />        |
 | scala         | /ˈskɑːlɑ/                     | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=scala&amp;type=1" />         |
