@@ -161,5 +161,10 @@ module.exports = {
         'ishot'
       ]
     }
+  },
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+    }
   }
 }
