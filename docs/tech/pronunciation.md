@@ -6,7 +6,7 @@
 中国程序员容易发音错误的单词(点击▶️收听正确读音)
 
 
-| 单词            | 发音                            | 在线发音                                                                                    |
+| 单词            | 发音                            | 在线发音(英式发音)                                                                              |
 |---------------|-------------------------------|-----------------------------------------------------------------------------------------|
 | access        | /'&aelig;kses/                | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=access&amp;type=1" />        |
 | Adobe         | /ə'dəʊbi/                     | <AudioPlayer link="https://dict.youdao.com/dictvoice?audio=Adobe&amp;type=1" />         |
