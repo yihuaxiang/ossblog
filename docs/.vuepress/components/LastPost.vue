@@ -47,7 +47,6 @@ export default {
     }
   },
   mounted() {
-    console.info('this.$site', this.$site);
   },
   computed: {
     topArticles() {
