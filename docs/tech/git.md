@@ -73,11 +73,15 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 
 #### 安装 git-config-installer
 
+安装器（git-config-installer）只负责提供一个可执行程序，安装后还需手动执行该可执行程序（`git_config_install` 命令）
+
 ```shell
 npm install -g git-config-installer
 ```
 
 #### 安装 git 配置
+
+运行 `git_config_install` 命令
 
 ````shell
 git_config_install
@@ -85,3 +89,10 @@ git_config_install
 
 
 ![asdf.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/0639584cfc374fcfb613b042f6363780.gif)
+
+到此，`.gitconfig` 文件中已添加好上文提到的别名，可以欢乐的使用别名啦~~~
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/10d124cd03274d1c894dee857e5203c0.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
+![12341234.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/26dc7d023d384894827a35c6be8a1e85.gif)
