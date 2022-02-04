@@ -3,8 +3,8 @@
   <h2>最新发表</h2>
 
   <ul>
-    <template v-for="article in topArticles">
-      <li :key="article.path">
+    <template v-for="(article, index) in topArticles">
+      <li :key="article.path + index">
         <div style="margin-right: 20px; display: flex; justify-content: space-between;">
           <a href="/">{{article.title}}</a>
           <div style="display: flex; align-items: center; font-size: 12px; color: rgba(0, 0, 0, 0.54); font-weight: 200;">
