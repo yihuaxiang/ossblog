@@ -24,7 +24,7 @@
 具有以下特性
 
 1. 现代图形用户界面
-2. 从任何语言访问`API`，包括C/C++, C#,` Clojure`,`D`,` Elixir`,` Go`,` Haskell`,` Java`,` JavaScript`/`Node.js`,` Julia`,` Lisp`,`Lua`,`Perl`,` Python`,` Racket`,` Ruby`,`Rust` 
+2. 从任何语言访问`API`，包括C/C++, C#, `Clojure`, `D`, ` Elixir`, ` Go`, ` Haskell`, ` Java`, ` JavaScript`/`Node.js`, ` Julia`, ` Lisp`, `Lua`, `Perl`, ` Python`, ` Racket`, ` Ruby`, `Rust` 
 3. 嵌入式、可编写脚本的终端仿真器
 4. 异步作业控制
 5. 多个编辑器实例之间的共享数据（`shada`）。
