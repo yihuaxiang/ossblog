@@ -130,7 +130,8 @@ module.exports = {
         "360zz",
         "beian",
         'neovim',
-        'git'
+        'git',
+        'pronunciation'
       ],
       '/life/': [
         'food',
