@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "dayjs": "^1.10.7",
-    "vuepress-plugin-img-lazy": "^1.0.4",
-    "vuepress-plugin-latest-articles": "^1.1.1"
+    "vuepress-latest-articles": "^1.0.1",
+    "vuepress-plugin-img-lazy": "^1.0.4"
   }
 }
