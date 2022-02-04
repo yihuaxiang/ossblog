@@ -106,8 +106,7 @@ module.exports = {
       transformer: timestamp => {
         return dayjs(timestamp).tz("Asia/Shanghai").format("YYYY-MM-DD HH:mm:ss") + '(北京时间)';
       }
-    }],
-    'latest-articles'
+    }]
   ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
