@@ -129,7 +129,8 @@ module.exports = {
         "bdzz",
         "360zz",
         "beian",
-        'neovim'
+        'neovim',
+        'git'
       ],
       '/life/': [
         'food',
