@@ -47,6 +47,9 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 
 ```
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 ### git 其他配置
 
 另外，相较`git`内置对比工具，`vimdiff`更为强大、便利，一下配置是将对比工具进行了替换
@@ -58,5 +61,12 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 	tool = vimdiff
 ```
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 
 ### git 配置安装器
+
+如果想使用我以上的配置，可以直接想配置复制到`.gitconfig`文件中
+
+另外，我也提供了安装工具，通过运行安装工具可以快速配置好以上功能
