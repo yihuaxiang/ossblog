@@ -21,3 +21,5 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211117/2ab4074a25094e999adab9dcbde2e502.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+
+<LastPost prefix="/life" :number="3"/>
