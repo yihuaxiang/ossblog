@@ -25,7 +25,10 @@ export default ({
       }
     }
 
-    // continue
-    next();
+    if (to.matched.length > 0 && to.matched[0].path === "*") {
+      next("/notfound.html");
+    } else {
+      next();
+    }
   });
 }
