@@ -70,3 +70,18 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 如果想使用我以上的配置，可以直接想配置复制到`.gitconfig`文件中
 
 另外，我也提供了安装工具，通过运行安装工具可以快速配置好以上功能
+
+#### 安装 git-config-installer
+
+```shell
+npm install -g git-config-installer
+```
+
+#### 安装 git 配置
+
+````shell
+git_config_install
+````
+
+
+![asdf.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/0639584cfc374fcfb613b042f6363780.gif)
