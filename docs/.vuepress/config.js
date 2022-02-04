@@ -44,7 +44,7 @@ module.exports = {
   ],
   title: '符栋栋的博客',
   description: '符栋栋的博客',
-  lang: 'zh-cn',
+  lang: 'zh-CN',
   plugins: [
     // 评论插件
     [
@@ -106,7 +106,8 @@ module.exports = {
       transformer: timestamp => {
         return dayjs(timestamp).tz("Asia/Shanghai").format("YYYY-MM-DD HH:mm:ss") + '(北京时间)';
       }
-    }]
+    }],
+    'latest-articles'
   ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
