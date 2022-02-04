@@ -1,3 +1,3 @@
 # 技术文章
 
-<LastPost prefix="" :number="3"/>
+<LastPost prefix="/tech" :number="3"/>
