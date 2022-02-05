@@ -59,7 +59,7 @@ export default {
         }
       })
       .sort((a,b) => {
-        return a.lastUpdated - b.lastUpdated;
+        return a.lastUpdated > b.lastUpdated;
       })
       .reverse()
       .slice(0, this.number);
