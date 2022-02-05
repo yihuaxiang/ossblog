@@ -24,24 +24,6 @@
 </template>
 
 <script>
-function shuffle(array) {
-  let currentIndex = array.length,  randomIndex;
-
-  // While there remain elements to shuffle...
-  while (currentIndex != 0) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
-
 export default {
   name: "LastPost",
   props: {
@@ -54,11 +36,6 @@ export default {
       type: String,
       required: false,
       default: undefined
-    },
-    random: {
-      type: Boolean,
-      required: false,
-      default: false
     }
   },
   methods: {
@@ -74,15 +51,15 @@ export default {
   computed: {
     topArticles() {
       let pages = this.$site.pages;
-      if(this.random) {
-        pages = shuffle(pages);
-      }
       return pages.filter(p => {
         if(!this.prefix) {
           return true;
         } else {
           return p.path.startsWith(this.prefix);
         }
+      })
+      .sort((a,b) => {
+        return a.lastUpdated - b.lastUpdated;
       })
       .reverse()
       .slice(0, this.number);
