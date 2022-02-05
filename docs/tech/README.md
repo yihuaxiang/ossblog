@@ -1,3 +1,3 @@
 # 技术文章
 
-<LastPost prefix="/tech" :number="3"/>
+<LastPost :random="true" prefix="/tech" :number="3"/>

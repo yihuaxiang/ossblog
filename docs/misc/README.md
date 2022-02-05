@@ -2,4 +2,4 @@
 
 记录琐碎的事情~
 
-<LastPost prefix="/misc" :number="3"/>
+<LastPost :random="true" prefix="/misc" :number="3"/>

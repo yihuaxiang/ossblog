@@ -1,6 +1,6 @@
 <template>
 <div class="last-post">
-  <h2>最新发表</h2>
+  <h2>推荐文章</h2>
 
   <ul>
     <template v-for="(article, index) in topArticles">
@@ -24,6 +24,24 @@
 </template>
 
 <script>
+function shuffle(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle...
+  while (currentIndex != 0) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
+}
+
 export default {
   name: "LastPost",
   props: {
@@ -36,6 +54,11 @@ export default {
       type: String,
       required: false,
       default: undefined
+    },
+    random: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   },
   methods: {
@@ -50,7 +73,10 @@ export default {
   },
   computed: {
     topArticles() {
-      const pages = this.$site.pages;
+      let pages = this.$site.pages;
+      if(this.random) {
+        pages = shuffle(pages);
+      }
       return pages.filter(p => {
         if(!this.prefix) {
           return true;

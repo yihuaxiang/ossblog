@@ -3,7 +3,7 @@
 
 这里是生活相关记录，点击以下链接看详细内容吧(*❦ω❦)
 
-<LastPost prefix="/life" :number="3"/>
+<LastPost :random="true" prefix="/life" :number="3"/>
 
 [青岛之旅](/life/tsingtao.html)
 
