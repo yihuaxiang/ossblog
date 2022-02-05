@@ -4,16 +4,16 @@ tags: ["docker", "发布", "镜像"]
 
 # docker
 
-## 创建应用
+### 创建应用
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
-## 通过`docker`发布应用
+### 通过`docker`发布应用
 
-### 找到`OpenJDK`的镜像
+#### 找到`OpenJDK`的镜像
 
 地址：[https://hub.docker.com/_/openjdk](https://hub.docker.com/_/openjdk)
 
@@ -21,7 +21,7 @@ tags: ["docker", "发布", "镜像"]
 docker pull openjdk
 ```
 
-### 查看本地镜像
+#### 查看本地镜像
 ```shell
 docker images
 ```
@@ -40,7 +40,7 @@ nginx                       latest    87a94228f133   4 weeks ago   133MB
 
 
 
-### 定制镜像
+#### 定制镜像
 
 在一个空目录下，新建一个名为 Dockerfile 文件，并在文件内添加以下内容：
 
@@ -56,7 +56,7 @@ CMD java -jar /root/springproject-0.0.1-SNAPSHOT.jar
 
 ```
 
-### 构建镜像
+#### 构建镜像
 
 ```shell
 docker build -t fddweb:latest .
@@ -91,14 +91,14 @@ Use 'docker scan' to run Snyk tests against images to find vulnerabilities and l
 fddweb                      latest    36dbcd1aa38d   2 minutes ago   488MB
 ```
 
-### 本地运行与测试
+#### 本地运行与测试
 
 ```shell
 docker  run -d -p 8080:8080 fddweb
 ```
 运行后访问[http://localhost:8080](http://localhost:8080)即可
 
-### 发布
+#### 发布
 
 1. 登陆
 ```shell
@@ -142,6 +142,6 @@ docker run -d -p 8811:8080 fudocker/fddweb:latest
 运行后访问[http:localhost:8811](http://localhost:8811)即可
 
 
-## 参考文档
+#### 参考文档
 1. [runoob](https://www.runoob.com/docker/docker-dockerfile.html)
 2. [docker.com](https://docs.docker.com/get-started/)

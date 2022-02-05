@@ -4,19 +4,19 @@ tags: ["站长", "百度站长", "爬虫"]
 
 # 百度站长自动推送配置
 
-## 注册百度站长
+### 注册百度站长
 
 // TODO
 
-## 新增站点
+### 新增站点
 
 // TODO
 
-## 普通收录
+### 普通收录
 
 // TODO
 
-### API 提交
+#### API 提交
 
 在`github`的`workflow`中配置推送流程，在代码部署的时候自动推送到百度
 
@@ -28,7 +28,7 @@ tags: ["站长", "百度站长", "爬虫"]
 2. 根据文件生成所有连接地址
 3. 调用百度`API`进行推送
 
-### sitemap
+#### sitemap
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211116/18569d6f80584844b9559e7e77837359.png?x-oss-process=image/resize,w_800/quality,q_80)
 
@@ -38,7 +38,7 @@ sitemap提交工具仅对已验证站点开放使用，开发者无法提交同�
 请勿提交索引型sitemap，索引型不予处理，且若存在索引型sitemap，将不允许提交新文件；请删除索引型sitemap后再尝试提交数据。
 填写站点的主体备案号，可以提高每日提交上限。去填写
 
-### 手动提交
+#### 手动提交
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211116/bd1dffd023374fba99140cc062a19796.png?x-oss-process=image/resize,w_800/quality,q_80)
 
@@ -49,7 +49,7 @@ sitemap提交工具仅对已验证站点开放使用，开发者无法提交同�
 如果需要提交非验证本站链接，请点击提交非验证站点链接
 
 
-## 百度爬虫抓取
+### 百度爬虫抓取
 
 连续4天了，每天都在给百度推送链接，终于等来了百度爬虫的一次爬去，开心哭了😂
 
