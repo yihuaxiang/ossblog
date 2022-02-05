@@ -119,7 +119,7 @@ export default {
   computed: {
     topArticles() {
       let pages = this.$site.pages;
-      return lodash.sortBy(pages.filter(p => {
+      return lodash.sortBy(pages.filter(p => p.path.endsWith('.html')).filter(p => {
         if(!this.prefix) {
           return true;
         } else {
