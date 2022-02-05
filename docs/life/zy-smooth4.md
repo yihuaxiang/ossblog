@@ -2,7 +2,7 @@
 
 雪藏两年的稳定器，在今天终于再次受到我的宠幸了🤗
 
-曾经一会再也不会拿起的稳定器，打脸了
+曾经以为再也不会拿起的稳定器，打脸了
 
 ![8680f1d0ae41a70afaaec14f0db529da.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220205/52b18a2ce0e94cdbb204fa11882210d5.gif)
 
