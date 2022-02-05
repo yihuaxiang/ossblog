@@ -150,7 +150,8 @@ module.exports = {
         'flowercountry',
         'first-snow-in-2022',
         'the-winter-olympics',
-        'solana'
+        'solana',
+        'zy-smooth4'
       ],
       '/misc/': [
         '2021-11-06',
