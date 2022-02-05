@@ -151,7 +151,8 @@ module.exports = {
         'first-snow-in-2022',
         'the-winter-olympics',
         'solana',
-        'zy-smooth4'
+        'zy-smooth4',
+        'youth'
       ],
       '/misc/': [
         '2021-11-06',
