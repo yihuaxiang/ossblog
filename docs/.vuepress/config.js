@@ -124,6 +124,8 @@ module.exports = {
         ariaLabel: '工具',
         items: [
           {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
+          {text: '聊天室', link: 'http://weizeling.com:8801/'},
+          {text: '音乐', link: 'http://weizeling.com:8801/player'},
         ]
       },
       {text: '生活', link: '/life/'},
