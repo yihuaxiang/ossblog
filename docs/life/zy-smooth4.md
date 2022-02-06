@@ -22,4 +22,10 @@
 明天晚上去前门大街体验体验~(*❦ω❦)
 
 
+### 夕阳西下的场景
+
 <VideoPlayer src="https://fudongdong.com/tools/videos/91E93E4050784659E14B59B3B52BBE05.MP4" />
+
+哎，明天又要上班了
+
+![6cc6e5565a05ca721bc34afcb53f3bd3.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220206/33083f05267d4440a202ed8e74cae0fa.gif)
