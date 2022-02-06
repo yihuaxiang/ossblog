@@ -20,3 +20,6 @@
 
 
 明天晚上去前门大街体验体验~(*❦ω❦)
+
+
+<VideoPlayer src="https://fudongdong.com/tools/videos/ZY-Video-2022-02-06-00000102.MOV" />
