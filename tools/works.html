@@ -1,72 +1,11 @@
 <html data-title="no">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-  <style type="text/css" abt="234"></style>
 </head>
-<body><input type="hidden" id="amap-websocket" value="false"><input type="hidden" id="amap-websocket-mock"
-                                                                    value="false"><input type="hidden"
-                                                                                         id="amap-listen-send">
-<style type="text/css">html[data-title="yes"] {
-  position: relative;
-  height: auto !important;
-  height: calc(100% - 68px) !important;
-  margin-top: 68px !important;
-}
-
-html[data-title="yes"]:before {
-  content: attr(title);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 48px;
-  padding-top: 20px;
-  z-index: 99999998;
-  background: #fff;
-  color: #000;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-align: center;
-  line-height: 48px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-html[data-title="yes"] body {
-  position: relative;
-  min-width: 100%;
-  min-height: 100%;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  padding-bottom: 0.1px;
-}
-
+<body>
+<style type="text/css">
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   body {
     background: #FFF;
-  }
-
-  html[data-ios="yes"] {
-    background: #272727;
-    height: 100vh;
-  }
-
-  html[data-ios="yes"] body {
-    min-height: 100% !important;
-  }
-
-  html[data-ios="yes"][data-title="yes"] {
-    margin-top: 92px !important;
-    height: calc(100% - 92px) !important;
-  }
-
-  html[data-ios="yes"][data-title="yes"]:before {
-    padding-top: 44px !important;
   }
 
   html:after {
@@ -86,44 +25,11 @@ html[data-title="yes"] body {
     z-index: 99999999;
   }
 
-  html[data-ios="yes"] body {
-    padding-top: 0.1px !important;
-  }
 }
 
 @media only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) {
   body {
     background: #FFF;
-  }
-
-  html[data-ios="yes"] {
-    background: #272727;
-    height: 100vh;
-  }
-
-  html[data-ios="yes"] body {
-    min-height: 100% !important;
-  }
-
-  html[data-ios="yes"]:after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    border-right: 1px solid #272727;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSLlm77lsYJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA4MTIgMzc1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA4MTIgMzc1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6IzI3MjcyNzt9LnN0MXtvcGFjaXR5OjAuMjt9PC9zdHlsZT48Zz48ZyBpZD0i6IOM5pmvIj48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMCwyOThsMC01bDAtMjJsMC0xNjZsMC0yMmwwLTVjMCwyLjgsMi4yLDUsNSw1aDVjMTIuMiwwLDIyLDkuOCwyMiwyMmwwLDE2NmMwLDEyLjItOS44LDIyLTIyLDIySDVDMi4yLDI5MywwLDI5NS4yLDAsMjk4eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0wLDQwQzAsMTcuOSwxNy45LDAsNDAsMEwwLDBMMCw0MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDAsMzc1Yy0yMi4xLDAtNDAtMTcuOS00MC00MGwwLDQwSDQweiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik04MTIsMzM1YzAsMjIuMS0xNy45LDQwLTQwLDQwbDQwLDBWMzM1eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik03NzIsMGMyMi4xLDAsNDAsMTcuOSw0MCw0MFYwTDc3MiwweiIvPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNS42LDMzNi44bDAsNWgtMS4xbC03LjYtNS4zdi0xaDcuNlYzMzRoMS4xdjEuNmgyLjV2MS4ySDI1LjZ6IE0yNC41LDMzNi44aC01LjJsNS4yLDMuN0wyNC41LDMzNi44eiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMi4yLDMyOS45bDAsMS41aC0xLjRsMC0xLjVIMjIuMnogTTI4LjIsMzI5LjlsMCwxLjVoLTEuNGwwLTEuNUgyOC4yeiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNS42LDMyMi4xbDAsNWgtMS4xbC03LjYtNS4zdi0xaDcuNmwwLTEuNmgxLjFsMCwxLjZoMi41djEuMmgtMi41VjMyMi4xeiBNMjQuNSwzMjIuMWgtNS4ybDUuMiwzLjdMMjQuNSwzMjIuMXoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTkuMSwzMTUuM2MwLjYsMC42LDEuMSwxLjMsMS42LDIuMmgtMS4yYy0wLjctMS4xLTEuNi0yLTIuNi0yLjdWMzE0aDExLjJ2MS4zSDE5LjF6Ii8+PC9nPjxyZWN0IHg9IjI1IiB5PSI3OSIgY2xhc3M9InN0MCIgd2lkdGg9IjIiIGhlaWdodD0iMiIvPjxyZWN0IHg9IjIzIiB5PSI3NCIgY2xhc3M9InN0MCIgd2lkdGg9IjQiIGhlaWdodD0iMiIvPjxyZWN0IHg9IjIxIiB5PSI2OSIgY2xhc3M9InN0MCIgd2lkdGg9IjYiIGhlaWdodD0iMiIvPjxyZWN0IHg9IjE5IiB5PSI2NCIgY2xhc3M9InN0MCIgd2lkdGg9IjgiIGhlaWdodD0iMiIvPjxnPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yOC41LDUybC0yLjgsMi44Yy0xLjYtMS42LTEuNi00LjEsMC01LjdMMjguNSw1MnoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjQuOSw0OC41bC0yLjEtMi4xYy0zLjEsMy4xLTMuMSw4LjIsMCwxMS4zbDIuMS0yLjFDMjMsNTMuNiwyMyw1MC40LDI0LjksNDguNXoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjIuMSw0NS42TDIwLDQzLjVjLTQuNyw0LjctNC43LDEyLjMsMCwxN2wyLjEtMi4xQzE4LjYsNTQuOCwxOC42LDQ5LjIsMjIuMSw0NS42eiIvPjwvZz48Zz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjguNSwyMGwwLDE2YzAsMS40LTEuMSwyLjUtMi41LDIuNWgtNmMtMS40LDAtMi41LTEuMS0yLjUtMi41bDAtMTZjMC0xLjQsMS4xLTIuNSwyLjUtMi41bDYsMEMyNy40LDE3LjUsMjguNSwxOC42LDI4LjUsMjB6IE0xOC41LDM2YzAsMC44LDAuNywxLjUsMS41LDEuNWg2YzAuOCwwLDEuNS0wLjcsMS41LTEuNWwwLTE2YzAtMC44LTAuNy0xLjUtMS41LTEuNWwtNiwwYy0wLjgsMC0xLjUsMC43LTEuNSwxLjVMMTguNSwzNnoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjcsMjBsMCwxNmMwLDAuNS0wLjUsMS0xLDFoLTZjLTAuNSwwLTEtMC41LTEtMWwwLTE2YzAtMC41LDAuNS0xLDEtMWw2LDBDMjYuNSwxOSwyNywxOS41LDI3LDIweiIvPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yNSwxN2gtNGMwLTAuNiwwLjktMSwyLTFTMjUsMTYuNCwyNSwxN3oiLz48L2c+PHBhdGggY2xhc3M9InN0MCIgZD0iTTUwOC41LDM2Ni41aC0yMDVjLTEuNCwwLTIuNS0xLjEtMi41LTIuNWwwLDBjMC0xLjQsMS4xLTIuNSwyLjUtMi41aDIwNWMxLjQsMCwyLjUsMS4xLDIuNSwyLjVsMCwwQzUxMSwzNjUuNCw1MDkuOSwzNjYuNSw1MDguNSwzNjYuNXoiLz48L2c+PGcgY2xhc3M9InN0MSI+PHJlY3QgeD0iNDMiIHk9IjAiIGNsYXNzPSJzdDAiIHdpZHRoPSIxIiBoZWlnaHQ9IjM3NSIvPjxyZWN0IHg9Ijc2OCIgeT0iMCIgY2xhc3M9InN0MCIgd2lkdGg9IjEiIGhlaWdodD0iMzc1Ii8+PHJlY3QgeD0iMCIgeT0iMzUzLjUiIGNsYXNzPSJzdDAiIHdpZHRoPSI4MTIiIGhlaWdodD0iMSIvPjwvZz48L2c+PC9zdmc+") no-repeat center;
-    -webkit-background-size: 100% 100%;
-    background-size: 100% 100%;
-    z-index: 99999999;
-  }
-
-  html[data-ios="yes"] body {
-    padding-top: 0.1px !important;
   }
 }</style>
 <title>Blank New Tab</title>
@@ -136,12 +42,7 @@ html[data-title="yes"] body {
     font-size: 300%;
   }
 </style>
-<style type="text/css" abt="234"></style>
-
-<script type="text/javascript" src="./works_files/jquery.min.js"></script>
-<b id="alivtInstalled"></b><b id="alivtInstalled"></b>
 <div style="height:40%"></div>
-<div style="display: none;">Hello World™</div>
 <div style="display: block;">It works!</div>
 </body>
 </html>
