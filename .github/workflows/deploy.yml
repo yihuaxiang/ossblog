@@ -39,9 +39,9 @@ jobs:
         run: |
           npm run docs:build
 
-      - name: 复制 tool 目录下的静态资源
+      - name: 复制 tools 目录下的静态资源
         run: |
-          mv ./tool ./docs/.vuepress/dist
+          mv ./tools ./docs/.vuepress/dist
 
       - uses: actions/upload-artifact@v2
         with:
