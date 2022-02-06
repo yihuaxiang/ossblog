@@ -1,5 +1,5 @@
 <template>
-  <video width="100%" controls autoplay>
+  <video width="100%" controls autoplay class="video">
     <source :src="src" type="video/mp4">
   </video>
 </template>
@@ -17,5 +17,7 @@ export default {
 </script>
 
 <style lang="scss" scoped rel="stylesheet/scss">
-
+.video {
+  margin-top: 15px;
+}
 </style>
