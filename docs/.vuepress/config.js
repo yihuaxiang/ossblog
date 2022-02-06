@@ -119,7 +119,13 @@ module.exports = {
     nav: [
       {text: '首页', link: '/'},
       {text: '技术', link: '/tech/'},
-      {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
+      {
+        text: '工具',
+        ariaLabel: '工具',
+        items: [
+          {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
+        ]
+      },
       {text: '生活', link: '/life/'},
       {text: '琐碎', link: '/misc/'}
     ],
