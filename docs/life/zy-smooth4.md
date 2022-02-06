@@ -22,4 +22,4 @@
 明天晚上去前门大街体验体验~(*❦ω❦)
 
 
-<VideoPlayer src="https://fudongdong.com/tools/videos/ZY-Video-2022-02-06-00000102.MOV" />
+<VideoPlayer src="https://fudongdong.com/tools/videos/91E93E4050784659E14B59B3B52BBE05.MP4" />
