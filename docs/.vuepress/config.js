@@ -109,7 +109,7 @@ module.exports = {
     }]
   ],
   themeConfig: {
-    lastUpdated: 'Last Updated', // string | boolean
+    lastUpdated: '最后更新', // string | boolean
     // sidebar: 'auto',
     displayAllHeaders: true,
     // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
