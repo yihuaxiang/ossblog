@@ -1,6 +1,6 @@
 # 重温8年前写的聊天室
 
-附上链接 [聊天室](http://weizeling.com:8801/)
+附上链接 [聊天室](https://chat.weizeling.com/)
 
 [代码](https://github.com/yihuaxiang/nodejs_chat)
 
@@ -12,13 +12,13 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220206/ced6e3cb4b44482aae45087e92161811.png?x-oss-process=image/resize,w_800/quality,q_80)
 
-[音乐播放器](http://weizeling.com:8801/player)
+[音乐播放器](https://chat.weizeling.com/player)
 
 还有如此简陋的聊天室😂
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220206/b10f53ed62e54c0ebff4b4ac592c4e08.png?x-oss-process=image/resize,w_800/quality,q_80)
 
- [聊天室](http://weizeling.com:8801/)
+ [聊天室](https://chat.weizeling.com/)
 
 真的喜极而泣🤡
 
