@@ -4,7 +4,7 @@
 <LastPost :random='true' prefix="" :number="5"/>
 
 ## 封面图：有脾气的人
-![img-new.png](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/1548709a2750430cadb3021b209fa847.png)
+![有脾气的人的照片](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/1548709a2750430cadb3021b209fa847.png)
 
 
 
