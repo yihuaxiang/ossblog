@@ -1,12 +1,14 @@
 # 弹力猩球·超级运动中心
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/2ed66c837cd841dca53c16e62c0ac2fc.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 机场那边有个 [斯普瑞斯奥特莱斯](https://www.gaode.com/place/B000A87IPS) ，之前简单逛过，然而没人带无法得其要领啊
 
-![01d8fe2cc8a32778ebc5f635f73b1e4e.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/03d5993fbf7d4d1496e5ba2d07d030f0.gif?x-oss-process=image/resize,w_800/quality,q_80)
+![01d8fe2cc8a32778ebc5f635f73b1e4e.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/03d5993fbf7d4d1496e5ba2d07d030f0.gif)
 
 今天和老婆的姐姐一块去了，想着顺便帮姐姐带带孩子😶‍🌫️😶‍🌫️，然鹅，被现实教育了😂，被两个小孩带着完了半天
 
-![de4acbc2dab24b4768e7a9aacafa1b4c.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/4d13e0aea5114879bb35fc75d6bfb495.gif?x-oss-process=image/resize,w_800/quality,q_80)
+![de4acbc2dab24b4768e7a9aacafa1b4c.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/4d13e0aea5114879bb35fc75d6bfb495.gif)
 
 进入奥特莱斯直奔[弹力猩球](https://www.gaode.com/detail/B0H2O5EUV5?citycode=110000) 
 
@@ -56,3 +58,6 @@
 目前弹力猩球单家门店能同时接待400人，单月人流量约1.5万人次，年营收约3000万，每家门店均已实现单店盈利，2019年和2020年全年公司均已实现盈利。在已有门店的基础上，弹力猩球正计划在一线和新一线城市加快开店速度，预计到明年底将开业15家门店。基于弹力猩球的多模块体育运动，品牌也将计划开设专项卫星小店，形成“一站式大店+专项小店”的模式。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/2ff64d08f3fa49529487bc9257107156.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+![78e8cfb463af53983b3fd6b87d9c6aa5.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/6c69eebcb02142528982f5757dc09938.gif)
+
