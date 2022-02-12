@@ -126,6 +126,7 @@ module.exports = {
           {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
           {text: '聊天室', link: 'https://chat.weizeling.com/'},
           {text: '音乐', link: 'https://chat.weizeling.com/player'},
+          {text: '百度', link: 'https://baidu.weizeling.com/player'},
         ]
       },
       {text: '生活', link: '/life/'},
@@ -161,7 +162,8 @@ module.exports = {
         'the-winter-olympics',
         'solana',
         'zy-smooth4',
-        'youth'
+        'youth',
+        'bombomspace'
       ],
       '/misc/': [
         'shortcut',
