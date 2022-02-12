@@ -6,6 +6,8 @@
 
 今天和老婆的姐姐一块去了，想着顺便帮姐姐带带孩子😶‍🌫️😶‍🌫️，然鹅，被现实教育了😂，被两个小孩带着完了半天
 
+![de4acbc2dab24b4768e7a9aacafa1b4c.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/4d13e0aea5114879bb35fc75d6bfb495.gif?x-oss-process=image/resize,w_800/quality,q_80)
+
 进入奥特莱斯直奔[弹力猩球](https://www.gaode.com/detail/B0H2O5EUV5?citycode=110000) 
 
 ![5ab439715bce72caf9e135a9a47cbb92.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/7158467b890d4f2d9a7252844deadae0.gif)
