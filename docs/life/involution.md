@@ -5,7 +5,7 @@
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220213/b2ea1225154a4ab59af3340ad7a161df.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
-如何避开内卷，有一个词叫降维，意思是避开高手，降低竞争维度，就是蓝海。
+如何避开内卷，有一个词叫***降维***，意思是避开高手，降低竞争维度，就是蓝海。
 
 降维分为好几种：
 
