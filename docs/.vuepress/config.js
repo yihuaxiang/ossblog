@@ -83,6 +83,7 @@ module.exports = {
       'vuepress-plugin-medium-zoom',
       {
         delay: 1000,
+        selector: 'body :not(a) > img',
         options: {},
       },
     ],
