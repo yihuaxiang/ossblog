@@ -163,7 +163,8 @@ module.exports = {
         'solana',
         'zy-smooth4',
         'youth',
-        'bombomspace'
+        'bombomspace',
+        'involution'
       ],
       '/misc/': [
         'shortcut',
