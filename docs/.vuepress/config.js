@@ -83,7 +83,6 @@ module.exports = {
       'vuepress-plugin-medium-zoom',
       {
         delay: 1000,
-        selector: 'theme-default-content img:not(a > img)',
         options: {},
       },
     ],
