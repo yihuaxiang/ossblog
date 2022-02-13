@@ -5,3 +5,5 @@
 
 
 [基督，犹太，伊斯兰教的关系](https://www.youtube.com/watch?v=ncXCHdTFBEs)
+
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/videos/religious.mp4" />
