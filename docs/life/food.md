@@ -44,17 +44,25 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/4743a5bc7a0f4442afcd08f8e81ac847.png)
 
-
+### 卤猪蹄
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/0a8c4079982544b6964a5cf7b9d39476.png)
 
 ### 抄手
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/e52d6f60fff24f3fa7b1f26922786fe9.png)
 
-
+### 羊肉汤
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/648bf09933cc428f817fa06bba8fcf34.png)
 
 
 # 2022年的美食
 
-### 狼牙土豆
+### 锅巴土豆
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220213/3b6e7d8755684b5ab8c63bc45854d73a.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+### 咖喱鸡 && others
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220213/42a981907a6744c38155dc5357b31cc2.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+### 酱肉包
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220213/eef59dfcbe32498faa3d4ae3860f50fa.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220213/e70995bb005549c2b1797eaec13a7191.png?x-oss-process=image/resize,w_800/quality,q_80)
