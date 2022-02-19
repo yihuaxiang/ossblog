@@ -171,7 +171,8 @@ module.exports = {
         'shortcut',
         'religious',
         'karabiner',
-        'ishot'
+        'ishot',
+        'chrome-extensions'
       ]
     }
   },
