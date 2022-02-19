@@ -1,5 +1,6 @@
 # 常用的 chrome 插件
 
+一下插件都可以通过`chrome`应用商店安装（需手动翻墙🐶）
 [谷歌插件商店链接](https://chrome.google.com/webstore/category/extensions)
 
 ### postman
