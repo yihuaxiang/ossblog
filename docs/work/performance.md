@@ -161,5 +161,7 @@
 如：复盘、赋能、抓手、沉淀、中体、点线面、反哺、感知度、颗粒度、组合拳、体系、共建、垂直领域、联动、布局等等
 利用适当的高级词汇是内容更加饱满、立体。
 
+[From pua-lang](https://github.com/flaneur2020/pua-lang)
+
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220220/192c31ad9eb54c26893274607877f4d6.png?x-oss-process=image/resize,w_800/quality,q_80)
 
