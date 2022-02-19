@@ -153,6 +153,9 @@
 * A（action）：完成的有助于结果的动作，包括意外插入的，eg.打了100个电话，联系更多的企业进行分销合作；
 * R（result）：拿到了什么样的结果，可以的话，量化它，eg. 成功新签约了20个公司，每月稳定增加23%的销售量。
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220220/8b9fde33e8bf45808cac63c730bf966a.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 4. 适当的高级词汇
 
 如：复盘、赋能、抓手、沉淀、中体、点线面、反哺、感知度、颗粒度、组合拳、体系、共建、垂直领域、联动、布局等等
