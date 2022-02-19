@@ -132,6 +132,7 @@ module.exports = {
         ]
       },
       {text: '生活', link: '/life/'},
+      {text: '工作', link: '/work/'},
       {text: '琐碎', link: '/misc/'}
     ],
     sidebar: {
@@ -174,6 +175,9 @@ module.exports = {
         'karabiner',
         'ishot',
         'chrome-extensions'
+      ],
+      '/work/': [
+        'performance'
       ]
     }
   },
