@@ -89,7 +89,7 @@ jobs:
         run: sh ./bdzz/generateUrls.sh &&
           cat bdzz/urls.txt &&
           cd bdzz &&
-          sh ./push.sh
+          sh ./push.sh ${{secrets.BDTOKEN}}
 
   notice:
     # The type of runner that the job will run on
@@ -104,5 +104,5 @@ jobs:
 
       # 百度站长网址推送
       - name: 给钉钉群推送发布结果
-        run: sh ./shell/notice.sh "部署成功"
+        run: sh ./shell/notice.sh ${{secrets.DINGTALKTOKEN}} "部署成功"
 
