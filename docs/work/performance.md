@@ -56,6 +56,8 @@
 结合工作，能做到避开内君安有如下一点：
 1. 国家降维，把国外的技术引进到过国内，进一步引申为：把团队外、公司外的技术引进到团队内，人与人之间不仅有竞争关系，更多的是合作、互利管理，前提是你能用好这些关系，他们做底层你就做上层，生态上相互补充，互相拿到一个相对好的绩效。
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220220/b8af7a29602a4b7dbb0b3f23f1658047.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 ### 开写总结
 
