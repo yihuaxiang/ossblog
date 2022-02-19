@@ -5,9 +5,9 @@
 ![符栋栋的头像](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220219/90ab3b4f368649328aed035b87c56088.jpg?x-oss-process=image/resize,w_800/quality,q_80)
 
 
-[![符栋栋的微博](https://img.shields.io/badge/dynamic/json?label=%E5%BE%AE%E5%8D%9A%E5%85%B3%E6%B3%A8&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dweibo%26queryKey%3D2558497932&labelColor=e71f19&color=040000&logo=sina-weibo&longCache=true)](https://weibo.com/u/2558497932)
-[![符栋栋的github](https://img.shields.io/badge/dynamic/json?color=000000&label=GitHub&query=%24.data.totalSubs&suffix=%20followers&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3Dyihuaxiang)](https://github.com/yihuaxiang)
-![fudongdong.com 的服务状态](https://img.shields.io/uptimerobot/ratio/7/m790590436-e5475e90c304d9f3621817c6)
+[![符栋栋的微博](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg)](https://weibo.com/u/2558497932)
+[![符栋栋的github](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg)](https://github.com/yihuaxiang)
+![fudongdong.com 的服务状态](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg)
 
 
 <LastPost :random='true' prefix="" :number="5"/>
