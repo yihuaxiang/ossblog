@@ -165,3 +165,7 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220220/192c31ad9eb54c26893274607877f4d6.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+
+### 结尾
+
+一年下来的个人生活也需要总结，这一年的得失，回顾一下，也是对自己的负责。
