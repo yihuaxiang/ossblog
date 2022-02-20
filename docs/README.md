@@ -7,7 +7,7 @@
 
 [![符栋栋的微博](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg)](https://weibo.com/u/2558497932)
 [![符栋栋的github](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg)](https://github.com/yihuaxiang)
-![fudongdong.com 的服务状态](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg)
+[![fudongdong.com 的服务状态](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg)](https://stats.uptimerobot.com/jM7p3TY1ng)
 
 
 <LastPost :random='true' prefix="" :number="5"/>
