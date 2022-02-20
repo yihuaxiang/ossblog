@@ -174,7 +174,8 @@ module.exports = {
         'religious',
         'karabiner',
         'ishot',
-        'chrome-extensions'
+        'chrome-extensions',
+        'realtime-caption'
       ],
       '/work/': [
         'performance'
