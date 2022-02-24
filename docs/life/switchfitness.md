@@ -1,6 +1,12 @@
+---
+tags: ["符栋栋", "健身环", "体验"]
+---
+
 # 健身环之初体验
 
 吃灰数月的健身环终于迎来了光明
+
+![开箱体验下~](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220224/333aca20032a4ba6af161636ea188f47.gif)
 
 找到箱子，清理下灰尘
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/1776c19703754adca16266c8e1c5e938.png)
