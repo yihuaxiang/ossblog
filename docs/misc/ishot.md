@@ -19,6 +19,8 @@ VS
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220126/492bd248f60d43bd8fd5209b69a47a0a.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220226/280289a50f154e4081bd17da03fa84eb.png)
+
 
 ### iShot 功能总结
 
