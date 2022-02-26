@@ -175,7 +175,8 @@ module.exports = {
         'karabiner',
         'ishot',
         'chrome-extensions',
-        'realtime-caption'
+        'realtime-caption',
+        'discrimination'
       ],
       '/work/': [
         'performance'
