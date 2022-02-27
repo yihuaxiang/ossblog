@@ -167,7 +167,8 @@ module.exports = {
         'zy-smooth4',
         'youth',
         'bombomspace',
-        'involution'
+        'involution',
+        'wine'
       ],
       '/misc/': [
         'shortcut',
