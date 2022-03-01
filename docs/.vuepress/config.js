@@ -149,6 +149,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'bento',
         'food',
         'firstsnow',
         'snow',
