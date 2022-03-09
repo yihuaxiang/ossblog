@@ -42,8 +42,8 @@ module.exports = {
       }
     ]
   ],
-  title: '符栋栋的博客',
-  description: '符栋栋的博客',
+  title: '敖武的博客',
+  description: '敖武的博客',
   lang: 'zh-CN',
   plugins: [
     // 评论插件
