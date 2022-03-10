@@ -44,7 +44,11 @@
 #### 探索
 
 探索就是去摸索新技术。 
-学习新技术一定要和业务结合起来，好处是 1. 有充分的时间， 2. 环境会逼迫自己深入去学 3. 学以致用，天天接触不容易忘掉
+学习新技术一定要和业务结合起来，好处是 
+
+1. 有充分的时间
+2. 环境会逼迫自己深入去学
+3. 学以致用，天天接触不容易忘掉
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/341040c9f9df49c8bafcc2f113ca67b4.png?x-oss-process=image/resize,w_800/quality,q_80)
 
