@@ -1,0 +1,63 @@
+# 如何成长
+
+### 在业务中如何成长？
+
+
+总结一下，希望新的一年做地更好
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/03103d78a28c4f4cba676800aa4557fe.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+#### 业务
+
+在业务中成长，如果业务都支撑不好（或者作出的产品bug很多、体验很差）那肯定不能算一个优秀的开发者，所以，第一步要把业务支撑好
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/d8a48a8f8f544b3ab6b6f7cab2941cf2.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+#### 解脱
+
+支撑好业务之后，比较好的支撑业务之后，容易进入这种状态：日复一日的重复、重复、重复。
+这时候就需要自己去提升，从重复的业务中提升难度，比如：一个通用的日期选择功能，很多地方都有，那如何去提炼呢？
+需要提取每个模块对日期组件的要求，需要参考别人是如何设计的（比如antd，这时候要看API也要看源码），
+模仿好的案例，组件提炼好后，可能会逐步开始开发自己的组件库，这时候要了解其他组件库的整体设计并学习。
+
+通过技术深度，来实现从重复的业务中解脱出来
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/072ef572ff2a4638a97161f51d92ed91.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+#### 广度
+
+有了一定深度后，接下要要扩充广度，广度扩充的机会时刻都在身边，
+广度从一个专业的领域到宽泛的生活都有广度扩充的机会。
+
+比如：
+
+1. 3D可视化，通过网上的可视化项目来熟悉这个领域，知道这个领域是什么、有什么能力、有哪些应用场景等等
+2. 高并发，各个大公司的开放平台都是如何设计、实现的。
+3. 你发现产品给你的资料格式有问题，需要自己整理，通过java、awk、js、shell、多行编辑、excel函数等等很多种方式，
+4. 世界政治局势（咦，这个也算？）
+
+但是如何才能知道有这些方式可以用呢？关注社区、关注别人。
+
+![123412341.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/e2cbb6b1079c4aa182f704d1f61188e2.gif)
+
+
+#### 探索
+
+探索就是去摸索新技术。 
+学习新技术一定要和业务结合起来，好处是 1. 有充分的时间， 2. 环境会逼迫自己深入去学 3. 学以致用，天天接触不容易忘掉
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/341040c9f9df49c8bafcc2f113ca67b4.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+#### 工具
+
+俗话说得好，好记性比如烂笔头，这里的烂笔头就是工具，工具用的好，晚上下班早
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/b7c6144b548c4da9ae1049daaa84ed37.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+##### 常用工具如下
+
+1. 搜索技巧
+    1. 搜索的时候需要会提炼关键字，坏的习惯：”xxx和yyy哪个好“，好的习惯 “xxx vs yyy”
+    2. 搜索引擎的技巧，比如双引号表示必须有，site 可以显示搜索范围等
+2. 英文文档
+   1. 习惯阅读英文文章、英文搜索、查看官网文档（而非劣质二手文章）

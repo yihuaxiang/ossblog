@@ -137,6 +137,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'growth',
         'mfe',
         "chromeext",
         "docker",
