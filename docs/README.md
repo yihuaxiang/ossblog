@@ -2,11 +2,11 @@
 
 ## 关于博主
 
-![符栋栋的头像](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220219/90ab3b4f368649328aed035b87c56088.jpg?x-oss-process=image/resize,w_800/quality,q_80)
+![敖武的头像](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220219/90ab3b4f368649328aed035b87c56088.jpg?x-oss-process=image/resize,w_800/quality,q_80)
 
 
-[![符栋栋的微博](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg)](https://weibo.com/u/2558497932)
-[![符栋栋的github](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg)](https://github.com/yihuaxiang)
+[![敖武的微博](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg)](https://weibo.com/u/2558497932)
+[![敖武的github](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg)](https://github.com/yihuaxiang)
 [![fudongdong.com 的服务状态](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg)](https://stats.uptimerobot.com/jM7p3TY1ng)
 
 
