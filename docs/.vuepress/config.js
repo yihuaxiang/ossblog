@@ -173,6 +173,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'ru',
         'shortcut',
         'religious',
         'karabiner',
