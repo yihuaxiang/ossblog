@@ -173,6 +173,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'cultrue-of-argument',
         'ru',
         'shortcut',
         'religious',
