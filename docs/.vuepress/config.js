@@ -133,7 +133,8 @@ module.exports = {
       },
       {text: '生活', link: '/life/'},
       {text: '工作', link: '/work/'},
-      {text: '琐碎', link: '/misc/'}
+      {text: '琐碎', link: '/misc/'},
+      {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
     sidebar: {
       '/tech/': [
