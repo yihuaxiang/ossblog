@@ -174,6 +174,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'goodthings',
         'cultrue-of-argument',
         'ru',
         'shortcut',
