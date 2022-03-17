@@ -35,7 +35,14 @@
 Mac 包管理工具
 
 ### Popclip
-鼠标拓展小工具
+鼠标拓展小工具，当选中文本后会自动弹出操作框，支持复制、粘贴、大小写转换、单词计数、搜词等诸多功能。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/68a45b525b93406e964904c2e782ae6c.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+支持安装多种扩展程序，如下图：
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 ### 1Password
 密码管理工具
