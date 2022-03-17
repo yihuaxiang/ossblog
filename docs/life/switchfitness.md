@@ -65,7 +65,7 @@ tags: ["敖武", "健身环", "体验"]
 果然是健身游戏，真累啊😂
 
 
-改小仙女上场了
+改小仙女上场了,看起来很认真的样子 ┓( ´∀` )┏
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/4b15d6780eb24ce38f193239da407245.png)
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/fb13ad144932422ebcca81e8360fc9da.png)
