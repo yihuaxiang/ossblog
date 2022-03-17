@@ -15,15 +15,24 @@
 程序启动器Mac spotlight 的增强版，支持插件
 常用功能
 * 数学计算
+
   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646586729-e2aa0975-e2c3-4ca4-80f4-7aa1c382e303.png)
+
 * 程序启动
+
   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646606507-70a61685-26fe-4c80-8ed8-9a9550a76877.png)
+
 * 搜索（本地搜索、网络搜索）
 * 翻译
+
   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646661761-ddf6a20d-7f70-4d5f-81cc-445a70321c76.png)
+
 * 自定义插件
+
   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646683062-76f78f84-6095-404d-94df-5736898b6f66.png)
+
 * 编码、解码
+
   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646727134-620654c3-70d0-4185-8099-08c591a88a94.png)
 
 下载地址： https://www.alfredapp.com/
