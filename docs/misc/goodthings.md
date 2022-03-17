@@ -49,3 +49,16 @@ omyzsh以及常用插件（https://juejin.im/entry/5ae00e54f265da0b8635ea5c）
 ### SwitchKey
 
 `SwitchKey` 是一款可以根据当前 `macOS` `app` 窗口自动切换指定的输入法，让你无需再关注“输入法切换”这些琐碎的操作。特别是在代码编辑器、命令行和微信等程序之间切换的时候，非常方便。
+
+### iShot 截图
+
+介绍文章： [https://fudongdong.com/misc/ishot.html](https://fudongdong.com/misc/ishot.html)
+
+### Beyond Compare
+
+Beyond Compare中文版是一款专业的文本文件对比工具,可以高效的针对文件、文件夹、表格、mp3、图片、数据、注册表等文件并进行比较、合并、同步分析,并把相差的每一个字节用颜色加以表示,查看方便。
+
+### thor launcher
+
+全局激活某个 app 的快捷键设置程序
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220123/3f659b2ae9454def86b92a8223cf9f5d.png?x-oss-process=image/resize,w_800/quality,q_80)
