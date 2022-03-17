@@ -61,4 +61,5 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 ### thor launcher
 
 全局激活某个 app 的快捷键设置程序
+
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220123/3f659b2ae9454def86b92a8223cf9f5d.png?x-oss-process=image/resize,w_800/quality,q_80)
