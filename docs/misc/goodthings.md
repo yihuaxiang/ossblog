@@ -61,6 +61,8 @@ omyzsh以及常用插件（https://juejin.im/entry/5ae00e54f265da0b8635ea5c）
 
 介绍文章： [https://fudongdong.com/misc/ishot.html](https://fudongdong.com/misc/ishot.html)
 
+注：我认为延迟截屏是他最好用的工具了，很多弹框功能在你进行任何操作的时候都会自动消失，普通截图软件截取不到😓。
+
 ### Beyond Compare
 
 Beyond Compare中文版是一款专业的文本文件对比工具,可以高效的针对文件、文件夹、表格、mp3、图片、数据、注册表等文件并进行比较、合并、同步分析,并把相差的每一个字节用颜色加以表示,查看方便。
