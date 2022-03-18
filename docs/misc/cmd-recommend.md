@@ -29,6 +29,14 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 
 `Oh My Zsh`则是`zsh`配置管理工具
 
+### neovim
+
+`vim`的替代配，vim 是一个非常成功的项目，是一个非常优秀的工具。但过于悠久的历史也成了不小负担，而过去的辉煌也一定程度上成为了前进的枷锁。这导致 `vim` 社区过于保守。现在 `neovim` 和 `vim` 相互竞争，对两者应该都是一个好的事情。让我们试目以待吧。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220318/f6b299ce76f14a36bdb34287bb0b8cc9.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
+
 
 
 
