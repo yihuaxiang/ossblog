@@ -9,7 +9,7 @@
 
 ### clipMenu
 系统剪切板增强工具，支持历史复制内容
-下载地址：http://www.clipmenu.com/
+[下载地址](http://www.clipmenu.com/)
 
 ### alfred
 程序启动器Mac spotlight 的增强版，支持插件
@@ -35,7 +35,7 @@
 
   ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646727134-620654c3-70d0-4185-8099-08c591a88a94.png)
 
-下载地址： https://www.alfredapp.com/
+[下载地址](https://www.alfredapp.com/)
 
 ### axel
 多线程下载工具
@@ -60,7 +60,8 @@ Mac 包管理工具
 在finder中直接打开shell
 
 ### omyzsh
-omyzsh以及常用插件（https://juejin.im/entry/5ae00e54f265da0b8635ea5c）
+
+`omyzsh`以及常用插件（ [下载链接](https://juejin.im/entry/5ae00e54f265da0b8635ea5c) ）
 
 ### SwitchKey
 
