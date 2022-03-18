@@ -174,6 +174,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'cmd-recommend',
         'goodthings',
         'cultrue-of-argument',
         'ru',
