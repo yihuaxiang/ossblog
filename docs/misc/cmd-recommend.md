@@ -47,3 +47,16 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 命令行`json`查看工具，最大的特点是支持折叠。
 
 ![alksdjflasdfkja.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220319/1ac4905cdae24c919eeffa9b10b3d58d.gif?x-oss-process=image/resize,w_800/quality,q_80)
+
+### mycli
+
+mysql客户端，支持语法高亮和命令补全，效果类似ipython，可以替代mysql命令。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220319/8724416f58714a04906308de93607eb8.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+### fig
+
+终端自动提示工具。
+
+![12341234.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220319/6d94bfddc24a48d08b12b6c51144b3b9.gif?x-oss-process=image/resize,w_800/quality,q_80)
+
