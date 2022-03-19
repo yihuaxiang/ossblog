@@ -36,7 +36,14 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220318/f6b299ce76f14a36bdb34287bb0b8cc9.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
+### jq
 
+轻量级命令行`json`处理器，使用`C`语言开发、零依赖。
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220319/92902799ed1c44e9bca8fa2cbd9fbc73.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+### jless
 
+命令行`json`查看工具，最大的特点是支持折叠。
+
+![alksdjflasdfkja.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220319/1ac4905cdae24c919eeffa9b10b3d58d.gif?x-oss-process=image/resize,w_800/quality,q_80)
