@@ -128,13 +128,13 @@ module.exports = {
           {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
           {text: '聊天室', link: 'https://chat.weizeling.com/'},
           {text: '音乐', link: 'https://chat.weizeling.com/player'},
-          {text: '百度', link: 'https://baidu.weizeling.com'},
-          {text: 'playground', link: 'https://playground.fudongdong.com'}
+          {text: '百度', link: 'https://baidu.weizeling.com'}
         ]
       },
       {text: '生活', link: '/life/'},
       {text: '工作', link: '/work/'},
       {text: '琐碎', link: '/misc/'},
+      {text: '游乐场', link: 'https://playground.fudongdong.com'},
       {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
     sidebar: {
