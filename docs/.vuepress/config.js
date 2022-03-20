@@ -174,6 +174,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'centos-8-eof',
         'cmd-recommend',
         'goodthings',
         'cultrue-of-argument',
