@@ -94,3 +94,19 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/2b9b39dd89fc408a9b71a7d155c3f94b.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 当我按下`Command+/`时，`iTerm2`会自动输入`,cc`,在`vim`编辑文件的时候自动将当前行给注释掉。从而实现类似`VS Code`、`idea`很多相同的快捷键。
+
+### sshpass
+
+平时通过`ssh`登陆服务器，都会交互式进行密码输入，有些特殊的服务器操作需要自动化，例如：提交代码后自动登陆服务器、拉取代码、重新部署。
+这种情况下为了自动化，交互式密码输入无法满足，需要一种免密登陆方案，常见免密登陆有如下两种：
+
+1. 基于密钥的认证
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220322/ed6739bed9534abcb32510b71ac9a94d.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+2. sshpass
+
+针对少量服务器，使用方案一较为便捷，然而针对批量+非固定机器，方案二优势更为明显。
+
+`sshpass`是一个简单轻量级的命令行工具，
+它使我们能够在脚本中显示指定密码（非交互式密码验证），以便可以自动化执行服务器上的 `shell` 脚本。
