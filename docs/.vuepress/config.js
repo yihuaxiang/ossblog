@@ -139,6 +139,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'koa-vs-egg',
         'growth',
         'mfe',
         "chromeext",
