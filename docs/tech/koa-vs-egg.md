@@ -1,4 +1,12 @@
-# Koa vs Egg.js
+# 从 express 到 midway
+
+### express
+
+是 Node.JS 诞生之初，最早出现的一款框架，现在仍然很流行，
+但随着`ECMAScript`的发展（`generator yield`、异步、回调地狱等原因）`express`的创作者开始推荐了`Koa`了。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/e2442616a29b4fe8a5d3a9ecdf338a35.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 ### Koa
 
@@ -16,6 +24,8 @@ Koa 是一个非常优秀的框架，但同时它也还是一个较为基础的�
 
 然而，一百个开发者可能会有一百种不同的配置、整合。
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/3c027342d0e14401b7bae07b181a45f7.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 
 ### Egg.js
@@ -29,3 +39,33 @@ Koa 是一个非常优秀的框架，但同时它也还是一个较为基础的�
 3. 插件:`Egg` 提供了一个更加强大的插件机制，让这些独立领域的功能模块可以更加容易编写
 4. 扩展:在基于 `Egg` 的框架或者应用中，我们可以通过定义 `app/extend/{application,context,request,response}.js` 来扩展 Koa 中对应的四个对象的原型，通过这个功能，我们可以快速的增加更多的辅助方法。
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/eba932cbdfcf4017995ec40742d8fff8.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+### midway.js
+
+随着 `ts` 的流行，在`Egg.js`的基础上又发展出了`midway.js`，
+由于`ts`的支持，`midway.js`扩展了`IoC`、修饰器等诸多新特性
+
+示例如下：
+```TypeScript
+import { provide, controller, inject, get } from 'midway';
+
+@provide()
+@controller('/user')
+export class UserController {
+
+  @inject('userService')
+  service: IUserService;
+
+  @get('/:id')
+  async getUser(ctx): Promise<void> {
+    const id: number = ctx.params.id;
+    const user: IUserResult = await this.service.getUser({id});
+    ctx.body = {success: true, message: 'OK', data: user};
+  }
+}
+```
+
+此外，`midway.js`还支持一体化应用、`serverless`、函数式编程等诸多场景。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/5ae1c57f624f4f14ab1e76c5134a66a8.png?x-oss-process=image/resize,w_800/quality,q_80)
