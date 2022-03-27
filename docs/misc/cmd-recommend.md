@@ -60,3 +60,8 @@ mysql客户端，支持语法高亮和命令补全，效果类似ipython，可�
 
 ![12341234.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220319/6d94bfddc24a48d08b12b6c51144b3b9.gif?x-oss-process=image/resize,w_800/quality,q_80)
 
+### tig
+
+git 提交日志查看工具，以文本形式查看提交历史
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/e04486b038f64aaab1effc3fe4cdd6ad.png?x-oss-process=image/resize,w_800/quality,q_80)
