@@ -100,3 +100,25 @@ ReRes可以用来更改页面请求响应的内容。通过指定规则，您可
 
 ### Visual Event
 Visual Event
+
+
+### Star History
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/701af7ce5be144009f30cd39f1927bcf.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+> the missing GitHub star history graph of GitHub repos.
+
+`github` 缺失的 `star` 历史趋势。
+
+
+### Quick Javascript Switcher
+
+网页上的文字无法复制？一键禁用`js`就搞定了！你需要的就是`Quick Javascript Switcher`
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/61481abe71a443c1af29939e8abc8ade.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+### darkreader
+
+无处不在的深色模式
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/4d727b3abd534cd3a81b7ecec4194b30.png?x-oss-process=image/resize,w_800/quality,q_80)
