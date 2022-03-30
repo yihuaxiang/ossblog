@@ -110,3 +110,11 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 `sshpass`是一个简单轻量级的命令行工具，
 它使我们能够在脚本中显示指定密码（非交互式密码验证），以便可以自动化执行服务器上的 `shell` 脚本。
+
+### snap
+
+Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体验和效率提升很大。用快捷键 command + 数字（0-9）启动/唤起Dock对应的程序。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/6a64681197f849388e3e3c79660f1630.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+右侧`option`键一般用不到，故通过`karabiner`将右侧`option`改成了`command`键，通过右侧`option`+数字启动/唤起Dock对应的程序。
