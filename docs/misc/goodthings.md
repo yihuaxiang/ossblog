@@ -118,3 +118,13 @@ Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/6a64681197f849388e3e3c79660f1630.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 右侧`option`键一般用不到，故通过`karabiner`将右侧`option`改成了`command`键，通过右侧`option`+数字启动/唤起Dock对应的程序。
+
+
+### LightProxy
+
+`LightProxy` 是 `IFE` 团队开发的一款基于 `Electron` 和 `whistle` 的开源桌面代理软件，致力于让前端开发人员能够精确的掌握自己的开发环境，通过 HTTP 代理使用规则转发、修改每一个请求和响应的内容。
+
+通过`LightProxy`用户可以快速进行转包、修改包，解决开发过程中的各个拦路虎。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png?x-oss-process=image/resize,w_800/quality,q_80)
+
