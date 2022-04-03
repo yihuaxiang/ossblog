@@ -14,8 +14,26 @@
 
 ![5ab439715bce72caf9e135a9a47cbb92.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/7158467b890d4f2d9a7252844deadae0.gif)
 
+小哥哥小姐姐们前面走
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220403/ea41e7254fa349cab72893d081908ab4.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+后面跟着如此帅气的我😂
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220403/e18d0f88923f41a084240a8502700e24.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 进去直接拖鞋穿袜子，痛快畅玩~
 
+
+寻宝专线-3号洞
+<VideoPlayer src="https://fudongdong.com/tools/videos/爬出山洞.MP4" />
+
+儿童滑梯？
+<VideoPlayer src="https://fudongdong.com/tools/videos/儿童滑梯.MP4" />
+
+蹦床篮球？
+<VideoPlayer src="https://fudongdong.com/tools/videos/篮球.MP4" />
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/80b2b6e8a8f349eea84c48014b64f08e.png?x-oss-process=image/resize,w_800/quality,q_80)
 
