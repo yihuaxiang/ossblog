@@ -27,13 +27,13 @@
 
 
 寻宝专线-3号洞
-<VideoPlayer src="https://fudongdong.com/tools/videos/爬出山洞.MP4" />
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/videos/%E7%88%AC%E5%87%BA%E5%B1%B1%E6%B4%9E.mp4" />
 
 儿童滑梯？
-<VideoPlayer src="https://fudongdong.com/tools/videos/儿童滑梯.MP4" />
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/videos/%E5%84%BF%E7%AB%A5%E6%BB%91%E6%A2%AF.mp4" />
 
 蹦床篮球？
-<VideoPlayer src="https://fudongdong.com/tools/videos/篮球.MP4" />
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/videos/%E7%AF%AE%E7%90%83.mp4" />
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220212/80b2b6e8a8f349eea84c48014b64f08e.png?x-oss-process=image/resize,w_800/quality,q_80)
 
