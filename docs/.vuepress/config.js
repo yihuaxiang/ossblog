@@ -153,6 +153,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'the-tomb-sweeping-day',
         'playground',
         'bento',
         'food',
