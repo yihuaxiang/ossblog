@@ -46,7 +46,11 @@
 
 ### 西洋楼遗址
 
-曾在课本上见过的
+曾在课本上见过的。
+
+英法联军火烧圆明园时，中式建筑由于木质材质的原因，全部损毁，西洋楼由于大多使用石柱材质，部分得以保留，但长期的抢掠盗窃，导致如今仅有部分断壁残垣。
+
+
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220404/186e449ca43040cfa8a3939ebfb93066.png?x-oss-process=image/resize,w_800/quality,q_80)
 
