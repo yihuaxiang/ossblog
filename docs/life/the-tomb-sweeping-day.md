@@ -34,6 +34,8 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220404/510e70480683420c81d209ad2e73279e.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+曾经有"万园之园"之称的大型皇家园林，如今已面目全非。
+
 ### 偶遇黑天鹅
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220404/381402601c3649c9808591ffdd00bcb8.png?x-oss-process=image/resize,w_800/quality,q_80)
@@ -48,7 +50,7 @@
 
 曾在课本上见过的。
 
-英法联军火烧圆明园时，中式建筑由于木质材质的原因，全部损毁，西洋楼由于大多使用石柱材质，部分得以保留，但长期的抢掠盗窃，导致如今仅有部分断壁残垣。
+英法联军火烧圆明园时，中式建筑由于木质材质的原因，全部损毁，西洋楼由于大多使用石柱材质，部分得以保留，但长期的抢掠盗窃（木劫、石劫），导致如今仅有部分断壁残垣。
 
 
 
