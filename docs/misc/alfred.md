@@ -1,6 +1,6 @@
 # alfred 插件备忘录
 
-再次记录下我的`alfred`使用的插件。其中大部分插件都是从 [alfredforum](https://www.alfredforum.com/) 找到的。
+再次记录下我的`alfred`使用的插件。其中大部分插件都是从 [alfredforum](https://www.alfredforum.com/) 、 [awesome-alfred-workflows](https://github.com/alfred-workflows/awesome-alfred-workflows) 找到的。
 
 > 注：使用插件需要购买`Powerpack`
 
