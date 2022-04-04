@@ -6,7 +6,7 @@
 
 ### Encode / Decode
 
-编码、解码工具，支持`URL`、`HTML`、`base64`、`Unicode`等多种方式的编码、解码。
+编码、解码工具，支持`URL`、 `HTML`、`base64`、 `Unicode`等多种方式的编码、解码。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220404/9988378ebdaa4338a56f8f1cf77751fd.png?x-oss-process=image/resize,w_800/quality,q_80)
 
@@ -25,7 +25,7 @@
 
 ### Hash
 
-将输入转成常见的`hash`值，如：`md2`、`md4`、`md5`、`sha1`、`sha244`、`sha256`、`sha384`、`sha512/224`、`sha512/256`等等。
+将输入转成常见的`hash`值，如：`md2`、 `md4`、`md5`、 `sha1`、 `sha244`、`sha256`、`sha384`、 `sha512/224`、`sha512/256`等等。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220404/780ef2831a0b41cfb942c1548837de7e.png?x-oss-process=image/resize,w_800/quality,q_80)
 
