@@ -17,7 +17,11 @@ export default ({
         console.log("上报cnzz统计", to.fullPath);
       }
     }
-    fetch(`https://playground.fudongdong.com/blog/pv?url=${encodeURIComponent(to.fullPath)}`);
+    if (typeof fetch != 'undefined') {
+      fetch(`https://playground.fudongdong.com/blog/pv?url=${encodeURIComponent(to.fullPath)}`);
+    } else {
+      console.error('fetch is not defined')
+    }
 
     if (to.matched.length > 0 && to.matched[0].path === "*") {
       next("/notfound.html");
