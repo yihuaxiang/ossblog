@@ -50,6 +50,7 @@ export default {
         const reader = new FileReader(); // 创建读取文件对象
         reader.readAsDataURL(el.target.files[0]); // 发起异步请求，读取文件
         this.loading = true;
+        this.valueUrl = undefined;
         reader.onload = function () {  // 文件读取完成后
           // 读取完成后，将结果赋值给img的src
           this.valueUrl = this.result;
