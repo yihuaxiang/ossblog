@@ -26,7 +26,7 @@
 
 <VideoPlayer src="https://fudongdong.com/tools/videos/91E93E4050784659E14B59B3B52BBE05.MP4" />
 
-<VideoPlayer src="https://fudongdong.com/tools/videos/the-setting-sun.MP4" />
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/videos/the-setting-sun.MP4" />
 
 哎，明天又要上班了
 
