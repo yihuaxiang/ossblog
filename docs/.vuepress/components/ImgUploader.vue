@@ -7,7 +7,9 @@
     <img width="200px" :src=valueUrl  v-if="valueUrl">
   </div>
   <template v-if="loading">
-    <span class="loading">上传中...</span>
+    <span class="loading">
+      上传中...({{percent || '-'}}%)
+    </span>
   </template>
   <template v-else>
     <template v-if="valueUrl">
@@ -24,13 +26,15 @@
 </template>
 
 <script>
+const axios = require('axios').default;
 export default {
   name: "ImgUploader",
   data() {
     return {
       valueUrl: undefined,
       loading: false,
-      notice: undefined
+      notice: undefined,
+      percent: undefined,
     }
   },
   mounted() {
@@ -54,18 +58,7 @@ export default {
         }
       }
       if(file) {
-        this.loading = true;
-        this.valueUrl = undefined;
-        const formData = new FormData();  // 创建一个formdata对象
-        formData.append('file', file);
-        fetch('https://playground.fudongdong.com/img/upload', {
-          body: formData,
-          method: 'post'
-        }).then(res => res.text()).then(url => {
-          console.info('url is ', url);
-          this.valueUrl = url;
-          this.loading = false;
-        })
+        this.postFile(file);
       } else {
         console.info('not found file')
       }
@@ -83,25 +76,35 @@ export default {
       if (el.target.files[0].type.indexOf('image') === -1) { //如果不是图片格式
         console.log('请选择图片文件');
       } else {
-        const reader = new FileReader(); // 创建读取文件对象
-        reader.readAsDataURL(el.target.files[0]); // 发起异步请求，读取文件
-        this.loading = true;
-        this.valueUrl = undefined;
-        reader.onload = function () {  // 文件读取完成后
-          // 读取完成后，将结果赋值给img的src
-          this.valueUrl = this.result;
-        };
-        const formData = new FormData();  // 创建一个formdata对象
-        formData.append('file', el.target.files[0]);
-        fetch('https://playground.fudongdong.com/img/upload', {
-          body: formData,
-          method: 'post'
-        }).then(res => res.text()).then(url => {
-          console.info('url is ', url);
-          this.valueUrl = url;
-          this.loading = false;
-        })
+        this.postFile(el.target.files[0]);
       }
+    },
+    // 上传文件
+    postFile(file) {
+      const reader = new FileReader(); // 创建读取文件对象
+      reader.readAsDataURL(file); // 发起异步请求，读取文件
+      this.loading = true;
+      this.valueUrl = undefined;
+      this.percent = 0;
+      reader.onload = function () {  // 文件读取完成后
+        // 读取完成后，将结果赋值给img的src
+        this.valueUrl = this.result;
+      };
+      const formData = new FormData();  // 创建一个formdata对象
+      formData.append('file', file);
+      axios.request({
+        method: 'post',
+        url: 'https://playground.fudongdong.com/img/upload',
+        data: formData,
+        onUploadProgress: (p) => {
+          this.percent = Math.floor(p.loaded / p.total * 100)
+        }
+      }).then(res => {
+        const url = res.data;
+        console.info('url is ', url);
+        this.valueUrl = url;
+        this.loading = false;
+      })
     }
   }
 }
