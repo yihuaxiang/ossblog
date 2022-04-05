@@ -128,6 +128,7 @@ module.exports = {
           {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
           {text: '聊天室', link: 'https://chat.weizeling.com/'},
           {text: '音乐', link: 'https://chat.weizeling.com/player'},
+          {text: '图床', link: 'https://fudongdong.com/misc/tuchuang.html'},
           {text: '百度', link: 'https://baidu.weizeling.com'}
         ]
       },
