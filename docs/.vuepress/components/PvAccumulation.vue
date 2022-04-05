@@ -19,17 +19,18 @@ export default {
     '$route.path': {
       immediate: true,
       handler: function() {
-        console.info('this is ', this);
         const path = this.$route.path;
         if(path && path.endsWith('.html')) {
           this.isHtml = true;
         } else {
           this.isHtml = false;
         }
-        fetch(`https://playground.fudongdong.com/blog/accumulation?url=${encodeURIComponent(path)}`)
-        .then(res => res.text()).then(pv => {
-          this.pv = pv;
-        })
+        if (fetch) {
+          fetch(`https://playground.fudongdong.com/blog/accumulation?url=${encodeURIComponent(path)}`)
+              .then(res => res.text()).then(pv => {
+            this.pv = pv;
+          })
+        }
       }
     }
   }
