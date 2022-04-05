@@ -1,5 +1,7 @@
 # 敖武的图床
 
+> 敖武的图床： https://fudongdong.com/misc/tuchuang.html
+
 经常有很多图片需要上传，平时在公司直接用公司的图床，在`Idea`上传照片的话有一个`Markdown Image Support`的插件，
 可以支持在`markdown`文件中粘贴照片，但是有很多事不是在`markdown`中上传。
 
