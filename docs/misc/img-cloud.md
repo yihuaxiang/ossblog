@@ -12,3 +12,7 @@
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/a8d7ff1dfad142f69a983e06c2cfd1b6.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 不过貌似网速有点慢啊😂
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/5000de8b59174089bbe452f4d8f85e4e.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+`vpn`的问题，关闭`vpn`，上传速度飞起。
