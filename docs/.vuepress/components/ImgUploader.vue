@@ -33,7 +33,43 @@ export default {
       notice: undefined
     }
   },
+  mounted() {
+    document.addEventListener('paste', this.handlePaste);
+  },
+  unmounted() {
+    document.removeEventListener('paste', this.handlePaste);
+  },
   methods: {
+    handlePaste(event) {
+      console.info('handlePaste')
+      const items = (event.clipboardData || window.clipboardData).items;
+      let file = null;
+      if (items && items.length) {
+        // 搜索剪切板items
+        for (let i = 0; i < items.length; i++) {
+          if (items[i].type.indexOf('image') !== -1) {
+            file = items[i].getAsFile();
+            break;
+          }
+        }
+      }
+      if(file) {
+        this.loading = true;
+        this.valueUrl = undefined;
+        const formData = new FormData();  // 创建一个formdata对象
+        formData.append('file', file);
+        fetch('https://playground.fudongdong.com/img/upload', {
+          body: formData,
+          method: 'post'
+        }).then(res => res.text()).then(url => {
+          console.info('url is ', url);
+          this.valueUrl = url;
+          this.loading = false;
+        })
+      } else {
+        console.info('not found file')
+      }
+    },
     handleCopy() {
       navigator.clipboard.writeText(this.valueUrl).then(() => {
         this.notice = '复制成功'
