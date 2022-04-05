@@ -25,7 +25,7 @@ export default {
         } else {
           this.isHtml = false;
         }
-        if (fetch) {
+        if (typeof fetch != undefined) {
           fetch(`https://playground.fudongdong.com/blog/accumulation?url=${encodeURIComponent(path)}`)
               .then(res => res.text()).then(pv => {
             this.pv = pv;
