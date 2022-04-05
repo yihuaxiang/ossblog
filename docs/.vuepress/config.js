@@ -179,6 +179,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'img-cloud',
         'alfred',
         'centos-8-eof',
         'cmd-recommend',
