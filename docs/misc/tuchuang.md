@@ -1,4 +1,5 @@
 ---
+tags: ["图床", "敖武的图床", "免费图床"]
 comment: false
 # comments: false
 ---
