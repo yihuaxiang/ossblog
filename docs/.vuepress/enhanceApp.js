@@ -15,9 +15,9 @@ export default ({
       if (to.path) {
         _czc.push(["_trackPageview", to.fullPath, from.fullPath]);
         console.log("上报cnzz统计", to.fullPath);
-        fetch(`https://playground.fudongdong.com/blog/pv?url=${encodeURIComponent(to.fullPath)}`);
       }
     }
+    fetch(`https://playground.fudongdong.com/blog/pv?url=${encodeURIComponent(to.fullPath)}`);
 
     if (to.matched.length > 0 && to.matched[0].path === "*") {
       next("/notfound.html");
