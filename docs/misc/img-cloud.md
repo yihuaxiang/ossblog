@@ -16,3 +16,5 @@
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/5000de8b59174089bbe452f4d8f85e4e.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 `vpn`的问题，关闭`vpn`，上传速度飞起。
+
+![tuchuang.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/6b6963fbfdc247e58d5dca81ba234dec.gif?x-oss-process=image/resize,w_800/quality,q_80)
