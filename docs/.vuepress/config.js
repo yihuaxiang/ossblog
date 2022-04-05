@@ -201,5 +201,6 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
     }
-  }
+  },
+  globalUIComponents: ['PvAccumulation']
 }
