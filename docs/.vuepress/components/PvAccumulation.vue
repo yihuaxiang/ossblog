@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import fetch from 'cross-fetch';
 export default {
   name: "PvAccumulation",
   data() {
