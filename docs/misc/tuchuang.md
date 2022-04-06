@@ -1,5 +1,6 @@
 ---
 tags: ["图床", "敖武的图床", "免费图床"]
+sidebar: false
 
 comment: false
 # comments: false
