@@ -17,11 +17,12 @@
       <div class="result">
         <input type="text" v-model="valueUrl" readonly />
         <button @click="handleCopy">
-          {{notice || '点此复制'}}
+          {{'点此复制'}}
         </button>
       </div>
     </template>
   </template>
+  <notifications position="top center"/>
 </div>
 </template>
 
@@ -33,7 +34,6 @@ export default {
     return {
       valueUrl: undefined,
       loading: false,
-      notice: undefined,
       percent: undefined,
     }
   },
@@ -61,20 +61,27 @@ export default {
         this.postFile(file);
       } else {
         console.info('not found file')
+        this.$notify({
+          type: 'warn',
+          text: '剪切板中未找到任何照片。'
+        })
       }
     },
     handleCopy() {
       navigator.clipboard.writeText(this.valueUrl).then(() => {
-        this.notice = '复制成功'
-        setTimeout(() => {
-          this.notice = undefined;
-        }, 1000)
+        this.$notify({
+          type: 'success',
+          text: '已复制。'
+        })
       });
     },
     uploadFile(el) {
       if (!el.target.files[0].size) return; // 如果文件大小为0，则返回
       if (el.target.files[0].type.indexOf('image') === -1) { //如果不是图片格式
-        console.log('请选择图片文件');
+        this.$notify({
+          type: 'error',
+          text: '请选择图片文件。'
+        })
       } else {
         this.postFile(el.target.files[0]);
       }
@@ -104,6 +111,10 @@ export default {
         console.info('url is ', url);
         this.valueUrl = url;
         this.loading = false;
+        this.$notify({
+          type: 'success',
+          text: '已上传成功。'
+        })
       })
     }
   }
