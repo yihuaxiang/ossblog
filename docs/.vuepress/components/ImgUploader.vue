@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import Notifications from 'vue-notification';
 const axios = require('axios').default;
 export default {
   name: "ImgUploader",
