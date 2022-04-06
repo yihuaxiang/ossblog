@@ -1,3 +1,4 @@
+import Notifications from 'vue-notification'
 // 使用异步函数也是可以的
 export default ({
                     Vue, // VuePress 正在使用的 Vue 构造函数
@@ -6,6 +7,9 @@ export default ({
                     siteData, // 站点元数据
                     isServer // 当前应用配置是处于 服务端渲染 或 客户端
                 }) => {
+
+  Vue.use(Notifications)
+
   /**
    * 路由切换事件处理
    */
