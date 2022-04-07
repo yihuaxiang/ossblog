@@ -28,6 +28,7 @@
 
 <script>
 const axios = require('axios').default;
+const lodash = require('lodash');
 export default {
   name: "ImgUploader",
   data() {
@@ -47,16 +48,10 @@ export default {
     handlePaste(event) {
       console.info('handlePaste')
       const items = (event.clipboardData || window.clipboardData).items;
-      let file = null;
-      if (items && items.length) {
-        // 搜索剪切板items
-        for (let i = 0; i < items.length; i++) {
-          if (items[i].type.indexOf('image') !== -1) {
-            file = items[i].getAsFile();
-            break;
-          }
-        }
-      }
+      const item = lodash.find(items, item => {
+        return item.type.indexOf('image') >= 0 || item.type.indexOf('video') >= 0;
+      })
+      const file = item?.getAsFile();
       if(file) {
         this.postFile(file);
       } else {
