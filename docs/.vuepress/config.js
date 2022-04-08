@@ -140,6 +140,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'my-first-post-in-stackoverflow',
         'koa-vs-egg',
         'growth',
         'mfe',
