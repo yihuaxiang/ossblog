@@ -16,7 +16,7 @@
 
 今天正好逛到`Stack Overflow`，献出我的一血：
 
-[What does "[0;31m" means?](https://stackoverflow.com/questions/71796687/what-does-031m-means)
+[What does "\[0;31m" means?](https://stackoverflow.com/questions/71796687/what-does-031m-means)
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220408/2ffdf2d3a8b74c85b8d45bc6409d4fe4.png?x-oss-process=image/resize,w_800/quality,q_80)
 
