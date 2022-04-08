@@ -81,6 +81,7 @@ print "\u001b[31mHelloWorld"
 9. 重置：`\u001b[0m`
 
 > 类似语法不仅仅在`shell`中支持，`java`、`JavaScript`、`Python`也都有一定的支持，`js`运行效果如下：
+> 
 > ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220408/868adfad725e4891a1ef4f1665e074d0.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
