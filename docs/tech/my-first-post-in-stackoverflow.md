@@ -3,7 +3,7 @@ tags: ["ANSI", "ANSI 转义序列", "ANSI escape code"]
 ---
 
 
-# `Stack Overflow`上的一血：`ANSI`转义序列
+# `ANSI`转义序列
 
 ### `[0;31m` 是什么
 
