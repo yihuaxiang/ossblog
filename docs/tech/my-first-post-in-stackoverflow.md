@@ -173,6 +173,8 @@ print "\u001b[44;1m A \u001b[45;1m B \u001b[46;1m C \u001b[47;1m D \u001b[0m";
 
 利用光标的上下左右移动，我们可以做一个加载进度效果，代码如下：
 
+###### 初级进度条
+
 ```shell
 #!/bin/bash
 
@@ -186,6 +188,29 @@ done
 运行效果如下：
 
 ![loading.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220408/46a17eb651684ba49d960f87a4dd7d11.gif?x-oss-process=image/resize,w_800/quality,q_80)
+
+###### 高级进度条
+
+```shell
+#!/bin/bash
+i=0
+str=""
+arry=("\\" "|" "/" "-")
+while [ $i -le 100 ]
+do
+    let index=i%4
+    printf "\u001b[1000D[%-100s] %d %c" "$str" "$i" "${arry[$index]}"
+    sleep 0.1
+    let i=i+1
+    str+="#"
+done
+echo ""
+```
+
+运行效果如下：
+
+![loading.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220408/1ceac5fd91294989b9cc7fdd09dffbf0.gif?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 通过不断将光标左移 1000 个字符从而实现后打印的字符覆盖前打印的字符。
 
