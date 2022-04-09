@@ -25,14 +25,21 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 `API`接口：
 
-接口地址：`https://playground.fudongdong.com/lbs/getIp`
+接口地址：
+```
+https://playground.fudongdong.com/lbs/getIp
+```
 
-接口参数：`ip`，参数举例：`153.37.191.6`
+接口参数：
 
-请求示例：`https://playground.fudongdong.com/lbs/getIp?ip=153.37.191.6`
+| 参数  | 类型  | 是否必填        | 备注       |
+|-----|-----|-------------|----------|
+| ip  | 字符串 | 否（默认去调用方IP） | 仅支持 IPv4 |
+
+请求示例：
 
 ```shell
-curl -s  https://playground.fudongdong.com/lbs/getIp\?ip\=153.37.191.6  | jq
+curl -s  "https://playground.fudongdong.com/lbs/getIp?ip=153.37.191.6"  | jq
 ```
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/9c59a855d7a542388c94ccb4c7d035f0.png?x-oss-process=image/resize,w_800/quality,q_80)
