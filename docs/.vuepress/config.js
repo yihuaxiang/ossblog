@@ -180,6 +180,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'ip-query',
         'img-cloud',
         'alfred',
         'centos-8-eof',
