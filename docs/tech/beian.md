@@ -17,6 +17,11 @@ tags: ["网站", "备案", "域名", "阿里云", "腾讯云"]
 
 > 阿里云教育优惠：8块钱2C4G一个月，但是只有学生才能享受该优惠
 
+> 2022-04-09 更：腾讯又搞活动，给免费升级`4C4G`，nice~
+> 
+> ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/1cb4d2402c514752a5a142d17b0453bb.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211118/1488e183525d43b29dea72e8c109d898.png?x-oss-process=image/resize,w_800/quality,q_80)
 
