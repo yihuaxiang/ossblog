@@ -129,6 +129,7 @@ module.exports = {
           {text: '聊天室', link: 'https://chat.weizeling.com/'},
           {text: '音乐', link: 'https://chat.weizeling.com/player'},
           {text: '图床', link: 'https://fudongdong.com/misc/tuchuang.html'},
+          {text: 'IP查询', link: 'https://playground.fudongdong.com/lbs/showIp'},
           {text: '百度', link: 'https://baidu.weizeling.com'}
         ]
       },
