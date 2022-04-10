@@ -16,7 +16,7 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 经常有获取`IP`地址的需求，之前用过网上随便找的一些`API`，不过不怎么稳定。。。
 
-干脆自己做一个，`API`+前端+小程序+`chrome`插件
+干脆自己做一个，`API`+前端+小程序+`chrome`插件+`alfred`插件
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/c42d3008d9ac405aad02c456cc2a7a88.png?x-oss-process=image/resize,w_800/quality,q_80)
 
