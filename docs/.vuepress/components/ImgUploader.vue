@@ -94,6 +94,7 @@ export default {
       };
       const formData = new FormData();  // 创建一个formdata对象
       formData.append('file', file);
+      formData.append('fileName', file.name);
       axios.request({
         method: 'post',
         url: 'https://playground.fudongdong.com/img/upload',
