@@ -180,6 +180,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'z-dot-wiki',
         'ip-query',
         'img-cloud',
         'alfred',
