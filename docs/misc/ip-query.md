@@ -3,6 +3,9 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 ---
 # IP 归属地查询
 
+[web 端传送门](https://playground.fudongdong.com/lbs/showIp)
+[alfred 插件](https://github.com/yihuaxiang/alfred-workflow-ipip)
+
 # 背景
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/b0ee56ce038a47889d283820bdda759f.png?x-oss-process=image/resize,w_800/quality,q_80)
@@ -22,6 +25,10 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 [https://playground.fudongdong.com/lbs/showIp](https://playground.fudongdong.com/lbs/showIp)
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/038dadb133ee4a1285876a634ee48b40.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+`alfred` 插件：
+
+[alfred-workflow-ipip](https://github.com/yihuaxiang/alfred-workflow-ipip)
 
 `API`接口：
 
