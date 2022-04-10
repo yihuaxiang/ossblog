@@ -181,6 +181,22 @@ export default {
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width: 395px) {
+  .record {
+    margin-right: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .record {
+    margin-right: 8px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .record {
+    margin-right: 4px;
+  }
+}
+
 .record .name {
   position: absolute;
   left: 0px;
