@@ -41,6 +41,7 @@
 <script>
 const axios = require('axios').default;
 const lodash = require('lodash');
+const { v4 } = require('uuid');
 export default {
   name: "ImgUploader",
   data() {
@@ -48,19 +49,27 @@ export default {
       valueUrl: undefined,
       loading: false,
       percent: undefined,
-      records: undefined
+      records: undefined,
+      uuid: undefined
     }
   },
   mounted() {
     document.addEventListener('paste', this.handlePaste);
+    this.createUserId();
     this.reloadHistory();
   },
   unmounted() {
     document.removeEventListener('paste', this.handlePaste);
   },
   methods: {
+    createUserId() {
+      if (!localStorage.getItem('fdd_uid')) {
+        localStorage.setItem('fdd_uid', v4().replaceAll('-', ''));
+      }
+      this.uuid = localStorage.getItem('fdd_uid');
+    },
     reloadHistory() {
-      fetch('https://playground.fudongdong.com/img/history').then(res => res.json()).then(records => {
+      fetch(`https://playground.fudongdong.com/img/history?uid=${this.uuid}`).then(res => res.json()).then(records => {
         this.records = records;
       })
     },
@@ -122,6 +131,7 @@ export default {
       const formData = new FormData();  // 创建一个formdata对象
       formData.append('file', file);
       formData.append('fileName', file.name);
+      formData.append('uid', this.uuid);
       axios.request({
         method: 'post',
         url: 'https://playground.fudongdong.com/img/upload',
