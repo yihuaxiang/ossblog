@@ -23,6 +23,18 @@
     </template>
   </template>
   <notifications position="top center"/>
+
+  <div class="history">
+    <p class="title">上传历史：</p>
+    <div class="records">
+      <template v-for="record in records">
+        <div class="record" :key="record.id" @click="handleClick(record)">
+          <img class="icon" :src="record.url" width="100" height="100" />
+          <span class="name">{{record.fileName}}</span>
+        </div>
+      </template>
+    </div>
+  </div>
 </div>
 </template>
 
@@ -36,15 +48,30 @@ export default {
       valueUrl: undefined,
       loading: false,
       percent: undefined,
+      records: undefined
     }
   },
   mounted() {
     document.addEventListener('paste', this.handlePaste);
+    this.reloadHistory();
   },
   unmounted() {
     document.removeEventListener('paste', this.handlePaste);
   },
   methods: {
+    reloadHistory() {
+      fetch('https://playground.fudongdong.com/img/history').then(res => res.json()).then(records => {
+        this.records = records;
+      })
+    },
+    handleClick(record) {
+      navigator.clipboard.writeText(record.url).then(() => {
+        this.$notify({
+          type: 'success',
+          text: '已复制。'
+        })
+      });
+    },
     handlePaste(event) {
       console.info('handlePaste')
       const items = (event.clipboardData || window.clipboardData).items;
@@ -111,6 +138,7 @@ export default {
           type: 'success',
           text: '已上传成功。'
         })
+        this.reloadHistory();
       })
     }
   }
@@ -123,6 +151,31 @@ export default {
 }
 .img-uploader.loading{
 
+}
+
+.records {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.record {
+  margin-right:4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.record .name {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 3px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #cccc;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 8px;
+  text-overflow: ellipsis;
 }
 </style>
 <style>
