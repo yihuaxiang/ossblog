@@ -166,19 +166,26 @@ export default {
 .records {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-content: stretch;
+  align-items: baseline;
 
 }
 .record {
-  margin-right:4px;
+  margin-right: 21px;
+  margin-bottom: 15px;
   position: relative;
   cursor: pointer;
+  box-shadow: 0px 0px 1px #ccc;
+  transition: all 0.5s ease;
 }
 
 .record .name {
   position: absolute;
   left: 0px;
   right: 0px;
-  bottom: 3px;
+  bottom: 0px;
   height: 20px;
   line-height: 20px;
   background-color: #cccc;
@@ -186,6 +193,9 @@ export default {
   overflow: hidden;
   padding-left: 8px;
   text-overflow: ellipsis;
+}
+.record:hover {
+  box-shadow: 0px 0px 7px #999;
 }
 </style>
 <style>
