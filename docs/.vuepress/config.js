@@ -112,9 +112,6 @@ module.exports = {
     ],
     ['@vuepress/last-updated', {
       transformer: (timestamp, lang) => {
-        //return (new Date(timestamp)).toUTCString() 或者用下面这段
-        // 不要忘了安装 moment
-        const dayjs = require('dayjs')
         dayjs.locale(lang)
         return dayjs(timestamp).toString()
       }
