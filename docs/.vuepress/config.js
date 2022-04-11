@@ -112,8 +112,9 @@ module.exports = {
   ],
   themeConfig: {
     algolia: {
-      apiKey: '516d85c6ac6e3ef7fefc81c32aae05a1',
-      indexName: 'prod_fudongdong.com'
+      apiKey: 'c9b9a211649b61b5e9255d1a2b44bd96',
+      indexName: 'prod_fudongdong.com',
+      appId: 'J0G77AUEHJ',
     },
     lastUpdated: '最后更新', // string | boolean
     // sidebar: 'auto',
