@@ -46,6 +46,12 @@ module.exports = {
   description: '敖武的博客',
   lang: 'zh-CN',
   plugins: [
+    [
+      'sitemap',
+      {
+        hostname: 'https://fudongdong.com'
+      }
+    ],
     // 评论插件
     [
       "vuepress-plugin-comment",
