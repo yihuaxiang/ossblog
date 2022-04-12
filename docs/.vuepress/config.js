@@ -90,7 +90,7 @@ module.exports = {
       'vuepress-plugin-medium-zoom',
       {
         delay: 1000,
-        selector: 'body :not(a) > img:not(.icon)',
+        selector: 'body :not(a) > img:not(.icon):not(.medium-zoom-image)',
         options: {},
       },
     ],
