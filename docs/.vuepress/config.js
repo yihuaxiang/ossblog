@@ -153,6 +153,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'snippets',
         'my-first-post-in-stackoverflow',
         'koa-vs-egg',
         'growth',
