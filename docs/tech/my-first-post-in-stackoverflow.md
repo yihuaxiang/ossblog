@@ -132,7 +132,7 @@ print "\u001b[34m E \u001b[35m F \u001b[36m G \u001b[37m H \u001b[0m"
 8. 背景亮白色：`\u001b[47;1m`
 
 
-测试例子如下：
+测试例子一如下：
 ```shell
 print "\u001b[40m A \u001b[41m B \u001b[42m C \u001b[43m D \u001b[0m";
 print "\u001b[44m A \u001b[45m B \u001b[46m C \u001b[47m D \u001b[0m";
@@ -140,6 +140,73 @@ print "\u001b[40;1m A \u001b[41;1m B \u001b[42;1m C \u001b[43;1m D \u001b[0m";
 print "\u001b[44;1m A \u001b[45;1m B \u001b[46;1m C \u001b[47;1m D \u001b[0m";
 ```
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220408/a66e9aeac6794c28832e2dfac60be5a4.png?x-oss-process=image/resize,w_800/quality,q_80)
+
+测试例子二如下：
+```shell
+function showcolors256() {
+    local row col blockrow blockcol red green blue
+    local showcolor=_showcolor256_${1:-bg}
+    local white="\033[1;37m"
+    local reset="\033[0m"
+
+    echo 16 standard color codes:
+    for row in {0..1}; do
+        for col in {0..7}; do
+            $showcolor $(( row*8 + col )) $row
+        done
+        echo
+    done
+    echo
+
+    echo 6·6·6 RGB color codes:
+    for blockrow in {0..2}; do
+        for red in {0..5}; do
+            for blockcol in {0..1}; do
+                green=$(( blockrow*2 + blockcol ))
+                for blue in {0..5}; do
+                    $showcolor $(( red*36 + green*6 + blue + 16 )) $green
+                done
+                echo -n "  "
+            done
+            echo
+        done
+        echo
+    done
+
+    echo 24 grayscale color codes:
+    for row in {0..1}; do
+        for col in {0..11}; do
+            $showcolor $(( row*12 + col + 232 )) $row
+        done
+        echo
+    done
+    echo
+}
+
+function _showcolor256_fg() {
+    local code=$( printf %03d $1 )
+    echo -ne "\033[38;5;${code}m"
+    echo -nE " $code "
+    echo -ne "\033[0m"
+}
+
+function _showcolor256_bg() {
+    if (( $2 % 2 == 0 )); then
+        echo -ne "\033[1;37m"
+    else
+        echo -ne "\033[0;30m"
+    fi
+    local code=$( printf %03d $1 )
+    echo -ne "\033[48;5;${code}m"
+    echo -nE " $code "
+    echo -ne "\033[0m"
+}
+
+showcolors256
+```
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220413/919d8511629e4d2d999704b1d34b0ee7.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 
 
 其他修饰效果
