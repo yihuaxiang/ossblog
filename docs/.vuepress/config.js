@@ -149,6 +149,7 @@ module.exports = {
       {text: '工作', link: '/work/'},
       {text: '琐碎', link: '/misc/'},
       {text: '游乐场', link: 'https://playground.fudongdong.com'},
+      {text: 'snippets', link: 'https://snippets.fudongdong.com'},
       {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
     sidebar: {
