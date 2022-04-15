@@ -12,6 +12,12 @@ module.exports = {
       {
         src: "https://v1.cnzz.com/z_stat.php?id=1280548058&web_id=1280548058"
       }
+    ],[
+      'link',
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+      }
     ],
     [
       'meta',
@@ -118,11 +124,11 @@ module.exports = {
     }]
   ],
   themeConfig: {
-//     algolia: {
-//       apiKey: 'c9b9a211649b61b5e9255d1a2b44bd96',
-//       indexName: 'prod_fudongdong.com',
-//       appId: 'J0G77AUEHJ',
-//     },
+    algolia: {
+      apiKey: 'c9c735fa648b371048492cc6e47695d9',
+      indexName: 'fudongdong',
+      appId: 'LYSTANXHG8',
+    },
     lastUpdated: '最后更新', // string | boolean
     // sidebar: 'auto',
     displayAllHeaders: true,
