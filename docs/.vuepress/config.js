@@ -16,7 +16,7 @@ module.exports = {
       'link',
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+        href: "https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/css/css@3.css"
       }
     ],
     [
