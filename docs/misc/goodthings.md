@@ -67,6 +67,11 @@ Mac 包管理工具
 
 `SwitchKey` 是一款可以根据当前 `macOS` `app` 窗口自动切换指定的输入法，让你无需再关注“输入法切换”这些琐碎的操作。特别是在代码编辑器、命令行和微信等程序之间切换的时候，非常方便。
 
+安装方式：
+```shell
+brew install switchkey
+```
+
 ### iShot 截图
 
 介绍文章： [https://fudongdong.com/misc/ishot.html](https://fudongdong.com/misc/ishot.html)
