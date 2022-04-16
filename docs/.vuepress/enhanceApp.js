@@ -28,7 +28,12 @@ export default ({
     }
 
     if (to.matched.length > 0 && to.matched[0].path === "*") {
-      next("/notfound.html");
+      if (to.path && to.path.startsWith('/snippets')) {
+        // 代码片段模块，有服务端路由控制
+        window.location.assign(to.path);
+      } else {
+        next("/notfound.html");
+      }
     } else {
       next();
     }
