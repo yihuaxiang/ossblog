@@ -27,7 +27,21 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 
 `zsh`提供诸如补全、色彩高亮、跳转、历史记录、智能提示等诸多特性
 
+#### 安装 `zsh`
+```shell
+brew install zsh
+```
+
+#### 切换默认 `shell`
+```shell
+chsh -s /bin/zsh
+```
+
 `Oh My Zsh`则是`zsh`配置管理工具
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 ### neovim
 

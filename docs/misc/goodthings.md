@@ -43,6 +43,12 @@
 ### brew
 Mac 包管理工具
 
+#### 安装 `brew`
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 ### Popclip
 鼠标拓展小工具，当选中文本后会自动弹出操作框，支持复制、粘贴、大小写转换、单词计数、搜词等诸多功能。
 
@@ -62,6 +68,12 @@ Mac 包管理工具
 ### omyzsh
 
 `omyzsh`以及常用插件（ [下载链接](https://juejin.im/entry/5ae00e54f265da0b8635ea5c) ）
+
+#### 安装`omyzsh`
+
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 ### SwitchKey
 
