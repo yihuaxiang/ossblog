@@ -83,7 +83,7 @@ mysql客户端，支持语法高亮和命令补全，效果类似ipython，可�
 
 ### tldr
 
-`tdlr` 是 `Too long, Don't read` 的缩写，
+`tdlr` 是 `Too long, Don't read` 的缩写（太长不读、太长不看），
 可以帮助你快速查看常用命令的使用实例，比如 `tar` 命令，那后面一长串参数谁记得清呢？当然，`linux` 大佬除外。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/6b8f1df8617c4b0b8105c3962fe86819.png?x-oss-process=image/resize,w_800/quality,q_80)
