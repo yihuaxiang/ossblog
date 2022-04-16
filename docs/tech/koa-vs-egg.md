@@ -37,7 +37,7 @@ Koa 是一个非常优秀的框架，但同时它也还是一个较为基础的�
 1. 约定优先配置，`Egg`默认将常用的配置都已集成，并提供约定好的使用规范。
 2. egg.js 底层基于 koa2，中间件机制和 koa 一致，实现通过 config 文件配置
 3. 插件:`Egg` 提供了一个更加强大的插件机制，让这些独立领域的功能模块可以更加容易编写
-4. 扩展:在基于 `Egg` 的框架或者应用中，我们可以通过定义 `app/extend/{application,context,request,response}.js` 来扩展 Koa 中对应的四个对象的原型，通过这个功能，我们可以快速的增加更多的辅助方法。
+4. 扩展:在基于 `Egg` 的框架或者应用中，我们可以通过定义 `app/extend/{application}.js`,`app/extend/{context}.js`,`app/extend/{request}.js`,`app/extend/{response}.js` 来扩展 Koa 中对应的四个对象的原型，通过这个功能，我们可以快速的增加更多的辅助方法。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220327/eba932cbdfcf4017995ec40742d8fff8.png?x-oss-process=image/resize,w_800/quality,q_80)
 
