@@ -5,9 +5,11 @@
 ![敖武的头像](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220219/90ab3b4f368649328aed035b87c56088.jpg?x-oss-process=image/resize,w_800/quality,q_80)
 
 
-[![敖武的微博](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg)](https://weibo.com/u/2558497932)
-[![敖武的github](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg)](https://github.com/yihuaxiang)
-[![fudongdong.com 的服务状态](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg)](https://stats.uptimerobot.com/jM7p3TY1ng)
+<div class="links" style="display: flex;">
+<a target="_blank" href="https://weibo.com/u/2558497932" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg" title="敖武的微博" /></a>
+<a target="_blank" href="https://github.com/yihuaxiang" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg" title="敖武的github" /></a>
+<a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="fudongdong.com 的服务状态" /></a>
+</div>
 
 
 <LastPost :random='true' prefix="" :number="5"/>
