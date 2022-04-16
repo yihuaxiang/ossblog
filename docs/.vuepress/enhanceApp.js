@@ -1,4 +1,5 @@
 import Notifications from 'vue-notification/dist/ssr.js';
+const lodash = require('lodash');
 // 使用异步函数也是可以的
 export default ({
                     Vue, // VuePress 正在使用的 Vue 构造函数
