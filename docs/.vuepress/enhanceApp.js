@@ -28,7 +28,7 @@ export default ({
     }
 
     if (to.matched.length > 0 && to.matched[0].path === "*") {
-      if (to.path && to.path.startsWith('/snippets')) {
+      if (to.path && (to.path.startsWith('/snippets') || to.path.startsWith('/playground'))) {
         // 代码片段模块，有服务端路由控制
         window.location.assign(to.path);
       } else {
