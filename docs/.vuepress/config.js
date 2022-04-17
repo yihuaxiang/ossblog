@@ -176,6 +176,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'dayidu',
         'girl-in-spring-of-2022',
         'the-tomb-sweeping-day',
         'playground',
