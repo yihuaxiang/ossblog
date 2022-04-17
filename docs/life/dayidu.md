@@ -28,6 +28,20 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/e35c47501e3d42d0aee33833f6e0215a.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/2935566c861a4d09a10cf1e513784352.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/81c3513665754a2cb715f24cfc2b7fed.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/4fca6ac834454c42ac0bbb791610c3b4.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/1c7db4fe2bc7410ca721238552f39bd8.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/f7acb79841e5494fbe26d829acc5cddd.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/95b0900a1308447aa22a648b3af1859a.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/d6b0c1b7f25e473fa327a6bff1f75381.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
 ### 遗址
 
 循着路标，前往"元大都城石碑"
@@ -65,3 +79,5 @@
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/ab8a9481055d41218c724745bf578169.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
 
 "土城"最初为元大都的北城墙，朱元璋攻克元大都后，北城墙逐步废弃但并未拆除，至今已变为一座座土山、土墙，既：土城。
+
+<TheEnd />
