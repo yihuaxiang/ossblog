@@ -145,6 +145,13 @@ Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png?x-oss-process=image/resize,w_800/quality,q_80)
 
+典型应用场景一：
+由于安全原因，前端发布后，对应的`sourcemap`文件不会发布到公网上，需要`debug`的时候可以通过`lightproxy`做下映射。
+
+```
+https://xxx.cnd.com/web.js.map file:///Users/xxx/xxx/web.js.map
+```
+
 
 ### mockoon
 
