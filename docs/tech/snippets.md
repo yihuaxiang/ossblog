@@ -1,7 +1,8 @@
 # snippets
 
-建设中...
+新开发的"代码片段"功能，收集常用的小脚本、小片段，
+目前包括`htaccess`、`JavaScript`、`shell`、`css`、`Nginx`、`html`等语言或服务的部分小片段。
 
-[snippets](https://snippets.fudongdong.com/)
+[点此围观 snippets](https://snippets.fudongdong.com/)
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/2022-04-14/74e17610882b40a5beeba6480cbd58e7.image.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220420/97c1d6d262d14e46b8b6a36f33e01c8e.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
