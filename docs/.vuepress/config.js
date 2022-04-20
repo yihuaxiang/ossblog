@@ -203,6 +203,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'robots.txt',
         'z-dot-wiki',
         'ip-query',
         'img-cloud',
