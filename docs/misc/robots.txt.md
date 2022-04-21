@@ -1,10 +1,12 @@
-# robots.txt 是什么
+# robots.txt
+
+### robots.txt 是什么
 
 `robots.txt` 是位于网站根目录下的纯文本文件，用于告知网络爬虫"改网站中哪些可以被爬取，哪些不可以被爬取"。
 
 `robots.txt` 只是约定俗成的协议，`Google`、百度、`bing`等爬虫都会遵守该规范，但并非所有搜索引擎都支持，故通过`robots.txt`无法 100% 地保证爬取效果（屏蔽效果）。
 
-# robots.txt 怎么用
+### robots.txt 怎么用
 
 允许所有的爬虫：
 
@@ -59,9 +61,9 @@ Disallow: /*.css$
 ```
 
 
-# 非标准扩展协议
+### 非标准扩展协议
 
-## Sitemap
+#### Sitemap
 
 目前主流搜索引擎均支持`Sitemap`，`sitemap`用于告诉浏览器网站都包含哪些`URL`，
 
@@ -95,7 +97,7 @@ Sitemap: <path-to-sitemap.xml>
 </urlset>
 ```
 
-## Crawl-delay 指令
+#### Crawl-delay 指令
 
 `Crawl-delay`参数设置爬虫的爬取时间间隔，避免对服务器的性能造成影响
 
@@ -105,7 +107,7 @@ Crawl-delay: 10
 # 每次爬取等待10秒后继续爬取其他链接
 ```
 
-# 其他替代品
+### 其他替代品
 
 `robots.txt`是最为广泛使用的方法，
 此外也可以通过`robots Meta`标签针对特定页面做设置。
