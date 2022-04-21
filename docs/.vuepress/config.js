@@ -55,7 +55,7 @@ module.exports = {
     [
       'sitemap',
       {
-        hostname: 'https://fudongdong.com'
+        hostname: 'https://z.wiki'
       }
     ],
     // 评论插件
@@ -89,7 +89,7 @@ module.exports = {
         disabled: false,
         noCopy: false, // 选中的文字将无法被复制
         minLength: 20, // 如果长度超过 100 个字符
-        authorName: 'https://fudongdong.com'
+        authorName: 'https://z.wiki'
       },
     ],
     [
@@ -143,19 +143,19 @@ module.exports = {
         text: '工具',
         ariaLabel: '工具',
         items: [
-          {text: '正则', link: 'https://fudongdong.com/tools/reg/'},
+          {text: '正则', link: 'https://z.wiki/tools/reg/'},
           {text: '聊天室', link: 'https://chat.weizeling.com/'},
           {text: '音乐', link: 'https://chat.weizeling.com/player'},
-          {text: '图床', link: 'https://fudongdong.com/misc/tuchuang.html'},
-          {text: 'IP查询', link: 'https://playground.fudongdong.com/lbs/showIp'},
+          {text: '图床', link: 'https://z.wiki/misc/tuchuang.html'},
+          {text: 'IP查询', link: 'https://playground.z.wiki/lbs/showIp'},
           {text: '百度', link: 'https://baidu.weizeling.com'}
         ]
       },
       {text: '生活', link: '/life/'},
       {text: '工作', link: '/work/'},
       {text: '琐碎', link: '/misc/'},
-      {text: '游乐场', link: 'https://playground.fudongdong.com'},
-      {text: 'snippets', link: 'https://snippets.fudongdong.com'},
+      {text: '游乐场', link: 'https://playground.z.wiki'},
+      {text: 'snippets', link: 'https://snippets.z.wiki'},
       {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
     sidebar: {

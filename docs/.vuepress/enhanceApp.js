@@ -23,7 +23,7 @@ export default ({
       }
     }
     if (typeof fetch != 'undefined') {
-      new Image(0, 0).src = `https://playground.fudongdong.com/blog/pv?url=${encodeURIComponent(to.fullPath)}`;
+      new Image(0, 0).src = `https://playground.z.wiki/blog/pv?url=${encodeURIComponent(to.fullPath)}`;
     } else {
       console.error('fetch is not defined')
     }
