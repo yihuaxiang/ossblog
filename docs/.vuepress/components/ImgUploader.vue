@@ -69,7 +69,7 @@ export default {
       this.uuid = localStorage.getItem('fdd_uid');
     },
     reloadHistory() {
-      fetch(`https://playground.fudongdong.com/img/history?uid=${this.uuid}`).then(res => res.json()).then(records => {
+      fetch(`https://playground.z.wiki/img/history?uid=${this.uuid}`).then(res => res.json()).then(records => {
         this.records = records;
       })
     },
@@ -134,7 +134,7 @@ export default {
       formData.append('uid', this.uuid);
       axios.request({
         method: 'post',
-        url: 'https://playground.fudongdong.com/img/upload',
+        url: 'https://playground.z.wiki/img/upload',
         data: formData,
         onUploadProgress: (p) => {
           this.percent = Math.floor(p.loaded / p.total * 100)
