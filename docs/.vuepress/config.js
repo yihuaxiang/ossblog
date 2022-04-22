@@ -150,6 +150,7 @@ module.exports = {
           {text: 'IP查询', link: 'https://playground.z.wiki/lbs/showIp'},
           {text: '百度', link: 'https://baidu.z.wiki'},
           {text: 'LOGO制作', link: 'https://logoly.pro/#/'},
+          {text: '表情制作', link: 'https://sorry.xuty.tk/wangjingze/'},
         ]
       },
       {text: '生活', link: '/life/'},
