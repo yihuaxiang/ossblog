@@ -144,8 +144,8 @@ module.exports = {
         ariaLabel: '工具',
         items: [
           {text: '正则', link: 'https://z.wiki/tools/reg/'},
-          {text: '聊天室', link: 'https://chat.weizeling.com/'},
-          {text: '音乐', link: 'https://chat.weizeling.com/player'},
+          {text: '聊天室', link: 'https://chat.z.wiki/'},
+          {text: '音乐', link: 'https://chat.z.wiki/player'},
           {text: '图床', link: 'https://z.wiki/misc/tuchuang.html'},
           {text: 'IP查询', link: 'https://playground.z.wiki/lbs/showIp'},
           {text: '百度', link: 'https://baidu.z.wiki'},
