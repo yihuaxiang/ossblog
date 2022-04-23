@@ -165,3 +165,7 @@ https://xxx.cnd.com/web.js.map file:///Users/xxx/xxx/web.js.map
 `Go2Shell`是`Finder`的一个扩展软件，正如其名字描述的那样，`Go2Shell`支持在`Finder`中一键使用终端打开当前目录。终端爱好者必备良器。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/2022-04-23/287920b1229e42af8043f32bd3f17212.image.png)
+
+### TotalFinder
+
+// todo
