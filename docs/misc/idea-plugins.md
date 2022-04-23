@@ -51,7 +51,8 @@
 
 而且跟厉害的是，向前、向后跳转都支持。
 
-![image](https://user-images.githubusercontent.com/7598734/164883375-7081a264-d8ca-4f93-8413-6b5a803ea513.png)
+![asdfa1234](https://user-images.githubusercontent.com/7598734/164883428-8dd6bb77-b29e-4749-8a1a-232f04c04426.gif)
+
 
 
 
