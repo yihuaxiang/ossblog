@@ -45,3 +45,15 @@
 
 ![tool](https://user-images.githubusercontent.com/7598734/164874423-e2fb9ddd-118d-420d-a155-266a8de1fb34.gif)
 
+### Jump to Line
+
+`Jump to Line` 插件支持在调试代码时直接执行指定行的代码，和内置的调试功能不同的是，该插件跳到指定行时会忽略起止的代码直接执行目标行代码。
+
+而且跟厉害的是，向前、向后跳转都支持。
+
+![image](https://user-images.githubusercontent.com/7598734/164883375-7081a264-d8ca-4f93-8413-6b5a803ea513.png)
+
+
+
+
+
