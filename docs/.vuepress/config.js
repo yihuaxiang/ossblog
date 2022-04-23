@@ -205,6 +205,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'idea-plugins',
         'robots.txt',
         'z-dot-wiki',
         'ip-query',
