@@ -6,6 +6,8 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/09f93ac8b7284d01872c7c948b3ec7dc.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
 
+通过`.ideavimrc`可以进行更高阶的配置，可参考[yihuaxiang/dotideavimrc](https://github.com/yihuaxiang/dotideavimrc)
+
 ### Markdown Image Support
 
 经常使用`Markdown`写文档，通过该插件可以一键上传照片，适用于`Jetbrains`全系列软件，支持多种存储、自定义命名、支持压缩等等。
