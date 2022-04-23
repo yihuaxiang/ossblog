@@ -168,4 +168,6 @@ https://xxx.cnd.com/web.js.map file:///Users/xxx/xxx/web.js.map
 
 ### TotalFinder
 
-// todo
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/a120002c11e6428a91a0cefa77b78f3a.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+`TotalFinder` 是`Mac`上一款好用的`Finder`增强工具，`TotalFinder` 提供了多标签式浏览、拷贝路径、剪切文件、显示隐藏文件、多栏窗口模式、彩色标签等功能。
