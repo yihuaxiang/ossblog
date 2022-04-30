@@ -95,3 +95,8 @@ location /profile {
 add_header Surrogate-Control "public, max-age=86400";
 add_header Cache-Control "public, max-age=120";
 ```
+
+### 参考文档
+
+1. [http 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
+2. [nginx 添加 header](https://snippets.z.wiki/#!./snippets/nginx/nginx-header/)
