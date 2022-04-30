@@ -21,7 +21,7 @@
         </button>
       </div>
       <div class="result">
-        <input type="text" v-model="base64Value" readonly />
+        <input type="text" :value="base64Value && base64Value.substring(0, 100) + '...'" readonly />
         <button @click="handleCopyBase64">
           {{'复制base64'}}
         </button>
