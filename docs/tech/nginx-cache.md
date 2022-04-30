@@ -87,7 +87,7 @@ location /profile {
 ### Surrogate-Control
 
 上文提到的缓存配置将同时对浏览器、`CDN`生效，如果需要对`CDN`单独进行配置，则可通过`Surrogate-Control`头信息配置，
-大多数`CDN`均支持改头信息。
+大多数`CDN`均支持该头信息。
 
 配置如下：
 
