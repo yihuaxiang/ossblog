@@ -17,7 +17,13 @@
       <div class="result">
         <input type="text" v-model="valueUrl" readonly />
         <button @click="handleCopy">
-          {{'点此复制'}}
+          {{'复制网址'}}
+        </button>
+      </div>
+      <div class="result">
+        <input type="text" v-model="base64Value" readonly />
+        <button @click="handleCopyBase64">
+          {{'复制base64'}}
         </button>
       </div>
     </template>
@@ -47,6 +53,7 @@ export default {
   data() {
     return {
       valueUrl: undefined,
+      base64Value: undefined,
       loading: false,
       percent: undefined,
       records: undefined,
@@ -98,6 +105,14 @@ export default {
         })
       }
     },
+    handleCopyBase64() {
+      navigator.clipboard.writeText(this.base64Value).then(() => {
+        this.$notify({
+          type: 'success',
+          text: '已复制。'
+        })
+      });
+    },
     handleCopy() {
       navigator.clipboard.writeText(this.valueUrl).then(() => {
         this.$notify({
@@ -123,6 +138,7 @@ export default {
       reader.readAsDataURL(file); // 发起异步请求，读取文件
       this.loading = true;
       this.valueUrl = undefined;
+      this.base64Value = undefined;
       this.percent = 0;
       reader.onload = function () {  // 文件读取完成后
         // 读取完成后，将结果赋值给img的src
@@ -140,9 +156,11 @@ export default {
           this.percent = Math.floor(p.loaded / p.total * 100)
         }
       }).then(res => {
-        const url = res.data;
+        const record = res.data;
+        const url = record.url;
         console.info('url is ', url);
         this.valueUrl = url;
+        this.base64Value = record.base64;
         this.loading = false;
         this.$notify({
           type: 'success',
