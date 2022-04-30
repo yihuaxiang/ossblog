@@ -162,6 +162,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'nginx-cache',
         'snippets',
         'my-first-post-in-stackoverflow',
         'koa-vs-egg',
