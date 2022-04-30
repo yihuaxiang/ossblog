@@ -166,8 +166,6 @@ export default {
 .records {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  flex-direction: row-reverse;
   align-content: stretch;
   align-items: baseline;
 
