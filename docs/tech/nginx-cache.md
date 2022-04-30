@@ -45,7 +45,7 @@ add_header Cache-Control "public, max-age=120"; # 设置 120 秒的缓存
 
 1. -1 或`off`: 关闭缓存
 2. `epoch`: 设置过期时间为`1 January,1970,00:00:01 GMT`
-3. `max`: `the Unix Epoch`，2037 年 12 月 31 日 （[2038你那问题](https://baike.baidu.com/item/2038%E5%B9%B4%E9%97%AE%E9%A2%98/10578442)）
+3. `max`: `the Unix Epoch`，2037 年 12 月 31 日 （[2038年问题](https://baike.baidu.com/item/2038%E5%B9%B4%E9%97%AE%E9%A2%98/10578442)）
 4. `30s`: `30`秒
 5. `1m`: `1`分钟
 6. `24h`: `24`消失
