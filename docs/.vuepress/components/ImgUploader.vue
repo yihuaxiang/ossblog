@@ -34,9 +34,13 @@
     <p class="title">上传历史：</p>
     <div class="records">
       <template v-for="record in records">
-        <div class="record" :key="record.id" @click="handleClick(record)">
+        <div class="record" :key="record.id">
           <img class="icon" :src="record.url" width="100" height="100" />
           <span class="name">{{record.fileName}}</span>
+          <div class="buttons">
+            <button class="button" @click="handleCopy(record)">复制连接</button>
+            <button class="button" @click="handleCopyBase64(record)">复制base64</button>
+          </div>
         </div>
       </template>
     </div>
@@ -105,16 +109,16 @@ export default {
         })
       }
     },
-    handleCopyBase64() {
-      navigator.clipboard.writeText(this.base64Value).then(() => {
+    handleCopyBase64(record) {
+      navigator.clipboard.writeText(record && record.base64 || this.base64Value).then(() => {
         this.$notify({
           type: 'success',
           text: '已复制。'
         })
       });
     },
-    handleCopy() {
-      navigator.clipboard.writeText(this.valueUrl).then(() => {
+    handleCopy(record) {
+      navigator.clipboard.writeText(record && record.url || this.valueUrl).then(() => {
         this.$notify({
           type: 'success',
           text: '已复制。'
@@ -192,7 +196,6 @@ export default {
   margin-right: 21px;
   margin-bottom: 15px;
   position: relative;
-  cursor: pointer;
   box-shadow: 0px 0px 1px #ccc;
   transition: all 0.5s ease;
 }
@@ -228,6 +231,28 @@ export default {
 }
 .record:hover {
   box-shadow: 0px 0px 7px #999;
+}
+.record .buttons {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 12px;
+  text-align: center;
+}
+.record:hover .buttons {
+  display: block;
+}
+.record .buttons button {
+  font-size: 12px;
+  zoom: 0.8;
+  white-space: nowrap;
+  text-align: center;
+}
+.record .buttons button:not(:last-child) {
+  margin-bottom: 2px;
+  cursor: pointer;
 }
 </style>
 <style>
