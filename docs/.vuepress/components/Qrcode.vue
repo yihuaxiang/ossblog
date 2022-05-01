@@ -10,7 +10,7 @@
                 name="" id="" cols="30" rows="10"></textarea>
     </div>
     <div class="qrcode-img">
-      <canvas width="280" height="280" v-show="!isEmpty" id="qrcode-canvas" />
+      <canvas width="260" height="260" v-show="!isEmpty" id="qrcode-canvas" />
       <div v-show="isEmpty" class="placeholder">
         二维码在此显示
       </div>
@@ -44,8 +44,8 @@ export default {
       const qrcodeCanvas = document.querySelector('#qrcode-canvas');
       if(this.rawText) {
         QRCode.toCanvas(qrcodeCanvas, this.rawText, {
-          width: 280,
-          height: 280,
+          width: 260,
+          height: 260,
           color: {
             light: '#fafafa'
           }
@@ -87,11 +87,11 @@ export default {
   box-shadow: rgb(0 0 0 / 8%) 0px 1px 4px;
 }
 .ctn .qrcode-img {
-  width: 280px;
-  height: 280px;
+  width: 260px;
+  height: 260px;
 }
 .ctn .qrcode-img .placeholder {
-  line-height: 280px;
+  line-height: 260px;
   text-align: center;
   color: #ccc;
   background: #fafafa;
