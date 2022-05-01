@@ -18,7 +18,7 @@ Allow:/
 ```
 
 
-仅允许特定的爬虫：（name_spider用真实名字代替）
+仅允许特定的爬虫：（`name_spider`用真实名字代替，具体爬虫名字可在附录连接中查看）
 
 ```
 User-agent: name_spider
@@ -187,6 +187,11 @@ Disallow: /
 果不其然
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/edc227c484af4a559018ff9a3f1970c1.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+### 附录
+
+1. 爬虫列表 [https://www.robotstxt.org/db.html](https://www.robotstxt.org/db.html)
+
 
 <TheEnd />
 
