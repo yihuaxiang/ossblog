@@ -22,7 +22,7 @@ Allow:/
 
 ```
 User-agent: name_spider
-Allow:
+Allow: /
 ```
 
 
