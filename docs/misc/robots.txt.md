@@ -2,6 +2,8 @@
 
 ### robots.txt 是什么
 
+`robots.txt` 规范官网： [https://www.robotstxt.org/](https://www.robotstxt.org)
+
 `robots.txt` 是位于网站根目录下的纯文本文件，用于告知网络爬虫"改网站中哪些可以被爬取，哪些不可以被爬取"。
 
 `robots.txt` 只是约定俗成的协议，`Google`、百度、`bing`等爬虫都会遵守该规范，但并非所有搜索引擎都支持，故通过`robots.txt`无法 100% 地保证爬取效果（屏蔽效果）。
@@ -60,6 +62,12 @@ Disallow: /*.inc$
 Disallow: /*.css$
 ```
 
+允许所有爬虫进行访问
+
+```text
+User-agent: *
+Disallow:
+```
 
 ### 非标准扩展协议
 
@@ -117,3 +125,68 @@ Crawl-delay: 10
 	<meta name="robots" content="noindex,nofollow" />
 </head>
 ```
+
+### 案例分析
+
+#### 腾讯
+
+腾讯官网为`https://www.tencent.com`，对应的 `robots.txt`链接为`https://www.tencent.com/robots.txt` ，内容如下：
+
+```text
+User-agent: *
+Disallow:
+```
+
+从以上配置中可看出，腾讯官网对任意爬虫未设置禁止爬取的规则，既：整个腾讯官网允许任意爬虫进行爬取，那如何验证爬虫爬取了腾讯官网了？
+这里就用到了搜索小技巧`site`指令了。
+
+通过百度搜索以下关键字`腾讯 site:www.tencent.com`，如下图，我们能搜到腾讯官网上很多内容。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/2be3526a6ff6448ebdc28a776514ddee.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+#### 淘宝
+
+> 2008年9月8日，淘宝网正式向百度宣战：淘宝网将屏蔽百度的搜索引擎抓取。
+> 
+> from [https://www.guayunfan.com/baike/305946.html](https://www.guayunfan.com/baike/305946.html)
+
+淘宝屏蔽了百度爬虫，在技术上有很多种手段，但在这里我们只讨论`robots.txt`，查看淘宝的`robots.txt`，内容如下：
+
+```text
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: baiduspider
+Disallow: /
+```
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/bc60a315f18c4d19bf732f83c9890ecb.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+唯独屏蔽百度爬虫，有意思，有意思！
+
+试试使用百度搜索淘宝上的东西吧，比如：手机，效果如下：
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/4ceadc46c25342e9a670807932c41354.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+嗯嗯，整体效果还是不错的，搜索到的内容没有是`taobao.com`域名下的，不过有`cpcwi.taobao.com`域名下的内容，难道有漏网之鱼？
+看下这个二级域名下的`robots.txt`，内容如下：
+
+```text
+User-agent: *
+Disallow: /
+```
+
+咳咳，`cpcwi.taobao.com`这个域名是禁止所有爬虫的，难道是百度爬虫不道德？使用百度和必应搜索`手机 site:cpcwi.taobao.com`对比下结果吧。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/2e75b51248b941b7b652c425886d7d3a.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+哈哈，果然是百度不道德了😒😒😒
+
+回到淘宝，淘宝专门屏蔽了百度，却没有屏蔽其他爬虫，那我们用必应搜索`手机 site:taobao.com`应该能搜索内容才对，看下吧：
+
+果不其然
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/edc227c484af4a559018ff9a3f1970c1.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+<TheEnd />
+
