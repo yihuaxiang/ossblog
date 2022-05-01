@@ -48,7 +48,7 @@ add_header Cache-Control "public, max-age=120"; # 设置 120 秒的缓存
 3. `max`: `the Unix Epoch`，2037 年 12 月 31 日 （[2038年问题](https://baike.baidu.com/item/2038%E5%B9%B4%E9%97%AE%E9%A2%98/10578442)）
 4. `30s`: `30`秒
 5. `1m`: `1`分钟
-6. `24h`: `24`消失
+6. `24h`: `24`小时
 7. `3d`: `3`天
 8. `1M`: `1`个月
 9. `2y`: `2`年
