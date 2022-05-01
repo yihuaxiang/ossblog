@@ -53,6 +53,13 @@ module.exports = {
   lang: 'zh-CN',
   plugins: [
     [
+      "@mr-hope/git",
+      {
+        contributor: false,
+        timezone: 'Asia/Shanghai',
+      },
+    ],
+    [
       'sitemap',
       {
         hostname: 'https://z.wiki'

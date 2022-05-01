@@ -1,6 +1,6 @@
 <template>
 <div class="last-post">
-  <h2>推荐文章</h2>
+  <h2>最近更新</h2>
 
   <ul>
     <template v-for="(article, index) in topArticles">
@@ -9,7 +9,7 @@
           <a :href="article.path" @click.prevent="pushRoute(article.path)">{{article.title}}</a>
           <div style="display: flex; align-items: center; font-size: 12px; color: rgba(0, 0, 0, 0.54); font-weight: 200;">
 
-            <span>{{article.lastUpdatedTimestamp | timeDiff}}</span>
+            <span>{{article.createTime}}</span>
           </div>
         </div>
       </li>

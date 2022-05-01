@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@mr-hope/vuepress-plugin-git": "^1.28.5",
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-nprogress": "^1.8.2",
     "vuepress": "^1.8.2",
