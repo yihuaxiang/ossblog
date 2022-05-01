@@ -173,3 +173,12 @@ https://xxx.cnd.com/web.js.map file:///Users/xxx/xxx/web.js.map
 `TotalFinder` 是`Mac`上一款好用的`Finder`增强工具，`TotalFinder` 提供了多标签式浏览、拷贝路径、剪切文件、显示隐藏文件、多栏窗口模式、彩色标签等功能。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/2a2589b2a18d4682acdcd14d667e8206.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
+### 超级右键
+
+超级右键是`Mac`上最强大的右键菜单工具，丰富的功能，让你的右键菜单如虎添翼，深入人心的交互设计，助你大幅提升`macOS`使用体验！
+
+下载地址：[超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/bc7a37c1906c4dc7a7e81bf7e2c9d1c0.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
