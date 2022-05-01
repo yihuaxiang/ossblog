@@ -59,9 +59,14 @@ export default {
           type: 'info',
           text: '渲染中，请稍后。'
         })
+        const _this = this;
 
         async function render(content, num) {
           console.info('render', content, num);
+          _this.$notify({
+            type: 'info',
+            text: `第${_this.loop - num}次渲染中`
+          })
           if(num <= 0) {
             return content;
           } else {
