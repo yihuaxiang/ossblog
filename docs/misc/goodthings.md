@@ -182,3 +182,10 @@ https://xxx.cnd.com/web.js.map file:///Users/xxx/xxx/web.js.map
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/bc7a37c1906c4dc7a7e81bf7e2c9d1c0.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
 
+
+### LICEcap
+
+轻量级录屏工具，下载地址[LICEcap](https://www.macupdate.com/app/mac/49461/licecap)
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/dbfba0970e4643e897470b7a21c81c65.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+
