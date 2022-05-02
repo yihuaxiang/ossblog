@@ -73,6 +73,12 @@ tags: ["UUID", "UUID-v4", "UUID-v1", "UUID-v5"]
 
 ![](https://z.wiki/autoupload/2022-05-02/fefb73e8621d455aa20930dcbb7c3a4b.uuid-v4.drawio.svg)
 
+`java` 生成 `UUID-V4`
+```java
+  String uuid = UUID.randomUUID();
+```
+`js` 生成 `UUID-v4` 参考[https://www.npmjs.com/package/uuidv4](https://www.npmjs.com/package/uuidv4)
+
 ### V5
 
 `UUID-v5` 和`V3`类似，区别在于散列算法，使用了`sha1`散列算法。
