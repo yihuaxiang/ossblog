@@ -22,7 +22,7 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 ![](https://z.wiki/autoupload/2022-05-02/9abe687d9e4e452297864ae4c6677cf2.ipip.drawio.svg)
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/c42d3008d9ac405aad02c456cc2a7a88.png?x-oss-process=image/resize,w_800/quality,q_80)
+<img width="220" src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/c42d3008d9ac405aad02c456cc2a7a88.png?x-oss-process=image/resize,w_800/quality,q_80" />
 
 经过短暂的开发有了阶段性结果（意思是到此为止吧🤣)
 
