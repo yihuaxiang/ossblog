@@ -64,14 +64,20 @@ tags: ["UUID", "UUID-v4", "UUID-v1", "UUID-v5"]
 `UUID-v3` 通过散列（`MD5`）名字空间（`namespace`）标识符和名称生成。和`V1`、`V2`不同，`V3`不依赖与机器信息和时间信息，
 但是`V3`要求输入命名空间+名称，命名空间本身也是一个`UUID`，用来标识应用环境，名称通常是用户账号、用户名之类的内容，通过命名空间+名称+三列算法算出`UUID`。
 
+![](https://z.wiki/autoupload/2022-05-02/e0763e1ca4db43ac90b868a76076e37b.uuid-v3.drawio.svg)
+
 ### V4
 
 `UUID-v4` 组成 `UUID v4` 的位是随机生成的，没有固有逻辑（除了第三段首个数字，该数字标识版本号），不包含命名空间、设备信息、时间信息。
 故，`UUID-v4`最容易理解、应用也最为广泛。
 
+![](https://z.wiki/autoupload/2022-05-02/fefb73e8621d455aa20930dcbb7c3a4b.uuid-v4.drawio.svg)
+
 ### V5
 
 `UUID-v5` 和`V3`类似，区别在于散列算法，使用了`sha1`散列算法。
+
+![](https://z.wiki/autoupload/2022-05-02/eb11afcbca884332aa8196f92a563c72.uuid-v5.drawio.svg)
 
 ### 如何选择
 
