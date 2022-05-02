@@ -6,7 +6,8 @@
 
 预览图：
 
-![](https://z.wiki/autoupload/2022-05-02/b39baf6634634ff198aee414db988570.image.png)
+![](https://z.wiki/autoupload/2022-05-02/88ed1478031a4ae9894289b25534e7d1.image.png)
+
 
 
 
