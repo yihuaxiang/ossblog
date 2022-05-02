@@ -41,7 +41,7 @@
 add_header Cache-Control "public, max-age=120"; # 设置 120 秒的缓存
 ```
 
-但是如下之有特殊含义
+但是如下值有特殊含义
 
 1. -1 或`off`: 关闭缓存
 2. `epoch`: 设置过期时间为`1 January,1970,00:00:01 GMT`（🤔设置成这个值有啥意义呢？）
