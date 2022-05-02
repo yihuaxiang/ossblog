@@ -12,6 +12,7 @@
 刚入公园就看到公园的介绍
 
 > 元大都城垣始建于 1267 年...，元大都城垣遗址公园，西起京藏高速，东至京城高速...。
+> <img src="https://restapi.amap.com/v3/staticmap?location=116.400668,39.977079&zoom=12&size=800*300&markers=mid,,A:116.400668,39.977079&key=d5a3f8fd9665c914b107e82f4d791ec3" />
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220417/a31fa9c0439748329093a296747b2774.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
 
