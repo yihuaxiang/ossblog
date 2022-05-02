@@ -16,24 +16,24 @@
 常用功能
 * 数学计算
 
-  ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646586729-e2aa0975-e2c3-4ca4-80f4-7aa1c382e303.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png)
 
 * 程序启动
 
-  ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646606507-70a61685-26fe-4c80-8ed8-9a9550a76877.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png)
 
 * 搜索（本地搜索、网络搜索）
 * 翻译
 
-  ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646661761-ddf6a20d-7f70-4d5f-81cc-445a70321c76.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png)
 
 * 自定义插件
 
-  ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646683062-76f78f84-6095-404d-94df-5736898b6f66.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png)
 
 * 编码、解码
 
-  ![undefined](https://intranetproxy.alipay.com/skylark/lark/0/2020/png/4761/1589646727134-620654c3-70d0-4185-8099-08c591a88a94.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png)
 
 [下载地址](https://www.alfredapp.com/)
 
