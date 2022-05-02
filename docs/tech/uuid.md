@@ -87,6 +87,8 @@ tags: ["UUID", "UUID-v4", "UUID-v1", "UUID-v5"]
 
 > 注：相同的命名空间、名称，将映射到同一`UUID`，且推荐使用`V5`而非`V3`
 
+具体实现可参考 [UUID5](https://github.com/rootsdev/polygenea/blob/master/java/src/org/rootsdev/polygenea/UUID5.java)
+
 ### 如何选择
 
 `V4`是随机`ID`，其他都不是，故：正常情况下直接选择`UUID-V4`就可以了，如果需要根据`ID`给出创建时间、机器信息等内容的话，
