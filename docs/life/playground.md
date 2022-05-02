@@ -6,7 +6,7 @@
 
 预览图：
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/3438b09f916540d7b5892118a2f93128.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://z.wiki/autoupload/2022-05-02/b39baf6634634ff198aee414db988570.image.png)
 
 
 
