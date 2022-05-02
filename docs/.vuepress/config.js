@@ -170,6 +170,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'uuid',
         'nginx-cache',
         'snippets',
         'my-first-post-in-stackoverflow',
