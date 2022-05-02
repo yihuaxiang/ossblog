@@ -45,7 +45,7 @@ tags: ["UUID", "UUID-v4", "UUID-v1", "UUID-v5"]
 `UUID-V1` 是通过使用主机 `MAC` 地址和当前日期和时间的组合生成的。除此之外，它还引入了另一个随机组件，以确保其唯一性。
 但是如果使用同一台机器、同时时间生成`UUID`，会有很小的几率重复。
 
-![](https://z.wiki/autoupload/2022-05-02/7da6320e28ba4a079cf1ac4069d7c1f2.uuid-v1.drawio.svg)
+![](https://z.wiki/autoupload/2022-05-02/5e3cd31cab884203a2b317f8e92ad146.uuid-v1.drawio.svg)
 
 `UUID-v1`存在的问题是：
 
