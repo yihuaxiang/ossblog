@@ -2,7 +2,7 @@
 tags: ["UUID", "UUID-v4", "UUID-v1", "UUID-v5"]
 ---
 
-# UUID版本（v1、v4、v5）完整指南
+# UUID版本（v1、v2、v3、v4、v5）完整指南
 
 ![](https://z.wiki/autoupload/2022-05-02/6da7a9010ba747ba9fdf0678e55b1643.uuid.drawio.svg)
 
