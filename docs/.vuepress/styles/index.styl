@@ -389,3 +389,24 @@ img[alt=敖武的头像] {
   background: #CCC;
   transition: all 0.3s;
 }
+
+@media (max-width: 568px) {
+  .chatroom-tribes {
+    display: none;
+  }
+
+  .chatroom:not(.chatroom-fold) {
+    width: 100vw;
+    right: 0px;
+
+    .chatroom-pannels {
+      width: 100%;
+    }
+  }
+
+  .chatroom-fold {
+    .chatroom-tribes {
+      display: unset;
+    }
+  }
+}
