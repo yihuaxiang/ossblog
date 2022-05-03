@@ -77,7 +77,7 @@ export default ({
 
   ChatRoomClient.prototype.startup = function() {
     var xtpl = [
-      '<div class="chatroom">',
+      '<div class="chatroom chatroom-fold">',
       '<div class="chatroom-feedback"><a href="https://github.com/yihuaxiang/chat" target="_blank">源码</a> | <a href="https://github.com/yihuaxiang/chat/issues/new" target="_blank">反馈</a></div>',
       '<div class="chatroom-info"></div>',
       '<ul class="chatroom-tribes">',
