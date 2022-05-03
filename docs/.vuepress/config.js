@@ -10,9 +10,22 @@ module.exports = {
     [
       "script",
       {
+        src: "https://cdn.staticfile.org/socket.io/1.3.7/socket.io.js"
+      }
+    ],
+    [
+      "script",
+      {
+        src: "https://cdn.staticfile.org/jquery/2.2.1/jquery.min.js"
+      }
+    ],
+    [
+      "script",
+      {
         src: "https://v1.cnzz.com/z_stat.php?id=1280548058&web_id=1280548058"
       }
-    ],[
+    ],
+    [
       'link',
       {
         rel: "stylesheet",
