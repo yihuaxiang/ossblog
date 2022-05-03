@@ -188,6 +188,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'olympic-forest-park',
         '2022-labour-day',
         'dayidu',
         'girl-in-spring-of-2022',
