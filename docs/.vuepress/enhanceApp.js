@@ -379,7 +379,7 @@ export default ({
     if($('.chatroom-item[data-id="' + htmlspecialchars(data.id) + '"]').size()) return;
     var tabXtpl = [
       '<li class="chatroom-tribe" data-id="<% id %>">',
-      '<img src="<% avatar %>" alt="<% name %>">',
+      '<img width="15" height="15" src="<% avatar %>" alt="<% name %>">',
       '<span class="name"><% name %></span>',
       '<span class="count">0</span>',
       '<i class="iconfont">╳</i>',
