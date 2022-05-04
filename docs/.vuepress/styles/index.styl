@@ -409,6 +409,15 @@ img[alt=敖武的头像] {
 
     .chatroom-pannels {
       width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .chatroom-pannel-bd {
+        flex-shrink: 1;
+      }
+      .chatroom-pannel-ft {
+        flex-shrink: 0;
+      }
     }
 
     .chatroom-rename {
