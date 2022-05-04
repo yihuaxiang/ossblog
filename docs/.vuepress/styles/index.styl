@@ -51,7 +51,7 @@ img[alt=敖武的头像] {
 }
 .chatroom-fold {
   right: -404px;
-  bottom: -368px;
+  bottom: -375px;
   transition: all 0.3s;
 }
 .chatroom-fold .chatroom-tribe .count {
@@ -396,9 +396,15 @@ img[alt=敖武的头像] {
     display: none;
   }
 
+  .chatroom-feedback {
+    display: none;
+  }
+
   .chatroom:not(.chatroom-fold) {
     width: 100vw;
     right: 0px;
+    display: flex;
+    flex-direction: column;
 
     .chatroom-pannels {
       width: 100%;
