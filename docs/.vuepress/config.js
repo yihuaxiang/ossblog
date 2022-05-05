@@ -183,6 +183,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'crontab',
         'uuid',
         'nginx-cache',
         'snippets',
