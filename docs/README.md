@@ -11,6 +11,14 @@
 <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="fudongdong.com 的服务状态" /></a>
 </div>
 
+## 站点导航
+
+<div class="app-navi" style="margin-top: 15px;">
+<a target="_blank" href="https://playground.z.wiki/">游乐园</a>
+<a target="_blank" href="https://snippets.z.wiki/">代码片段</a>
+<a target="_blank" href="https://z.wiki/misc/tuchuang.html">图床</a>
+<a target="_blank" href="https://z.wiki/tools/reg/">正则</a>
+</div>
 
 <LastPost :random='true' prefix="" :number="5"/>
 

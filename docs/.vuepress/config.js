@@ -172,6 +172,7 @@ module.exports = {
           {text: 'LOGO制作', link: 'https://logoly.pro/#/'},
           {text: '表情制作', link: 'https://sorry.xuty.tk/wangjingze/'},
           {text: '二维码', link: 'https://z.wiki/misc/qrcode.html'},
+          {text: '徽章', link: 'https://shields.io/'},
         ]
       },
       {text: '生活', link: '/life/'},
