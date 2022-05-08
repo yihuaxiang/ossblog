@@ -11,7 +11,7 @@ export default ({
 
   Vue.use(Notifications)
 
-  if(typeof window == 'object' && window.location.host == 'tuchuang.z.wiki') {
+  if (typeof window == 'object' && window.location.host == 'tuchuang.z.wiki') {
     document.body.classList.add('tuchuang-domain');
   }
 
