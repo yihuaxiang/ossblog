@@ -33,6 +33,9 @@ crontab -r
 ## `root` 账号任务
 `root`账号任务配置在`/etc/crontab`中，可配置定时任务，也可配置系统启动时需要执行的任务
 
+> 某些任务需要`root`账号启动，
+> 如：`nginx`默认占用`80`、`443`等特殊端口，而`centos`中，`1000`以内的端口需要`root`账号才能使用
+
 ```shell
 SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
