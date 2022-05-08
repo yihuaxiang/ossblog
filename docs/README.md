@@ -2,7 +2,7 @@
 
 ## 关于博主
 
-![敖武的头像](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220219/90ab3b4f368649328aed035b87c56088.jpg?x-oss-process=image/resize,w_800/quality,q_80)
+![敖武的头像](https://z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG)
 
 
 <div class="links" style="display: flex;">
