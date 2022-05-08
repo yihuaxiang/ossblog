@@ -2,7 +2,7 @@
 
 > 传送门：
 > 
-> 敖武的图床： [https://fudongdong.com/misc/tuchuang.html](https://fudongdong.com/misc/tuchuang.html)
+> 敖武的图床： [https://tuchuang.z.wiki](https://tuchuang.z.wiki/misc/tuchuang.html)
 
 ### 故事起源
 
@@ -13,7 +13,7 @@
 
 ### 操刀上阵
 
-干脆自己开发一个小图床，地址 [敖武的图床](https://fudongdong.com/misc/tuchuang.html) 支持一键粘贴、一键复制。
+干脆自己开发一个小图床，地址 [敖武的图床](https://tuchuang.z.wiki/misc/tuchuang.html) 支持一键粘贴、一键复制。
 
 <img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/a8d7ff1dfad142f69a983e06c2cfd1b6.png?x-oss-process=image/resize,w_800/quality,q_80" width="100" />
 

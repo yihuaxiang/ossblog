@@ -166,7 +166,7 @@ module.exports = {
           {text: '正则', link: 'https://z.wiki/tools/reg/'},
           {text: '聊天室', link: 'https://chat.z.wiki/'},
           {text: '音乐', link: 'https://chat.z.wiki/player'},
-          {text: '图床', link: 'https://z.wiki/misc/tuchuang.html'},
+          {text: '图床', link: 'https://tuchuang.z.wiki/misc/tuchuang.html'},
           {text: 'IP查询', link: 'https://playground.z.wiki/lbs/showIp'},
           {text: '百度', link: 'https://baidu.z.wiki'},
           {text: 'LOGO制作', link: 'https://logoly.pro/#/'},
