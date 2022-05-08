@@ -110,12 +110,23 @@ export default {
       }
     },
     handleCopyBase64(record) {
-      navigator.clipboard.writeText(record && record.base64 || this.base64Value).then(() => {
-        this.$notify({
-          type: 'success',
-          text: '已复制。'
+      if(record && record.id) {
+        fetch(`https://playground.z.wiki/img/detail?id=${record.id}&uid=${record.uid}`).then(r => r.json()).then(record => {
+          navigator.clipboard.writeText(record.base64).then(() => {
+            this.$notify({
+              type: 'success',
+              text: '已复制。'
+            })
+          });
         })
-      });
+      } else {
+        navigator.clipboard.writeText(this.base64Value).then(() => {
+          this.$notify({
+            type: 'success',
+            text: '已复制。'
+          })
+        });
+      }
     },
     handleCopy(record) {
       navigator.clipboard.writeText(record && record.url || this.valueUrl).then(() => {
