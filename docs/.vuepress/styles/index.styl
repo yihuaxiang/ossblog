@@ -467,21 +467,21 @@ img[alt=敖武的头像] {
 }
 
 .tuchuang-domain {
-  .site-name {
-    opacity: 0;
-    position: relative;
-
-    &:after {
-      content: '敖武的图床';
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      font-size: 1.3rem;
-      font-weight: 600;
-      color: #2c3e50;
-    }
+  .home-link {
+    display: none;
   }
   .navbar .links {
     display: none;
+  }
+
+  header.navbar {
+    &:after {
+      content: '敖武的图床';
+      display: table;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #2c3e50;
+      position: relative;
+    }
   }
 }
