@@ -184,6 +184,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'chkconfig',
         'crontab',
         'uuid',
         'nginx-cache',
