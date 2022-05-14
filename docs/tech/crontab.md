@@ -10,7 +10,7 @@ tags: ["crontab", "定时任务", "任务调度"]
 
 `crontab`中的任务分为用户任务，系统级任务。
 
-## 用户任务
+### 用户任务
 
 查看用户任务
 ```shell
@@ -30,7 +30,7 @@ crontab -r
 注：用户任务配置在目录`/var/spool/cron`下
 
 
-## 系统级任务
+### 系统级任务
 系统级任务配置在`/etc/crontab`中，可配置定时任务，也可配置系统启动时需要执行的任务
 
 > 某些任务需要`root`账号启动，可配置在系统级任务中
@@ -55,19 +55,19 @@ MAILTO=root
 @reboot root /home/path/start.sh # 系统启动时执行的任务
 ```
 
-## 查看日志
+### 查看日志
 
 `crontab` 日志目录为 `/var/log/cron`
 
 
-## 其他类似方案
+### 其他类似方案
 
-### pm2
+#### pm2
 
 `pm2`是基于`nodejs`的进程管理工具，可以配合`shell`执行周期性任务，
 也可以用来管理开机自启任务（通过保存进程状态，在开机时恢复进程状态，这一点上比`crontab`好用）。
 
-#### 自动部署服务
+##### 自动部署服务
 
 编写`shell`脚本，从`github`拉去代码、编译构建、部署到`nginx`中
 ```shell
@@ -92,7 +92,7 @@ pm2 start shell-path
 
 > 注：在使用 `pm2 save`之前需要确保`pm2`本身能够开机启动，执行以下命令并根据提示设置自启动`pm2 startup`
 
-### chkconfig
+#### chkconfig
 
 
 参考文档： [chkconfig](https://www.linuxjournal.com/article/4445)
