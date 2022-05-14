@@ -20,6 +20,7 @@
 <a target="_blank" href="https://snippets.z.wiki/">代码片段</a>
 <a href="https://tuchuang.z.wiki/misc/tuchuang.html">图床</a>
 <a target="_blank" href="https://z.wiki/tools/reg/">正则</a>
+<a target="_blank" href="https://51shazhu.com/">51杀猪网</a>
 </div>
 
 <LastPost :random='true' prefix="" :number="5"/>
