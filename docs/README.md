@@ -11,7 +11,7 @@
 <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="fudongdong.com 的服务状态" /></a>
 </div>
 
-本网站的作者为[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki) 与 [51shazhu.com](https://51shazhu.com)。
+本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki) 与 [51shazhu.com](https://51shazhu.com)。
 [z.wiki](https://z.wiki) 通过`nginx`+`oss`+`vuepress`实现，整体`UI`更为美观，服务也更稳定，[51shazhu.com](https://51shazhu.com) 通过`spring boot`实现，稳定性和性能都偏差，但更具扩展性。
 
 ## 站点导航
