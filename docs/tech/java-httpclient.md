@@ -2,7 +2,7 @@
 
 在`Java`中和其他系统进行交互，`http`接口调用是最频繁不过的的一种方式了。
 
-![](https://z.wiki/autoupload/2022-05-15/367f6b18e38545a8b13bc69cb46f917c.http-call.drawio.svg)
+![](https://z.wiki/autoupload/2022-05-15/fb51e14d6fc548f895b2f6020150aa01.http-call.drawio.svg)
 
 ### HttpURLConnection
 
