@@ -184,6 +184,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'java-httpclient',
         'chkconfig',
         'crontab',
         'uuid',
