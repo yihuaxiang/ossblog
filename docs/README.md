@@ -4,15 +4,15 @@
 
 ![敖武的头像](https://z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG)
 
-本网站的作者为[敖武](https://z.wiki)，站点为[https://z.wiki](https://z.wiki) 与 [https://51shazhu.com](https://51shazhu.com)。
-[https://z.wiki](https://z.wiki) 网站通过`nginx`+`oss`+`vuepress`实现，整体`UI`更为美观，服务也更稳定，[https://51shazhu.com](https://51shazhu.com) 网站通过`spring boot`实现，稳定性和性能都偏差，但更具扩展性。
-
 
 <div class="links" style="display: flex;">
 <a target="_blank" href="https://weibo.com/u/2558497932" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg" title="敖武的微博" /></a>
 <a target="_blank" href="https://github.com/yihuaxiang" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg" title="敖武的github" /></a>
 <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="fudongdong.com 的服务状态" /></a>
 </div>
+
+本网站的作者为[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki) 与 [51shazhu.com](https://51shazhu.com)。
+[z.wiki](https://z.wiki) 通过`nginx`+`oss`+`vuepress`实现，整体`UI`更为美观，服务也更稳定，[51shazhu.com](https://51shazhu.com) 通过`spring boot`实现，稳定性和性能都偏差，但更具扩展性。
 
 ## 站点导航
 
