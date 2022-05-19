@@ -152,7 +152,19 @@ Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体
 https://xxx.cnd.com/web.js.map file:///Users/xxx/xxx/web.js.map
 ```
 
+解决跨域问题
+```
+https://xxx.com/path resCors://https://xxx.com
+```
 
+添加 `header`
+```
+https://xxx.com/path resHeaders://`
+{
+    "key": "value"
+}
+`
+```
 ### mockoon
 
 本地`mock API`服务，搭配`LightProxy`成为前端开发利剑。
