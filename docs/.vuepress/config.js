@@ -234,6 +234,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'watermask',
         'fav-website',
         'idea-plugins',
         'robots.txt',
