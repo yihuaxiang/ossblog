@@ -53,3 +53,10 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/c6cfecfc628b47dc9079e101936c79eb.png?x-oss-process=style/z.wiki)
 
+### 代码配图
+
+精美的代码在哪里啊、在哪里啊？呐，你现在知道了吧？
+
+[https://carbon.now.sh/](https://carbon.now.sh/)
+
+![carbon (1).png](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/10525c34f95e40d4872f89f190880cc6.png?x-oss-process=style/z.wiki)
