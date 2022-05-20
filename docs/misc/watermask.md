@@ -21,6 +21,15 @@
 
 ### `OSS`图片处理
 
+`OSS`支持多种照片处理，如：
+
+1. 渐进显示，用以开启先模糊后清晰的呈现方式，仅对格式为 JPG 的图片有效。
+2. 自适应方向，会根据图片中 EXIF 旋转信息先旋转后进行缩略。
+3. 照片质量，质量参数仅对 JPG 和 WEBP 的图片有效，且对 WEBP 来说，相对质量等价于绝对质量。
+4. 缩放。
+5. 亮度、对比度、模糊、等处理。
+6. 水印，文字水印、图片水印。
+
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220521/d320f219fcbe43b5b757e3b69c568252.png?x-oss-process=style/z.wiki)
 
 通过新建照片样式并在访问的时候通过追加参数`?x-oss-process=style/z.wiki`即可访问处理后的照片。
@@ -28,7 +37,7 @@
 新建照片样式时支持两种模式
 
 1. 基本编辑，提供可视化的编辑能力，但同一种效果无法多次应用
-2. 高级编辑，有门槛，但支持统一效果多次应用，例如：我就加了两种水印，一种浅红色、平铺水印，一种 右下角深黑色水印
+2. 高级编辑，有门槛，但支持同一效果多次应用，例如：我就加了两种水印，一种浅红色、平铺水印，一种 右下角深黑色水印
 
 ```
 image/auto-orient,1/interlace,1/quality,Q_80/contrast,-8/watermark,text_aHR0cHM6Ly96Lndpa2k,color_fd0303,size_35,rotate_45,fill_1,g_center,t_4,x_100,y_50/watermark,text_aHR0cHM6Ly96Lndpa2k,color_0c0c0c,size_25,g_se,x_20,y_20
