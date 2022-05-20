@@ -5,13 +5,13 @@
 
 总结一下，希望新的一年做地更好
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/03103d78a28c4f4cba676800aa4557fe.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/03103d78a28c4f4cba676800aa4557fe.png?x-oss-process=style/z.wiki)
 
 #### 业务
 
 在业务中成长，如果业务都支撑不好（或者作出的产品bug很多、体验很差）那肯定不能算一个优秀的开发者，所以，第一步要把业务支撑好
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/d8a48a8f8f544b3ab6b6f7cab2941cf2.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/d8a48a8f8f544b3ab6b6f7cab2941cf2.png?x-oss-process=style/z.wiki)
 
 #### 解脱
 
@@ -22,7 +22,7 @@
 
 通过技术深度，来实现从重复的业务中解脱出来
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/072ef572ff2a4638a97161f51d92ed91.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/072ef572ff2a4638a97161f51d92ed91.png?x-oss-process=style/z.wiki)
 
 #### 广度
 
@@ -50,13 +50,13 @@
 2. 环境会逼迫自己深入去学
 3. 学以致用，天天接触不容易忘掉
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/341040c9f9df49c8bafcc2f113ca67b4.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/341040c9f9df49c8bafcc2f113ca67b4.png?x-oss-process=style/z.wiki)
 
 #### 工具
 
 俗话说得好，好记性比如烂笔头，这里的烂笔头就是工具，工具用的好，晚上下班早
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/b7c6144b548c4da9ae1049daaa84ed37.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220310/b7c6144b548c4da9ae1049daaa84ed37.png?x-oss-process=style/z.wiki)
 
 ##### 常用工具如下
 

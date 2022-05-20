@@ -52,11 +52,11 @@ Mac 包管理工具
 ### Popclip
 鼠标拓展小工具，当选中文本后会自动弹出操作框，支持复制、粘贴、大小写转换、单词计数、搜词等诸多功能。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/68a45b525b93406e964904c2e782ae6c.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/68a45b525b93406e964904c2e782ae6c.png?x-oss-process=style/z.wiki)
 
 支持安装多种扩展程序，如下图：
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png?x-oss-process=style/z.wiki)
 
 
 ### 1Password
@@ -98,7 +98,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 全局激活某个 app 的快捷键设置程序
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220123/3f659b2ae9454def86b92a8223cf9f5d.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220123/3f659b2ae9454def86b92a8223cf9f5d.png?x-oss-process=style/z.wiki)
 
 
 ### iTerm2
@@ -108,7 +108,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 喜欢`iTerm2`的一个重要原因就是它支持快捷键绑定，如下图：
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/2b9b39dd89fc408a9b71a7d155c3f94b.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220317/2b9b39dd89fc408a9b71a7d155c3f94b.png?x-oss-process=style/z.wiki)
 
 当我按下`Command+/`时，`iTerm2`会自动输入`,cc`,在`vim`编辑文件的时候自动将当前行给注释掉。从而实现类似`VS Code`、`idea`很多相同的快捷键。
 
@@ -119,7 +119,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 1. 基于密钥的认证
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220322/ed6739bed9534abcb32510b71ac9a94d.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220322/ed6739bed9534abcb32510b71ac9a94d.png?x-oss-process=style/z.wiki)
 
 2. sshpass
 
@@ -132,7 +132,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体验和效率提升很大。用快捷键 command + 数字（0-9）启动/唤起Dock对应的程序。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/6a64681197f849388e3e3c79660f1630.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/6a64681197f849388e3e3c79660f1630.png?x-oss-process=style/z.wiki)
 
 右侧`option`键一般用不到，故通过`karabiner`将右侧`option`改成了`command`键，通过右侧`option`+数字启动/唤起Dock对应的程序。
 
@@ -143,7 +143,7 @@ Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体
 
 通过`LightProxy`用户可以快速进行转包、修改包，解决开发过程中的各个拦路虎。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png?x-oss-process=style/z.wiki)
 
 典型应用场景一：
 由于安全原因，前端发布后，对应的`sourcemap`文件不会发布到公网上，需要`debug`的时候可以通过`lightproxy`做下映射。
@@ -169,7 +169,7 @@ https://xxx.com/path resHeaders://`
 
 本地`mock API`服务，搭配`LightProxy`成为前端开发利剑。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220331/94ae7c76fd8549aab17783f47c997328.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220331/94ae7c76fd8549aab17783f47c997328.png?x-oss-process=style/z.wiki)
 
 
 ### Go2Shell
@@ -180,11 +180,11 @@ https://xxx.com/path resHeaders://`
 
 ### TotalFinder
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/a120002c11e6428a91a0cefa77b78f3a.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/a120002c11e6428a91a0cefa77b78f3a.png?x-oss-process=style/z.wiki)
 
 `TotalFinder` 是`Mac`上一款好用的`Finder`增强工具，`TotalFinder` 提供了多标签式浏览、拷贝路径、剪切文件、显示隐藏文件、多栏窗口模式、彩色标签等功能。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/2a2589b2a18d4682acdcd14d667e8206.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220423/2a2589b2a18d4682acdcd14d667e8206.png?x-oss-process=style/z.wiki)
 
 ### 超级右键
 
@@ -192,14 +192,14 @@ https://xxx.com/path resHeaders://`
 
 下载地址：[超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/bc7a37c1906c4dc7a7e81bf7e2c9d1c0.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/bc7a37c1906c4dc7a7e81bf7e2c9d1c0.png?x-oss-process=style/z.wiki)
 
 
 ### LICEcap
 
 轻量级录屏工具，下载地址[LICEcap](https://www.macupdate.com/app/mac/49461/licecap)
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/dbfba0970e4643e897470b7a21c81c65.png?x-oss-process=image/auto-orient,1/interlace,1/quality,q_50/format,jpg)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220501/dbfba0970e4643e897470b7a21c81c65.png?x-oss-process=style/z.wiki)
 
 
 ### drawio-desktop

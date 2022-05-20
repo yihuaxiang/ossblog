@@ -5,11 +5,11 @@
 
 本想安装`JDK`，发现如下报错。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/f14250eb61f54149a400a8367ee3291e.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/f14250eb61f54149a400a8367ee3291e.png?x-oss-process=style/z.wiki)
 
 看来`CentOS 8`的寿终正寝还真影响到我了。😓
 
-![343f07d4f2550f5f7a04fcbb1f499d6f.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/3e7b1cd4cfb542beacb181f846c8b229.gif?x-oss-process=image/resize,w_800/quality,q_80)
+![343f07d4f2550f5f7a04fcbb1f499d6f.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/3e7b1cd4cfb542beacb181f846c8b229.gif?x-oss-process=style/z.wiki)
 
 真好顺便换成国内镜像，下载资源还能快点。
 
@@ -59,4 +59,4 @@ EOF
 更新软件
 
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png?x-oss-process=style/z.wiki)

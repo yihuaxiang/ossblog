@@ -92,7 +92,7 @@ git_config_install
 
 到此，`.gitconfig` 文件中已添加好上文提到的别名，可以欢乐的使用别名啦~~~
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/10d124cd03274d1c894dee857e5203c0.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/10d124cd03274d1c894dee857e5203c0.png?x-oss-process=style/z.wiki)
 
 
 ![12341234.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/26dc7d023d384894827a35c6be8a1e85.gif)

@@ -10,12 +10,12 @@
 
 自卖自夸一下😂
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/2d22e40dd1f94fcabc623a7a17b79274.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/2d22e40dd1f94fcabc623a7a17b79274.png?x-oss-process=style/z.wiki)
 
 
 最近发现`Google chrome`支持了原生的"标签选择"功能
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/9ee6318c08fe407d9dd9a35e9e7e1da8.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/9ee6318c08fe407d9dd9a35e9e7e1da8.png?x-oss-process=style/z.wiki)
 
 
 针不戳、针不戳
@@ -37,11 +37,11 @@
 1. 系统设置 - 键盘
 通过添加各种"App 快捷键"来设定
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/555859898b0947e4a8bfee99984a2945.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/555859898b0947e4a8bfee99984a2945.png?x-oss-process=style/z.wiki)
 
 如图：我为`keynote`的多种图形设置了快捷键，然而这种方案有一个硬性要求：要求改功能在软件菜单栏中有对应的按钮
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/7aeb4d916298435b96e5ebd4baf47280.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/7aeb4d916298435b96e5ebd4baf47280.png?x-oss-process=style/z.wiki)
 
 
 犯难了，找了半天，没找到`Google chrome`中和"标签选择"相关的按钮
@@ -64,7 +64,7 @@ karabiner 中我常用的功能分三种，如下
 
 如下图：一般我习惯使用左侧的`Command`键，右侧基本用不到，所以干脆映射成了`Option`键，通过`Option+数字`来切换程序坞中的应用
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/8d1c7916e08540798798422447f825f6.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/8d1c7916e08540798798422447f825f6.png?x-oss-process=style/z.wiki)
 
 
 
@@ -74,7 +74,7 @@ karabiner 中我常用的功能分三种，如下
 
 如下图：将 F1、F2、F3 等功能键映射为各种功能
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/cdf8070f0a4041d492370a1e76a42f1f.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/cdf8070f0a4041d492370a1e76a42f1f.png?x-oss-process=style/z.wiki)
 
 #### 复杂映射（Complex modifications）
 
@@ -84,21 +84,21 @@ karabiner 中我常用的功能分三种，如下
 
 点击下图红框即可打开配置市场，搜索合适的脚本
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/d1e3a96ef3214a5ebf4ffbc99fafa165.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/d1e3a96ef3214a5ebf4ffbc99fafa165.png?x-oss-process=style/z.wiki)
 
-[Karabiner-Elements complex_modifications rules](https://ke-complex-modifications.pqrs.org/)
+[Karabiner-Elements complex_modifications rules](https://ke-complex-oss-process=style/z.wiki)
 
 然而，具体到我的这个需求，就比较小众化了，得自定义规则
 
 ##### 自定义规则
 
-进入 [Karabiner-Elements complex_modifications rules](https://ke-complex-modifications.pqrs.org/) 后如果找不到合适的规则配置，那就得自定义规则了。
+进入 [Karabiner-Elements complex_modifications rules](https://ke-complex-oss-process=style/z.wiki) 后如果找不到合适的规则配置，那就得自定义规则了。
 
 任意选一个规则，点击"Edit JSON"，打开配置的网站
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/260e7e8f4df14819acc94dc6e607b65a.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/260e7e8f4df14819acc94dc6e607b65a.png?x-oss-process=style/z.wiki)
 
-也可以点此直接进入：[Karabiner Complex Modification](https://genesy.github.io/karabiner-complex-rules-generator/#eyJ0aXRsZSI6IiIsInJ1bGVzIjpbXX0=)
+也可以点此直接进入：[Karabiner Complex Modification](https://genesy.github.io/karabiner-complex-oss-process=style/z.wiki)
 
 界面全英文的，但是还是比较易懂的
 
@@ -113,21 +113,21 @@ karabiner 中我常用的功能分三种，如下
 
 1. 触发条件
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/c62af2f1745b4715bd1c870e41df3a90.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/c62af2f1745b4715bd1c870e41df3a90.png?x-oss-process=style/z.wiki)
 
 2. 模拟触发目标
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/8cd27fa984bc4b959a4dfd7e310d337d.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/8cd27fa984bc4b959a4dfd7e310d337d.png?x-oss-process=style/z.wiki)
 
 3. 条件，仅限谷歌浏览器，避免对其他软件造成干扰
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/32b80281c85143e997618cf555e5f223.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/32b80281c85143e997618cf555e5f223.png?x-oss-process=style/z.wiki)
 
 上图中`com.google.Chrome`为谷歌浏览器的标识，那如何知道谷歌浏览器的标识的呢？
 
 下载`Karabiner-EventViewer`，该程序会显示激活程序的标识，也可以用来调试、排查问题
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/41db4dcde8b24416b4db916ec0b1a4dd.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220124/41db4dcde8b24416b4db916ec0b1a4dd.png?x-oss-process=style/z.wiki)
 
 
 

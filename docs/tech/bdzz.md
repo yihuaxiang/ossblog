@@ -30,7 +30,7 @@ tags: ["站长", "百度站长", "爬虫"]
 
 #### sitemap
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211116/18569d6f80584844b9559e7e77837359.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211116/18569d6f80584844b9559e7e77837359.png?x-oss-process=style/z.wiki)
 
 
 文件地址格式为txt或xml，每个地址文件最多包含50,000个网址且需小于10MB。
@@ -40,7 +40,7 @@ sitemap提交工具仅对已验证站点开放使用，开发者无法提交同�
 
 #### 手动提交
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211116/bd1dffd023374fba99140cc062a19796.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211116/bd1dffd023374fba99140cc062a19796.png?x-oss-process=style/z.wiki)
 
 
 请在输入框中填写当前选择站点的链接；如需提交其他验证站点链接，请选择对应的站点
@@ -55,4 +55,4 @@ sitemap提交工具仅对已验证站点开放使用，开发者无法提交同�
 
 不过百度也真够慢的，`Google`、`bing`早就天天开始爬取我的网站了，百度一直没反应，主动推送链接也反应极慢
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211118/b043058121da4d27940e4ec992d52360.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211118/b043058121da4d27940e4ec992d52360.png?x-oss-process=style/z.wiki)

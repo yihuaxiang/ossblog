@@ -9,27 +9,27 @@
 经常有很多图片需要上传，平时在公司直接用公司的图床，在`Idea`上传照片的话有一个`Markdown Image Support`的插件，
 可以支持在`markdown`文件中粘贴照片，但是有很多时候不是在`markdown`中上传。
 
-<img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/1b67581529b24ee29f1af5ae285d76d1.png?x-oss-process=image/resize,w_800/quality,q_80" width="100" />
+<img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/1b67581529b24ee29f1af5ae285d76d1.png?x-oss-process=style/z.wiki" width="100" />
 
 ### 操刀上阵
 
 干脆自己开发一个小图床，地址 [敖武的图床](https://tuchuang.z.wiki/misc/tuchuang.html) 支持一键粘贴、一键复制。
 
-<img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/a8d7ff1dfad142f69a983e06c2cfd1b6.png?x-oss-process=image/resize,w_800/quality,q_80" width="100" />
+<img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/a8d7ff1dfad142f69a983e06c2cfd1b6.png?x-oss-process=style/z.wiki" width="100" />
 
 支持历史数据查询，匿名使用，租户隔离😘
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220411/da4d0367e28548a3989cde9fb42ff75d.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220411/da4d0367e28548a3989cde9fb42ff75d.png?x-oss-process=style/z.wiki)
 
 ### 点滴困惑
 
 不过貌似网速有点慢啊😂
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/5000de8b59174089bbe452f4d8f85e4e.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/5000de8b59174089bbe452f4d8f85e4e.png?x-oss-process=style/z.wiki)
 
 `vpn`的问题，关闭`vpn`，上传速度飞起。
 
-![tuchuang.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/6b6963fbfdc247e58d5dca81ba234dec.gif?x-oss-process=image/resize,w_800/quality,q_80)
+![tuchuang.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220405/6b6963fbfdc247e58d5dca81ba234dec.gif?x-oss-process=style/z.wiki)
 
 ### 展望规划
 
