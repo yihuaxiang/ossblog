@@ -9,7 +9,7 @@
 
 看来`CentOS 8`的寿终正寝还真影响到我了。😓
 
-![343f07d4f2550f5f7a04fcbb1f499d6f.gif](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220320/3e7b1cd4cfb542beacb181f846c8b229.gif?x-oss-process=style/z.wiki)
+![115638607_endoflife_R.jpeg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png?x-oss-process=style/z.wiki)
 
 真好顺便换成国内镜像，下载资源还能快点。
 
