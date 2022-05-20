@@ -5,7 +5,9 @@
 
 ### 鸟哥的`linux`私房菜
 
-`linux`学习宝典，链接：[http://cn.linux.vbird.org/linux_server/](http://cn.linux.vbird.org/linux_server/)
+`linux`学习宝典
+
+[http://cn.linux.vbird.org/linux_server/](http://cn.linux.vbird.org/linux_server/)
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/ee8e1cc1fb2a43c08342ca98cc9e5a40.png?x-oss-process=style/z.wiki)
 
