@@ -16,24 +16,24 @@
 常用功能
 * 数学计算
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png?x-oss-process=style/z.wiki)
 
 * 程序启动
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png?x-oss-process=style/z.wiki)
 
 * 搜索（本地搜索、网络搜索）
 * 翻译
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png?x-oss-process=style/z.wiki)
 
 * 自定义插件
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png?x-oss-process=style/z.wiki)
 
 * 编码、解码
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png)
+  ![undefined](https://z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png?x-oss-process=style/z.wiki)
 
 [下载地址](https://www.alfredapp.com/)
 
@@ -176,7 +176,7 @@ https://xxx.com/path resHeaders://`
 
 `Go2Shell`是`Finder`的一个扩展软件，正如其名字描述的那样，`Go2Shell`支持在`Finder`中一键使用终端打开当前目录。终端爱好者必备良器。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/2022-04-23/287920b1229e42af8043f32bd3f17212.image.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/2022-04-23/287920b1229e42af8043f32bd3f17212.image.png?x-oss-process=style/z.wiki)
 
 ### TotalFinder
 

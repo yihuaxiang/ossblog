@@ -47,7 +47,7 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 
 ```
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png?x-oss-process=style/z.wiki)
 
 
 ### git 其他配置
@@ -61,7 +61,7 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 	tool = vimdiff
 ```
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png?x-oss-process=style/z.wiki)
 
 
 
