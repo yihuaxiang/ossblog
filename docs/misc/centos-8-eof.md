@@ -11,7 +11,7 @@
 
 ![115638607_endoflife_R.jpeg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png?x-oss-process=style/z.wiki)
 
-真好顺便换成国内镜像，下载资源还能快点。
+正好顺便换成国内镜像，下载资源还能快点。
 
 ### 国内镜像
 
