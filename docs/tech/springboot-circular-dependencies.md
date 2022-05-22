@@ -2,7 +2,7 @@
 
 ### 何为循环依赖？
 
-![circular-dependency.drawio.png](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/2ab6af04a2d240b58088d08e1a0553d8.png?x-oss-process=style/z.wiki)
+![springboot 循环依赖](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/2ab6af04a2d240b58088d08e1a0553d8.png?x-oss-process=style/z.wiki)
 
 如上图，某应用中的依赖关系
 
@@ -17,6 +17,8 @@
 
 则`spring`会一次创建`BeanC`、`BeanB`、`BeanA`。
 一旦形成循环依赖，则`spring`无法判断出该按何种顺序创建`bean`，并抛出`BeanCurrentlyInCreationException`异常。
+
+![springboot 循环依赖](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/89b35126a0cb449890c5c87b791d1917.png?x-oss-process=style/z.wiki)
 
 ### 案例实战
 
