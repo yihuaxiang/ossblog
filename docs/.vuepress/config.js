@@ -206,7 +206,6 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
-        'invalid-attack',
         'olympic-forest-park',
         '2022-labour-day',
         'dayidu',
@@ -236,6 +235,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'invalid-attack',
         'watermask',
         'fav-website',
         'idea-plugins',
