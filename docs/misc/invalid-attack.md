@@ -1,0 +1,49 @@
+# 服务违规提醒
+
+### 起源
+
+大半夜的，腾讯给我发来通知，说我的服务器存在对其他服务器的攻击。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/62c5231d5e204fe1af559f3a43589106.png?x-oss-process=style/z.wiki)
+
+平时安装软件、使用权限、防火墙都很小心的，怎么会存在中木马呢？
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/f491a1eeca17497f90f6ce4a0ee6fba8.png?x-oss-process=style/z.wiki)
+
+### 自查
+
+通过腾讯的指导文件，去服务器上自查，完全没有问题啊，
+有一个进程在不断地往`oss`上上传资源，难道说的是这个？
+
+![ivan-aleksic-hko-iWhYdYE-unsplash.jpg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/5a0d69a1ead64e91b34aa886eebe0dd7.jpg?x-oss-process=style/z.wiki)
+
+### 反馈
+
+问了腾讯的在线客服，完全是重复提示中的内容。
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/1d4021c2998f41459995d8fb98d2a463.png?x-oss-process=style/z.wiki)
+
+
+自我的强势追问下，客服告诉我"在攻击这个ip 47.75.19.144"。
+
+
+🤔🤔🤔，看着像是公网ip，访问看下吧
+
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/c2e4b46f50344907aef462030b23b627.png?x-oss-process=style/z.wiki)
+
+┓( ´∀` )┏ 好熟悉，这不是阿里云的`oss`吗？很像，看看响应头信息确认下吧。
+
+```text
+Connection: keep-alive
+Content-Length: 237
+Content-Type: application/xml
+Date: Sun, 22 May 2022 06:31:15 GMT
+Server: AliyunOSS // 阿里云的 oss 服务
+x-oss-request-id: 6289D8B323C0543838018911
+x-oss-server-time: 0
+```
+
+😌，破案了，我访问个`oss`都会被腾讯误认为有攻击行为。。。
+
+
+
