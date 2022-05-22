@@ -46,4 +46,12 @@ x-oss-server-time: 0
 😌，破案了，我访问个`oss`都会被腾讯误认为有攻击行为。。。
 
 
+剩下的就让客服去处理吧
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/72cf3b8bbabe41b68dee15c0bf1b042d.png?x-oss-process=style/z.wiki)
+
+### 思考
+
+腾讯这玩意儿，知道非工作日自己的人忙，就不知道我也想休息吗？限我 24 小时解决，否则暂停服务，结果是误判，腾讯打脸了。
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/298c71aa089c4a23a3c965a223958fff.png?x-oss-process=style/z.wiki)
+
 
