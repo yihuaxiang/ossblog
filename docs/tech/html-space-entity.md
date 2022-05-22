@@ -1,14 +1,15 @@
 # html 字符实体 - 空格
 
-进入看到`html`字符实体中的空格部分，原以为`nbsp`只是空格符的等价映射，今天才恍然大悟。
+![steven-wright-mq8QogEBy00-unsplash.jpgsteven-wright-mq8QogEBy00-unsplash.jpg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/3e47dfea08b7490c868ae5624735ee49.jpg?x-oss-process=image/resize,w_800/quality,q_80)
+
+今日看到`html`字符实体中的空格部分，原以为`nbsp`只是空格符的等价映射，今天才恍然大悟。
 
 ### 定义
 
 [https://www.w3.org/TR/html401/sgml/entities.html](https://www.w3.org/TR/html401/sgml/entities.html)
 
 ```text
-<!ENTITY nbsp   CDATA "&#160;" -- no-break space = non-breaking space,
-                                  U+00A0 ISOnum -->
+<!ENTITY nbsp   CDATA "&#160;" -- no-break space = non-breaking space, U+00A0 ISOnum -__->
 ```
 
 从`w3`的定义上看，`nbsp`是"非折行空格符"，一段文字在宽度不足的情况下会按空白符进行折行，
