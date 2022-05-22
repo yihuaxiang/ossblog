@@ -184,6 +184,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'html-space-entity',
         'springboot-circular-dependencies',
         'java-httpclient',
         'chkconfig',
