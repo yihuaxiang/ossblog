@@ -14,12 +14,13 @@
 
 通过腾讯的指导文件，去服务器上自查，完全没有问题啊，
 有一个进程在不断地往`oss`上上传资源，难道说的是这个？这是攻击行为？？
+可这是我的业务需求，而且访问的也是我自己的`oss`。
 
 ![ivan-aleksic-hko-iWhYdYE-unsplash.jpg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/5a0d69a1ead64e91b34aa886eebe0dd7.jpg?x-oss-process=style/z.wiki)
 
 ### 反馈
 
-问了腾讯的在线客服，完全是重复消息中的内容。
+问了腾讯的在线客服，一开始完全是重复消息中的内容。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/1d4021c2998f41459995d8fb98d2a463.png?x-oss-process=style/z.wiki)
 
