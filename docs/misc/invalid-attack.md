@@ -13,7 +13,7 @@
 ### 自查
 
 通过腾讯的指导文件，去服务器上自查，完全没有问题啊，
-有一个进程在不断地往`oss`上上传资源，难道说的是这个？
+有一个进程在不断地往`oss`上上传资源，难道说的是这个？这是攻击行为？？
 
 ![ivan-aleksic-hko-iWhYdYE-unsplash.jpg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/5a0d69a1ead64e91b34aa886eebe0dd7.jpg?x-oss-process=style/z.wiki)
 
