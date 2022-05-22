@@ -4,11 +4,11 @@
 
 大半夜的，腾讯给我发来通知，说我的服务器存在对其他服务器的攻击。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/62c5231d5e204fe1af559f3a43589106.png?x-oss-process=style/z.wiki)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/f491a1eeca17497f90f6ce4a0ee6fba8.png?x-oss-process=style/z.wiki)
 
 平时安装软件、使用权限、防火墙都很小心的，怎么会存在中木马呢？
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/f491a1eeca17497f90f6ce4a0ee6fba8.png?x-oss-process=style/z.wiki)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/62c5231d5e204fe1af559f3a43589106.png?x-oss-process=style/z.wiki)
 
 ### 自查
 
@@ -19,19 +19,21 @@
 
 ### 反馈
 
-问了腾讯的在线客服，完全是重复提示中的内容。
+问了腾讯的在线客服，完全是重复消息中的内容。
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/1d4021c2998f41459995d8fb98d2a463.png?x-oss-process=style/z.wiki)
 
 
 自我的强势追问下，客服告诉我"在攻击这个ip 47.75.19.144"。
 
+> 画外音：好消息好消息，起码距离真相更近一步了。
+
 
 🤔🤔🤔，看着像是公网ip，访问看下吧
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/c2e4b46f50344907aef462030b23b627.png?x-oss-process=style/z.wiki)
 
-┓( ´∀` )┏ 好熟悉，这不是阿里云的`oss`吗？很像，看看响应头信息确认下吧。
+┓( \´∀\` )┏ 好熟悉，这不是阿里云的 `oss`吗？很像，看看响应头信息确认下吧。
 
 ```text
 Connection: keep-alive
@@ -51,7 +53,7 @@ x-oss-server-time: 0
 
 ### 思考
 
-腾讯这玩意儿，知道非工作日自己的人忙，就不知道我也想休息吗？限我 24 小时解决，否则暂停服务，结果是误判，腾讯打脸了。
+腾讯这玩意儿，知道非工作日自己的人休息，就不知道我也想休息吗？限我 24 小时解决，否则暂停服务，结果是误判，腾讯打脸了。
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/298c71aa089c4a23a3c965a223958fff.png?x-oss-process=style/z.wiki)
 
 
