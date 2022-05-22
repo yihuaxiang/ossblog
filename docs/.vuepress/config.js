@@ -184,6 +184,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'springboot-circular-dependencies',
         'java-httpclient',
         'chkconfig',
         'crontab',
