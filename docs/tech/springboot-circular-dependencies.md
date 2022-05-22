@@ -163,3 +163,5 @@ public class ServiceB {
 ### 总结
 
 在`spring`中有很多种解决循环依赖的问题，但是如果可能的话，尽量避免循环依赖，而且，
+
+<TheEnd />
