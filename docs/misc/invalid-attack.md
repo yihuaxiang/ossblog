@@ -53,6 +53,10 @@ x-oss-server-time: 0
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/72cf3b8bbabe41b68dee15c0bf1b042d.png?x-oss-process=style/z.wiki)
 
+第二天，已加白
+
+![](https://z.wiki/autoupload/2022-05-23/d5b736f4764c4b58bed9c788d02e3786.image.png)
+
 ### 思考
 
 腾讯这玩意儿，知道非工作日自己的人休息，就不知道我也想休息吗？限我 24 小时解决，否则暂停服务，结果是误判，腾讯打脸了。
