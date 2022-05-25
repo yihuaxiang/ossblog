@@ -6,7 +6,8 @@
 
 `adcode`是用于标识某个城市的六位数字编码，如：`110000`表示北京，`130100`标识石家庄，
 `adcode`由国家统一指定，该插件提供了城市级、省级`adcode`查询功能。
-完整列表可通过 [高德地图](https://lbs.amap.com/api/webservice/download) 进行下载
+
+> 完整列表可通过 [高德地图](https://lbs.amap.com/api/webservice/download) 进行下载
 
 ### adcode 的规律
 
