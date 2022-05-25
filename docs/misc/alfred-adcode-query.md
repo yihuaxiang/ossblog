@@ -9,6 +9,8 @@
 
 ### adcode 的规律
 
+![adcode 规律](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220525/47c8f20b84a742a4b0c6b1ed7786d5b6.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 `adcode`是有特定规律的
 
 `adcode`由六位数字组成，其中第一位表示大区，前两位表示特定省份（直辖市算作省份），中间两位表示城市，后两位表示区县。
