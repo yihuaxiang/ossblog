@@ -42,6 +42,8 @@
 > 
 > 冷知识：在台湾，台北区号是`02`，`01`是留给南京用的
 
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220525/78052b6063b1438793b44185cf1238b6.png?x-oss-process=image/resize,w_800/quality,q_80)
+
 最后两位`00`表示非区县，既：石家庄市
 
 2. 130101 石家庄市市辖区
