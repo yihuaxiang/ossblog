@@ -1,8 +1,12 @@
 # alfred adcode 查询插件
 
+### 源码地址
+
 [https://github.com/yihuaxiang/alfred-adcode-query](https://github.com/yihuaxiang/alfred-adcode-query)
 
 ![](https://z.wiki/autoupload/2022-05-24/54786b494ce54ea39269ae3860169218.image.png)
+
+### adcode 简介
 
 `adcode`是用于标识某个城市的六位数字编码，如：`110000`表示北京，`130100`标识石家庄，
 `adcode`由国家统一指定，该插件提供了城市级、省级`adcode`查询功能。
