@@ -236,6 +236,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'alfred-adcode-query',
         'invalid-attack',
         'watermask',
         'fav-website',
