@@ -30,10 +30,9 @@
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/fcbfdd26b84a4f74b9d2f0c5fe1c5ccb.png?x-oss-process=style/z.wiki)
 
 ### 红烧牛肉
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/6f71c3e89054468cb3d87277eec3be6b.png?x-oss-process=style/z.wiki)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220525/e15842ad0ef442c3bef0137ca8f2663f.png?x-oss-process=style/z.wiki)
 
-
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/a659a51b8b9c48b985174ab3e9259b86.png?x-oss-process=style/z.wiki)
+![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220525/1d1da3e67ffb44f08891071581dd61fb.png?x-oss-process=style/z.wiki)
 
 ### 水煮鱼
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20211115/ae0448f33758404694d1cf8b44c79059.png?x-oss-process=style/z.wiki)
