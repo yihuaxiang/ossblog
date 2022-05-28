@@ -93,7 +93,7 @@ export default {
     number: {
       type: Number,
       required: false,
-      default: 3
+      default: 10
     },
     prefix: {
       type: String,
