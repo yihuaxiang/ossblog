@@ -50,6 +50,14 @@ Request.Get("https://z.wiki")
   }
 ```
 
+### RestTemplate
+
+在`spring boot`中也可以用`RestTemplate`
+
+```java
+Bo product = restTemplate.getForObject(url, Bo.class);
+```
+
 不过，从`Java 11`开始，有了更优的选项，全新的`HttpClient`
 
 ### Java11 HttpClient
