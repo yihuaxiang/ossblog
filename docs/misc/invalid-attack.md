@@ -18,7 +18,7 @@
 
 ![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220529/dc938ef17c114c74af21343c3521d700.png?x-oss-process=image/resize,w_800/quality,q_80)
 
-![ivan-aleksic-hko-iWhYdYE-unsplash.jpg](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/5a0d69a1ead64e91b34aa886eebe0dd7.jpg?x-oss-process=style/z.wiki)
+<img alt="头疼" width="400" src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/5a0d69a1ead64e91b34aa886eebe0dd7.jpg?x-oss-process=style/z.wiki" />
 
 ### 反馈
 
