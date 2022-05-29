@@ -191,6 +191,25 @@ Disallow: /
 ### 附录
 
 1. 爬虫列表 [https://www.robotstxt.org/db.html](https://www.robotstxt.org/db.html)
+2. 国内常见爬虫 [https://www.baidu.com/robots.txt](https://www.baidu.com/robots.txt)
+
+```text
+Baiduspider
+Googlebot
+MSNBot
+Baiduspider-image
+YoudaoBot
+Sogou web spider
+Sogou inst spider
+Sogou spider2
+Sogou blog
+Sogou News Spider
+Sogou Orion spider
+ChinasoSpider
+Sosospider
+yisouspider
+EasouSpider
+```
 
 
 <TheEnd />
