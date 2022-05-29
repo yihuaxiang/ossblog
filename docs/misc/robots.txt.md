@@ -194,21 +194,21 @@ Disallow: /
 2. 国内常见爬虫 [https://www.baidu.com/robots.txt](https://www.baidu.com/robots.txt)
 
 ```text
-Baiduspider
-Googlebot
-MSNBot
-Baiduspider-image
-YoudaoBot
-Sogou web spider
-Sogou inst spider
-Sogou spider2
-Sogou blog
-Sogou News Spider
-Sogou Orion spider
-ChinasoSpider
-Sosospider
-yisouspider
-EasouSpider
+百度：Baiduspider
+谷歌：Googlebot
+微软：MSNBot
+百度图片：Baiduspider-image
+有道：YoudaoBot
+搜狗：Sogou web spider
+搜狗学术：Sogou inst spider
+搜狗：Sogou spider2
+搜狗博客：Sogou blog
+搜狗新闻：Sogou News Spider
+搜狗：Sogou Orion spider
+中搜：ChinasoSpider
+搜搜：Sosospider
+宜搜：yisouspider
+宜搜：EasouSpider
 ```
 
 
