@@ -7,7 +7,9 @@ tags: ["操作系统", "镜像", "iso", "系统下载"]
 ### Windows 系统镜像
 
 1. `windows 7` 专业版：[cn_windows_7_ultimate_x64_dvd_x15-66043.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_ultimate_x64_dvd_x15-66043.iso)
-2. `window 11` 教育版：[zh-cn_windows_11_consumer_editions_x64_dvd_904f13e4.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/zh-cn_windows_11_consumer_editions_x64_dvd_904f13e4.iso)
+2. `windows 7` 企业版：
+3. `windows 7` 家庭版：
+4. `windows 11` 教育版：[zh-cn_windows_11_consumer_editions_x64_dvd_904f13e4.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/zh-cn_windows_11_consumer_editions_x64_dvd_904f13e4.iso)
 
 ### macOS 系统镜像
 
