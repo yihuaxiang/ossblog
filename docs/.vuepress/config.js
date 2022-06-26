@@ -175,6 +175,13 @@ module.exports = {
           {text: '徽章', link: 'https://shields.io/'},
         ]
       },
+      {
+        text: '下载',
+        ariaLabel: '下载',
+        items: [
+          {text: '系统镜像', link: 'https://z.wiki/resource/system-mirror-iso.html'},
+        ]
+      },
       {text: '生活', link: '/life/'},
       {text: '工作', link: '/work/'},
       {text: '琐碎', link: '/misc/'},
