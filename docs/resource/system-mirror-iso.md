@@ -21,6 +21,7 @@ tags: ["操作系统", "镜像", "iso", "系统下载"]
 ### Linux 系统镜像
 
 1. `ubuntu 20` 服务器版：[ubuntu-20.04.4-live-server-amd64.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-20.04.4-live-server-amd64.iso)
+2. `ubuntu-16` 桌面版：[ubuntu-16.04.7-desktop-amd64.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-16.04.7-desktop-amd64.iso)
 
 
 ### 相关链接
