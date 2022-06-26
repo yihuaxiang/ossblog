@@ -10,9 +10,9 @@ tags: ["操作系统", "镜像", "iso", "系统下载"]
 
 ### Windows 系统镜像
 
-1. `windows 7` 专业版：[cn_windows_7_ultimate_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_ultimate_x64_dvd_x15-66043.iso)
-2. `windows 7` 企业版：[cn_windows_7_enterprise_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_enterprise_x64_dvd_x15-70741.iso)
-3. `windows 7` 家庭版：[cn_windows_7_home_premium_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_home_premium_x64_dvd_x15-65718.iso)
+1. `windows 7` 专业版：[windows_7_ultimate_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_ultimate_x64_dvd_x15-66043.iso)
+2. `windows 7` 企业版：[windows_7_enterprise_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_enterprise_x64_dvd_x15-70741.iso)
+3. `windows 7` 家庭版：[windows_7_home_premium_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_7_home_premium_x64_dvd_x15-65718.iso)
 4. `windows 8` `8.1` `64`位：[windows_8_1_x64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/cn_windows_8_1_x64_dvd_2707237.iso)
 5. `windows 11` 教育版：[windows_11_editions_x64_dvd_904f13e4.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/windows/zh-cn_windows_11_consumer_editions_x64_dvd_904f13e4.iso)
 
