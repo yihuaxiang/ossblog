@@ -18,10 +18,11 @@ tags: ["操作系统", "镜像", "iso", "系统下载"]
 
 ### Linux 系统镜像
 
-1. `ubuntu 20` 服务器版：[ubuntu-20.04.4-live-server-amd64.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-20.04.4-live-server-amd64.iso)
-2. `ubuntu 16` 桌面版：[ubuntu-16.04.7-desktop-amd64.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-16.04.7-desktop-amd64.iso)
-2. `ubuntu 22` 桌面版：[ubuntu-16.04.7-desktop-amd64.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-22.04-desktop-amd64.iso)
-3. `centos 8.2` 精简版：[CentOS-8.2.2004-x86_64-minimal.iso](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/CentOS-8.2.2004-x86_64-minimal.iso)
+1. `ubuntu 20` 服务器版：[ubuntu-20.04.4-live-server-amd64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-20.04.4-live-server-amd64.iso)
+2. `ubuntu 16` 桌面版：[ubuntu-16.04.7-desktop-amd64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-16.04.7-desktop-amd64.iso)
+4. `ubuntu 20` 精简版：[ubuntu-20.04.4-desktop-amd64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-20.04.4-desktop-amd64.iso)
+3. `ubuntu 22` 桌面版：[ubuntu-22.04-desktop-amd64](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/ubuntu-22.04-desktop-amd64.iso)
+4. `centos 8.2` 精简版：[CentOS-8.2.2004-x86_64-minimal](http://resources-zwiki.oss-cn-beijing.aliyuncs.com/system-mirror-iso/linux/CentOS-8.2.2004-x86_64-minimal.iso)
 
 
 ### 相关链接
