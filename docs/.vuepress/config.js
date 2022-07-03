@@ -269,7 +269,8 @@ module.exports = {
         'discrimination'
       ],
       '/work/': [
-        'performance'
+        'performance',
+        'the-answers-of-alibaba'
       ]
     }
   },
