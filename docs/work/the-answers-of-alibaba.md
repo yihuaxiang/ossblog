@@ -46,3 +46,23 @@
 > Don't feat the winter, Fear not being ready for it.
 
 任何一次灾难都是难得的新机会，冬天意味着春天不远了，所以冬天不可怕，可怕的是我们没有准备好面对冬天，可怕的是我们熬不到春天。
+
+### 男人的胸怀是被冤枉撑大的
+
+> Overcome grievances, then you'll have a big heart.
+
+### 合理的要求叫锻炼，不合理的要求叫磨炼
+
+> Reasonable demands provide training; unreasonable demands hold you feet to the fire.
+
+### 你感觉不舒服的时候，就是成长的时候。
+
+> Feeling uncomfortable is the key to growth.
+
+### 要驱动别人，先点燃自己
+
+> To inspire others, you must inspire yourself first.
+
+### 一个错误的决策比没有决策更好
+
+> A wrong decision is better than no decision.
