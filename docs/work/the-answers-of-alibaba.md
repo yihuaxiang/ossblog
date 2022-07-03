@@ -66,3 +66,9 @@
 ### 一个错误的决策比没有决策更好
 
 > A wrong decision is better than no decision.
+
+### 聚是一团火，散是满天星
+
+> Together, we burn like a bonfire, Separated, wo glow like stars at night.
+
+阿里人聚在一起，凝聚力非常强，就像一团熊熊燃烧的火焰，分散各地的时候又像满天繁星，各自散发着光芒。
