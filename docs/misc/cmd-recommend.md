@@ -12,6 +12,19 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 
 快速、多用途的代码搜索工具
 
+常用选项：
+
+```
+    -A, --after-context <NUM>                    Show NUM lines after each match.
+    -B, --before-context <NUM>                   Show NUM lines before each match.
+    -s, --case-sensitive                         Search case sensitively (default).
+    -f, --file <PATTERNFILE>...                  Search for patterns from the given file.
+    -M, --max-columns <NUM>                      Don't print lines longer than this limit.
+    -m, --max-count <NUM>                        Limit the number of matches.
+```
+
+前端经常有编辑后的`js`文件都压缩成一行，使用`-M`可以避免控制台大量输出内容。
+
 ### loc
 
 `lines of code`,快速统计代码行数的工具
