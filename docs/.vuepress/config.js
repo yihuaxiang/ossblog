@@ -245,6 +245,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'document-fragment',
         'alfred-adcode-query',
         'invalid-attack',
         'watermask',
