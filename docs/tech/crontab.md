@@ -92,6 +92,29 @@ pm2 start shell-path
 
 > 注：在使用 `pm2 save`之前需要确保`pm2`本身能够开机启动，执行以下命令并根据提示设置自启动`pm2 startup`
 
+##### 监控
+
+1. 终端监控
+
+```shell
+pm2 monit
+```
+
+通过执行`pm2 monit`可直接在终端打开监控。
+
+![](https://z.wiki/autoupload/2022-07-28/e31fbb29ab28463f8417d03e3c2f0b72.image.png)
+
+2. 在线地址
+
+```shell
+pm2 plus
+```
+
+通过执行`pm2 plus`可开启在线监控，但该服务为收费服务，默认提供`14`天体验时间。
+
+![](https://z.wiki/autoupload/2022-07-28/d4b8b27aba294846b94bf2c8af4b9de4.image.png)
+
+
 #### chkconfig
 
 
