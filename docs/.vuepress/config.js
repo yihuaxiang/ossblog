@@ -245,6 +245,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'rom',
         'document-fragment',
         'alfred-adcode-query',
         'invalid-attack',
