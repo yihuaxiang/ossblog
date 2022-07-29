@@ -81,4 +81,13 @@ tags: ["ROM", "RAM", "闪存", "存储", "手机"]
 
 手机中的存储内存其实是`ROM`的一个分支，这个分支具备反复写入的能力，已经不仅仅是“只读存储”了，但是依然属于`ROM`的一种。
 
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-29/a8df299e18a24f658898ba4b9c819379.image.png',
+'https://z.wiki/autoupload/2022-07-29/da24b02dd9ae4cb3af980e744691c8a7.image.png',
+'https://z.wiki/autoupload/2022-07-29/a7dce58ddd78419e96769b152eeee8a1.image.png',
+'https://z.wiki/autoupload/2022-07-29/d559362e45b844c0bcd915e275b99a7b.image.png',
+'https://z.wiki/autoupload/2022-07-29/1434f68465c84f928f81440e918a4b83.image.png',
+]" />
+
 <TheEnd />
