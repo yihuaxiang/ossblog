@@ -244,3 +244,11 @@
 
 > 思考：能有什么手段看到我的海拔呢？之前用我的苹果手表可以，不过手表坏了一直没修，手机可以吗？好像不行诶。
 
+
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/c81fb01f1feb431a932dc3bd3931becf.image.png',
+'https://z.wiki/autoupload/2022-08-01/3ad4f136b3ed4f5db35d5304cabeb822.image.png'
+]" />
+
+
