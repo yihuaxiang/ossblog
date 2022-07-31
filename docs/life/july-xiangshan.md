@@ -252,3 +252,32 @@
 ]" />
 
 
+#### 小凳子
+
+在小凳子上做了一会，这个小凳子就是我的救命恩人，再见了小凳子。
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/0f4fa985276842aa8d10ac2677df41d5.image.png',
+'https://z.wiki/autoupload/2022-08-01/b2d42586a7de41409c9112d5dbf7ab67.image.png',
+'https://z.wiki/autoupload/2022-08-01/478c6354ecce424b8992ad881c9358fd.image.png'
+]" />
+
+
+#### 沿途风景
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/08abc7eba260468c9d77fb8f6e3be42d.image.png',
+'https://z.wiki/autoupload/2022-08-01/26ff1bbf404e4a0d8d48befb285e6a1a.image.png',
+'https://z.wiki/autoupload/2022-08-01/c4e1bc0fe2ed41d08e297ea9502b18d9.image.png',
+'https://z.wiki/autoupload/2022-08-01/689fa5ac666748cd9d425dcf127de080.image.png',
+'https://z.wiki/autoupload/2022-08-01/3c1ed49804db4c8ca90aa545a9af3c3c.image.png',
+'https://z.wiki/autoupload/2022-08-01/c16866fa55394ac1b223632bf836c0b6.image.png'
+]" />
+
+西山晴雪？管不了那么多了，我得继续爬山。
+
+
+#### 剩余进度：444米
+
+![](https://z.wiki/autoupload/2022-08-01/23ec27c3a566457f861bf48acddf5a83.image.png)
+
