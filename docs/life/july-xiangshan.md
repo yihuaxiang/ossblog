@@ -40,3 +40,16 @@
 'https://z.wiki/autoupload/2022-07-31/761bce9a045f4ddbb3a39f26892f0e00.image.png',
 'https://z.wiki/autoupload/2022-07-31/1eca927cfe65436799fad70184ef5e21.image.png'
 ]" />
+
+
+到达香山地铁站后需不行前往香山公园，距离`700+`米，预计行程`11`分钟，整体下来一小时二十二分钟，和![高德地图](http://amap.com/)预估的一小时二十八分钟还是很相近的。
+
+![](https://z.wiki/autoupload/2022-07-31/5ad0473ee3084599b9cabb3004548bc4.image.png)
+
+沿途有绿化、有遗址、有小吃店，心情还是满怀期待~
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/8711b3d435054943a03d12c795ca5346.image.png',
+'https://z.wiki/autoupload/2022-07-31/330b1ae8efc7415e9eb041cafff7e047.image.png',
+'https://z.wiki/autoupload/2022-07-31/6066297060da40779ae4a62affa79a79.image.png'
+]" />
