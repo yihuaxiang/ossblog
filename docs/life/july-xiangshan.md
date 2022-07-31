@@ -274,10 +274,29 @@
 'https://z.wiki/autoupload/2022-08-01/c16866fa55394ac1b223632bf836c0b6.image.png'
 ]" />
 
-西山晴雪？管不了那么多了，我得继续爬山。
+西山晴雪？管不了那么多了，我得继续爬山，特别期待继续网上会有卖水的吗？最好还有买黄瓜的，让我啃两个黄瓜痛快一下。
 
 
 #### 剩余进度：444米
 
 ![](https://z.wiki/autoupload/2022-08-01/23ec27c3a566457f861bf48acddf5a83.image.png)
+
+距离目的地还有`444`米，这段路程有点艰难啊。
+
+休息休息
+
+![](https://z.wiki/autoupload/2022-08-01/363c037f9d00446c827d0ad9a1aca31d.image.png)
+
+
+#### 中途俯视北京
+
+据说，天气好的话能看到整个北京。
+
+![](https://z.wiki/autoupload/2022-08-01/19ad310697bc4e34bf5c3e023ae7d6a4.image.png)
+
+#### 汗如雨下
+
+做下一小会，头稍一低下就滴答滴答没完。
+
+![](https://z.wiki/autoupload/2022-08-01/6525719b88c9492cba5f8f0da9a82ea0.xiangshan.gif)
 
