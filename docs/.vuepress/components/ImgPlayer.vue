@@ -3,7 +3,7 @@
   <swiper class="swiper" :options="swiperOption">
     <template v-for="(img,index) in imgs">
       <swiper-slide :key="`${img}-${index}`">
-        <img :src="img" />
+        <img :src="img" loading="lazy" />
       </swiper-slide>
     </template>
     <div class="swiper-pagination" slot="pagination"></div>
