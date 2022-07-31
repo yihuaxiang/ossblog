@@ -121,5 +121,33 @@
 'https://z.wiki/autoupload/2022-07-31/392daebe3fc64c24911e26bb292d79ab.image.png'
 ]" />
 
-进入镇芳楼最大的感受就是：凉快啊~
+进入镇芳楼最大的感受就是：凉快啊~，毕竟空调屋，然而，革命尚未成功，同志们仍需努力！
 
+
+#### 知松园
+
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/8e9e63fad4574badb7f81e6e22d2f61f.image.png',
+'https://z.wiki/autoupload/2022-07-31/0ff673f2d3754164a9c39621ce7ce211.image.png',
+'https://z.wiki/autoupload/2022-07-31/320eeb25eb4743749f327cecb932fabb.image.png'
+]" />
+
+
+#### 剩余进度：2.8千米
+
+![](https://z.wiki/autoupload/2022-07-31/96a5fab7968c4dd383812e3dfa38b2db.image.png)
+
+
+#### 并蒂
+
+并蒂：两朵花或两个果子共一蒂。
+
+> 叫连体婴儿是不是更合适？（手动奸笑）
+
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/d47e0df4ca044c279ddf30819e19217f.image.png',
+'https://z.wiki/autoupload/2022-07-31/5c6ae529139c48f8ab3cb414d5101a05.image.png',
+'https://z.wiki/autoupload/2022-07-31/b54e67ede45f4c51b4e772b9cf989e33.image.png'
+]" />
