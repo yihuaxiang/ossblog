@@ -296,7 +296,19 @@
 
 #### 汗如雨下
 
-做下一小会，头稍一低下就滴答滴答没完。
+坐下一小会，头稍一低下就滴答滴答没完。今天的活动量非常足！！
 
 ![](https://z.wiki/autoupload/2022-08-01/6525719b88c9492cba5f8f0da9a82ea0.xiangshan.gif)
 
+
+#### 拨云见日
+
+最后以百米足足走了十分钟，好在最终上来了✌🏻✌🏻✌🏻
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/a06f113405784091afdc3a8df23ab1b3.image.png',
+'https://z.wiki/autoupload/2022-08-01/0318b13d837648f3b5df0fe5e4d670ef.image.png',
+'https://z.wiki/autoupload/2022-08-01/ce7f8727f9dd40b182418411cecdab79.image.png',
+'https://z.wiki/autoupload/2022-08-01/098c87eed4a34b25836080208de535d4.image.png',
+'https://z.wiki/autoupload/2022-08-01/3d3f6286cfbe44f9a566ac5527899d93.image.png'
+]" />
