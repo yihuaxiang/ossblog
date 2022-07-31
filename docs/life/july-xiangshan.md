@@ -151,3 +151,87 @@
 'https://z.wiki/autoupload/2022-07-31/5c6ae529139c48f8ab3cb414d5101a05.image.png',
 'https://z.wiki/autoupload/2022-07-31/b54e67ede45f4c51b4e772b9cf989e33.image.png'
 ]" />
+
+
+#### 沿途风景
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/5540106aed7e4186aefb4ed19cd499f6.image.png',
+'https://z.wiki/autoupload/2022-07-31/72fdca82f30e4593b976a63ed5c6d5f4.image.png',
+'https://z.wiki/autoupload/2022-07-31/2a364bc48a3f47b1af09199d67f920d2.image.png'
+]" />
+
+#### 昭庙
+
+平地路走了一段，右侧便有一个小山坡，爬上去，第一次冲锋！
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/2a364bc48a3f47b1af09199d67f920d2.image.png',
+'https://z.wiki/autoupload/2022-07-31/5dbdf108bdad4496ab78835fe2d067ae.image.png',
+'https://z.wiki/autoupload/2022-07-31/b800c8703f5248f5b82ef121f14f4ed1.image.png'
+]" />
+
+
+邂逅小鸟
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/b4bcada147d84579a192152d4b7a259f.image.png',
+'https://z.wiki/autoupload/2022-07-31/393421a2013d4bc7aaf3ccadf30df3d5.image.png'
+]" />
+
+宏伟的建筑（昭庙）
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/a840261c2e4e487998a27f010a7a42de.image.png',
+'https://z.wiki/autoupload/2022-07-31/af718e0b0df147c2a62c18a6fc96ce34.image.png',
+'https://z.wiki/autoupload/2022-07-31/175fd3e0f4034a08a8e324fd96f80890.image.png',
+'https://z.wiki/autoupload/2022-07-31/1ae8e0ae9e134547b1ac0c209645bd50.image.png',
+'https://z.wiki/autoupload/2022-07-31/4e687a23a79340ad989a25b9970ad6e4.image.png'
+]" />
+
+红白相间的风格，有点像西藏的布达拉宫，走到介绍牌子发现，果然是西藏的风格，红白相间，类似于红宫白宫。
+
+> 昭庙的全称为宗镜大昭之庙，建于乾隆四十五年（1780年），它是为迎接西藏班禅六世进京而特地建造的一座行宫，仿照西藏日咯则扎十伦布寺建造。昭庙先后于1860年、1900年遭到英法联军和八国联军焚毁。
+
+本以为昭庙已经逛完了，等走开后才发现，诶，后面还有一个塔诶？
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/d3fd93791ce849168c0323590cdf271d.image.png',
+'https://z.wiki/autoupload/2022-08-01/19c795dfb7644d31889ce960338930e9.image.png',
+'https://z.wiki/autoupload/2022-08-01/a41b0d685ae2415d95ed488b38e8c377.image.png',
+'https://z.wiki/autoupload/2022-08-01/a0e65898ac394cd2a5958e960a4ff6f7.image.png',
+'https://z.wiki/autoupload/2022-08-01/6930cef73577465c94dd4bc53f85d6da.image.png'
+]" />
+
+> 琉璃万寿塔（俗称琉璃塔），建于清乾隆四十五年（1780年），是西藏六世班禅额尔德尼罗桑贝丹益希的行宫—宗镜大昭之庙的最后一组建筑。琉璃塔为七层密檐式实心塔，高约30 米，塔基八角形须弥座，塔身表面八十座琉璃佛龛，檐端缀有铜铃，微风徐来，铃声悦耳。塔下由八面伞型的瓦顶建筑承托，内筑石雕拱门，石壁上镌雕八尊佛像及佛八宝等。召庙在1860年遭英法联军焚烧，琉璃塔的木建筑及石佛像均遭破坏。1965年进行了重新修缮，使之再现佳境。琉璃万寿塔现为香山公园标志性建筑。
+
+站在琉璃塔，整个昭庙尽收眼底。
+
+![](https://z.wiki/autoupload/2022-08-01/0bb1010658a44cf285d942e3c4fd0208.image.png)
+
+
+
+#### 沿途风景
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/28d2815c66d04fb9b422061e158d0653.image.png',
+'https://z.wiki/autoupload/2022-08-01/c9753fd1f8a3419db46a34cce00ac20b.image.png',
+'https://z.wiki/autoupload/2022-08-01/e385f306e0414b19aa72810647f8d44c.image.png',
+'https://z.wiki/autoupload/2022-08-01/a389c3a58b9047c0bf0eabe984fcc3c2.image.png',
+'https://z.wiki/autoupload/2022-08-01/7b17d6c918b44ddebb9bbd38e0c97c79.image.png',
+'https://z.wiki/autoupload/2022-08-01/7313ab210c4f435ab8b7f73052c412b2.image.png',
+'https://z.wiki/autoupload/2022-08-01/531b9773a3484b85a88d7502022dd30a.image.png',
+'https://z.wiki/autoupload/2022-08-01/a3f3db67a0ea47a18b8ae78061f9b26e.image.png',
+'https://z.wiki/autoupload/2022-08-01/49d1edd5e0d14db9a3dd75d1a4bed01f.image.png'
+]" />
+
+沿着别垣墙走，有一段路特别陡峭、特别陡峭。
+
+#### 飞累了的小蝴蝶
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-08-01/6aa3d0ecb9504abda5846756cdb2afad.image.png',
+'https://z.wiki/autoupload/2022-08-01/320e00f87e7d47f496986eba3eb26ad9.image.png'
+]" />
+
+小蝴蝶叶飞累了吗？🤔🤔
