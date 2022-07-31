@@ -69,3 +69,19 @@
 
 检过我在高德上买的门票，开启我的香山征程。
 
+
+走过钟灵毓秀门便来到了勤政殿
+
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/7d831db7438049bba31e7957c3b890e6.image.png',
+'https://z.wiki/autoupload/2022-07-31/5d00c0323f964e26b5dfcafbf0c91311.image.png',
+'https://z.wiki/autoupload/2022-07-31/4b2703df435b4df7af675d8c46f6b054.image.png',
+'https://z.wiki/autoupload/2022-07-31/1700939745dd426889d4668360ccef39.image.png',
+'https://z.wiki/autoupload/2022-07-31/62777fd33db34e7da26026671bc64a81.image.png'
+]" />
+
+
+静宜园勤政殿始建于公元`1745`年，景区有正殿、配殿、朝房、假山、月牙河等组成。毀于`1860`年。`2002`年始在原上复建，
+`2003`年`7`月竣工。
+正殿为单檐歇山式建筑，殿宽五楹，外饰金龙和玺，内铺二尺金砖，为静宜园二十八景之第一景，是清代皇帝在香山静宜园跸期向处理政务和接见臣工的场所。南北配殿各五楹，原是王公大臣豆休息的地方。
