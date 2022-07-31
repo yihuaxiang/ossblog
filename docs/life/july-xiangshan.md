@@ -53,3 +53,13 @@
 'https://z.wiki/autoupload/2022-07-31/330b1ae8efc7415e9eb041cafff7e047.image.png',
 'https://z.wiki/autoupload/2022-07-31/6066297060da40779ae4a62affa79a79.image.png'
 ]" />
+
+
+### 香山，我来啦
+
+走过人烟稀稀拉拉的买卖街便到了香山公园，__香山，我来了！__
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/a2f428b193a94d439c2e49deb3cd7786.image.png',
+'https://z.wiki/autoupload/2022-07-31/09c2957bf9b242fbbeabeb2a597f4db6.image.png'
+]" />
