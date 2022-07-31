@@ -27,3 +27,16 @@
 
 ![](https://z.wiki/autoupload/2022-07-31/cbecbe5bf66f4408957dcdca63f18a06.image.png)
 
+`10`分钟到达了太阳宫、`47`分钟后到达巴沟、`1`小时`12`分钟到达香山地铁站。不得不说，西郊线沿途的风景确实不错~
+
+
+<ImgPlayer :imgs="[
+'https://z.wiki/autoupload/2022-07-31/a9a29c692df34692b0498ef6fbf26fb3.image.png',
+'https://z.wiki/autoupload/2022-07-31/8599edf8f83342c589be02f77f337041.image.png',
+'https://z.wiki/autoupload/2022-07-31/0efc782cba4a466cb7573a0dca262ee5.image.png',
+'https://z.wiki/autoupload/2022-07-31/8c5b35fe218d4e2697d2b43736e32c13.image.png',
+'https://z.wiki/autoupload/2022-07-31/ad20f44c53df437a85514347a0ff46ab.image.png',
+'https://z.wiki/autoupload/2022-07-31/f4bd19b268714e06af3a33697814d30a.image.png',
+'https://z.wiki/autoupload/2022-07-31/761bce9a045f4ddbb3a39f26892f0e00.image.png',
+'https://z.wiki/autoupload/2022-07-31/1eca927cfe65436799fad70184ef5e21.image.png'
+]" />
