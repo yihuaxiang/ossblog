@@ -3,7 +3,7 @@
   <swiper class="swiper" :options="swiperOption">
     <template v-for="(img,index) in imgs">
       <swiper-slide :key="`${img}-${index}`">
-        <img :src="img" loading="lazy" />
+        <img :src="img" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." />
       </swiper-slide>
     </template>
     <div class="swiper-pagination" slot="pagination"></div>
