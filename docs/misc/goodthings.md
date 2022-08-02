@@ -16,24 +16,24 @@
 常用功能
 * 数学计算
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png?x-oss-process=style/z.wiki)
+  ![undefined](https://3.z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png?x-oss-process=style/z.wiki)
 
 * 程序启动
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png?x-oss-process=style/z.wiki)
+  ![undefined](https://4.z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png?x-oss-process=style/z.wiki)
 
 * 搜索（本地搜索、网络搜索）
 * 翻译
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png?x-oss-process=style/z.wiki)
+  ![undefined](https://0.z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png?x-oss-process=style/z.wiki)
 
 * 自定义插件
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png?x-oss-process=style/z.wiki)
+  ![undefined](https://1.z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png?x-oss-process=style/z.wiki)
 
 * 编码、解码
 
-  ![undefined](https://z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png?x-oss-process=style/z.wiki)
+  ![undefined](https://2.z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png?x-oss-process=style/z.wiki)
 
 [下载地址](https://www.alfredapp.com/)
 

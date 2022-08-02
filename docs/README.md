@@ -2,7 +2,7 @@
 
 ## 关于博主
 
-![敖武的头像](https://z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG)
+![敖武的头像](https://0.z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG)
 
 
 <div class="links" style="display: flex;">

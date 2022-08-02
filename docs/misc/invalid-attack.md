@@ -57,7 +57,7 @@ x-oss-server-time: 0
 
 第二天，已加白
 
-![](https://z.wiki/autoupload/2022-05-23/68263010801b4859bd8c482480cf8bfc.image.png)
+![](https://4.z.wiki/autoupload/2022-05-23/68263010801b4859bd8c482480cf8bfc.image.png)
 
 ### 思考
 

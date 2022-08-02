@@ -20,7 +20,7 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 目标如下：
 
-![](https://z.wiki/autoupload/2022-05-02/a13d3cbd720549618dc20d846e266049.ipip.drawio.svg)
+![](https://0.z.wiki/autoupload/2022-05-02/a13d3cbd720549618dc20d846e266049.ipip.drawio.svg)
 
 <img width="220" src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220409/c42d3008d9ac405aad02c456cc2a7a88.png?x-oss-process=style/z.wiki" />
 
