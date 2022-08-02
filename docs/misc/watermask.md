@@ -2,14 +2,14 @@
 
 给网站上的照片添加了水印保护，效果如下：
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/33b6d65f4c6c48ffacea4ecae0eacc52.png?x-oss-process=style/z.wiki)
+![](https://1.z.wiki/images/20220520/33b6d65f4c6c48ffacea4ecae0eacc52.png?x-oss-process=style/z.wiki)
 
 ### 事儿是酱的
 
 我在开发 [图床](https://tuchuang.z.wiki/misc/tuchuang.html) 的时候，想让上传方可以自行添加水印，
 想到水印，我突然想到，我的博客上的照片可都没水印啊，这可咋整？
 
-![Thinking_Outline.png](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220520/b35f5032e53f457b88dc0ae9440c8785.png?x-oss-process=style/z.wiki)
+![Thinking_Outline.png](https://2.z.wiki/images/20220520/b35f5032e53f457b88dc0ae9440c8785.png?x-oss-process=style/z.wiki)
 
 
 ### 现状是酱的
@@ -17,7 +17,7 @@
 思考我博客中的照片，其实都是保存在 [oss](https://oss.console.aliyun.com/) 上，无非是直接、简介访问`oss`。
 
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/2022-05-20/d467f33b231548c7bf788b712b2b0ceb.oss-%E6%B0%B4%E5%8D%B0.drawio.svg)
+![](https://z.wiki/autoupload/2022-05-20/d467f33b231548c7bf788b712b2b0ceb.oss-%E6%B0%B4%E5%8D%B0.drawio.svg)
 
 ### `OSS`图片处理
 
@@ -30,7 +30,7 @@
 5. 亮度、对比度、模糊、等处理。
 6. 水印，文字水印、图片水印。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220521/d320f219fcbe43b5b757e3b69c568252.png?x-oss-process=style/z.wiki)
+![](https://3.z.wiki/images/20220521/d320f219fcbe43b5b757e3b69c568252.png?x-oss-process=style/z.wiki)
 
 通过新建照片样式并在访问的时候通过追加参数`?x-oss-process=style/z.wiki`即可访问处理后的照片。
 
@@ -51,7 +51,7 @@ image/auto-orient,1/interlace,1/quality,Q_80/contrast,-8/watermark,text_aHR0cHM6
 
 在前端修改照片`URL`，缺点是某些人可以通过去除参数来实现访问原图，如果原图敏感的话建议开启"原图保护"功能
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220521/8ff226ff3ef74941a7c361273cc6c284.png?x-oss-process=style/z.wiki)
+![](https://0.z.wiki/images/20220521/8ff226ff3ef74941a7c361273cc6c284.png?x-oss-process=style/z.wiki)
 
 #### 方案二
 

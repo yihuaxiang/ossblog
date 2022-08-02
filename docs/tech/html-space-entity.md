@@ -1,6 +1,6 @@
 # html 字符实体 - 空格
 
-![html 字符实体 - 空格](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220522/3e47dfea08b7490c868ae5624735ee49.jpg?x-oss-process=image/resize,w_800/quality,q_80)
+![html 字符实体 - 空格](https://0.z.wiki/images/20220522/3e47dfea08b7490c868ae5624735ee49.jpg?x-oss-process=image/resize,w_800/quality,q_80)
 
 今日看到`html`字符实体中的空格部分，原以为`nbsp`只是普通空格符的等价映射，结果发现空格字符也别有洞天。
 

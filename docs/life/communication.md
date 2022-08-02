@@ -14,7 +14,7 @@
 可以先写出来，反复修改，直到确认清晰、无误，再去沟通。
 想明白自己沟通的目的是什么，自己想要什么。围绕这个目的去沟通。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220702/ecbbba46278a40dd9c53eabafe98e21a.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://1.z.wiki/images/20220702/ecbbba46278a40dd9c53eabafe98e21a.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
 ### 重点前置。
@@ -36,7 +36,7 @@
 照顾对方的利益。
 帮对方挖掘他的真实需求。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220702/063f542392154bd8adc558d6f8169e38.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://2.z.wiki/images/20220702/063f542392154bd8adc558d6f8169e38.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
 ### 肯定对方。
@@ -46,7 +46,7 @@
 不断说“嗯”、“对”、“然后呢？”
 用“挺好的，另一个角度是”来代替“你错了”。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220702/b4f9dac095d24d9095cf5454423e0e08.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://3.z.wiki/images/20220702/b4f9dac095d24d9095cf5454423e0e08.png?x-oss-process=image/resize,w_800/quality,q_80)
 
 
 ### 互相复述
@@ -63,5 +63,5 @@
 在电话沟通或面谈前，先用文字发沟通要点给对方，然后一一对照，避免遗漏。
 每次沟通后，先口头做个总结，再形成文字备忘，双方确认。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220702/34f61371cf874b328d0e84555c4b1f22.png?x-oss-process=image/resize,w_800/quality,q_80)
+![](https://1.z.wiki/images/20220702/34f61371cf874b328d0e84555c4b1f22.png?x-oss-process=image/resize,w_800/quality,q_80)
 

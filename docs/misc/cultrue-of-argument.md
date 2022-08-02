@@ -23,7 +23,7 @@
 
 ### 为什么会争论
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220313/7a40e1c6b1b34191a43b2c7cc2073eaa.png?x-oss-process=style/z.wiki)
+![](https://1.z.wiki/images/20220313/7a40e1c6b1b34191a43b2c7cc2073eaa.png?x-oss-process=style/z.wiki)
 
 一种普遍流行的理论是：争论是维持支配地位的工具。
 从进化论上讲，社会阶层攀爬能力有利于个体的声誉和生存。
@@ -38,7 +38,7 @@
 争论本质上事以输赢为导向的行为，正如我们从体育赛事中看到的：某些人会不惜一切代价去赢得比赛。
 例如：兴奋剂、作弊等不上台面的手段。正因如此，体育有裁判、辩论有主持、法庭有法官。
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220313/1d82cf939fb24992975b9c6b97ada588.png?x-oss-process=style/z.wiki)
+![](https://2.z.wiki/images/20220313/1d82cf939fb24992975b9c6b97ada588.png?x-oss-process=style/z.wiki)
 
 
 在以争论（辩论）为竞争手段的场合都有严格的规定、监督。成为该场合的裁判者需要学习对应的规章、准则甚至法律，一旦说谎、作弊便会掉线执照。
@@ -47,7 +47,7 @@
 
 ### 争论文化导致什么行为
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220313/fcd22903cd3541dcbaad49c8b09a16f1.png?x-oss-process=style/z.wiki)
+![](https://3.z.wiki/images/20220313/fcd22903cd3541dcbaad49c8b09a16f1.png?x-oss-process=style/z.wiki)
 
 
 在争论文化中，赢家通吃。
@@ -58,7 +58,7 @@
 
 举个例子
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220313/8c46f7b930654a65b65d0d5703036f4f.png?x-oss-process=style/z.wiki)
+![](https://4.z.wiki/images/20220313/8c46f7b930654a65b65d0d5703036f4f.png?x-oss-process=style/z.wiki)
 
 
 假设出现一个新需求：需要将某项技术集成到现有平台上。
@@ -89,7 +89,7 @@
 
 ### 争吵会阻止什么样的行为？
 
-![](https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/images/20220313/7b9fc7ea486940e3a03522c5fa58acaa.png?x-oss-process=style/z.wiki)
+![](https://0.z.wiki/images/20220313/7b9fc7ea486940e3a03522c5fa58acaa.png?x-oss-process=style/z.wiki)
 
 如果你创造了一种人们攻击想法以消除弱点的文化，那么有些人会害羞地说出来是可以理解的。
 出于这个原因，帕洛阿尔托著名的设计咨询公司 IDEO 制定了规则来消除头脑风暴期间的负面反应。
