@@ -23,13 +23,13 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 2. 地铁`10`号线
 3. 西郊线
 
- <img loading="lazy" src="https://3.z.wiki/autoupload/2022-07-31/a181579399b34a29acc9568f4d616378.image.png" title="导航规划图" alt="导航规划图" />
+<PhoneSnapshot url="https://3.z.wiki/autoupload/2022-07-31/a181579399b34a29acc9568f4d616378.image.png" title="导航规划图" alt="导航规划图" />
 
 全程预计一小时二十八分钟。这也是香山对比其他山（八大处、西山等）的优势：地铁直达。
 
 想起上次，到了巴沟转西郊线的时候才发现，排队的人爆满。。这次得提前看下（也好提前撤退🕶），果然，西郊线目前满载率`50%`，看来人不会太多，毕竟天气这么热。
 
- <img loading="lazy" src="https://4.z.wiki/autoupload/2022-07-31/cbecbe5bf66f4408957dcdca63f18a06.image.png" title="地铁满载率" alt="地铁满载率" />
+ <PhoneSnapshot url="https://4.z.wiki/autoupload/2022-07-31/cbecbe5bf66f4408957dcdca63f18a06.image.png" title="地铁满载率" alt="地铁满载率" />
 
 `10`分钟到达了太阳宫、`47`分钟后到达巴沟、`1`小时`12`分钟到达香山地铁站。不得不说，西郊线沿途的风景确实不错~
 
@@ -48,7 +48,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 到达香山地铁站后需不行前往香山公园，距离`700+`米，预计行程`11`分钟，整体下来一小时二十二分钟，和[高德地图](http://amap.com/)预估的一小时二十八分钟还是很相近的。
 
- <img loading="lazy" src="https://1.z.wiki/autoupload/2022-07-31/5ad0473ee3084599b9cabb3004548bc4.image.png" title="步行走到香山公园" alt="步行走到香山公园" />
+ <PhoneSnapshot url="https://1.z.wiki/autoupload/2022-07-31/5ad0473ee3084599b9cabb3004548bc4.image.png" title="步行走到香山公园" alt="步行走到香山公园" />
 
 沿途有绿化、有遗址、有小吃店，心情还是满怀期待~
 
@@ -98,7 +98,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 规划导航，开始征程！
 
- <img loading="lazy" src="https://0.z.wiki/autoupload/2022-07-31/591b0b7eb9ad44fcae7b928aa088a818.image.png" title="开始导航，前往香炉峰" alt="开始导航，前往香炉峰" />
+ <PhoneSnapshot url="https://0.z.wiki/autoupload/2022-07-31/591b0b7eb9ad44fcae7b928aa088a818.image.png" title="开始导航，前往香炉峰" alt="开始导航，前往香炉峰" />
 
 #### 致远斋
 
@@ -281,7 +281,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 #### 剩余进度：444米
 
- <img loading="lazy" src="https://4.z.wiki/autoupload/2022-08-01/23ec27c3a566457f861bf48acddf5a83.image.png" title="高德地图，距离目的地444米" alt="高德地图，距离目的地444米" />
+ <PhoneSnapshot url="https://4.z.wiki/autoupload/2022-08-01/23ec27c3a566457f861bf48acddf5a83.image.png" title="高德地图，距离目的地444米" alt="高德地图，距离目的地444米" />
 
 距离目的地还有`444`米，这段路程有点艰难啊。
 
