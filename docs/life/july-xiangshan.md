@@ -331,7 +331,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 'https://4.z.wiki/autoupload/2022-08-01/4650ec12c9bc4eae8b94ef5f03097f3e.image.png',
 'https://4.z.wiki/autoupload/2022-08-01/ea16236dd52d4367940b02fb61095149.image.png',
 'https://1.z.wiki/autoupload/2022-08-01/b1c21d96b757407588efcb8189c9e37e.image.png',
-'https://0.z.wiki/autoupload/2022-08-01/ee7145b930204999882da24bfcbcef58.image.png',
+'https://8.z.wiki/autoupload/2022-08-01/ee7145b930204999882da24bfcbcef58.image.png',
 'https://2.z.wiki/autoupload/2022-08-01/04a8a3563d0f43f8b01305fa27ac05d5.image.png',
 'https://3.z.wiki/autoupload/2022-08-01/88fed813b2e6487c8457eec589999299.image.png',
 'https://4.z.wiki/autoupload/2022-08-01/ab2aab46c9464648a64260f2fb9c49eb.image.png'
