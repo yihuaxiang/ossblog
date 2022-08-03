@@ -2,7 +2,7 @@
 
 意面镇楼
 
-![](https://0.z.wiki/images/20220123/19944f72b67a41c8ab540f84a9f92c90.png?x-oss-process=style/z.wiki)
+![番茄意面](https://0.z.wiki/images/20220123/19944f72b67a41c8ab540f84a9f92c90.png?x-oss-process=style/z.wiki)
 
 
 ![](https://1.z.wiki/images/20220123/f414e7c48b83488bbaa01c306fa813d3.png?x-oss-process=style/z.wiki)
