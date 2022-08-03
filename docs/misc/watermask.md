@@ -2,14 +2,14 @@
 
 给网站上的照片添加了水印保护，效果如下：
 
-![](https://1.z.wiki/images/20220520/33b6d65f4c6c48ffacea4ecae0eacc52.png?x-oss-process=style/z.wiki)
+![](https://1.z.wiki/images/20220520/33b6d65f4c6c48ffacea4ecae0eacc52.png)
 
 ### 事儿是酱的
 
 我在开发 [图床](https://tuchuang.z.wiki/misc/tuchuang.html) 的时候，想让上传方可以自行添加水印，
 想到水印，我突然想到，我的博客上的照片可都没水印啊，这可咋整？
 
-![Thinking_Outline.png](https://2.z.wiki/images/20220520/b35f5032e53f457b88dc0ae9440c8785.png?x-oss-process=style/z.wiki)
+![Thinking_Outline.png](https://2.z.wiki/images/20220520/b35f5032e53f457b88dc0ae9440c8785.png)
 
 
 ### 现状是酱的
@@ -30,9 +30,9 @@
 5. 亮度、对比度、模糊、等处理。
 6. 水印，文字水印、图片水印。
 
-![](https://3.z.wiki/images/20220521/d320f219fcbe43b5b757e3b69c568252.png?x-oss-process=style/z.wiki)
+![](https://3.z.wiki/images/20220521/d320f219fcbe43b5b757e3b69c568252.png)
 
-通过新建照片样式并在访问的时候通过追加参数`?x-oss-process=style/z.wiki`即可访问处理后的照片。
+通过新建照片样式并在访问的时候通过追加参数``即可访问处理后的照片。
 
 新建照片样式时支持两种模式
 
@@ -51,7 +51,7 @@ image/auto-orient,1/interlace,1/quality,Q_80/contrast,-8/watermark,text_aHR0cHM6
 
 在前端修改照片`URL`，缺点是某些人可以通过去除参数来实现访问原图，如果原图敏感的话建议开启"原图保护"功能
 
-![](https://0.z.wiki/images/20220521/8ff226ff3ef74941a7c361273cc6c284.png?x-oss-process=style/z.wiki)
+![](https://0.z.wiki/images/20220521/8ff226ff3ef74941a7c361273cc6c284.png)
 
 #### 方案二
 

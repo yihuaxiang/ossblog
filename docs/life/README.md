@@ -7,19 +7,19 @@
 
 [青岛之旅](/life/tsingtao.html)
 
-![](https://2.z.wiki/images/20211117/b5a2c24586c04159a9ba0468d8ac2917.png?x-oss-process=style/z.wiki)
+![](https://2.z.wiki/images/20211117/b5a2c24586c04159a9ba0468d8ac2917.png)
 
 [健身环之初体验](/life/switchfitness.html)
 
-![](https://3.z.wiki/images/20211117/6ac15f3a27dc42039f5567b10fa151a3.png?x-oss-process=style/z.wiki)
+![](https://3.z.wiki/images/20211117/6ac15f3a27dc42039f5567b10fa151a3.png)
 
 
 [万圣节](/life/halloween.html)
 
-![](https://4.z.wiki/images/20211117/4e601049387d4a9fbdbfb1b8f4e67a71.png?x-oss-process=style/z.wiki)
+![](https://4.z.wiki/images/20211117/4e601049387d4a9fbdbfb1b8f4e67a71.png)
 
 
 [大雪球](/life/snow.html)
 
-![](https://1.z.wiki/images/20211117/2ab4074a25094e999adab9dcbde2e502.png?x-oss-process=style/z.wiki)
+![](https://1.z.wiki/images/20211117/2ab4074a25094e999adab9dcbde2e502.png)
 

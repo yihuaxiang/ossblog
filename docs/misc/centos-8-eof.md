@@ -5,11 +5,11 @@
 
 本想安装`JDK`，发现如下报错。
 
-![](https://0.z.wiki/images/20220320/f14250eb61f54149a400a8367ee3291e.png?x-oss-process=style/z.wiki)
+![](https://0.z.wiki/images/20220320/f14250eb61f54149a400a8367ee3291e.png)
 
 看来`CentOS 8`的寿终正寝还真影响到我了。😓
 
-![115638607_endoflife_R.jpeg](https://1.z.wiki/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png?x-oss-process=style/z.wiki)
+![115638607_endoflife_R.jpeg](https://1.z.wiki/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png)
 
 正好顺便换成国内镜像，下载资源还能快点。
 
@@ -59,4 +59,4 @@ EOF
 更新软件
 
 
-![](https://2.z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png?x-oss-process=style/z.wiki)
+![](https://2.z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)

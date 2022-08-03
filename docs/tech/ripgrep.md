@@ -10,7 +10,7 @@
 
 不想这样，我大抵是厌倦了，横竖不想这么麻烦，打开谷歌搜了下"shell 文本查找"，歪歪扭扭的每页都写满了`grep`
 
-![](https://1.z.wiki/images/20220204/86d986c9244442048c80c9bc46395f65.png?x-oss-process=style/z.wiki)
+![](https://1.z.wiki/images/20220204/86d986c9244442048c80c9bc46395f65.png)
 
 
 
@@ -39,7 +39,7 @@ grep -F -r "KEY_WORD" --exclude-dir=node_modules *  -B 3 -A 3
 
 我作为一个程序员，找到`grep`这个命令来进行内容匹配，这也是很合理的。
 
-![](https://2.z.wiki/images/20220204/3f713382c9d44784baea3f0252419ab9.png?x-oss-process=style/z.wiki)
+![](https://2.z.wiki/images/20220204/3f713382c9d44784baea3f0252419ab9.png)
 
 
 ### 更好的方案

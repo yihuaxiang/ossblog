@@ -29,7 +29,7 @@
 <LastPost :random='true' prefix="" :number="10"/>
 
 ## 封面图：有脾气的人
-![有脾气的人的照片](https://0.z.wiki/images/20211115/1548709a2750430cadb3021b209fa847.png?x-oss-process=style/z.wiki)
+![有脾气的人的照片](https://0.z.wiki/image/20211115/1548709a2750430cadb3021b209fa847.png)
 
 
 

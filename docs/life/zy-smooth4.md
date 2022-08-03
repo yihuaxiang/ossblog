@@ -16,7 +16,7 @@
 
 以下是稳定器本器的尊荣😼
 
-![](https://4.z.wiki/images/20220205/9911a2b6eba9417f9b41a7bdbbd8a98d.png?x-oss-process=style/z.wiki)
+![](https://4.z.wiki/images/20220205/9911a2b6eba9417f9b41a7bdbbd8a98d.png)
 
 
 明天晚上去前门大街体验体验~(*❦ω❦)

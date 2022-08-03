@@ -1,6 +1,6 @@
 # 工具网站收藏
 
-![cheng-qi-huang-WgF8_FPFaAM-unsplash.jpg](https://2.z.wiki/images/20220520/8788faeae0294f3faa3d0b213582475a.jpg?x-oss-process=style/z.wiki)
+![cheng-qi-huang-WgF8_FPFaAM-unsplash.jpg](https://2.z.wiki/images/20220520/8788faeae0294f3faa3d0b213582475a.jpg)
 
 
 ### 鸟哥的`linux`私房菜
@@ -9,7 +9,7 @@
 
 [http://cn.linux.vbird.org/linux_server/](http://cn.linux.vbird.org/linux_server/)
 
-![](https://3.z.wiki/images/20220520/ee8e1cc1fb2a43c08342ca98cc9e5a40.png?x-oss-process=style/z.wiki)
+![](https://3.z.wiki/images/20220520/ee8e1cc1fb2a43c08342ca98cc9e5a40.png)
 
 咳咳，界面很古典
 
@@ -19,7 +19,7 @@
 
 [https://logoly.pro/](https://logoly.pro/)
 
-![](https://4.z.wiki/images/20220520/cf09003dd1ed4fc0913207c905e95fb5.png?x-oss-process=style/z.wiki)
+![](https://4.z.wiki/images/20220520/cf09003dd1ed4fc0913207c905e95fb5.png)
 
 
 ### 表情制作
@@ -37,7 +37,7 @@
 [https://www.remove.bg/zh](https://www.remove.bg/zh)
 
 
-![](https://1.z.wiki/images/20220520/ea66cb8143a14f35b4dde6a43d8fa581.png?x-oss-process=style/z.wiki)
+![](https://1.z.wiki/images/20220520/ea66cb8143a14f35b4dde6a43d8fa581.png)
 
 ### 随机美图
 
@@ -45,7 +45,7 @@
 
 [https://unsplash.com/](https://unsplash.com/)
 
-![](https://2.z.wiki/images/20220520/987cdbd366724946911c690ad0ef47d9.png?x-oss-process=style/z.wiki)
+![](https://2.z.wiki/images/20220520/987cdbd366724946911c690ad0ef47d9.png)
 
 ### 拟人插画
 
@@ -53,7 +53,7 @@
 
 [https://www.manypixels.co/gallery](https://www.manypixels.co/gallery)
 
-![](https://3.z.wiki/images/20220520/c6cfecfc628b47dc9079e101936c79eb.png?x-oss-process=style/z.wiki)
+![](https://3.z.wiki/images/20220520/c6cfecfc628b47dc9079e101936c79eb.png)
 
 ### 代码配图
 
@@ -61,5 +61,5 @@
 
 [https://carbon.now.sh/](https://carbon.now.sh/)
 
-![carbon (1).png](https://1.z.wiki/images/20220520/10525c34f95e40d4872f89f190880cc6.png?x-oss-process=style/z.wiki)
+![carbon (1).png](https://1.z.wiki/images/20220520/10525c34f95e40d4872f89f190880cc6.png)
 

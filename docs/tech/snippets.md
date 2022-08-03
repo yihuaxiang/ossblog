@@ -5,4 +5,4 @@
 
 [点此围观 snippets](https://snippets.fudongdong.com/)
 
-![](https://0.z.wiki/images/20220420/97c1d6d262d14e46b8b6a36f33e01c8e.png?x-oss-process=style/z.wiki)
+![](https://0.z.wiki/images/20220420/97c1d6d262d14e46b8b6a36f33e01c8e.png)
