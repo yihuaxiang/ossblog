@@ -1,6 +1,6 @@
 <template>
 <div class="phone-snapshot">
-  <img :src="url" />
+  <img :src="url" :title="title" :alt="alt" />
   <div class="top"></div>
   <div class="middle"></div>
   <div class="bottom"></div>
@@ -11,6 +11,14 @@
 export default {
   name: "PhoneSnapshot",
   props: {
+    title: {
+      type: String,
+      required: false
+    },
+    alt: {
+      type: String,
+      required: false
+    },
     url: {
       type: String,
       required: true
