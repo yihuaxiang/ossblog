@@ -39,6 +39,7 @@
           <span class="name">{{record.fileName}}</span>
           <div class="buttons">
             <button class="button" @click="handleCopy(record)">复制连接</button>
+            <button class="button" @click="handleCopyMD(record)">复制MD</button>
             <button class="button" @click="handleCopyBase64(record)">复制base64</button>
           </div>
         </div>
@@ -130,6 +131,14 @@ export default {
     },
     handleCopy(record) {
       navigator.clipboard.writeText(record && record.url || this.valueUrl).then(() => {
+        this.$notify({
+          type: 'success',
+          text: '已复制。'
+        })
+      });
+    },
+    handleCopyMD(record) {
+      navigator.clipboard.writeText(`![](${record && record.url || this.valueUrl})`).then(() => {
         this.$notify({
           type: 'success',
           text: '已复制。'
