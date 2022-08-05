@@ -24,13 +24,13 @@
 
 #### 直柄与T柄
 
-![](https://7.z.wiki/autoupload/2022-08-06/b2e8fd1fc1f244ae8e77b8cfe957c1bb.image.png)
+![登山杖类型：直柄 T柄](https://7.z.wiki/autoupload/2022-08-06/b2e8fd1fc1f244ae8e77b8cfe957c1bb.image.png)
 
 `T`柄又叫拐杖柄，适合腿脚不便的人群，其他人群则适合直柄。
 
 #### 折叠与伸缩
 
-![](https://9.z.wiki/autoupload/2022-08-06/cfb53a5936df4c9aaf1902e54cb1d6e5.image.png)
+![登山杖类型：折叠 伸缩](https://9.z.wiki/autoupload/2022-08-06/cfb53a5936df4c9aaf1902e54cb1d6e5.image.png)
 
 折叠型特点：
 
@@ -42,7 +42,7 @@
 
 #### 内锁与外锁
 
-![](https://2.z.wiki/autoupload/2022-08-06/a2888077ff344c1093dc79dc72df5479.image.png)
+![登山杖内锁、外锁](https://2.z.wiki/autoupload/2022-08-06/a2888077ff344c1093dc79dc72df5479.image.png)
 
 伸缩登山杖主要有内锁和外锁两种锁，内锁是通过膨胀栓锁定，外锁是通过锁扣拉紧来固定。
 
@@ -56,7 +56,7 @@
 
 登山杖一版都`200g`以内，和材质有关系，铝合金较重、碳纤维较轻。折叠起来后长度大约`65cm`以内，折叠型更短。
 
-![](https://0.z.wiki/autoupload/2022-08-06/fba29704a46944d48ec0df8313f7a961.image.png)
+![登山杖长度](https://0.z.wiki/autoupload/2022-08-06/fba29704a46944d48ec0df8313f7a961.image.png)
 
 #### 其他
 
