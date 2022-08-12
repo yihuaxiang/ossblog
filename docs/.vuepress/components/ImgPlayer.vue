@@ -95,12 +95,12 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0px;
-  font-size: 14px;
-  color: #000000e8;
+  font-size: 15px;
+  color: #2c3e50;
 }
 .ctn .desc {
   margin: 0px;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.81);
+  font-size: 13px;
+  color: #2c3e50;
 }
 </style>
