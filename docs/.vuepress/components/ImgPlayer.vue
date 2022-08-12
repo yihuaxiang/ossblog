@@ -3,7 +3,18 @@
   <swiper class="swiper" :options="swiperOption">
     <template v-for="(img,index) in imgs">
       <swiper-slide :key="`${img}-${index}`">
-        <img :src="img" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." />
+        <template v-if="typeof img === 'string'">
+          <img :src="img" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." />
+        </template>
+        <template v-else>
+          <div class="ctn">
+            <img :src="img.url" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." />
+            <div class="info">
+              <h3 class="title" v-show="img.title">{{img.title}}</h3>
+              <p class="desc" v-show="img.desc">{{img.desc}}</p>
+            </div>
+          </div>
+        </template>
       </swiper-slide>
     </template>
     <div class="swiper-pagination" slot="pagination"></div>
@@ -62,5 +73,30 @@ export default {
   align-items: center;
   text-align: center;
   font-weight: bold;
+}
+.ctn {
+  position: relative;
+}
+.ctn .info {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: #0000002e;
+  padding: 3px 5px;
+  padding-bottom: 8px;
+}
+.ctn .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0px;
+  font-size: 14px;
+  color: #000000e8;
+}
+.ctn .desc {
+  margin: 0px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.81);
 }
 </style>
