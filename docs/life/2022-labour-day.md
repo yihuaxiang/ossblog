@@ -6,7 +6,7 @@ tags: ["敖武", "劳动节", "美食"]
 
 犒劳下自己，劳动节，劳动者最光荣~
 
-<SolidImgPlayer :imgs="[
+<ImgPlayer :imgs="[
     'https://0.z.wiki/images/20220502/4d23a8bd7be64133a8ee36b673709ad1.png',
     'https://1.z.wiki/images/20220503/936e5f71f29b42e38d0b5bc9a2bec35d.png',
     'https://2.z.wiki/images/20220503/e6eb17b26c01431388f4a58a93618580.png',
