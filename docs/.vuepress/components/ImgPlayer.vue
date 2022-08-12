@@ -8,7 +8,7 @@
         </template>
         <template v-else>
           <div class="ctn">
-            <img :src="img.url" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." />
+            <img :src="img.url" loading="lazy" :title="img.desc || '敖武的博客-照片'" :alt="img.title || '敖武的照片'" />
             <div class="info">
               <h3 class="title" v-show="img.title">{{img.title}}</h3>
               <p class="desc" v-show="img.desc">{{img.desc}}</p>
@@ -82,9 +82,13 @@ export default {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background: #0000002e;
+  background: #9292924f;
   padding: 3px 5px;
-  padding-bottom: 8px;
+  padding-bottom: 28px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 .ctn .title {
   white-space: nowrap;
