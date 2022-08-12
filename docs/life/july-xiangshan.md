@@ -35,7 +35,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 
 <ImgPlayer :imgs="[
-{url: 'https://0.z.wiki/autoupload/2022-07-31/a9a29c692df34692b0498ef6fbf26fb3.image.png', title: '在地铁上', desc: '刚到达太阳宫地铁'},
+{url: 'https://0.z.wiki/autoupload/2022-07-31/a9a29c692df34692b0498ef6fbf26fb3.image.png', title: '在地铁上', desc: '刚到达太阳宫地铁', bgColor: '#eeeeee73'},
 {url: 'https://1.z.wiki/autoupload/2022-07-31/8599edf8f83342c589be02f77f337041.image.png', title: '换成西郊线', desc: '从10好像下车，转乘西郊线'},
 {url: 'https://0.z.wiki/autoupload/2022-07-31/0efc782cba4a466cb7573a0dca262ee5.image.png', title: '换成西郊线', desc: '从10好像下车，转乘西郊线'},
 {url: 'https://2.z.wiki/autoupload/2022-07-31/8c5b35fe218d4e2697d2b43736e32c13.image.png', title: '坐上西郊线', desc: '看西郊线外的绿化'},

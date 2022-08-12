@@ -9,7 +9,9 @@
         <template v-else>
           <div class="ctn">
             <img :src="img.url" loading="lazy" :title="img.desc || '敖武的博客-照片'" :alt="img.title || '敖武的照片'" />
-            <div class="info">
+            <div class="info" :style="{
+              'background-color': img.bgColor || '#9292924f'
+            }">
               <h3 class="title" v-show="img.title">{{img.title}}</h3>
               <p class="desc" v-show="img.desc">{{img.desc}}</p>
             </div>
