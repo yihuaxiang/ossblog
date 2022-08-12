@@ -36,6 +36,7 @@ export default {
   padding: 35px 10px 40px;
   max-width: 316px;
   box-sizing: border-box;
+  min-height: 400px;
 }
 
 .top, .middle, .bottom {
