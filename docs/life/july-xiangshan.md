@@ -115,8 +115,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 没走几步便到了致远斋
 
 <ImgPlayer :imgs="[
-{url: 'https://1.z.wiki/autoupload/2022-07-31/35fd18a9b2ca44c98dc3c6cfc4e6889b.image.png', title: '致远斋', desc: '致远斋大堂门口' , darkInfo: true},
-{url: 'https://0.z.wiki/autoupload/2022-07-31/1d82a77e8a4e44d1b000e1440b221b20.image.png', title: '致远斋', desc: '致远斋介绍', darkInfo: true}
+{url: 'https://1.z.wiki/autoupload/2022-07-31/35fd18a9b2ca44c98dc3c6cfc4e6889b.image.png', title: '致远斋', desc: '致远斋介绍' , darkInfo: true},
+{url: 'https://0.z.wiki/autoupload/2022-07-31/1d82a77e8a4e44d1b000e1440b221b20.image.png', title: '致远斋', desc: '致远斋大堂门口', darkInfo: true}
 ]" />
 
 
@@ -148,7 +148,12 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 #### 剩余进度：2.8千米
 
- <img loading="lazy" src="https://0.z.wiki/autoupload/2022-07-31/96a5fab7968c4dd383812e3dfa38b2db.image.png" title="指路牌-距离香炉峰2.8千米" alt="指路牌-距离香炉峰2.8千米" />
+<ImgWithTitle :img="{
+    url: 'https://0.z.wiki/autoupload/2022-07-31/96a5fab7968c4dd383812e3dfa38b2db.image.png',
+    title: '指路牌',
+    desc: '距离香炉峰2.8千米',
+    darkInfo: true
+}" />
 
 
 #### 并蒂
@@ -219,7 +224,12 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 站在琉璃塔，整个昭庙尽收眼底。
 
- <img loading="lazy" src="https://0.z.wiki/autoupload/2022-08-01/0bb1010658a44cf285d942e3c4fd0208.image.png" title="俯视昭庙" alt="俯视昭庙" />
+<ImgWithTitle :img="{
+  url: 'https://0.z.wiki/autoupload/2022-08-01/0bb1010658a44cf285d942e3c4fd0208.image.png',
+  title: '俯视昭庙',
+  desc: '站在琉璃塔旁边，俯视昭庙，整个昭庙尽收眼底。',
+  darkInfo: true,
+}" />
 
 
 
@@ -269,9 +279,9 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 在小凳子上做了一会，这个小凳子就是我的救命恩人，再见了小凳子。
 
 <ImgPlayer :imgs="[
-'https://1.z.wiki/autoupload/2022-08-01/0f4fa985276842aa8d10ac2677df41d5.image.png',
-'https://3.z.wiki/autoupload/2022-08-01/b2d42586a7de41409c9112d5dbf7ab67.image.png',
-'https://0.z.wiki/autoupload/2022-08-01/478c6354ecce424b8992ad881c9358fd.image.png'
+{url: 'https://1.z.wiki/autoupload/2022-08-01/0f4fa985276842aa8d10ac2677df41d5.image.png', title: '拨云见日', desc: '拨云见日，遇到了一个小凳子，顿时满是欣喜。', darkInfo: true},
+{url: 'https://3.z.wiki/autoupload/2022-08-01/b2d42586a7de41409c9112d5dbf7ab67.image.png', title: '小凳子', desc: '在小凳子上做了一会，这个小凳子就是我的救命恩人。', darkInfo: true},
+{url: 'https://0.z.wiki/autoupload/2022-08-01/478c6354ecce424b8992ad881c9358fd.image.png', title: '再见了小凳子', desc: '这个小凳子就是我的救命恩人，再见了小凳子。', darkInfo: true}
 ]" />
 
 
