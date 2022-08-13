@@ -74,8 +74,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 走过人烟稀稀拉拉的买卖街便到了香山公园，__香山，我来了！__
 
 <ImgPlayer :imgs="[
-{url: 'https://4.z.wiki/autoupload/2022-07-31/a2f428b193a94d439c2e49deb3cd7786.image.png', title: '香山门口', desc: '矿泉水为证，我在香山门口。'},
-{url: 'https://1.z.wiki/autoupload/2022-07-31/09c2957bf9b242fbbeabeb2a597f4db6.image.png', title: '香山门口', desc: '矿泉水为证，我在香山门口。'}
+{url: 'https://4.z.wiki/autoupload/2022-07-31/a2f428b193a94d439c2e49deb3cd7786.image.png', title: '香山门口', desc: '矿泉水为证，我在香山门口。', darkInfo: true},
+{url: 'https://1.z.wiki/autoupload/2022-07-31/09c2957bf9b242fbbeabeb2a597f4db6.image.png', title: '香山门口', desc: '矿泉水为证，我在香山门口。', darkInfo: true}
 ]" />
 
 
@@ -115,8 +115,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 没走几步便到了致远斋
 
 <ImgPlayer :imgs="[
-{url: 'https://1.z.wiki/autoupload/2022-07-31/35fd18a9b2ca44c98dc3c6cfc4e6889b.image.png', title: '致远斋', desc: '致远斋大堂门口' },
-{url: 'https://0.z.wiki/autoupload/2022-07-31/1d82a77e8a4e44d1b000e1440b221b20.image.png', title: '致远斋', desc: '致远斋介绍'}
+{url: 'https://1.z.wiki/autoupload/2022-07-31/35fd18a9b2ca44c98dc3c6cfc4e6889b.image.png', title: '致远斋', desc: '致远斋大堂门口' , darkInfo: true},
+{url: 'https://0.z.wiki/autoupload/2022-07-31/1d82a77e8a4e44d1b000e1440b221b20.image.png', title: '致远斋', desc: '致远斋介绍', darkInfo: true}
 ]" />
 
 
@@ -140,9 +140,9 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 
 <ImgPlayer :imgs="[
-{url: 'https://1.z.wiki/autoupload/2022-07-31/8e9e63fad4574badb7f81e6e22d2f61f.image.png', title: '知松园', desc: '知松园于1987年建成,占地2公顷,有100余株古松柏.'},
-{url: 'https://4.z.wiki/autoupload/2022-07-31/0ff673f2d3754164a9c39621ce7ce211.image.png', title: '百年古树', desc: '源自清朝的百年古松柏'},
-{url: 'https://0.z.wiki/autoupload/2022-07-31/320eeb25eb4743749f327cecb932fabb.image.png', title: '百年古树', desc: '源自清朝的百年古松柏'}
+{url: 'https://1.z.wiki/autoupload/2022-07-31/8e9e63fad4574badb7f81e6e22d2f61f.image.png', title: '知松园', desc: '知松园于1987年建成,占地2公顷,有100余株古松柏.', darkInfo: true},
+{url: 'https://4.z.wiki/autoupload/2022-07-31/0ff673f2d3754164a9c39621ce7ce211.image.png', title: '百年古树', desc: '源自清朝的百年古松柏', darkInfo: true},
+{url: 'https://0.z.wiki/autoupload/2022-07-31/320eeb25eb4743749f327cecb932fabb.image.png', title: '百年古树', desc: '源自清朝的百年古松柏', darkInfo: true}
 ]" />
 
 
@@ -242,8 +242,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 #### 飞累了的小蝴蝶
 
 <ImgPlayer :imgs="[
-{url: 'https://0.z.wiki/autoupload/2022-08-01/6aa3d0ecb9504abda5846756cdb2afad.image.png', title: '小蝴蝶', desc: '偶遇的小蝴蝶'},
-{url: 'https://0.z.wiki/autoupload/2022-08-01/320e00f87e7d47f496986eba3eb26ad9.image.png', title: '小蝴蝶', desc: '你是不是也飞累了？'}
+{url: 'https://0.z.wiki/autoupload/2022-08-01/6aa3d0ecb9504abda5846756cdb2afad.image.png', title: '小蝴蝶', desc: '偶遇的小蝴蝶', darkInfo: true},
+{url: 'https://0.z.wiki/autoupload/2022-08-01/320e00f87e7d47f496986eba3eb26ad9.image.png', title: '小蝴蝶', desc: '你是不是也飞累了？', darkInfo: true}
 ]" />
 
 小蝴蝶叶飞累了吗？🤔🤔
