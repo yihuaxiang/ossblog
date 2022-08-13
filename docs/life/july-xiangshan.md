@@ -74,8 +74,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 走过人烟稀稀拉拉的买卖街便到了香山公园，__香山，我来了！__
 
 <ImgPlayer :imgs="[
-'https://4.z.wiki/autoupload/2022-07-31/a2f428b193a94d439c2e49deb3cd7786.image.png',
-'https://1.z.wiki/autoupload/2022-07-31/09c2957bf9b242fbbeabeb2a597f4db6.image.png'
+{url: 'https://4.z.wiki/autoupload/2022-07-31/a2f428b193a94d439c2e49deb3cd7786.image.png', title: '香山门口', desc: '矿泉水为证，我在香山门口。'},
+{url: 'https://1.z.wiki/autoupload/2022-07-31/09c2957bf9b242fbbeabeb2a597f4db6.image.png', title: '香山门口', desc: '矿泉水为证，我在香山门口。'}
 ]" />
 
 
