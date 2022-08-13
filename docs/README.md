@@ -29,7 +29,7 @@
 
 ## 封面图：有脾气的人
 
-<br /><br />
+<br />
 <ImgWithTitle :img="{
   url: 'https://0.z.wiki/images/20211115/1548709a2750430cadb3021b209fa847.png',
   title: '有脾气的人',
