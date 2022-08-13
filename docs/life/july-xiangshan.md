@@ -135,9 +135,9 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 
 <ImgPlayer :imgs="[
-'https://1.z.wiki/autoupload/2022-07-31/8e9e63fad4574badb7f81e6e22d2f61f.image.png',
-'https://4.z.wiki/autoupload/2022-07-31/0ff673f2d3754164a9c39621ce7ce211.image.png',
-'https://0.z.wiki/autoupload/2022-07-31/320eeb25eb4743749f327cecb932fabb.image.png'
+{url: 'https://1.z.wiki/autoupload/2022-07-31/8e9e63fad4574badb7f81e6e22d2f61f.image.png', title: '知松园', desc: '知松园于1987年建成,占地2公顷,有100余株古松柏.'},
+{url: 'https://4.z.wiki/autoupload/2022-07-31/0ff673f2d3754164a9c39621ce7ce211.image.png', title: '百年古树', desc: '源自清朝的百年古松柏'},
+{url: 'https://0.z.wiki/autoupload/2022-07-31/320eeb25eb4743749f327cecb932fabb.image.png', title: '百年古树', desc: '源自清朝的百年古松柏'}
 ]" />
 
 
