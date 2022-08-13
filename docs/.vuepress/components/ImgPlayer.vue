@@ -70,4 +70,24 @@ export default {
   text-align: center;
   font-weight: bold;
 }
+.ctn .info {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: #9292924f;
+  padding: 3px 5px;
+  padding-bottom: 28px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+</style>
+
+<style>
+.img-player .ctn .info {
+  padding-bottom: 28px !important;
+}
 </style>

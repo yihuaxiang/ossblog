@@ -48,6 +48,7 @@ export default {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .ctn .title {
   white-space: nowrap;
