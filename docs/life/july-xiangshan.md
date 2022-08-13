@@ -242,8 +242,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 #### 飞累了的小蝴蝶
 
 <ImgPlayer :imgs="[
-'https://0.z.wiki/autoupload/2022-08-01/6aa3d0ecb9504abda5846756cdb2afad.image.png',
-'https://0.z.wiki/autoupload/2022-08-01/320e00f87e7d47f496986eba3eb26ad9.image.png'
+{url: 'https://0.z.wiki/autoupload/2022-08-01/6aa3d0ecb9504abda5846756cdb2afad.image.png', title: '小蝴蝶', desc: '偶遇的小蝴蝶'},
+{url: 'https://0.z.wiki/autoupload/2022-08-01/320e00f87e7d47f496986eba3eb26ad9.image.png', title: '小蝴蝶', desc: '你是不是也飞累了？'}
 ]" />
 
 小蝴蝶叶飞累了吗？🤔🤔
