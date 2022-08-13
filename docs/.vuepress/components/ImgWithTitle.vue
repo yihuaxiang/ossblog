@@ -34,6 +34,7 @@ export default {
 .ctn {
   position: relative;
   min-height: 110px;
+  line-height: 0px;
 }
 .ctn .info {
   position: absolute;
