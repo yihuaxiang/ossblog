@@ -307,7 +307,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 休息休息
 
- <img loading="lazy" src="https://1.z.wiki/autoupload/2022-08-01/363c037f9d00446c827d0ad9a1aca31d.image.png" title="坐在台阶上休息休息" alt="坐在台阶上休息休息" />
+<ImgWithTitle :img="{url: 'https://1.z.wiki/autoupload/2022-08-01/363c037f9d00446c827d0ad9a1aca31d.image.png', title: '中途休息下', desc: '一路上遇到很多人都坐在台阶上休息，俺也不例外。', darkInfo: true}" />
 
 
 #### 中途俯视北京
