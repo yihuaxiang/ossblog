@@ -46,8 +46,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 <ImgPlayer :imgs="[
 {url: 'https://0.z.wiki/autoupload/2022-07-31/a9a29c692df34692b0498ef6fbf26fb3.image.png', title: '在地铁上', desc: '刚到达太阳宫地铁', bgColor: '#eeeeee73'},
-{url: 'https://1.z.wiki/autoupload/2022-07-31/8599edf8f83342c589be02f77f337041.image.png', title: '换成西郊线', desc: '从10好像下车，转乘西郊线'},
-{url: 'https://0.z.wiki/autoupload/2022-07-31/0efc782cba4a466cb7573a0dca262ee5.image.png', title: '换成西郊线', desc: '从10好像下车，转乘西郊线'},
+{url: 'https://1.z.wiki/autoupload/2022-07-31/8599edf8f83342c589be02f77f337041.image.png', title: '换乘西郊线', desc: '从10好像下车，转乘西郊线', darkInfo: true},
+{url: 'https://0.z.wiki/autoupload/2022-07-31/0efc782cba4a466cb7573a0dca262ee5.image.png', title: '换乘西郊线', desc: '从10好像下车，转乘西郊线', darkInfo: true},
 {url: 'https://2.z.wiki/autoupload/2022-07-31/8c5b35fe218d4e2697d2b43736e32c13.image.png', title: '坐上西郊线', desc: '看西郊线外的绿化'},
 {url: 'https://3.z.wiki/autoupload/2022-07-31/ad20f44c53df437a85514347a0ff46ab.image.png', title: '圆明园附近', desc: '圆明园附近的河流'},
 {url: 'https://4.z.wiki/autoupload/2022-07-31/f4bd19b268714e06af3a33697814d30a.image.png', title: '沿途站点', desc: '沿途站点'},
