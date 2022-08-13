@@ -14,7 +14,11 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 ### 全副武装
 
- <img loading="lazy" src="https://2.z.wiki/autoupload/2022-07-31/de9cd11d6bf7475282c23f47a864f0b0.image.png" title="全副武装的敖武" alt="全副武装的敖武" />
+<ImgWithTitle :img="{
+  url: 'https://2.z.wiki/autoupload/2022-07-31/de9cd11d6bf7475282c23f47a864f0b0.image.png',
+  title: '全副武装的敖武',
+  desc: '防晒帽、墨镜、防晒口罩、吸汗围巾、防晒衣、防晒霜应有尽有.'
+}" />
 
 
 防晒帽、墨镜、防晒口罩、吸汗围巾、防晒衣、防晒霜应有尽有，夏天的太阳，我会怕你吗？
