@@ -36,6 +36,7 @@ export default {
   min-height: 110px;
   line-height: 0px;
   width: fit-content;
+  min-width: 400px;
 }
 .ctn .info {
   position: absolute;
