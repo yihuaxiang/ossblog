@@ -64,7 +64,7 @@ export default {
 }
 
 .info.isDark {
-  background: hsl(0deg 0% 4%);
+  background: #0a0a0a8a;
 }
 .info.isDark .title {
   color: #c9cacc;
