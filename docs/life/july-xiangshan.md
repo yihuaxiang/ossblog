@@ -320,7 +320,7 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 坐下一小会，头稍一低下就滴答滴答没完。今天的活动量非常足！！
 
- <img loading="lazy" src="https://4.z.wiki/autoupload/2022-08-01/6525719b88c9492cba5f8f0da9a82ea0.xiangshan.gif" title="汗如雨下" alt="汗如雨下" />
+ <ImgWithTitle :img="{url: 'https://4.z.wiki/autoupload/2022-08-01/6525719b88c9492cba5f8f0da9a82ea0.xiangshan.gif', title: '汗如雨下', desc: '看我的汗，流的真痛快！！！！', darkInfo: true}" />
 
 
 #### 拨云见日
@@ -363,8 +363,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 #### 再见香山
 
 <ImgPlayer :imgs="[
-{url: 'https://1.z.wiki/autoupload/2022-08-01/1587a1269f004a298e22c5b0bf39b147.image.png', title: '再见香山', desc: '向香山门口挥手再见'},
-{url: 'https://3.z.wiki/autoupload/2022-08-01/3e884ed0d06840d2bb6c49c8c9b3172a.image.png', title: '再见香山', desc: '向香山门口门口的大石头挥手再见'}
+{url: 'https://1.z.wiki/autoupload/2022-08-01/1587a1269f004a298e22c5b0bf39b147.image.png', title: '再见香山', desc: '向香山门口挥手再见', darkInfo: true},
+{url: 'https://3.z.wiki/autoupload/2022-08-01/3e884ed0d06840d2bb6c49c8c9b3172a.image.png', title: '再见香山', desc: '向香山门口门口的大石头挥手再见', darkInfo: true}
 ]" />
 
 
