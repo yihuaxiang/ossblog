@@ -61,4 +61,14 @@ export default {
   color: #2c3e50;
   font-weight: normal;
 }
+
+.info.isDark {
+  background: hsl(0deg 0% 4%);
+}
+.info.isDark .title {
+  color: #c9cacc;
+}
+.info.isDark .desc {
+  color: #acb4bd;
+}
 </style>
