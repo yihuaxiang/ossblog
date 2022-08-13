@@ -33,6 +33,7 @@ export default {
 <style scoped>
 .ctn {
   position: relative;
+  min-height: 110px;
 }
 .ctn .info {
   position: absolute;
