@@ -31,7 +31,7 @@
 
 <ImgWithTitle :img="{
   url: 'https://0.z.wiki/images/20211115/1548709a2750430cadb3021b209fa847.png',
-  title: '有脾气的人的照片',
+  title: '有脾气的人',
   desc: '2020年10月拍于天津泰达航母。',
   darkInfo: true,
   bgColor: 'rgb(0 0 0 / 25%)'
