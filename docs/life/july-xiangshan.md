@@ -115,8 +115,8 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 没走几步便到了致远斋
 
 <ImgPlayer :imgs="[
-'https://1.z.wiki/autoupload/2022-07-31/35fd18a9b2ca44c98dc3c6cfc4e6889b.image.png',
-'https://0.z.wiki/autoupload/2022-07-31/1d82a77e8a4e44d1b000e1440b221b20.image.png'
+{url: 'https://1.z.wiki/autoupload/2022-07-31/35fd18a9b2ca44c98dc3c6cfc4e6889b.image.png', title: '致远斋', desc: '致远斋大堂门口' },
+{url: 'https://0.z.wiki/autoupload/2022-07-31/1d82a77e8a4e44d1b000e1440b221b20.image.png', title: '致远斋', desc: '致远斋介绍'}
 ]" />
 
 
