@@ -164,9 +164,11 @@ tags: ["敖武", "七月", "爬香山", "北京", "香山红叶", "昭庙", "索
 
 
 <ImgPlayer :imgs="[
-'https://1.z.wiki/autoupload/2022-07-31/d47e0df4ca044c279ddf30819e19217f.image.png',
-'https://8.z.wiki/autoupload/2022-07-31/5c6ae529139c48f8ab3cb414d5101a05.image.png',
-'https://8.z.wiki/autoupload/2022-07-31/b54e67ede45f4c51b4e772b9cf989e33.image.png'
+{url: 'https://1.z.wiki/autoupload/2022-07-31/d47e0df4ca044c279ddf30819e19217f.image.png', title: '并蒂', desc: '指两朵花并排地长在同一个茎上。', darkInfo: true},
+{url: 'https://8.z.wiki/autoupload/2022-07-31/5c6ae529139c48f8ab3cb414d5101a05.image.png', title: '并蒂', desc: '指两朵花并排地长在同一个茎上。', darkInfo: true},
+{url: 'https://8.z.wiki/autoupload/2022-07-31/b54e67ede45f4c51b4e772b9cf989e33.image.png', title: '并蒂', desc: '指两朵花并排地长在同一个茎上。', darkInfo: true}
+
+
 ]" />
 
 
