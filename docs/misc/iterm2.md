@@ -22,6 +22,11 @@
 
 ![](https://5.z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
 
+
+效果如下：
+
+![](https://6.z.wiki/autoupload/2022-08-16/ba80163df6a74a268160b922e5d971a2.files.gif)
+
 #### 快速保存
 
 当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
