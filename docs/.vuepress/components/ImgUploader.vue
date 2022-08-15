@@ -97,9 +97,9 @@ export default {
       console.info('handlePaste')
       const items = (event.clipboardData || window.clipboardData).items;
       const item = lodash.find(items, item => {
-        return item.type.indexOf('image') >= 0 || item.type.indexOf('video') >= 0;
+        return item.type && item.type.indexOf('image') >= 0 || item.type.indexOf('video') >= 0;
       })
-      const file = item?.getAsFile();
+      const file = item && item.getAsFile();
       if(file) {
         this.postFile(file);
       } else {
