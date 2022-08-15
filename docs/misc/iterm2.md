@@ -23,28 +23,28 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 当点击`Command + Shift + F`的时候自动发送`:Ag\n`按键指令，`vim`便会通过`Ag`插件进行弹框并搜索指定内容。
 
-![](https://3.z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
+![iTerm2 全局搜索功能](https://3.z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
 
 效果如下：
 
-![](https://9.z.wiki/autoupload/2022-08-16/7ba175e0686e4b7fa9cc4b98fee04631.findcntent.gif)
+![iTerm2 全局搜索功能](https://9.z.wiki/autoupload/2022-08-16/7ba175e0686e4b7fa9cc4b98fee04631.findcntent.gif)
 
 #### 文件搜索
 
 当点击`Command + P`的时候自动发送`:Files\n`按键指令，`vim`根据文件名进行搜索。
 
-![](https://5.z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
+![iTerm2 文件搜索](https://5.z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
 
 
 效果如下：
 
-![](https://6.z.wiki/autoupload/2022-08-16/ba80163df6a74a268160b922e5d971a2.files.gif)
+![iTerm2 文件搜索](https://6.z.wiki/autoupload/2022-08-16/ba80163df6a74a268160b922e5d971a2.files.gif)
 
 #### 快速保存
 
 当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
 
-![](https://7.z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png)
+![iTerm2 快速保存](https://7.z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png)
 
 #### 其他
 
