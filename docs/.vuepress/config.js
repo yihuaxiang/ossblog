@@ -283,5 +283,6 @@ module.exports = {
       lang: 'zh-CN',
     }
   },
-  globalUIComponents: ['PvAccumulation']
+  globalUIComponents: ['PvAccumulation'],
+  evergreen: true
 }
