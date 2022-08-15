@@ -39,7 +39,7 @@ export default ({
       }
       if (to.path && (lodash.some(prefixPathes, path => to.path.startsWith(path)))) {
         // 代码片段模块，有服务端路由控制
-        window.location.assign(to.path);
+        typeof window == 'object' && window.location.assign(to.path);
       } else {
         next("/notfound.html");
       }
