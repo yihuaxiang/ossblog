@@ -16,6 +16,10 @@
 
 ![](https://3.z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
 
+效果如下：
+
+![](https://9.z.wiki/autoupload/2022-08-16/7ba175e0686e4b7fa9cc4b98fee04631.findcntent.gif)
+
 #### 文件搜索
 
 当点击`Command + P`的时候自动发送`:Files\n`按键指令，`vim`根据文件名进行搜索。
