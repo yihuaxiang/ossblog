@@ -247,6 +247,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'iterm2',
         'rom',
         'document-fragment',
         'alfred-adcode-query',
