@@ -1,6 +1,39 @@
 # iTerm2 配置
 
-给`iTerm2`配置了`Key binding`，主要想把终端打造成类`IDEA`一样的工具，完整配置如下：
+给`iTerm2`配置了`Key binding`，主要想把终端打造成类`IDEA`一样的工具，完整配置在文章最后：
+
+### 核心功能
+
+#### 快速注释
+
+当点击`Command + /`的时候自动发送`,cc`按键指令，`vim`便会对内容进行快速注释。
+
+![](https://1.z.wiki/autoupload/2022-08-16/e1d296d06b4649af85b561320906ebda.image.png)
+
+#### 全局内容搜索
+
+当点击`Command + Shift + F`的时候自动发送`:Ag\n`按键指令，`vim`便会通过`Ag`插件进行弹框并搜索指定内容。
+
+![](https://3.z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
+
+#### 文件搜索
+
+当点击`Command + P`的时候自动发送`:Files\n`按键指令，`vim`根据文件名进行搜索。
+
+![](https://5.z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
+
+#### 快速保存
+
+当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
+
+![](https://7.z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png)
+
+#### 其他
+
+其他都是一些简单快捷键设置，具体可以看下文中的完整配置，另外以上配置直接保存成`JSON`即可通过`iTerms`进行导入。
+
+### 完整配置
+
 
 ```json
 {
@@ -129,35 +162,3 @@
   "Touch Bar Items": {}
 }
 ```
-
-
-
-### 核心功能
-
-#### 快速注释
-
-当点击`Command + /`的时候自动发送`,cc`按键指令，`vim`便会对内容进行快速注释。
-
-![](https://1.z.wiki/autoupload/2022-08-16/e1d296d06b4649af85b561320906ebda.image.png)
-
-#### 全局内容搜索
-
-当点击`Command + Shift + F`的时候自动发送`:Ag\n`按键指令，`vim`便会通过`Ag`插件进行弹框并搜索指定内容。
-
-![](https://3.z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
-
-#### 文件搜索
-
-当点击`Command + P`的时候自动发送`:Files\n`按键指令，`vim`根据文件名进行搜索。
-
-![](https://5.z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
-
-#### 快速保存
-
-当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
-
-![](https://7.z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png)
-
-#### 其他
-
-其他都是一些简单快捷键设置，具体可以看上文中的完整配置，另外以上配置直接保存成`JSON`即可通过`iTerms`进行导入。
