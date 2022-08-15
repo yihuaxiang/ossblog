@@ -34,7 +34,10 @@ export default ({
 
     if (to.matched.length > 0 && to.matched[0].path === "*") {
       const prefixPathes = ['/snippets', '/playground', '/tools/'];
-      if (to.path && (lodash.some(prefixPathes, path => to.path.startsWith(path))) && to.path != '/tools/tuchuang.html') {
+      if (path == '/tools/tuchuang.html') {
+        next();
+      }
+      if (to.path && (lodash.some(prefixPathes, path => to.path.startsWith(path)))) {
         // 代码片段模块，有服务端路由控制
         window.location.assign(to.path);
       } else {
