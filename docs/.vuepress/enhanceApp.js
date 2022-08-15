@@ -112,50 +112,53 @@ export default ({
       self.userId = data.id;
       self.userName = self.userId.slice(2);
       self.userAvatar = 'https://z.wiki/favicon.ico';
-      if(window.DUOSHUO && window.DUOSHUO.visitor
-        && window.DUOSHUO.visitor.data.user_id) {
-        var userInfo = window.DUOSHUO.visitor.data;
-        self.userId = userInfo.user_id;
-        self.userName = userInfo.name;
-        self.userAvatar = userInfo.avatar_url;
-      } else if($.cookie && ($.cookie('visitor') || $.cookie('visitor_history'))) {
-        var info = $.cookie('visitor') || $.cookie('visitor_history');
-        try {
-          var info = JSON.parse(info);
-          if(info.id && info.name && info.avatar) {
-            self.userId = info.id;
-            self.userName = info.name;
-            self.userAvatar = info.avatar;
-          }
-        } catch(e) {}
-      } else {
-        if(window.localStorage) {
-          var userId = window.localStorage.getItem('userId');
-          if(userId) {
-            self.userId = userId.length > 12 ? userId.slice(0, 12) : userId;
-            self.userName = userId.slice(2);
-          } else {
-            window.localStorage.setItem('userId', self.userId);
-          }
-          var userName = window.localStorage.getItem('userName');
-          if(userName) {
-            self.userName = userName;
+
+      if (typeof window === 'object') {
+        if(window.DUOSHUO && window.DUOSHUO.visitor
+          && window.DUOSHUO.visitor.data.user_id) {
+          var userInfo = window.DUOSHUO.visitor.data;
+          self.userId = userInfo.user_id;
+          self.userName = userInfo.name;
+          self.userAvatar = userInfo.avatar_url;
+        } else if($.cookie && ($.cookie('visitor') || $.cookie('visitor_history'))) {
+          var info = $.cookie('visitor') || $.cookie('visitor_history');
+          try {
+            var info = JSON.parse(info);
+            if(info.id && info.name && info.avatar) {
+              self.userId = info.id;
+              self.userName = info.name;
+              self.userAvatar = info.avatar;
+            }
+          } catch(e) {}
+        } else {
+          if(window.localStorage) {
+            var userId = window.localStorage.getItem('userId');
+            if(userId) {
+              self.userId = userId.length > 12 ? userId.slice(0, 12) : userId;
+              self.userName = userId.slice(2);
+            } else {
+              window.localStorage.setItem('userId', self.userId);
+            }
+            var userName = window.localStorage.getItem('userName');
+            if(userName) {
+              self.userName = userName;
+            }
           }
         }
+        if(window.localStorage) {
+          window.localStorage.setItem('userId', self.userId);
+        }
+        if(!self.nameChanged) {
+          self.nameChanged = true;
+          return self.changeName();
+        }
+        // console.info('ID: ' + self.userId);
+        self.socket.emit('createUser', {
+          userId: self.userId,
+          userName: self.userName,
+          userAvatar: self.userAvatar
+        });
       }
-      if(window.localStorage) {
-        window.localStorage.setItem('userId', self.userId);
-      }
-      if(!self.nameChanged) {
-        self.nameChanged = true;
-        return self.changeName();
-      }
-      // console.info('ID: ' + self.userId);
-      self.socket.emit('createUser', {
-        userId: self.userId,
-        userName: self.userName,
-        userAvatar: self.userAvatar
-      });
     });
   };
 
@@ -185,8 +188,10 @@ export default ({
           userName: self.userName,
           userAvatar: self.userAvatar
         });
-        if(window.localStorage) {
-          window.localStorage.setItem('userName', self.userName);
+        if (typeof window === 'object') {
+          if(window.localStorage) {
+            window.localStorage.setItem('userName', self.userName);
+          }
         }
         $('.chatroom-rename').remove();
       }
@@ -497,6 +502,6 @@ export default ({
     }
   };
 
-  console.info('ChatRoomClient')
-  window.chatRoomClient = new ChatRoomClient();
+  console.info('ChatRoomClient');
+  typeof window == 'object' && window.chatRoomClient = new ChatRoomClient();
 }
