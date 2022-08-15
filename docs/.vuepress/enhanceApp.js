@@ -503,5 +503,5 @@ export default ({
   };
 
   console.info('ChatRoomClient');
-  typeof window == 'object' && window.chatRoomClient = new ChatRoomClient();
+  window.chatRoomClient = new ChatRoomClient();
 }
