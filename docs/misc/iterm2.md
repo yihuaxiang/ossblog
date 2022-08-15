@@ -142,9 +142,21 @@
 
 #### 全局内容搜索
 
+当点击`Command + Shift + F`的时候自动发送`:Ag\n`按键指令，`vim`便会通过`Ag`插件进行弹框并搜索指定内容。
+
+![](https://3.z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
+
 #### 文件搜索
 
+当点击`Command + P`的时候自动发送`:Files\n`按键指令，`vim`根据文件名进行搜索。
+
+![](https://5.z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
+
 #### 快速保存
+
+当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
+
+![](https://7.z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png)
 
 #### 其他
 
