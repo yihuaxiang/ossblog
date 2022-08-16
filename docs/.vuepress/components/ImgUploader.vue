@@ -4,7 +4,15 @@
   <br>
   <br>
   <div class="preview">
-    <img width="200px" :src=valueUrl  v-if="valueUrl">
+
+    <!--支持 zip 文件上传-->
+    <template v-if="valueUrl && valueUrl.endsWith('.zip')">
+      <img width="200px" src="https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg">
+    </template>
+    <template v-else>
+      <img width="200px" :src=valueUrl  v-if="valueUrl">
+    </template>
+
   </div>
   <template v-if="loading">
     <span class="loading">
