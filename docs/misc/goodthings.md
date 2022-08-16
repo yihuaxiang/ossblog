@@ -9,7 +9,10 @@
 
 ### clipMenu
 系统剪切板增强工具，支持历史复制内容
-[下载地址](http://www.clipmenu.com/)
+
+- [官网下载地址](http://www.clipmenu.com/)
+- [国内下载链接](https://0.z.wiki/autoupload/2022-08-16/9f5e55e449474d45851c81bec1d391de.ClipMenu.app.zip)
+
 
 ### alfred
 程序启动器Mac spotlight 的增强版，支持插件
