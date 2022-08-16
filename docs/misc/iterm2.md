@@ -54,3 +54,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 
 [下载链接：iterm2.itermkeymap.zip](https://8.z.wiki/autoupload/2022-08-16/502be620666044f095913fdb8b6c604c.iterm2.itermkeymap.zip)
+
+导入方式：
+
+![iTerm2 导入配置](https://5.z.wiki/autoupload/2022-08-16/b23a6f9e70254855977843979d554ae7.image.png)
