@@ -35,7 +35,13 @@
     <div class="records">
       <template v-for="record in records">
         <div class="record" :key="record.id">
-          <img class="icon" :src="record.url" width="100" height="100" />
+          <!--支持 zip 文件上传-->
+          <template v-if="record.url.endsWith('.zip')">
+            <img class="icon" src="https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg" width="100" height="100" />
+          </template>
+          <template v-else>
+            <img class="icon" :src="record.url" width="100" height="100" />
+          </template>
           <span class="name">{{record.fileName}}</span>
           <div class="buttons">
             <button class="button" @click="handleCopy(record)">复制连接</button>
