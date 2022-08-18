@@ -1,5 +1,10 @@
 ---
-tags: ["UUID", "UUID-v4", "UUID-v1", "UUID-v5"]
+meta:
+  - name: description
+    content: uuid 是什么？有哪些版本？该如何进行选择呢？
+  - name: keywords
+    content: uuid,guid,唯一ID,全局ID,id 版本
+tags: ["uuid", "唯一ID", "全局ID", "guid", "版本"]
 ---
 
 # UUID版本指南
