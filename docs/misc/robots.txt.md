@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: robots 是什么？如何使用 robots 进行爬虫爬取策略？如何优化搜索排名？如何优化SEO
+  - name: keywords
+    content: robots,爬虫协议,爬虫,搜索排名,SEO
+tags: ["robots", "爬虫协议", "爬虫", "搜索排名", "SEO"]
+---
 # robots.txt
 
 ### robots.txt 是什么
