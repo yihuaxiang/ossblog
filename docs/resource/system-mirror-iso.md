@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: 系统镜像下载，包括 windows、ubuntu、centos等多种操作系统 
+  - name: keywords
+    content: 操作系统,镜像,iso,系统下载 
 tags: ["操作系统", "镜像", "iso", "系统下载"]
 ---
 
