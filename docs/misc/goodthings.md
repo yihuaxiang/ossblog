@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: 优秀软件,提效神器,工具,程序员必备,开发必备
+  - name: keywords
+    content: 优秀软件,提效神器,工具,程序员必备,开发必备
+tags: ["iTerms", "终端", "神器", "效率", "程序员"]
+---
 # 神器好物篇
 
 > 相关链接

@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: 二维码生成器,递归二维码,循环二维码
+  - name: keywords
+    content: 二维码生成器,递归二维码,循环二维码
 tags: ["二维码", "敖武的二维码"]
 sidebar: false
 

@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: ROM是什么与ROM发展历史介绍
+  - name: keywords
+    content: ROM,手机存储,存储器
 tags: ["ROM", "RAM", "闪存", "存储", "手机"]
 ---
 

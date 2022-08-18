@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: 超级马力欧：奥德赛
+  - name: keywords
+    content: switch游戏机,超级马力欧,奥德赛
+tags: ["switch", "游戏机", "超级马力欧", "奥德赛"]
+---
 # 超级马力欧：奥德赛
 
 
