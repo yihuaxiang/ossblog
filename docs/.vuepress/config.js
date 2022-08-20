@@ -247,6 +247,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'open-source-request',
         'iterm2',
         'rom',
         'document-fragment',
