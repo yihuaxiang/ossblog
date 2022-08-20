@@ -24,3 +24,7 @@
 唉，评估没通过？为啥呢？
 
 ![](https://9.z.wiki/autoupload/2022-08-20/9efd01640313415b98474af3e456c601.image.png)
+
+发邮件过去问问，看看他们怎么说吧
+
+![](https://3.z.wiki/autoupload/2022-08-20/77a9d1332b8145cabfe46d3b28991edc.image.png)
