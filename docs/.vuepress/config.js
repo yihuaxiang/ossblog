@@ -214,6 +214,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'baike',
         'climbing',
         'july-xiangshan',
         'communication',
