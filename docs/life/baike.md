@@ -68,3 +68,5 @@
 正当我叉腰自豪的时候突然意识到，我直接`Google`下北方明珠的物业费不就行了？折腾这么久干什么？！！我是脑子进水了吗？？？
 
 ![](https://8.z.wiki/autoupload/2022-08-22/eb77e75f45c849aa84c3e842133af82c.image.png)
+
+![](https://1.z.wiki/autoupload/2022-08-22/278aaa14a54a4bbfaf90e332c9032b41.image.png)
