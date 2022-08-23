@@ -46,4 +46,4 @@
 1. 添加开源协议
 2. 完善 README.md
 
-> 开源项目定义：[https://opensource.org/docs/osd](https://opensource.org/docs/osd)
+> 开源项目定义：[https://opensource.org/docs/osd](https://opensource.org/docs/osd) ,尽量保证自己的项目满足开源项目的定义。
