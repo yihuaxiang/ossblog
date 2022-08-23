@@ -32,3 +32,14 @@
 哦~，人工检查后发来邮件，说大部分内容都是非代码，(ˇˍˇ) ～ 也是啊，博客系统大部分都是`Markdown`文件。
 
 ![](https://8.z.wiki/autoupload/2022-08-23/b994563ae1e14c3a9a5bb0fca0b84828.image.png)
+
+### 重新申请
+
+这次我使用 [敖武的游乐场](https://github.com/yihuaxiang/playground) 项目来申请试试，这个项目是个纯`java`的`web`项目，到目前已经存在了`5`个月以上，最新提交在`7`天前。
+
+![](https://7.z.wiki/autoupload/2022-08-23/975968d0f902403ab0dc871214fe0f50.image.png)
+
+为了申请先做下调整：
+
+1. 添加开源协议
+2. 完善 README.md
