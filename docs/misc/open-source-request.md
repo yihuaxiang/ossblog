@@ -5,6 +5,8 @@
 
 ### 发起申请
 
+> 申请链接：[https://www.jetbrains.com/shop/eform/opensource](https://www.jetbrains.com/shop/eform/opensource)
+
 随便找一个维护过三个月以上的项目，使用该开源项目进行申请，这里我把我的博客系统写了上去。
 
 ![开源License申请](https://0.z.wiki/autoupload/2022-08-20/71236661986b432fb328325a8b2eb825.image.png)
@@ -43,3 +45,5 @@
 
 1. 添加开源协议
 2. 完善 README.md
+
+> 开源项目定义：[https://opensource.org/docs/osd](https://opensource.org/docs/osd)
