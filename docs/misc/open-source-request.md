@@ -5,7 +5,7 @@
 
 ### 发起申请
 
-> 申请链接：[https://www.jetbrains.com/shop/eform/opensource](https://www.jetbrains.com/shop/eform/opensource)
+> 申请链接：[opensource](https://www.jetbrains.com/shop/eform/opensource)
 
 随便找一个维护过三个月以上的项目，使用该开源项目进行申请，这里我把我的博客系统写了上去。
 
