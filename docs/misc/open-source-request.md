@@ -28,3 +28,7 @@
 发邮件过去问问，看看他们怎么说吧
 
 ![开源License申请](https://3.z.wiki/autoupload/2022-08-20/77a9d1332b8145cabfe46d3b28991edc.image.png)
+
+哦~，人工检查后发来邮件，说大部分内容都是废代码，(ˇˍˇ) ～ 也是啊，博客系统大部分都是`Markdown`文件。
+
+![](https://8.z.wiki/autoupload/2022-08-23/b994563ae1e14c3a9a5bb0fca0b84828.image.png)
