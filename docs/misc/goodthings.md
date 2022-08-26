@@ -158,7 +158,8 @@ Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体
 
 ![](https://3.z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png)
 
-下载链接：[github/alibaba/lightproxy](https://github.com/alibaba/lightproxy/releases)
+1. 下载链接：[github/alibaba/lightproxy](https://github.com/alibaba/lightproxy/releases)
+2. 国内下载：[LightPxory](https://0.z.wiki/autoupload/2022-08-26/471c2f36ded747bcb0d84616469bde43.LightProxy-1.1.41-mac.zip)
 
 典型应用场景一：
 由于安全原因，前端发布后，对应的`sourcemap`文件不会发布到公网上，需要`debug`的时候可以通过`lightproxy`做下映射。
