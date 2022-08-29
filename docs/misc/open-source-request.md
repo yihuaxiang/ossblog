@@ -39,7 +39,7 @@
 
 这次我使用 [敖武的游乐场](https://github.com/yihuaxiang/playground) 项目来申请试试，这个项目是个纯`java`的`web`项目，到目前已经存在了`5`个月以上，最新提交在`7`天前。
 
-![](https://7.z.wiki/autoupload/2022-08-23/975968d0f902403ab0dc871214fe0f50.image.png)
+![开源License申请](https://7.z.wiki/autoupload/2022-08-23/975968d0f902403ab0dc871214fe0f50.image.png)
 
 为了申请先做下调整：
 
@@ -58,13 +58,13 @@
 
 登陆账号，能看到已授权的 license，有效期一年，一年收再申请续期😀😀😀，省的以后天天找激活码了😏😏
 
-![](https://9.z.wiki/autoupload/2022-08-29/3e619b10895c425d9d94390b3c4d7ac2.image.png)
+![开源License申请](https://9.z.wiki/autoupload/2022-08-29/3e619b10895c425d9d94390b3c4d7ac2.image.png)
 
 
 打开`IDEA`激活~，没想到这么顺利，惊喜惊喜。
 
 
-![](https://0.z.wiki/autoupload/2022-08-29/b6275ffb901d4191a6cd88513ea9513d.image.png)
+![开源License申请](https://0.z.wiki/autoupload/2022-08-29/b6275ffb901d4191a6cd88513ea9513d.image.png)
 
 
-![](https://7.z.wiki/autoupload/2022-08-29/fbfdbf77dd064af194cf77f785f57365.image.png)
+![开源License申请](https://7.z.wiki/autoupload/2022-08-29/fbfdbf77dd064af194cf77f785f57365.image.png)
