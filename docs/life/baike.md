@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 敖武与百度百科
+  - name: keywords
+    content: 敖武,百度百科,物业,收费
+---
 # 我的百度百科
 
 下月公司就要搬到新总部了，我也准备着搬到新家里面，对环境不太熟悉的情况下一般都会通过网络来了解下新地方，正好访问到了 [北方明珠](https://baike.baidu.com/item/%E5%8C%97%E6%96%B9%E6%98%8E%E7%8F%A0%E5%B0%8F%E5%8C%BA/108730) 的百科。
