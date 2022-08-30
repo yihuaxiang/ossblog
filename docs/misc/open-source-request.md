@@ -1,8 +1,10 @@
+---
 meta:
   - name: description
     content: Idea 开源使用许可申请
   - name: keywords
     content: Idea 开源使用许可申请
+---
 # Idea 开源使用许可申请
 
 一直用`Idea`，最头疼的就是`License`过期的问题了，尝试过多种方式（淘宝、激活码、激活服务器等各种方式），没有一个简单好用的，听说过有开源项目的话可以申请开源许可，今日提交申请试试😄😄
