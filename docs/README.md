@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 敖武的博客，分享我的生活、技术、经验、总结
+  - name: keywords
+    content: 敖武的博客,技术,博客,经验,总结,思考,github
+---
 # 欢迎👏🏻👏🏻👏🏻
 
 ## 关于博主
