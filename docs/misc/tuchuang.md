@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: 敖武的图床
+  - name: keywords
+    content: 敖武,免费图床,图床,云盘
 tags: ["图床", "敖武的图床", "免费图床"]
 sidebar: false
 
