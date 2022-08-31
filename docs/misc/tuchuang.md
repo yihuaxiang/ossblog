@@ -1,9 +1,9 @@
 ---
 meta:
   - name: description
-    content: 敖武的图床
+    content: 敖武的图床,免费公共图床, 提供图片上传和图片外链服务, 原图保存, 全球CDN加速
   - name: keywords
-    content: 敖武,免费图床,图床,云盘
+    content: 敖武的图床,免费公共图床, 提供图片上传和图片外链服务, 原图保存, 全球CDN加速
 tags: ["图床", "敖武的图床", "免费图床"]
 sidebar: false
 
