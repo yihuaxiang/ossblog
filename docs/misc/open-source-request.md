@@ -62,16 +62,12 @@ meta:
 
 ![Idea 开源License申请](https://4.z.wiki/autoupload/2022-08-29/b9a56629ab70409589290a30b1885e30.image.png)
 
-
 登陆账号，能看到已授权的 license，有效期一年，一年收再申请续期😀😀😀，省的以后天天找激活码了😏😏
 
 ![Idea 开源License申请](https://9.z.wiki/autoupload/2022-08-29/3e619b10895c425d9d94390b3c4d7ac2.image.png)
 
-
 打开`IDEA`激活~，没想到这么顺利，惊喜惊喜。
 
-
 ![Idea 开源License申请](https://0.z.wiki/autoupload/2022-08-29/b6275ffb901d4191a6cd88513ea9513d.image.png)
-
 
 ![Idea 开源License申请](https://7.z.wiki/autoupload/2022-08-29/fbfdbf77dd064af194cf77f785f57365.image.png)
