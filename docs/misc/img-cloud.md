@@ -14,7 +14,7 @@ tags: ["图床", "敖武的图床", "免费图床"]
 
 ### 故事起源
 
-经常有很多图片需要上传，平时在公司直接用公司的图床，在`Idea`上传照片的话有一个`Markdown Image Support`的插件，
+经常有很多图片需要上传，平时在公司直接用公司的图床，在`Idea`上传照片的话有一个 [Markdown Image Support](https://plugins.jetbrains.com/plugin/14097-markdown-image-support) 的插件，
 可以支持在`markdown`文件中粘贴照片，但是有很多时候不是在`markdown`中上传。
 
 <img src="https://2.z.wiki/images/20220405/1b67581529b24ee29f1af5ae285d76d1.png" width="100" />
