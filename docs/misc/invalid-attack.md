@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 敖武的服务违规提醒
+  - name: keywords
+    content: 腾讯,服务违规提醒,服务攻击
+---
 # 服务违规提醒
 
 ### 起源
