@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 敖武的美食之家
+  - name: keywords
+    content: 敖武,美食,鲜肉包,炒饭,排骨,肉饼,红烧牛肉,意面,酱肉包,抄手,锅巴土豆,水煮肉,猪蹄儿
+---
 # 美食之家
 
 # 2021年的美食
