@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 敖武的爬山新装备
+  - name: keywords
+    content: 敖武的爬山新装备,登山杖
+---
 # 爬山新装备
 
 上周末刚爬[完香山](https://z.wiki/life/july-xiangshan.html)，这周对爬山的热情迟迟无法消退。
