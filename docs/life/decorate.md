@@ -3,7 +3,7 @@ meta:
   - name: description
     content: 家庭装修注意事项
   - name: keywords
-    content: 家庭装修注意事项
+    content: 橱柜,装修,家装,敖武,厨房,注意事项
 ---
 # 装修注意事项
 
