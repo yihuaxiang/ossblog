@@ -39,18 +39,18 @@ done
 
 通过`shell`脚本生成`100`个文件，大小分别从`1K`到`100K`。
 
-![](https://0.z.wiki/autoupload/2022-09-06/4a62c3e3b87446d6b42828ecb453ce33.Pasted Graphic.png)
+![](https://0.z.wiki/autoupload/2022-09-06/4a62c3e3b87446d6b42828ecb453ce33.Pasted\ Graphic.png)
 
 查看文件大小如下：
 
-![](https://6.z.wiki/autoupload/2022-09-06/28f75f18d11a4170b20dcc0211d1000b.Pasted Graphic 1.png)
+![](https://6.z.wiki/autoupload/2022-09-06/28f75f18d11a4170b20dcc0211d1000b.Pasted\ Graphic\ 1.png)
 
 从图中可以看出所有文件最小占用`4K`，所有文件大小都是4k的整数倍。这是因为一个文件至少要占用一个分配单元的空间，而默认一个分配单元为`4K`。[关于4K的解释](https://www.zhihu.com/question/347758704/answer/836811084);
 
 
 ### 开启`web`服务
 
-通过`http-server`启动一个简单的`http`服务器，服务器需要修改防火墙配置，允许通过该端口进行访问。
+通过 [http-server](https://www.npmjs.com/package/http-server) 启动一个简单的`http`服务器，服务器需要修改防火墙配置，允许通过该端口进行访问。
 
 ![](https://6.z.wiki/autoupload/2022-09-06/a61fc39739ba4ddda9427ec5e6accb7c.image.png)
 
@@ -102,7 +102,7 @@ size is 100, avg time is .21
 
 ![](https://2.z.wiki/autoupload/2022-09-05/f9e9064e473b445c9f193f7fbdcc69d1.image.png)
 
-让我们通过图标分析下吧~
+让我们通过图表分析下吧~
 
 ![](https://6.z.wiki/autoupload/2022-09-06/6c90b271d40c484294d66e2f8cced37f.image.png)
 
