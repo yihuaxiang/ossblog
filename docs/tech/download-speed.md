@@ -39,11 +39,11 @@ done
 
 通过`shell`脚本生成`100`个文件，大小分别从`1K`到`100K`。
 
-![](https://0.z.wiki/autoupload/2022-09-06/4a62c3e3b87446d6b42828ecb453ce33.Pasted\ Graphic.png)
+![](https://2.z.wiki/autoupload/2022-09-06/169940ffc0a84c64806fdcc8f6452f74.image.png)
 
 查看文件大小如下：
 
-![](https://6.z.wiki/autoupload/2022-09-06/28f75f18d11a4170b20dcc0211d1000b.Pasted\ Graphic\ 1.png)
+![](https://4.z.wiki/autoupload/2022-09-06/0daa2d5de85c44398ffad414b13ef59d.image.png)
 
 从图中可以看出所有文件最小占用`4K`，所有文件大小都是4k的整数倍。这是因为一个文件至少要占用一个分配单元的空间，而默认一个分配单元为`4K`。[关于4K的解释](https://www.zhihu.com/question/347758704/answer/836811084);
 
