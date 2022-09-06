@@ -3,7 +3,7 @@ meta:
   - name: description
     content: 文件大小与下载速度
   - name: keywords
-    content: 文件大小,下载速度
+    content: 文件大小,下载速度,性能优化
 ---
 # 文件大小与下载速度
 
