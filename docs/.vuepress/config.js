@@ -191,6 +191,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'download-speed',
         'html-space-entity',
         'springboot-circular-dependencies',
         'java-httpclient',
