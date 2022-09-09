@@ -215,7 +215,6 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
-        'rent-ratio',
         'decorate',
         'baike',
         'climbing',
@@ -251,6 +250,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'rent-ratio',
         'open-source-request',
         'iterm2',
         'rom',
