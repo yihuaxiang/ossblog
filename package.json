@@ -9,7 +9,7 @@
     "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "author": "",
+  "author": "fudongdonguestc@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@mr-hope/vuepress-plugin-git": "^1.28.5",
