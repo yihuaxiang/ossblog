@@ -14,7 +14,7 @@ meta:
 
 在朋友圈看再多也不如亲自去看看，出发~
 
-<img src="https://restapi.amap.com/v3/staticmap?location=116.400668,39.977079&zoom=12&size=800*300&markers=mid,,A:116.400668,39.977079&key=d5a3f8fd9665c914b107e82f4d791ec3" />
+![](https://4.z.wiki/autoupload/2022-09-10/b5234fbd424c4634bd68da042e7f11e7.image.png)
 
 ### 遗址公园入口
 
