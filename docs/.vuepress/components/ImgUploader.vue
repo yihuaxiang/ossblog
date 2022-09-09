@@ -9,6 +9,9 @@
     <template v-if="valueUrl && valueUrl.endsWith('.zip')">
       <img width="200px" src="https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg">
     </template>
+    <template v-else-if="valueUrl && valueUrl.endsWith('.pdf')">
+      <img width="200px" src="https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg">
+    </template>
     <template v-else>
       <img width="200px" :src=valueUrl  v-if="valueUrl">
     </template>
@@ -40,6 +43,9 @@
           <!--支持 zip 文件上传-->
           <template v-if="record.url.endsWith('.zip')">
             <img class="icon" src="https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg" width="100" height="100" />
+          </template>
+          <template v-else-if="record.url.endsWith('.pdf')">
+            <img class="icon" src="https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg" width="100" height="100" />
           </template>
           <template v-else>
             <img class="icon" :src="record.url" width="100" height="100" />
