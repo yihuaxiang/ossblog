@@ -40,6 +40,12 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 ![iTerm2 文件搜索](https://6.z.wiki/autoupload/2022-08-16/ba80163df6a74a268160b922e5d971a2.files.gif)
 
+#### 最近文件
+
+点击`Command + E`时自动发送`:History`按键指令，打开最近使用过的文件
+
+![](https://0.z.wiki/autoupload/2022-09-09/77d891f0c5fb48809790cbc77c12461c.image.png)
+
 #### 快速保存
 
 当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
