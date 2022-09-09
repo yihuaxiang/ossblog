@@ -53,8 +53,8 @@
           <span class="name">{{record.fileName}}</span>
           <div class="buttons">
             <button class="button" @click="handleCopy(record)">复制连接</button>
-            <button class="button" @click="handleCopyMD(record)" v-show="!record.url.endsWith('.zip')">复制MD</button>
-            <button class="button" @click="handleCopyBase64(record)" v-show="!record.url.endsWith('.zip')">复制base64</button>
+            <button class="button" @click="handleCopyMD(record)" v-show="isImg(record.url)">复制MD</button>
+            <button class="button" @click="handleCopyBase64(record)" v-show="isImg(record.url)">复制base64</button>
           </div>
         </div>
       </template>
@@ -88,6 +88,9 @@ export default {
     document.removeEventListener('paste', this.handlePaste);
   },
   methods: {
+    isImg(url) {
+      return !url.endsWith('.zip') && !url.endsWith('.pdf');
+    },
     createUserId() {
       if (!localStorage.getItem('fdd_uid')) {
         localStorage.setItem('fdd_uid', v4().replaceAll('-', ''));
