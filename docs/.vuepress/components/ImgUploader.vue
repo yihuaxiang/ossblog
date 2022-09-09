@@ -103,11 +103,12 @@ export default {
     },
     handlePaste(event) {
       console.info('handlePaste')
+      const allowedMimeTypes = ["application/zip", "application/pdf"];
       const items = (event.clipboardData || window.clipboardData).items;
       const item = lodash.find(items, item => {
         console.log('type is', item && item.type);
         // 支持照片、视频、zip压缩包的文件上传
-        return item.type && item.type.indexOf('image') >= 0 || item.type.indexOf('video') >= 0 || item.type == 'application/zip';
+        return item.type && item.type.indexOf('image') >= 0 || item.type.indexOf('video') >= 0 || allowedMimeTypes.includes(item.type);
       })
       const file = item && item.getAsFile();
       if(file) {
