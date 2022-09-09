@@ -215,6 +215,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'rent-ratio',
         'decorate',
         'baike',
         'climbing',
