@@ -17,6 +17,6 @@ comment: false
 
 复制图片，打开页面并按下`Ctrl+V` 或 `Command+V`就能自动上传照片啦~
 
-> 支持上传`照片`、`视频`、`ZIP`，最大支持`100M`，上传后支持复制`url`、`base64`、`Markdown 照片`三种方式
+> 支持上传`照片`、`视频`、`ZIP`、`pdf`，最大支持`100M`，上传后支持复制`url`、`base64`、`Markdown 照片`三种方式
 
 <ImgUploader />
