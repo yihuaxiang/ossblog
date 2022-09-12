@@ -191,6 +191,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'meeting',
         'download-speed',
         'html-space-entity',
         'springboot-circular-dependencies',
