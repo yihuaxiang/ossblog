@@ -82,7 +82,7 @@ export default {
       percent: undefined,
       records: undefined, // 当前页的内容
       uuid: undefined,
-      total: undefined, // 总条数
+      total: 0, // 总条数
       page: 1,
       pageSize: 20,
     }
