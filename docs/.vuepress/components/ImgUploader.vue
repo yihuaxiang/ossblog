@@ -61,7 +61,7 @@
     </div>
   </div>
 
-  <OssPager :total="total" :page="page" :page-size="pageSize" />
+  <OssPager :total="total" :page.sync="page" :page-size.sync="pageSize" />
 
 </div>
 </template>
@@ -94,6 +94,15 @@ export default {
   },
   unmounted() {
     document.removeEventListener('paste', this.handlePaste);
+  },
+  watch: {
+    page() {
+      this.reloadHistory();
+    },
+    pageSize() {
+      this.page = 1;
+      this.reloadHistory();
+    }
   },
   methods: {
     isImg(url) {

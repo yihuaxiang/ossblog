@@ -1,9 +1,22 @@
 <template>
-<div class="pager">
-  <template v-for="cPage in maxPage">
-    <button class="page" :class="{active: page == cPage}" :disabled="page == cPage">{{cPage}}</button>
-  </template>
-</div>
+  <div class="pager">
+    <template v-for="cPage in maxPage">
+      <button
+          :key="cPage"
+          class="page"
+          :class="{active: page == cPage}"
+          @click="$emit('update:page', cPage)"
+          :disabled="page == cPage">
+        {{ cPage }}
+      </button>
+    </template>
+
+    <select :value="pageSize" @change="event => $emit('update:pageSize', Number(event.target.value))">
+      <template v-for="size in [20, 30, 50, 100]">
+        <option :key="size" :value="size">{{size}}</option>
+      </template>
+    </select>
+  </div>
 </template>
 
 <script>
@@ -25,17 +38,24 @@ export default {
   },
   computed: {
     maxPage() {
-      return Math.floor(this.total / this.pageSize);
+      return Math.ceil(this.total / this.pageSize);
     }
   }
 }
 </script>
 
 <style scoped>
-.pager button {
-
+.pager button, .pager select {
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px;
+  padding: 3px 8px;
+  padding-left: 8px !important;
+  line-height: 15px;
+  cursor: pointer;
 }
-.pager button.active {
 
+.pager button.active {
+  cursor: not-allowed;
 }
 </style>
