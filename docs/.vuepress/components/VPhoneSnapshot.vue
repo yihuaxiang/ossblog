@@ -38,7 +38,6 @@ export default {
   padding-right: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
-  min-width: 400px;
   box-sizing: border-box;
   height: 316px;
 }
