@@ -4,6 +4,7 @@
       <button
           :key="cPage"
           class="page"
+          v-show="cPage < 5 || cPage > (maxPage - 5) || Math.abs(cPage - page) < 5"
           :class="{active: page == cPage}"
           @click="$emit('update:page', cPage)"
           :disabled="page == cPage">
