@@ -19,7 +19,7 @@ meta:
     var clicked = false; // 标记抢订状态，确保只抢订一次
     function doClick() {
         var minutes = new Date().getMinutes();
-        if(minutes == 0 && !clicked) { // 时间点分钟数正好为0️⃣的事件进行抢订
+        if(minutes == 0 && !clicked) { // 时间点分钟数正好为0️⃣的时候进行抢订
             console.info('doClick', new Date(), new Date().getMilliseconds());
             document.querySelector('.next-dialog button.next-btn-primary').click(); // 需要点击的按钮，根据实际需要来修改
             clicked = true;
