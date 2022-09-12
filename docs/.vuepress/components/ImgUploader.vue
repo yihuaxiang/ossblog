@@ -60,24 +60,31 @@
       </template>
     </div>
   </div>
+
+  <OssPager :total="total" :page="page" :page-size="pageSize" />
+
 </div>
 </template>
 
 <script>
+import OssPager from "./OssPager";
 const axios = require('axios').default;
 const lodash = require('lodash');
 const { v4 } = require('uuid');
 export default {
   name: "ImgUploader",
+  components: {OssPager},
   data() {
     return {
       valueUrl: undefined,
       base64Value: undefined,
       loading: false,
       percent: undefined,
-      records: undefined,
+      records: undefined, // 当前页的内容
       uuid: undefined,
-      total: undefined
+      total: undefined, // 总条数
+      page: 1,
+      pageSize: 20,
     }
   },
   mounted() {
@@ -99,8 +106,9 @@ export default {
       this.uuid = localStorage.getItem('fdd_uid');
     },
     reloadHistory() {
-      fetch(`https://playground.z.wiki/img/history?uid=${this.uuid}`).then(res => res.json()).then(pageData => {
+      fetch(`https://playground.z.wiki/img/history?uid=${this.uuid}&page=${this.page}&pageSize=${this.pageSize}`).then(res => res.json()).then(pageData => {
         this.records = pageData.data;
+        this.total = pageData.total;
       })
     },
     handleClick(record) {
