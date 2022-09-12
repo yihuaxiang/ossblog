@@ -27,3 +27,7 @@
     requestAnimationFrame(loop);
 })();
 ```
+
+自此，生产里极大提升
+
+![](https://7.z.wiki/autoupload/2022-09-12/12fa5566e24c4ceaaadce8271f55827c.红领巾.gif)
