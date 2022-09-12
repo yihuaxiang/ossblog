@@ -4,6 +4,8 @@
 
 ![](https://5.z.wiki/autoupload/2022-09-12/be11be625b444277b6c348e12f37a29c.image.png)
 
+### 脚本内容
+
 ```JavaScript
 (function() {
     'use strict';
@@ -27,6 +29,12 @@
     requestAnimationFrame(loop);
 })();
 ```
+
+### 使用方法
+
+打开浏览器控制台，切换到`console`面板，复制以上内容并粘贴进去回车执行即可
+
+![](https://3.z.wiki/autoupload/2022-09-12/929cf03e38e843c3bd8b409e3b475afd.image.png)
 
 自此，生产里极大提升
 
