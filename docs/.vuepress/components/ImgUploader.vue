@@ -76,7 +76,8 @@ export default {
       loading: false,
       percent: undefined,
       records: undefined,
-      uuid: undefined
+      uuid: undefined,
+      total: undefined
     }
   },
   mounted() {
@@ -98,8 +99,8 @@ export default {
       this.uuid = localStorage.getItem('fdd_uid');
     },
     reloadHistory() {
-      fetch(`https://playground.z.wiki/img/history?uid=${this.uuid}`).then(res => res.json()).then(records => {
-        this.records = records;
+      fetch(`https://playground.z.wiki/img/history?uid=${this.uuid}`).then(res => res.json()).then(pageData => {
+        this.records = pageData.data;
       })
     },
     handleClick(record) {
