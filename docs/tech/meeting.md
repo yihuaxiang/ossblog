@@ -7,7 +7,7 @@ meta:
 ---
 # 抢购脚本
 
-每周都要抢***，作为程序员的我怎么能纯人肉抢呢？于是这个脚本应运而生。
+每周都要抢 _***_ ，作为程序员的我怎么能纯人肉抢呢？于是这个脚本应运而生。
 
 ![](https://5.z.wiki/autoupload/2022-09-12/be11be625b444277b6c348e12f37a29c.image.png)
 
@@ -43,7 +43,7 @@ meta:
 
 ![](https://3.z.wiki/autoupload/2022-09-12/929cf03e38e843c3bd8b409e3b475afd.image.png)
 
-自此，生产里极大提升
+自此，生产力极大提升
 
 ![](https://7.z.wiki/autoupload/2022-09-12/12fa5566e24c4ceaaadce8271f55827c.红领巾.gif)
 
