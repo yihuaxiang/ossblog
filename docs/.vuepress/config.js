@@ -251,6 +251,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'iOS16',
         'phone-blog',
         'rent-ratio',
         'open-source-request',
