@@ -79,7 +79,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 mysql客户端，支持语法高亮和命令补全，效果类似ipython，可以替代mysql命令。
 
-![](https://2.z.wiki/images/20220319/8724416f58714a04906308de93607eb8.png)
+![mycli mysql 客户端](https://2.z.wiki/images/20220319/8724416f58714a04906308de93607eb8.png)
 
 ### fig
 
