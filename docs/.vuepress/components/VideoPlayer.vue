@@ -1,5 +1,5 @@
 <template>
-  <video width="100%" controls autoplay class="video">
+  <video width="100%" controls class="video">
     <source :src="src" type="video/mp4">
   </video>
 </template>

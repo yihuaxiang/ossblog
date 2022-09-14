@@ -251,6 +251,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'old-videos',
         'iOS16',
         'phone-blog',
         'rent-ratio',
