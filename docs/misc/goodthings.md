@@ -52,7 +52,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 多线程下载工具
 
 ### brew
-Mac 包管理工具
+包管理工具，支持`macOS`和`Linux`系统。
 
 #### 安装 `brew`
 
@@ -63,11 +63,11 @@ Mac 包管理工具
 ### Popclip
 鼠标拓展小工具，当选中文本后会自动弹出操作框，支持复制、粘贴、大小写转换、单词计数、搜词等诸多功能。
 
-![](https://1.z.wiki/images/20220317/68a45b525b93406e964904c2e782ae6c.png)
+![Popclip](https://1.z.wiki/images/20220317/68a45b525b93406e964904c2e782ae6c.png)
 
 支持安装多种扩展程序，如下图：
 
-![](https://1.z.wiki/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png)
+![Popclip](https://1.z.wiki/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png)
 
 
 ### 1Password
