@@ -38,6 +38,11 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 [npm http-server](https://www.npmjs.com/package/http-server)
 简单、零配置的命令行静态资源服务器,平时局域网内分享文件、共享本地资源还是很方便的
 
+```shell
+# 安装命令
+npm install --global http-server
+```
+
 ### Oh My Zsh && Zsh
 
 `zsh`提供诸如补全、色彩高亮、跳转、历史记录、智能提示等诸多特性
