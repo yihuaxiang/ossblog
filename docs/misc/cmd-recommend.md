@@ -31,6 +31,8 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 
 ![](https://1.z.wiki/images/20220318/eb49ea01501344e688d39e31bfe59013.png)
 
+安装：[点此](https://github.com/cgag/loc/releases)下载可执行程序
+
 ### http-server
 
 [npm http-server](https://www.npmjs.com/package/http-server)
