@@ -9,7 +9,7 @@
           <a :href="article.path" @click.prevent="pushRoute(article.path)">{{article.title}}</a>
           <div style="display: flex; align-items: center; font-size: 12px; color: rgba(0, 0, 0, 0.54); font-weight: 200;">
 
-            <span>{{article.createTime && article.createTime.slice(0, 5)}}</span>
+            <span>{{getDate(article.createTime)}}</span>
           </div>
         </div>
       </li>
@@ -107,6 +107,10 @@ export default {
     }
   },
   methods: {
+    getDate(datetime) {
+      const idx = datetime.indexOf(' ');
+      return datetime.slice(0, idx);
+    },
     pushRoute(path) {
       console.info('pushRoute', path);
       this.$router.push({
