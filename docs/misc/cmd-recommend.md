@@ -92,7 +92,7 @@ brew info jq
 
 ### mycli
 
-mysql客户端，支持语法高亮和命令补全，效果类似ipython，可以替代mysql命令。
+`mysql`客户端，支持语法高亮和命令补全，效果类似`ipython`，可以替代`mysql`命令。
 
 ![mycli mysql 客户端](https://2.z.wiki/images/20220319/8724416f58714a04906308de93607eb8.png)
 
@@ -119,7 +119,7 @@ mysql客户端，支持语法高亮和命令补全，效果类似ipython，可�
 
 ### zsh-autosuggestions
 
-zsh 命令自动补全插件 zsh-autosuggestions
+`zsh`命令自动补全插件`zsh-autosuggestions`
 
 ![](https://4.z.wiki/images/20220327/c049aa1a16774e54a99ef7369a860f55.png)
 
