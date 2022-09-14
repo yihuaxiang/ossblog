@@ -9,7 +9,7 @@
           <a :href="article.path" @click.prevent="pushRoute(article.path)">{{article.title}}</a>
           <div style="display: flex; align-items: center; font-size: 12px; color: rgba(0, 0, 0, 0.54); font-weight: 200;">
 
-            <span>{{article.createTime}}</span>
+            <span>{{article.createTime && article.createTime.slice(0, 5)}}</span>
           </div>
         </div>
       </li>
