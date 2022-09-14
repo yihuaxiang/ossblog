@@ -76,6 +76,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ![](https://2.z.wiki/images/20220319/92902799ed1c44e9bca8fa2cbd9fbc73.png)
 
+```shell
+# centos 安装命令
+sudo yum install jq
+
+# macOS 安装命令
+brew info jq
+```
+
 ### jless
 
 命令行`json`查看工具，最大的特点是支持折叠。
