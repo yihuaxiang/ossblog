@@ -187,7 +187,7 @@ module.exports = {
       {text: '琐碎', link: '/misc/'},
       {text: '游乐场', link: 'https://playground.z.wiki'},
       {text: 'snippets', link: 'https://snippets.z.wiki'},
-      {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
+      // {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
     sidebar: {
       '/tech/': [
