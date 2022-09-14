@@ -89,7 +89,7 @@ mysql客户端，支持语法高亮和命令补全，效果类似ipython，可�
 
 ### tig
 
-`git` 提交日志查看工具，以文本形式查看提交历史
+`git` 提交日志查看工具，以文本形式查看提交历史，[安装方法](https://jonas.github.io/tig/INSTALL.html)
 
 ![](https://3.z.wiki/images/20220327/e04486b038f64aaab1effc3fe4cdd6ad.png)
 
