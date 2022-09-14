@@ -31,7 +31,7 @@ fzf是一款使用 GO 语言编写的交互式的 Unix 命令行工具。
 
 ![](https://1.z.wiki/images/20220318/eb49ea01501344e688d39e31bfe59013.png)
 
-安装：[点此](https://github.com/cgag/loc/releases)下载可执行程序
+安装：[点此 github](https://github.com/cgag/loc/releases)(或[国内镜像](https://5.z.wiki/autoupload/2022-09-14/62d62f3479a64502ab11fc04dfa746a4.loc-v0.3.4-x86_64-unknown-linux-gnu.tar.gz.zip))下载可执行程序
 
 ### http-server
 
