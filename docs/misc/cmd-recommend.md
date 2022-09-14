@@ -88,7 +88,7 @@ brew info jq
 
 命令行`json`查看工具，最大的特点是支持折叠。
 
-![alksdjflasdfkja.gif](https://2.z.wiki/images/20220319/1ac4905cdae24c919eeffa9b10b3d58d.gif)
+![jless](https://9.z.wiki/autoupload/2022-09-14/a7c95bd5fd0546be85cc5c5f5fa33b81.jless-recording.gif)
 
 ### mycli
 
