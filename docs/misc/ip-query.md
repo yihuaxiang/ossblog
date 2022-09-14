@@ -61,7 +61,7 @@ https://playground.fudongdong.com/lbs/getIp
 请求示例：
 
 ```shell
-curl -s  "https://playground.fudongdong.com/lbs/getIp?ip=153.37.191.6"  | jq
+curl -s -L "https://playground.fudongdong.com/lbs/getIp?ip=153.37.191.6"  | jq
 ```
 
 ![](https://0.z.wiki/images/20220409/9c59a855d7a542388c94ccb4c7d035f0.png)
