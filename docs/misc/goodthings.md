@@ -60,6 +60,8 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+> 注：如果通过以上脚本安装失败的话可以从[releases](https://github.com/Homebrew/brew/releases)中下载最新版本，里面包含可执行文件。
+
 ### Popclip
 鼠标拓展小工具，当选中文本后会自动弹出操作框，支持复制、粘贴、大小写转换、单词计数、搜词等诸多功能。
 
@@ -180,6 +182,11 @@ https://xxx.com/path resHeaders://`
     "key": "value"
 }
 `
+```
+
+添加`cookie`
+```
+https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 ```
 ### mockoon
 
