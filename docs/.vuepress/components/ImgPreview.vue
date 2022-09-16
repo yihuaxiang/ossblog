@@ -15,6 +15,8 @@
       <button class="button" @click="handleCopy(data)">复制连接</button>
       <button class="button" @click="handleCopyMD(data)" v-show="isImg(data.url)">复制MD</button>
       <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)">复制base64</button>
+      <button class="button" @click="handleCopyOssLink(data)">OSS链接</button>
+      <button class="button" @click="handleCopyWikiLink(data)">无水印链接</button>
     </div>
   </div>
 </template>
@@ -29,43 +31,39 @@ export default {
     }
   },
   methods: {
+    doCopy(value) {
+      navigator.clipboard.writeText(value).then(() => {
+        this.$notify({
+          type: 'success',
+          text: '已复制。'
+        })
+      });
+    },
+    handleCopyWikiLink(data) {
+      const url = data.url;
+      this.doCopy(url.replace(/(\d.)?z.wiki/, 'z.wiki'));
+    },
+    handleCopyOssLink(data) {
+      const url = data.url;
+      this.doCopy(url.replace(/(\d.)?z.wiki/, 'fudongdong-statics.oss-cn-beijing.aliyuncs.com'));
+    },
     isImg(url) {
-      return !url.endsWith('.zip') && !url.endsWith('.pdf');
+      return !url.endsWith('.zip') && !url.endsWith('.pdf') && !url.endsWith('.mp4');
     },
     handleCopyBase64(record) {
       if(record && record.id) {
         fetch(`https://playground.z.wiki/img/detail?id=${record.id}&uid=${record.uid}`).then(r => r.json()).then(record => {
-          navigator.clipboard.writeText(record.base64).then(() => {
-            this.$notify({
-              type: 'success',
-              text: '已复制。'
-            })
-          });
+          this.doCopy(record.base64);
         })
       } else {
-        navigator.clipboard.writeText(this.base64Value).then(() => {
-          this.$notify({
-            type: 'success',
-            text: '已复制。'
-          })
-        });
+        this.doCopy(this.base64Value);
       }
     },
     handleCopy(record) {
-      navigator.clipboard.writeText(record && record.url || this.valueUrl).then(() => {
-        this.$notify({
-          type: 'success',
-          text: '已复制。'
-        })
-      });
+      this.doCopy(record && record.url || this.valueUrl);
     },
     handleCopyMD(record) {
-      navigator.clipboard.writeText(`![](${record && record.url || this.valueUrl})`).then(() => {
-        this.$notify({
-          type: 'success',
-          text: '已复制。'
-        })
-      });
+      this.doCopy(`![](${record && record.url || this.valueUrl})`);
     },
   }
 }
