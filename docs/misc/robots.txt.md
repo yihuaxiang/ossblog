@@ -168,7 +168,7 @@ User-agent: baiduspider
 Disallow: /
 ```
 
-![](https://2.z.wiki/images/20220501/bc60a315f18c4d19bf732f83c9890ecb.png)
+![](https://z.wiki/images/20220501/bc60a315f18c4d19bf732f83c9890ecb.png)
 
 唯独屏蔽百度爬虫，有意思，有意思！
 
