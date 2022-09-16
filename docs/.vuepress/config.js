@@ -191,6 +191,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'coordinate-system',
         'meeting',
         'download-speed',
         'html-space-entity',
