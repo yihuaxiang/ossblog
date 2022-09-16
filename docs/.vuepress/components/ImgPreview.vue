@@ -1,6 +1,5 @@
 <template>
   <div class="img-preview">
-    <img class="icon" :src="getIcon(data)" width="100" height="100" />
     <span class="name">{{data.fileName}}</span>
     <div class="buttons">
       <button class="button" @click="handleCopy(data)">复制连接</button>
