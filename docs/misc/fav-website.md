@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: 工具网站收藏,提效神器,工具,程序员必备,开发必备
+  - name: keywords
+    content: 工具网站收藏,提效神器,工具,程序员必备,开发必备
+tags: ["iTerms", "终端", "神器", "效率", "程序员"]
+---
 # 工具网站收藏
 
 ![cheng-qi-huang-WgF8_FPFaAM-unsplash.jpg](https://2.z.wiki/images/20220520/8788faeae0294f3faa3d0b213582475a.jpg)
@@ -17,7 +25,7 @@
 
 熟悉的配方、熟悉的味道😍 
 
-[https://logoly.pro/](https://logoly.pro/)
+[logo制作](https://logoly.pro/)
 
 ![](https://4.z.wiki/images/20220520/cf09003dd1ed4fc0913207c905e95fb5.png)
 
@@ -26,18 +34,20 @@
 
 你还记得"真香"的故事吗？
 
-[https://sorry.xuty.tk/wangjingze/](https://sorry.xuty.tk/wangjingze/)
+[表情制作](https://sorry.xuty.tk/wangjingze/)
 
-![99af0aafd5091a947adca07b4307859b.gif](https://0.z.wiki/images/20220520/91bf5202d0ff4b9e8678592f21823fca.gif)
+![表情制作](https://0.z.wiki/images/20220520/91bf5202d0ff4b9e8678592f21823fca.gif)
 
 ### 修图神器
 
 不会`ps`？搞不定抠图？体力活就交给技术来做吧，省时省力，抽空摸鱼。
 
-[https://www.remove.bg/zh](https://www.remove.bg/zh)
+[修图神器](https://www.remove.bg/zh)
 
 
 ![](https://1.z.wiki/images/20220520/ea66cb8143a14f35b4dde6a43d8fa581.png)
+
+> `iPhone`升级`iOS 16`后自带移除背景的功能了，赞。
 
 ### 随机美图
 
@@ -59,7 +69,7 @@
 
 精美的代码在哪里啊、在哪里啊？呐，你现在知道了吧？
 
-[https://carbon.now.sh/](https://carbon.now.sh/)
+[代码配图](https://carbon.now.sh/)
 
 ![carbon (1).png](https://1.z.wiki/images/20220520/10525c34f95e40d4872f89f190880cc6.png)
 
