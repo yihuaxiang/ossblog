@@ -1,18 +1,6 @@
 <template>
   <div class="img-preview">
-    <!--支持 zip 文件上传-->
-    <template v-if="data.url.endsWith('.zip')">
-      <img class="icon" src="https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg" width="100" height="100" />
-    </template>
-    <template v-else-if="data.url.endsWith('.pdf')">
-      <img class="icon" src="https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg" width="100" height="100" />
-    </template>
-    <template v-else-if="data.url.endsWith('.mp4')">
-      <img class="icon" src="https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg" width="100" height="100" />
-    </template>
-    <template v-else>
-      <img class="icon" :src="data.url" width="100" height="100" />
-    </template>
+    <img class="icon" :src="getIcon(data)" width="100" height="100" />
     <span class="name">{{data.fileName}}</span>
     <div class="buttons">
       <button class="button" @click="handleCopy(data)">复制连接</button>
@@ -34,6 +22,21 @@ export default {
     }
   },
   methods: {
+    getIcon(data) {
+      // 根据数据返回对应的图表（根据文件后缀名
+      const url = data.url;
+      const map = {
+        '.zip': 'https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg',
+        '.pdf', 'https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg',
+        '.mp4', 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg'
+      };
+      Object.keys(map).map(suffix => {
+        if(url.endsWith(suffix)) {
+          return map[suffix];
+        }
+      })
+      return url;
+    },
     doCopy(value) {
       navigator.clipboard.writeText(value).then(() => {
         this.$notify({
