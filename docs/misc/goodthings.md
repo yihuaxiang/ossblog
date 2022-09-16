@@ -18,12 +18,12 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 ### clipMenu
 系统剪切板增强工具，支持历史复制内容
 
-- [官网下载地址](http://www.clipmenu.com/)
-- [国内下载链接](https://5.z.wiki/autoupload/2022-09-16/a8241d8c04644ce2a75a1829a47d0270.ClipMenu.zip)
+- [clipMenu 官网下载地址](http://www.clipmenu.com/)
+- [clipMenu 国内下载链接](https://5.z.wiki/autoupload/2022-09-16/a8241d8c04644ce2a75a1829a47d0270.ClipMenu.zip)
 
 
 ### alfred
-程序启动器Mac spotlight 的增强版，支持插件
+程序启动器`Mac spotlight`的增强版，支持插件
 常用功能
 * 数学计算
 
@@ -80,7 +80,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 密码管理工具
 
 ### go2shell
-在finder中直接打开shell
+在`finder`中直接打开`shell`
 
 ### omyzsh
 
