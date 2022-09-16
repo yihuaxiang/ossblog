@@ -82,6 +82,8 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 ### go2shell
 在`finder`中直接打开`shell`
 
+[安装链接 app store](https://apps.apple.com/us/app/go2shell/id445770608?mt=12)
+
 ### omyzsh
 
 `omyzsh`以及常用插件（ [下载链接](https://juejin.im/entry/5ae00e54f265da0b8635ea5c) ）
