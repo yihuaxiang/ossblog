@@ -30,12 +30,13 @@ export default {
         ['.pdf']: 'https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg',
         ['.mp4']: 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg'
       };
-      Object.keys(map).map(suffix => {
+      let icon = url;
+      Object.keys(map).forEach(suffix => {
         if(url.endsWith(suffix)) {
-          return map[suffix];
+          icon = map[suffix];
         }
       })
-      return url;
+      return icon;
     },
     doCopy(value) {
       navigator.clipboard.writeText(value).then(() => {
