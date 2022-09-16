@@ -118,8 +118,6 @@ export default {
   transform: translateX(-50%) translateY(-50%);
   font-size: 12px;
   text-align: center;
-  width: 100%;
-  height: 100%;
 }
 .img-preview:hover .buttons {
   display: block;
