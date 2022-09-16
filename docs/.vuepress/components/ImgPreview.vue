@@ -7,6 +7,9 @@
     <template v-else-if="data.url.endsWith('.pdf')">
       <img class="icon" src="https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg" width="100" height="100" />
     </template>
+    <template v-else-if="data.url.endsWith('.mp4')">
+      <img class="icon" src="https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg" width="100" height="100" />
+    </template>
     <template v-else>
       <img class="icon" :src="data.url" width="100" height="100" />
     </template>
