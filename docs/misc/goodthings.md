@@ -19,7 +19,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 系统剪切板增强工具，支持历史复制内容
 
 - [官网下载地址](http://www.clipmenu.com/)
-- [国内下载链接](https://0.z.wiki/autoupload/2022-08-16/9f5e55e449474d45851c81bec1d391de.ClipMenu.app.zip)
+- [国内下载链接](https://5.z.wiki/autoupload/2022-09-16/a8241d8c04644ce2a75a1829a47d0270.ClipMenu.zip)
 
 
 ### alfred
