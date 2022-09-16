@@ -16,7 +16,7 @@
       <button class="button" @click="handleCopyMD(data)" v-show="isImg(data.url)">复制MD</button>
       <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)">复制base64</button>
       <button class="button" @click="handleCopyOssLink(data)">OSS链接</button>
-      <button class="button" @click="handleCopyWikiLink(data)">无水印链接</button>
+      <button class="button" @click="handleCopyWikiLink(data)">原图</button>
     </div>
   </div>
 </template>
