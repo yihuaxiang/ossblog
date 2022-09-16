@@ -251,6 +251,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'real-estate-trend',
         'old-videos',
         'iOS16',
         'phone-blog',
