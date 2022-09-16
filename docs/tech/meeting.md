@@ -9,7 +9,7 @@ meta:
 
 每周都要抢 _***_ ，作为程序员的我怎么能纯人肉抢呢？于是这个脚本应运而生。
 
-![](https://5.z.wiki/autoupload/2022-09-12/be11be625b444277b6c348e12f37a29c.image.png)
+![](https://z.wiki/autoupload/2022-09-12/be11be625b444277b6c348e12f37a29c.image.png)
 
 ### 脚本内容
 
