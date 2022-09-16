@@ -15,8 +15,8 @@
       <button class="button" @click="handleCopy(data)">复制连接</button>
       <button class="button" @click="handleCopyMD(data)" v-show="isImg(data.url)">复制MD</button>
       <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)">复制base64</button>
-      <button class="button" @click="handleCopyOssLink(data)">OSS链接</button>
-      <button class="button" @click="handleCopyWikiLink(data)">原图</button>
+      <button v-if="!isImg(data.url)" class="button" @click="handleCopyOssLink(data)">OSS链接</button>
+      <button v-if="isImg(data.url)" class="button" @click="handleCopyWikiLink(data)">原图</button>
     </div>
   </div>
 </template>
@@ -118,6 +118,8 @@ export default {
   transform: translateX(-50%) translateY(-50%);
   font-size: 12px;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 .img-preview:hover .buttons {
   display: block;
