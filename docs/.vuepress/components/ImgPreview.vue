@@ -13,6 +13,8 @@
 </template>
 
 <script>
+const lodash = require('lodash');
+
 export default {
   name: "ImgPreview",
   props: {
@@ -25,38 +27,44 @@ export default {
     getIcon(data) {
       // 根据数据返回对应的图表（根据文件后缀名
       const url = data.url;
-      const map = {
-        ['.zip']: 'https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg',
-        ['.pdf']: 'https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg',
-        ['.mp4']: 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg',
-        ['.html']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
-        ['.htm']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
-        ['.js']: 'https://7.z.wiki/autoupload/2022-09-18/95308d066c9e49f28b2527c14bc3b430.logo-javascript.svg',
-        ['.css']: 'https://1.z.wiki/autoupload/2022-09-18/f44b7e3b35de4dc2a33640619b64ca5c.CSS.svg',
-        ['.php']: 'https://8.z.wiki/autoupload/2022-09-18/80dbd4edcc4b4d2a96b5f3bda9f8ff25.PHP.svg',
-        ['.ico']: 'https://4.z.wiki/autoupload/2022-09-18/14cad0db1f174478be7d038c740f95ec.图片.svg',
-        ['.mp3']: 'https://5.z.wiki/autoupload/2022-09-18/6a714ce4fcb44a1b93a844388e510533.MP3.svg',
-        ['.doc']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
-        ['.docx']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
-        ['.txt']: 'https://6.z.wiki/autoupload/2022-09-18/e83a12526ee3491188a5b995ed4e4016.txt.svg',
-        ['.ppt']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
-        ['.pptx']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
-        ['.psb']: 'https://2.z.wiki/autoupload/2022-09-18/8a023049b2e749ff911099b338d77383.PS.svg',
-        ['.xml']: 'https://2.z.wiki/autoupload/2022-09-18/b4247c301b0948708582c3f030cf664b.XML.svg',
-        ['.csv']: 'https://2.z.wiki/autoupload/2022-09-18/306ac35844fa4117a1d317c91663b66c.CSV.svg',
-        ['.key']: 'https://6.z.wiki/autoupload/2022-09-18/1326995267e345f192b9ecfdec36196a.keynote.svg',
-        ['.xls']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
-        ['.xltx']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
-        ['.xlsm']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
-        ['.xlsb']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg'
-      };
-      let icon = url;
-      Object.keys(map).forEach(suffix => {
-        if(url.endsWith(suffix)) {
-          icon = map[suffix];
-        }
-      })
-      return icon;
+      if(this.isImg(url)) {
+        // 图片：返回图片链接
+        return url;
+      } else {
+        // 返回对应文件类型的后缀
+        const map = {
+          ['.zip']: 'https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg',
+          ['.pdf']: 'https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg',
+          ['.mp4']: 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg',
+          ['.html']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
+          ['.htm']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
+          ['.js']: 'https://7.z.wiki/autoupload/2022-09-18/95308d066c9e49f28b2527c14bc3b430.logo-javascript.svg',
+          ['.css']: 'https://1.z.wiki/autoupload/2022-09-18/f44b7e3b35de4dc2a33640619b64ca5c.CSS.svg',
+          ['.php']: 'https://8.z.wiki/autoupload/2022-09-18/80dbd4edcc4b4d2a96b5f3bda9f8ff25.PHP.svg',
+          ['.ico']: 'https://4.z.wiki/autoupload/2022-09-18/14cad0db1f174478be7d038c740f95ec.图片.svg',
+          ['.mp3']: 'https://5.z.wiki/autoupload/2022-09-18/6a714ce4fcb44a1b93a844388e510533.MP3.svg',
+          ['.doc']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
+          ['.docx']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
+          ['.txt']: 'https://6.z.wiki/autoupload/2022-09-18/e83a12526ee3491188a5b995ed4e4016.txt.svg',
+          ['.ppt']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
+          ['.pptx']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
+          ['.psb']: 'https://2.z.wiki/autoupload/2022-09-18/8a023049b2e749ff911099b338d77383.PS.svg',
+          ['.xml']: 'https://2.z.wiki/autoupload/2022-09-18/b4247c301b0948708582c3f030cf664b.XML.svg',
+          ['.csv']: 'https://2.z.wiki/autoupload/2022-09-18/306ac35844fa4117a1d317c91663b66c.CSV.svg',
+          ['.key']: 'https://6.z.wiki/autoupload/2022-09-18/1326995267e345f192b9ecfdec36196a.keynote.svg',
+          ['.xls']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
+          ['.xltx']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
+          ['.xlsm']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
+          ['.xlsb']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg'
+        };
+        let icon = 'https://5.z.wiki/autoupload/2022-09-18/a426d828fa6242cdb9698fbe32a430a4.unknownfile.svg';
+        Object.keys(map).forEach(suffix => {
+          if(url.endsWith(suffix)) {
+            icon = map[suffix];
+          }
+        })
+        return icon;
+      }
     },
     doCopy(value) {
       navigator.clipboard.writeText(value).then(() => {
@@ -75,7 +83,11 @@ export default {
       this.doCopy(url.replace(/(\d.)?z.wiki/, 'fudongdong-statics.oss-cn-beijing.aliyuncs.com'));
     },
     isImg(url) {
-      return !url.endsWith('.zip') && !url.endsWith('.pdf') && !url.endsWith('.mp4');
+      // 图片后缀，预览图中如果是图片需要显示照片内容，否则显示文件类型图标
+      const imgSuffixs = ['.bmp', '.jpg', '.jpeg', '.png', '.gif', '.webp', '.ico', '.tiff'];
+      return lodash.some(imgSuffixs, imgSuffix => {
+        return url && url.toLowerCase().endsWith(imgSuffix);
+      })
     },
     handleCopyBase64(record) {
       if(record && record.id) {
