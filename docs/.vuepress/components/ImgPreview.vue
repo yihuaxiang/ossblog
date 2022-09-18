@@ -34,6 +34,7 @@ export default {
         // 返回对应文件类型的后缀
         const map = {
           ['.zip']: 'https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg',
+          ['.svg']: 'https://6.z.wiki/autoupload/2022-09-18/4a9ab33c22d54f9f838801f145cb8516.SVG图标.svg',
           ['.pdf']: 'https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg',
           ['.mp4']: 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg',
           ['.html']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
