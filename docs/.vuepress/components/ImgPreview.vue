@@ -150,13 +150,13 @@ export default {
 .img-preview:hover .buttons {
   display: block;
 }
-.img-preview .buttons button {
+.img-preview .buttons .button {
   font-size: 12px;
   zoom: 0.8;
   white-space: nowrap;
   text-align: center;
 }
-.img-preview .buttons button:not(:last-child) {
+.img-preview .buttons .button:not(:last-child) {
   margin-bottom: 2px;
   cursor: pointer;
 }
