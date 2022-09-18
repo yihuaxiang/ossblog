@@ -189,6 +189,7 @@ export default {
   border-width: 2px;
   border-style: outset;
   border-color: buttonborder;
+  background-color: buttonface;
   border-image: initial;
 }
 .img-preview .buttons .button:not(:last-child) {
