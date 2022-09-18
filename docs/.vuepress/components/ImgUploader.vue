@@ -1,6 +1,6 @@
 <template>
 <div class="img-uploader">
-  <input  @change="uploadFile($event)" type="file">
+  <input  @change="uploadFile($event)" type="file" multiple>
   <br>
   <br>
   <template v-if="loading">
