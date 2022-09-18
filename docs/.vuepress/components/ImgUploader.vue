@@ -147,6 +147,7 @@ export default {
           this.percent = Math.floor(p.loaded / p.total * 100)
         }
       }).then(res => {
+        console.log("upload.then");
         const record = res.data;
         const url = record.url;
         console.info('url is ', url);
@@ -158,6 +159,8 @@ export default {
           text: '已上传成功。'
         })
         this.reloadHistory();
+      }).catch(error => {
+        console.warn("upload.catch", error);
       })
     }
   }
