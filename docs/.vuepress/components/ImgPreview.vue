@@ -1,5 +1,5 @@
 <template>
-  <div class="img-preview">
+  <div class="img-preview" :title="data.fileName">
     <img class="icon" :src="getIcon(data)" width="100" height="100" />
     <span class="name" :title="data.fileName">{{data.fileName}}</span>
     <div class="buttons">
