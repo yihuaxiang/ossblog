@@ -89,24 +89,20 @@ export default {
     },
     handlePaste(event) {
       console.info('handlePaste')
-      const allowedMimeTypes = ["application/zip", "application/pdf"];
       const items = (event.clipboardData || window.clipboardData).items;
       console.log('items are', items);
-      const item = lodash.find(items, item => {
-        console.log('type is', item && item.type);
-        // 支持照片、视频、zip压缩包的文件上传
-        return item.type && item.type.indexOf('image') >= 0 || item.type.indexOf('video') >= 0 || allowedMimeTypes.includes(item.type);
+      lodash.map(items, item => {
+        const file = item && item.getAsFile();
+        if(file) {
+          this.postFile(file);
+        } else {
+          console.info('not found file')
+          this.$notify({
+            type: 'warn',
+            text: '剪切板中未找到任何文件。'
+          })
+        }
       })
-      const file = item && item.getAsFile();
-      if(file) {
-        this.postFile(file);
-      } else {
-        console.info('not found file')
-        this.$notify({
-          type: 'warn',
-          text: '剪切板中未找到任何照片。'
-        })
-      }
     },
     handleCopy(record) {
       navigator.clipboard.writeText(record && record.url || this.valueUrl).then(() => {
