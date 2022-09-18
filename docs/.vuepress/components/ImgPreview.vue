@@ -184,7 +184,6 @@ export default {
   align-items: flex-start;
   cursor: default;
   box-sizing: border-box;
-  background-color: buttonface;
   margin: 0em;
   padding: 1px 6px;
   border-width: 2px;
