@@ -37,7 +37,18 @@ export default {
         ['.ico']: 'https://4.z.wiki/autoupload/2022-09-18/14cad0db1f174478be7d038c740f95ec.图片.svg',
         ['.mp3']: 'https://5.z.wiki/autoupload/2022-09-18/6a714ce4fcb44a1b93a844388e510533.MP3.svg',
         ['.doc']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
-        ['.docx']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg'
+        ['.docx']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
+        ['.txt']: 'https://6.z.wiki/autoupload/2022-09-18/e83a12526ee3491188a5b995ed4e4016.txt.svg',
+        ['.ppt']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
+        ['.pptx']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
+        ['.psb']: 'https://2.z.wiki/autoupload/2022-09-18/8a023049b2e749ff911099b338d77383.PS.svg',
+        ['.xml']: 'https://2.z.wiki/autoupload/2022-09-18/b4247c301b0948708582c3f030cf664b.XML.svg',
+        ['.csv']: 'https://2.z.wiki/autoupload/2022-09-18/306ac35844fa4117a1d317c91663b66c.CSV.svg',
+        ['.key']: 'https://6.z.wiki/autoupload/2022-09-18/1326995267e345f192b9ecfdec36196a.keynote.svg',
+        ['.xls']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
+        ['.xltx']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
+        ['.xlsm']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
+        ['.xlsb']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg'
       };
       let icon = url;
       Object.keys(map).forEach(suffix => {
