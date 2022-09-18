@@ -28,7 +28,16 @@ export default {
       const map = {
         ['.zip']: 'https://0.z.wiki/autoupload/2022-08-16/4ce28595bb5f4b898f595bcd2f628f8d.zip.svg',
         ['.pdf']: 'https://0.z.wiki/autoupload/2022-09-09/995ec22a130649e1b8aed3d83a648781.pdf.svg',
-        ['.mp4']: 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg'
+        ['.mp4']: 'https://4.z.wiki/autoupload/2022-09-16/343f6678edf54cf4a4527e3600f17cb2.MP4.svg',
+        ['.html']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
+        ['.htm']: 'https://3.z.wiki/autoupload/2022-09-18/dfa2279d57f5479a83103dd9445958f5.html.svg',
+        ['.js']: 'https://7.z.wiki/autoupload/2022-09-18/95308d066c9e49f28b2527c14bc3b430.logo-javascript.svg',
+        ['.css']: 'https://1.z.wiki/autoupload/2022-09-18/f44b7e3b35de4dc2a33640619b64ca5c.CSS.svg',
+        ['.php']: 'https://8.z.wiki/autoupload/2022-09-18/80dbd4edcc4b4d2a96b5f3bda9f8ff25.PHP.svg',
+        ['.ico']: 'https://4.z.wiki/autoupload/2022-09-18/14cad0db1f174478be7d038c740f95ec.图片.svg',
+        ['.mp3']: 'https://5.z.wiki/autoupload/2022-09-18/6a714ce4fcb44a1b93a844388e510533.MP3.svg',
+        ['.doc']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg',
+        ['.docx']: 'https://8.z.wiki/autoupload/2022-09-18/a159eb76c9d5490385d8a0825eb38a41.doc、docx.svg'
       };
       let icon = url;
       Object.keys(map).forEach(suffix => {
