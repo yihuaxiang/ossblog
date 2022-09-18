@@ -52,6 +52,7 @@ export default {
           ['.xml']: 'https://2.z.wiki/autoupload/2022-09-18/b4247c301b0948708582c3f030cf664b.XML.svg',
           ['.csv']: 'https://2.z.wiki/autoupload/2022-09-18/306ac35844fa4117a1d317c91663b66c.CSV.svg',
           ['.key']: 'https://6.z.wiki/autoupload/2022-09-18/1326995267e345f192b9ecfdec36196a.keynote.svg',
+          ['.torrent']: 'https://4.z.wiki/autoupload/2022-09-18/0942076a759345a4a28e5105439da15e.file_bt.svg',
           ['.xls']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
           ['.xltx']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
           ['.xlsm']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
