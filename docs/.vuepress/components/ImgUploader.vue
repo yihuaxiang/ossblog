@@ -91,6 +91,7 @@ export default {
       console.info('handlePaste')
       const allowedMimeTypes = ["application/zip", "application/pdf"];
       const items = (event.clipboardData || window.clipboardData).items;
+      console.log('items are', items);
       const item = lodash.find(items, item => {
         console.log('type is', item && item.type);
         // 支持照片、视频、zip压缩包的文件上传
