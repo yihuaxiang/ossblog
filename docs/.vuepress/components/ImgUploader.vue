@@ -92,6 +92,7 @@ export default {
       const items = (event.clipboardData || window.clipboardData).items;
       console.log('items are', items);
       lodash.map(items, item => {
+        console.info('item is ', item);
         const file = item && item.getAsFile();
         if(file) {
           this.postFile(file);
@@ -124,8 +125,10 @@ export default {
       });
     },
     uploadFile(el) {
-      if (!el.target.files[0].size) return; // 如果文件大小为0，则返回
-      this.postFile(el.target.files[0]);
+      const files = el.target.files;
+      lodash.map(files, file => {
+        this.postFile(file);
+      })
     },
     // 上传文件
     postFile(file) {
