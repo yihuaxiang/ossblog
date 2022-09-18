@@ -47,6 +47,8 @@ export default {
           ['.doc']: 'https://3.z.wiki/autoupload/2022-09-18/64880d19208a4eef99ce63c2f8494f68.doc.svg',
           ['.docx']: 'https://3.z.wiki/autoupload/2022-09-18/64880d19208a4eef99ce63c2f8494f68.doc.svg',
           ['.txt']: 'https://6.z.wiki/autoupload/2022-09-18/e83a12526ee3491188a5b995ed4e4016.txt.svg',
+          ['.json']: 'https://7.z.wiki/autoupload/2022-09-18/194c5e66be6b44a5b88d95a7eea0c05e.JSON.svg',
+          ['.md']: 'https://5.z.wiki/autoupload/2022-09-18/e0aa344b2d924b228d6a01026ed4b4e0.markdown.svg',
           ['.ppt']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
           ['.pptx']: 'https://2.z.wiki/autoupload/2022-09-18/728eb566f0644d108ab1d98f54561df5.ppt.svg',
           ['.psb']: 'https://2.z.wiki/autoupload/2022-09-18/8a023049b2e749ff911099b338d77383.PS.svg',
@@ -86,7 +88,7 @@ export default {
     },
     isImg(url) {
       // 图片后缀，预览图中如果是图片需要显示照片内容，否则显示文件类型图标
-      const imgSuffixs = ['.bmp', '.jpg', '.jpeg', '.png', '.gif', '.webp', '.ico', '.tiff'];
+      const imgSuffixs = ['.bmp', '.jpg', '.jpeg', '.png', '.gif', '.webp', '.ico', '.tiff', '.svg'];
       return lodash.some(imgSuffixs, imgSuffix => {
         return url && url.toLowerCase().endsWith(imgSuffix);
       })
