@@ -96,11 +96,22 @@ export default {
         if(file) {
           this.postFile(file);
         } else {
-          console.info('not found file')
-          this.$notify({
-            type: 'warn',
-            text: '剪切板中未找到任何文件。'
-          })
+          // 尝试读取剪切板中的内容
+          if(item.type.match('^text/plain')) {
+            item.getAsString(async (clipboardContent) => {
+              const blob = await new Blob([clipboardContent]);
+              const file = new File([blob], '来自剪切板的文本.txt', {
+                type : "text/plain;charset=utf-8"
+              });
+              this.postFile(file);
+            })
+          } else {
+            console.info('not found file')
+            this.$notify({
+              type: 'warn',
+              text: '剪切板中未找到任何文件。'
+            })
+          }
         }
       })
     },
