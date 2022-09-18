@@ -8,7 +8,7 @@
       <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)">复制base64</button>
       <button v-if="!isImg(data.url)" class="button" @click="handleCopyOssLink(data)">OSS链接</button>
       <button v-if="isImg(data.url)" class="button" @click="handleCopyWikiLink(data)">原图</button>
-      <a class="button" :href="data.url">访问</a>
+      <a class="button" target="_blank" :href="data.url">访问</a>
     </div>
   </div>
 </template>
