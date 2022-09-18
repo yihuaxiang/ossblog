@@ -160,6 +160,10 @@ export default {
         })
         this.reloadHistory();
       }).catch(error => {
+        this.$notify({
+          type: 'error',
+          text: error.response.data.message || '接口异常'
+        })
         console.warn("upload.catch", error);
       })
     }
