@@ -114,14 +114,7 @@ export default {
     },
     uploadFile(el) {
       if (!el.target.files[0].size) return; // 如果文件大小为0，则返回
-      if (el.target.files[0].type.indexOf('image') === -1) { //如果不是图片格式
-        this.$notify({
-          type: 'error',
-          text: '请选择图片文件。'
-        })
-      } else {
-        this.postFile(el.target.files[0]);
-      }
+      this.postFile(el.target.files[0]);
     },
     // 上传文件
     postFile(file) {
