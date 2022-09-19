@@ -45,6 +45,7 @@ export default {
           ['.java']: 'https://4.z.wiki/autoupload/2022-09-19/447070ea92a547e78d40a096d32a9c45.java.svg',
           ['.jsx']: 'https://3.z.wiki/autoupload/2022-09-19/95312e34636942eba6f57174c6c0c62f.jsx.svg',
           ['.vue']: 'https://3.z.wiki/autoupload/2022-09-19/71256c09030e447f94172c7846b8b8c6.Vue.svg',
+          ['.sh']: 'https://8.z.wiki/autoupload/2022-09-19/a0fac9929f8c43d4898a355c6929403f.cloudshell 云命令行.svg',
           ['.class']: 'https://8.z.wiki/autoupload/2022-09-19/a388ddc5203643daaa41c2b1ea1b883a.class.svg',
           ['.php']: 'https://8.z.wiki/autoupload/2022-09-18/80dbd4edcc4b4d2a96b5f3bda9f8ff25.PHP.svg',
           ['.ico']: 'https://4.z.wiki/autoupload/2022-09-18/14cad0db1f174478be7d038c740f95ec.图片.svg',
