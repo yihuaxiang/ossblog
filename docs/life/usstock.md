@@ -1,4 +1,4 @@
-# 蔚来股东大会？
+# 蔚来股东大会
 
 ![](https://7.z.wiki/autoupload/2022-09-21/fb97285d4e5c4d38aa7de56e17d3523b.image.png)
 
