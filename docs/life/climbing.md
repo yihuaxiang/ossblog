@@ -15,9 +15,9 @@ meta:
 
 
 <ImgPlayer :imgs="[
-{url:     'https://4.z.wiki/autoupload/2022-08-05/54c711d6757647559f9e7c3fe0636fcc.image.png', title: '登山杖', desc: '通过小包背上登山杖'},
-{url:     'https://6.z.wiki/autoupload/2022-08-05/4b274768ed564b6f9390bf22222fd7d0.image.png', title: '登山杖', desc: '拿登山杖做武器'},
-{url:     'https://6.z.wiki/autoupload/2022-08-05/78af92173640404a99effd2cb0f923e5.image.png', title: '登山杖', desc: '使用登山杖'},
+{url: 'https://4.z.wiki/autoupload/2022-08-05/54c711d6757647559f9e7c3fe0636fcc.image.png', title: '登山杖', desc: '通过小包背上登山杖'},
+{url: 'https://6.z.wiki/autoupload/2022-08-05/4b274768ed564b6f9390bf22222fd7d0.image.png', title: '登山杖', desc: '拿登山杖做武器'},
+{url: 'https://6.z.wiki/autoupload/2022-08-05/78af92173640404a99effd2cb0f923e5.image.png', title: '登山杖', desc: '使用登山杖'},
 ]" />
 
 ### 为什么
