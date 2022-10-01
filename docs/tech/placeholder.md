@@ -6,7 +6,7 @@
 
 1. 普通占位符图片
 
-```
+```html
 <img src="https://z.wiki/placeholder/512x128" />
 ```
 
@@ -14,7 +14,7 @@
 
 
 
-```
+```html
 <img src="https://z.wiki/placeholder/512x256" />
 ```
 
@@ -23,7 +23,7 @@
 
 2. 图片加边框
 
-```
+```html
 <img src="https://z.wiki/placeholder/512x256+border" />
 ```
 
@@ -31,17 +31,16 @@
 
 
 3. 图片加叉号
-<img src="https://[YOUR_DOMAIN]/512x128+cross" />
 
-```
+```html
 <img src="https://z.wiki/placeholder/512x256+cross" />
 ```
 
 ![](https://z.wiki/placeholder/512x256+cross)
 
-4. 其他
+4. 图片加叉号加边框
 
-```
+```html
 <img src="https://z.wiki/placeholder/512x256+border+cross" />
 ```
 
