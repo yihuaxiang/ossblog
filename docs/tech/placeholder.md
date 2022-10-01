@@ -46,3 +46,10 @@
 
 ![](https://z.wiki/placeholder/512x256+border+cross)
 
+5. 设置个性化文案
+
+```html
+<img src="https://z.wiki/placeholder/512x256+border+cross?text=z.wiki" />
+```
+
+![](https://z.wiki/placeholder/512x256+border+cross?text=z.wiki)
