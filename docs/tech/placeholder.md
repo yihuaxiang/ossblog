@@ -57,7 +57,7 @@
 6. 自定义样式
 
 ```html
-https://z.wiki/placeholder/512x128+cross+border?text=1234&color=red&bgColor=rgba(0,255,0,0.3)&borderColor=blue&crossColor=orange
+<img src="https://z.wiki/placeholder/512x128+cross+border?text=1234&color=red&bgColor=rgba(0,255,0,0.3)&borderColor=blue&crossColor=orange" />
 ```
 
 样式支持的参数如下：
