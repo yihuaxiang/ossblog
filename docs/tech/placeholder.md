@@ -53,3 +53,20 @@
 ```
 
 ![](https://z.wiki/placeholder/512x256+border+cross?text=z.wiki)
+
+6. 自定义样式
+
+```html
+https://z.wiki/placeholder/512x128+cross+border?text=1234&color=red&bgColor=rgba(0,255,0,0.3)&borderColor=blue&crossColor=orange
+```
+
+样式支持的参数如下：
+
+* `color` 中间文字颜色
+* `bgColor` 背景色
+* `borderColor` 边框颜色
+* `crossColor` 叉号线颜色
+
+![](https://z.wiki/placeholder/512x128+cross+border?text=1234&color=red&bgColor=rgba(0,255,0,0.3)&borderColor=blue&crossColor=orange)
+
+
