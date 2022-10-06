@@ -191,6 +191,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'jsbin',
         'placeholder',
         'coordinate-system',
         'meeting',
