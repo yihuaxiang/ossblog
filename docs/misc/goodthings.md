@@ -194,6 +194,9 @@ https://xxx.com/path resHeaders://`
 ```
 https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 ```
+
+[更多常见配置](https://z.wiki/misc/lightproxy.html)
+
 ### mockoon
 
 本地`mock API`服务，搭配`LightProxy`成为前端开发利剑。
