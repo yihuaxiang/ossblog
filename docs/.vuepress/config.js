@@ -257,6 +257,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'lightproxy',
         'sls',
         'real-estate-trend',
         'old-videos',
