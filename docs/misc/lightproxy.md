@@ -16,19 +16,19 @@
 ### 映射本地文件
 
 ```
-https://xxx.cnd.com/web.js file:///Users/xxx/xxx/web.js
+https://z.wiki/web.js file:///Users/xxx/xxx/web.js
 ```
 
 ### 解决跨域问题
 
 ```
-https://xxx.com/path resCors://https://xxx.com
+https://z.wiki/path resCors://https://xxx.com
 ```
 
 ### 添加请求头
 
 ```
-https://xxx.com/path resHeaders://`
+https://z.wiki/path resHeaders://`
 {
     "key": "value"
 }
@@ -38,7 +38,7 @@ https://xxx.com/path resHeaders://`
 ### 请求添加`cookie`
 
 ```
-https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
+https://z.wiki reqCookies://{“cookie_name”:”cookie_value”}
 ```
 
 ### 设置响应内容
