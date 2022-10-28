@@ -75,3 +75,8 @@
 也可以通过将`set keep-english-in-normal[-and-restore-in-insert]`加入到`~/.ideavimrc`文件中并重启IDE来启用插件功能。
 
 
+### GitToolBox
+
+![](https://2.z.wiki/autoupload/2022-10-28/d459f305b38440aa9e7e5d2f36ab65be.image.png)
+
+显示光标所在行的最后提交日志。
