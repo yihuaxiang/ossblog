@@ -174,6 +174,7 @@ module.exports = {
           {text: '二维码', link: 'https://z.wiki/misc/qrcode.html'},
           {text: '徽章', link: 'https://shields.io/'},
           {text: 'jsbin', link: 'https://z.wiki/jsbin/'},
+          {text: '短网址', link: 'https://z.wiki/misc/short-url.html'},
         ]
       },
       {
