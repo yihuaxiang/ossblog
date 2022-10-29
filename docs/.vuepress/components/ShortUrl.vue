@@ -80,6 +80,7 @@ export default {
   height: 38px;
   line-height: 38px;
   width: 100%;
+  box-sizing: border-box;
   border-color: #ffffff;
   border-radius: 4px;
   border-width: 1px;
@@ -96,6 +97,8 @@ export default {
   background-color: #3eaf7c!important;
   background-image: linear-gradient(to bottom left, #3ca073, #249c66, #3eaf7c) !important;
   width: 334px;
+  max-width: 100%;
+  box-sizing: border-box;
   height: 40px;
   line-height: 40px;
   color: white;
