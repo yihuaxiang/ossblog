@@ -30,6 +30,7 @@ meta:
   <a title="敖武的图床" href="https://tuchuang.z.wiki/misc/tuchuang.html">图床</a>
   <a title="正则表达式" target="_blank" href="https://z.wiki/tools/reg/">正则</a>
   <a title="51杀猪网" target="_blank" href="https://51shazhu.com/">51杀猪网</a>
+  <a title="短网址" target="_blank" href="https://z.wiki/misc/short-url.html">短网址</a>
 </div>
 
 <LastPost :random='true' prefix="" :number="10"/>
