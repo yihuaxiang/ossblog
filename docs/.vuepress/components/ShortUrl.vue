@@ -46,6 +46,14 @@ export default {
           method: 'POST',
         }).then(res => res.json()).then(data => {
           console.log('data is ', data);
+          if(data && data.shortId) {
+            this.shortUrl = `https://z.wiki/u/${data.shortId}`
+          } else {
+            this.$notify({
+              type: 'warn',
+              text: '短连接转换失败，请确保您提供的原始链接有效。。'
+            })
+          }
         })
       }
     }
