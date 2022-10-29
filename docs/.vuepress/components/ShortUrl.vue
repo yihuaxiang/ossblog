@@ -15,7 +15,7 @@
       <div class="text-center  col-12">
         <div class="h4 text-success my-3">转换结果:
           <template v-if="shortUrl">
-            <a :href="shortUrl">{{shortUrl}}</a>
+            <a target="_blank" :href="shortUrl">{{shortUrl}}</a>
           </template>
           <template v-else>
             <span>--</span>
