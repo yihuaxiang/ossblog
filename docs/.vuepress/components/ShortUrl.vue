@@ -44,7 +44,7 @@ export default {
       if(this.rawUrl) {
         fetch(`https://playground.z.wiki/u/save?url=${encodeURIComponent(this.rawUrl)}`, {
           method: 'POST',
-        }).then(res => res.json()).then(data => {
+        }).then(res => res && res.json()).then(data => {
           console.log('data is ', data);
           if(data && data.shortId) {
             this.shortUrl = `https://z.wiki/u/${data.shortId}`
