@@ -239,3 +239,9 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 `drawio`用于创建图流程图、线框、UML图、组织图、网络图等。
 
 客户端下载链接 [drawio-desktop](https://github.com/jgraph/drawio-desktop/releases/)
+
+### Clipboard Viewer
+
+剪切板查看软件，当你复制的时候，剪切板内存的并不是一个内容，而是多个，有普通文本、有`html`、有二进制文件等等，通过`Clipboard Viewer`能更深入的了解剪切板。
+
+> 复制粘贴也不是人人都懂啊
