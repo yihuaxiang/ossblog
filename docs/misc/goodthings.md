@@ -244,4 +244,4 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 剪切板查看软件，当你复制的时候，剪切板内存的并不是一个内容，而是多个，有普通文本、有`html`、有二进制文件等等，通过`Clipboard Viewer`能更深入的了解剪切板。
 
-> 复制粘贴也不是人人都懂啊
+> 复制粘贴也不是人人都懂啊 [语雀如何自动将粘贴的内容识别为代码块？](https://z.wiki/u/Cp8Rgl)
