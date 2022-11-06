@@ -24,7 +24,7 @@
 
 # 夕阳西下的场景
 
-<VideoPlayer src="https://fudongdong.com/tools/videos/91E93E4050784659E14B59B3B52BBE05.MP4" />
+<VideoPlayer src="https://z.wiki/tools/videos/91E93E4050784659E14B59B3B52BBE05.MP4" />
 
 <VideoPlayer src="https://z.wiki/videos/the-setting-sun.MP4" />
 

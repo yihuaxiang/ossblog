@@ -10,9 +10,9 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 > 相关链接
 > 
-> `chrome`插件推荐：[敖武的博客-chrome插件](https://fudongdong.com/misc/chrome-extensions.html)
+> `chrome`插件推荐：[敖武的博客-chrome插件](https://z.wiki/misc/chrome-extensions.html)
 > 
-> `neovim` 插件：[neovim 插件](https://fudongdong.com/tech/neovim.html#%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6)
+> `neovim` 插件：[neovim 插件](https://z.wiki/tech/neovim.html#%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6)
 > 
 
 ### clipMenu
@@ -105,7 +105,7 @@ brew install switchkey
 
 ### iShot 截图
 
-介绍文章： [https://fudongdong.com/misc/ishot.html](https://fudongdong.com/misc/ishot.html)
+介绍文章： [https://z.wiki/misc/ishot.html](https://z.wiki/misc/ishot.html)
 
 注：我认为延迟截屏是他最好用的工具了，很多弹框功能在你进行任何操作的时候都会自动消失，普通截图软件截取不到😓。
 

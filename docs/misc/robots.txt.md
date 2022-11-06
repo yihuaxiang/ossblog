@@ -96,17 +96,17 @@ Sitemap: <path-to-sitemap.xml>
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://fudongdong.com/</loc>
+        <loc>https://z.wiki/</loc>
         <lastmod>2022-04-16T12:42:45.000Z</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://fudongdong.com/life/</loc>
+        <loc>https://z.wiki/life/</loc>
         <lastmod>2022-02-05T14:55:06.000Z</lastmod>
         <changefreq>daily</changefreq>
     </url>
     <url>
-        <loc>https://fudongdong.com/life/bento.html</loc>
+        <loc>https://z.wiki/life/bento.html</loc>
         <lastmod>2022-03-28T14:56:49.000Z</lastmod>
         <changefreq>daily</changefreq>
     </url>

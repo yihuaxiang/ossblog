@@ -8,7 +8,7 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 ---
 # IP 归属地查询
 
-[web 端传送门](https://playground.fudongdong.com/lbs/showIp)
+[web 端传送门](https://playground.z.wiki/lbs/showIp)
 
 ![](https://1.z.wiki/images/20220409/b0ee56ce038a47889d283820bdda759f.png)
 
@@ -35,7 +35,7 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 前端地址：
 
-[https://playground.fudongdong.com/lbs/showIp](https://playground.fudongdong.com/lbs/showIp)
+[https://playground.z.wiki/lbs/showIp](https://playground.z.wiki/lbs/showIp)
 
 ![](https://4.z.wiki/images/20220409/038dadb133ee4a1285876a634ee48b40.png)
 
@@ -49,7 +49,7 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 接口地址：
 ```
-https://playground.fudongdong.com/lbs/getIp
+https://playground.z.wiki/lbs/getIp
 ```
 
 接口参数：
@@ -61,7 +61,7 @@ https://playground.fudongdong.com/lbs/getIp
 请求示例：
 
 ```shell
-curl -s -L "https://playground.fudongdong.com/lbs/getIp?ip=153.37.191.6"  | jq
+curl -s -L "https://playground.z.wiki/lbs/getIp?ip=153.37.191.6"  | jq
 ```
 
 ![](https://0.z.wiki/images/20220409/9c59a855d7a542388c94ccb4c7d035f0.png)
