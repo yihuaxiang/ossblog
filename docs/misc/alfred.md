@@ -39,4 +39,4 @@
 ![](https://0.z.wiki/images/20220410/d68b782087bd45909d9e814bb8393272.png)
 
 源码地址： [alfred-workflow-ipip](https://github.com/yihuaxiang/alfred-workflow-ipip) 
-介绍文章地址： [IP 归属地查询](https://fudongdong.com/misc/ip-query.html#%E9%98%B6%E6%AE%B5%E6%80%A7%E6%88%90%E6%9E%9C)
+介绍文章地址： [IP 归属地查询](https://z.wiki/misc/ip-query.html#%E9%98%B6%E6%AE%B5%E6%80%A7%E6%88%90%E6%9E%9C)

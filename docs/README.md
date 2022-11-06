@@ -15,7 +15,7 @@ meta:
 <div class="links" style="display: flex;">
   <a target="_blank" href="https://weibo.com/u/2558497932" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg" title="敖武的微博" /></a>
   <a target="_blank" href="https://github.com/yihuaxiang" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg" title="敖武的github" /></a>
-  <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="fudongdong.com 的服务状态" /></a>
+  <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="z.wiki 的服务状态" /></a>
 </div>
 
 本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki) 与 [51shazhu.com](https://51shazhu.com)。

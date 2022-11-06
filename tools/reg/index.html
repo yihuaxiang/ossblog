@@ -324,7 +324,7 @@
 <p>很简单，你只需要在方括号里列出它们就行了，像<span class="regex">[aeiou]</span>就匹配<span class="desc">任何一个英文元音字母</span>，<span class="regex">[.?!]</span>匹配<span class="desc">标点符号(.或?或!)</span>。</p>
 <p>我们也可以轻松地指定一个字符<span class="name">范围</span>，像<span class="regex">[0-9]</span>代表的含意与<span class="regex">\d</span>就是完全一致的：<span class="desc">一位数字</span>；同理<span class="regex">[a-z0-9A-Z_]</span>也完全等同于<span class="code">\w</span>（如果只考虑英文的话）。 </p>
 <p>下面是一个更复杂的表达式：<span class="regex">\(?0\d{2}[) -]?\d{8}</span>。</p>
-<p class="note" style="display: block;">“(”和“)”也是元字符，后面的<a href="https://z.wiki/tools/reg/#grouping">分组节</a>里会提到，所以在这里需要使用<a href="https://fudongdong.com/tools/reg/#escape">转义</a>。</p>
+<p class="note" style="display: block;">“(”和“)”也是元字符，后面的<a href="https://z.wiki/tools/reg/#grouping">分组节</a>里会提到，所以在这里需要使用<a href="https://z.wiki/tools/reg/#escape">转义</a>。</p>
 <p>这个表达式可以匹配<span class="desc">几种格式的电话号码</span>，像<span class="string">(010)88886666</span>，或<span class="string">022-22334455</span>，或<span class="string">02912345678</span>等。我们对它进行一些分析吧：首先是一个转义字符<span class="part">\(</span>,它能出现0次或1次(<span class="part">?</span>),然后是一个<span class="part">0</span>，后面跟着2个数字(<span class="part">\d{2}</span>)，然后是<span class="part">)</span>或<span class="part">-</span>或<span class="part">空格</span>中的一个，它出现1次或不出现(<span class="part">?</span>)，最后是8个数字(<span class="part">\d{8}</span>)。</p>
 <h2 id="alternative">分枝条件</h2>
 <p>不幸的是，刚才那个表达式也能匹配<span class="string">010)12345678</span>或<span class="string">(022-87654321</span>这样的“不正确”的格式。要解决这个问题，我们需要用到<span class="name">分枝条件</span>。正则表达式里的<span class="name">分枝条件</span>指的是有几种规则，如果满足其中任意一种规则都应该当成匹配，具体方法是用<span class="code">|</span>把不同的规则分隔开。听不明白？没关系，看例子：</p>
