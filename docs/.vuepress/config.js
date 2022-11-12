@@ -221,6 +221,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'love',
         'aosen',
         'feeling',
         'usstock',
