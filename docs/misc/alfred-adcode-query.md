@@ -57,3 +57,7 @@
 结合第一个例子，唯一的区别是最后两位是`01`表示石家庄市内的第一个区县，既：市辖区
 
 3. `130102` 石家庄市长安区
+
+### 其他
+
+1. `web` 版地址：[adcode 查询平台](https://playground.z.wiki/lbs/showCityInfo?keyword=110000) 
