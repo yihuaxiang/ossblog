@@ -11,7 +11,7 @@ export default ({
 
   Vue.use(Notifications)
 
-  if (typeof window == 'object' && window.location.host == 'tuchuang.z.wiki') {
+  if (typeof globalThis == 'object' && globalThis.location?.host == 'tuchuang.z.wiki') {
     document.body.classList.add('tuchuang-domain');
   }
 
@@ -36,7 +36,7 @@ export default ({
       const prefixPathes = ['/snippets', '/playground', '/tools/'];
       if (to.path && (lodash.some(prefixPathes, path => to.path.startsWith(path)))) {
         // 代码片段模块，有服务端路由控制
-        typeof window == 'object' && window.location.assign(to.path);
+        typeof globalThis == 'object' && globalThis.location && globalThis.location.assign(to.path);
       } else {
         next("/notfound.html");
       }
@@ -113,10 +113,10 @@ export default ({
       self.userName = self.userId.slice(2);
       self.userAvatar = 'https://z.wiki/favicon.ico';
 
-      if (typeof window === 'object') {
-        if(window.DUOSHUO && window.DUOSHUO.visitor
-          && window.DUOSHUO.visitor.data.user_id) {
-          var userInfo = window.DUOSHUO.visitor.data;
+      if (typeof globalThis === 'object') {
+        if(globalThis.DUOSHUO && globalThis.DUOSHUO.visitor
+          && globalThis.DUOSHUO.visitor.data.user_id) {
+          var userInfo = globalThis.DUOSHUO.visitor.data;
           self.userId = userInfo.user_id;
           self.userName = userInfo.name;
           self.userAvatar = userInfo.avatar_url;
@@ -131,22 +131,22 @@ export default ({
             }
           } catch(e) {}
         } else {
-          if(window.localStorage) {
-            var userId = window.localStorage.getItem('userId');
+          if(globalThis.localStorage) {
+            var userId = globalThis.localStorage.getItem('userId');
             if(userId) {
               self.userId = userId.length > 12 ? userId.slice(0, 12) : userId;
               self.userName = userId.slice(2);
             } else {
-              window.localStorage.setItem('userId', self.userId);
+              globalThis.localStorage.setItem('userId', self.userId);
             }
-            var userName = window.localStorage.getItem('userName');
+            var userName = globalThis.localStorage.getItem('userName');
             if(userName) {
               self.userName = userName;
             }
           }
         }
-        if(window.localStorage) {
-          window.localStorage.setItem('userId', self.userId);
+        if(globalThis.localStorage) {
+          globalThis.localStorage.setItem('userId', self.userId);
         }
         if(!self.nameChanged) {
           self.nameChanged = true;
@@ -188,9 +188,9 @@ export default ({
           userName: self.userName,
           userAvatar: self.userAvatar
         });
-        if (typeof window === 'object') {
-          if(window.localStorage) {
-            window.localStorage.setItem('userName', self.userName);
+        if (typeof globalThis === 'object') {
+          if(globalThis.localStorage) {
+            globalThis.localStorage.setItem('userName', self.userName);
           }
         }
         $('.chatroom-rename').remove();
@@ -233,15 +233,15 @@ export default ({
       if($('.chatroom-fold').size()) {
         var str = "<img class='alert-avatar' src='" +
           htmlspecialchars(data.avatar) + "'>" + htmlspecialchars(data.name) + "の私信，右下角查看";
-        if ('Notification' in window) {
-          window.operation && operation.alertMsg({
+        if ('Notification' in globalThis) {
+          globalThis.operation && operation.alertMsg({
             body: htmlspecialchars(data.name) + "の私信，右下角查看",
             icon: htmlspecialchars(data.avatar),
             title: '群聊消息'
           }, true);
           $('.chatroom-fold .chatroom-info').trigger('click');
         } else {
-          window.operation && operation.alertMsg(str);
+          globalThis.operation && operation.alertMsg(str);
         }
       }
       self.createPrivateChat(data);
@@ -503,5 +503,5 @@ export default ({
   };
 
   console.info('ChatRoomClient');
-  window.chatRoomClient = new ChatRoomClient();
+  globalThis.chatRoomClient = new ChatRoomClient();
 }
