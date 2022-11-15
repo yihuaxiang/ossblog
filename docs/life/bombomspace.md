@@ -27,13 +27,13 @@
 
 
 寻宝专线-3号洞
-<VideoPlayer src="https://z.wiki/videos/%E7%88%AC%E5%87%BA%E5%B1%B1%E6%B4%9E.mp4" />
+<VideoPlayer src="https://7.z.wiki/autoupload/2022-11-15/59e55417e3e644f499d1dc4b2edee7b0.爬出山洞---.mp4" />
 
 儿童滑梯？
-<VideoPlayer src="https://z.wiki/videos/%E5%84%BF%E7%AB%A5%E6%BB%91%E6%A2%AF.mp4" />
+<VideoPlayer src="https://5.z.wiki/autoupload/2022-11-15/f6652f746a574af383b59d46fdf5828a.儿童滑梯---.mp4" />
 
 蹦床篮球？
-<VideoPlayer src="https://z.wiki/videos/%E7%AF%AE%E7%90%83.mp4" />
+<VideoPlayer src="https://9.z.wiki/autoupload/2022-11-15/f8d09e10fa474bca8204e542f695efc8.篮球--.mp4" />
 
 ![](https://1.z.wiki/images/20220212/80b2b6e8a8f349eea84c48014b64f08e.png)
 
