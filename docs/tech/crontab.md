@@ -84,6 +84,10 @@ sleep 60 # 这里 sleep 一分钟是为了避免 pm2 过于频繁的执行该脚
 
 通过`pm2`持续性的运行该脚本
 ```shell
+pm2 start shell-path -- -option value
+
+# 或不带参数
+
 pm2 start shell-path
 ```
 
