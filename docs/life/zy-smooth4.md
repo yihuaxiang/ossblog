@@ -24,9 +24,9 @@
 
 # 夕阳西下的场景
 
-<VideoPlayer src="https://z.wiki/tools/videos/91E93E4050784659E14B59B3B52BBE05.MP4" />
+<VideoPlayer src="https://8.z.wiki/autoupload/2022-11-15/d738f36334cf4bebaf5a80c5e8126e39.asdfasdfasdf.mp4" />
 
-<VideoPlayer src="https://z.wiki/videos/the-setting-sun.MP4" />
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/2022-11-15/79608fdb284e49a48989ae639e113198.the-setting-sun.mp4" />
 
 哎，明天又要上班了
 
