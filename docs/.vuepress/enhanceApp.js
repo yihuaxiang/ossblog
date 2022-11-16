@@ -11,7 +11,7 @@ export default ({
 
   Vue.use(Notifications)
 
-  if (typeof globalThis == 'object' && globalThis.location?.host == 'tuchuang.z.wiki') {
+  if (typeof globalThis == 'object' && globalThis.location && globalThis.location.host == 'tuchuang.z.wiki') {
     document.body.classList.add('tuchuang-domain');
   }
 
@@ -29,7 +29,7 @@ export default ({
     if (typeof fetch != 'undefined') {
       new Image(0, 0).src = `https://playground.z.wiki/blog/pv?url=${encodeURIComponent(to.fullPath)}`;
     } else {
-      console.error('fetch is not defined')
+      // console.error('fetch is not defined')
     }
 
     if (to.matched.length > 0 && to.matched[0].path === "*") {
@@ -502,6 +502,8 @@ export default ({
     }
   };
 
-  console.info('ChatRoomClient');
-  globalThis.chatRoomClient = new ChatRoomClient();
+  try {
+    globalThis.chatRoomClient = new ChatRoomClient();
+  } catch(e) {
+  }
 }
