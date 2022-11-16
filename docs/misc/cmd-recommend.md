@@ -126,4 +126,4 @@ brew info jq
 
 ### cnpm
 
-[cnpm](https://npmmirror.com/) 是阿里定制的命令行工具，用来代替默认的`npm`，同时解决国内访问速度首先的问题。
+[cnpm](https://npmmirror.com/) 是阿里定制的命令行工具，用来代替默认的`npm`，同时解决国内访问速度首先的问题，支持 `npm` 除了 `publish` 之外的所有命令。
