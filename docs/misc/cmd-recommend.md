@@ -123,3 +123,7 @@ brew info jq
 
 ![](https://4.z.wiki/images/20220327/c049aa1a16774e54a99ef7369a860f55.png)
 
+
+### cnpm
+
+[cnpm](https://npmmirror.com/) 是阿里定制的命令行工具，用来代替默认的`npm`，同时解决国内访问速度首先的问题。
