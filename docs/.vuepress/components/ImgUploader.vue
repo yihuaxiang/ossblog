@@ -1,6 +1,12 @@
 <template>
 <div class="img-uploader">
-  <input  @change="uploadFile($event)" type="file">
+  <div class="form-ctn">
+    <div class="auto-copy-ctn">
+      <input id="autoCopy" type="checkbox" :checked="autoCopyUrl">
+      <label for="autoCopy">自动复制</label>
+    </div>
+    <input  @change="uploadFile($event)" type="file">
+  </div>
   <br>
   <br>
   <template v-if="loading">
@@ -46,6 +52,7 @@ export default {
   components: {OssPager, ImgPreview},
   data() {
     return {
+      autoCopyUrl: true, // 上传后是否自动复制网址
       valueUrl: undefined,
       base64Value: undefined,
       loading: false,
@@ -165,6 +172,9 @@ export default {
           type: 'success',
           text: '已上传成功。'
         })
+        if (this.autoCopyUrl) {
+          navigator.clipboard.writeText(url);
+        }
         this.reloadHistory();
       }).catch(error => {
         this.$notify({
@@ -197,6 +207,13 @@ export default {
 .result {
   display: flex;
   margin-bottom: 5px;
+}
+.form-ctn {
+  display: flex;
+  align-items: center;
+}
+.auto-copy-ctn {
+  padding-right: 15px;
 }
 </style>
 <style>
