@@ -103,4 +103,21 @@ td {
   background: #e0ebf5;
 }
 
+.copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: #d7d7d7;
+  color: #2c3f51;
+  border: none;
+  padding: 2px 12px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.copy:hover {
+  opacity: 1;
+}
+
 </style>
