@@ -19,7 +19,7 @@ line-height: 24px;
 color: red;" @keydown="handleInputChange"></textarea>
         </td>
         <td style="width: 50%; position: relative;">
-          <button class="copy">复制</button>
+          <button class="copy" @click="handleCopy">复制</button>
           <textarea class="code code--output" readonly="">{{jss || `{
   "fontSize": "18px",
   "lineHeight": "24px",
@@ -43,6 +43,14 @@ export default {
     }
   },
   methods: {
+    handleCopy() {
+      navigator.clipboard.writeText(url).then(() => {
+        this.$notify({
+          type: 'success',
+          text: '已复制。'
+        })
+      });
+    },
     handleInputChange: lodash.debounce(function(e) {
       console.info('handleInputChange', e);
       fetch(`https://playground.z.wiki/css-to-jss?style=${encodeURIComponent(e.target.value)}`).then(res => res.json()).then(data => {
