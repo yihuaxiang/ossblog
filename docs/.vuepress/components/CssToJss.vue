@@ -44,7 +44,7 @@ export default {
   methods: {
     handleInputChange: lodash.debounce((e) => {
       console.info('handleInputChange', e);
-      fetch(`https://playground.z.wiki/css-to-jss?style=font-size%3A%2012px%3B%0Acolor%3A%20black%3B`).then(res => res.json()).then(data => {
+      fetch(`https://playground.z.wiki/css-to-jss?style=${encodeURIComponent(e.target.value)}`).then(res => res.json()).then(data => {
         this.jss = JSON.stringify(data, null, 2);
       })
     }, 500)
