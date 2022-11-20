@@ -16,14 +16,14 @@
         <td style="width: 50%;">
           <textarea class="code code--input" placeholder="font-size: 18px;
 line-height: 24px;
-color: red;"></textarea>
+color: red;" @keydown="handleInputChange"></textarea>
         </td>
         <td style="width: 50%;">
-          <textarea class="code code--output" readonly="">{
+          <textarea class="code code--output" readonly="">{{jss || `{
   "fontSize": "18px",
   "lineHeight": "24px",
   "color": "red"
-}</textarea>
+}`}}</textarea>
         </td>
       </tr>
       </tbody>
@@ -33,8 +33,22 @@ color: red;"></textarea>
 </template>
 
 <script>
+const lodash = require('lodash');
 export default {
   name: "CssToJss",
+  data() {
+    return {
+      jss: null
+    }
+  },
+  methods: {
+    handleInputChange: lodash.debounce((e) => {
+      console.info('handleInputChange', e);
+      fetch(`https://playground.z.wiki/css-to-jss?style=font-size%3A%2012px%3B%0Acolor%3A%20black%3B`).then(res => res.json()).then(data => {
+        this.jss = JSON.stringify(data, null, 2);
+      })
+    }, 500)
+  }
 }
 </script>
 
