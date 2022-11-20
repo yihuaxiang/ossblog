@@ -39,12 +39,17 @@ export default {
   name: "CssToJss",
   data() {
     return {
-      jss: null
+      jss: `{
+  "fontSize": "18px",
+  "lineHeight": "24px",
+  "color": "red"
+}`
     }
   },
   methods: {
     handleCopy() {
-      navigator.clipboard.writeText(url).then(() => {
+      console.info('handleCopy')
+      navigator.clipboard.writeText(this.jss).then(() => {
         this.$notify({
           type: 'success',
           text: '已复制。'
