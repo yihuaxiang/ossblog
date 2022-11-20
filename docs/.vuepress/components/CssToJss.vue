@@ -30,6 +30,7 @@ color: red;" @keydown="handleInputChange"></textarea>
       </tbody>
     </table>
   </div>
+  <notifications position="top center"/>
 </div>
 </template>
 
