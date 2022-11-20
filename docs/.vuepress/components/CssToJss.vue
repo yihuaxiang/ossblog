@@ -48,7 +48,6 @@ export default {
   },
   methods: {
     handleCopy() {
-      console.info('handleCopy')
       navigator.clipboard.writeText(this.jss).then(() => {
         this.$notify({
           type: 'success',
