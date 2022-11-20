@@ -18,7 +18,8 @@
 line-height: 24px;
 color: red;" @keydown="handleInputChange"></textarea>
         </td>
-        <td style="width: 50%;">
+        <td style="width: 50%; position: relative;">
+          <button class="copy">复制</button>
           <textarea class="code code--output" readonly="">{{jss || `{
   "fontSize": "18px",
   "lineHeight": "24px",
