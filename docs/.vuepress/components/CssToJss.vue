@@ -42,7 +42,7 @@ export default {
     }
   },
   methods: {
-    handleInputChange: lodash.debounce((e) => {
+    handleInputChange: lodash.debounce(function(e) {
       console.info('handleInputChange', e);
       fetch(`https://playground.z.wiki/css-to-jss?style=${encodeURIComponent(e.target.value)}`).then(res => res.json()).then(data => {
         this.jss = JSON.stringify(data, null, 2);
