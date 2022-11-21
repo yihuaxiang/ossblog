@@ -83,7 +83,7 @@ export default {
   },
   methods: {
     handleChange(e) {
-      console.log('value changed', e.target);
+      this.autoCopyUrl = e.target.checked;
     },
     createUserId() {
       if (!localStorage.getItem('fdd_uid')) {
