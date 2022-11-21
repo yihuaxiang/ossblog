@@ -2,7 +2,7 @@
 <div class="img-uploader">
   <div class="form-ctn">
     <div class="auto-copy-ctn">
-      <input id="autoCopy" type="checkbox" :checked="autoCopyUrl">
+      <input id="autoCopy" type="checkbox" :checked="autoCopyUrl" @change="handleChange">
       <label for="autoCopy">自动复制</label>
     </div>
     <input  @change="uploadFile($event)" type="file">
@@ -82,6 +82,9 @@ export default {
     }
   },
   methods: {
+    handleChange(e) {
+      console.log('value changed', e.target);
+    },
     createUserId() {
       if (!localStorage.getItem('fdd_uid')) {
         localStorage.setItem('fdd_uid', v4().replaceAll('-', ''));
