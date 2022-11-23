@@ -224,6 +224,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'horrible-lift-well',
         'olympic-tower',
         'love',
         'aosen',
