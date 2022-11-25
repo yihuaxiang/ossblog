@@ -27,6 +27,8 @@
 
 前端经常有编辑后的`js`文件都压缩成一行，使用`-M`可以避免控制台大量输出内容。
 
+[github](https://github.com/BurntSushi/ripgrep)
+
 ### loc
 
 `lines of code`,快速统计代码行数的工具
