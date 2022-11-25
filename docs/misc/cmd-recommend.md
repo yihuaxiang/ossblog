@@ -7,6 +7,8 @@
 
 ![fzf](https://1.z.wiki/images/20220318/85ed7eeda5f8490794630145886067fa.gif)
 
+[github](https://github.com/junegunn/fzf)
+
 
 ### rg
 
