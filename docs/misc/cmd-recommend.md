@@ -9,6 +9,10 @@
 
 [github](https://github.com/junegunn/fzf)
 
+```shell
+brew install fzf
+```
+
 
 ### rg
 
@@ -27,6 +31,13 @@
 
 前端经常有编辑后的`js`文件都压缩成一行，使用`-M`可以避免控制台大量输出内容。
 
+#### 安装
+
+```shell
+brew install ripgrep
+
+```
+
 [github](https://github.com/BurntSushi/ripgrep)
 
 ### loc
@@ -35,7 +46,15 @@
 
 ![](https://1.z.wiki/images/20220318/eb49ea01501344e688d39e31bfe59013.png)
 
+
+#### 安装
+
 安装：[点此 github](https://github.com/cgag/loc/releases)(或[国内镜像](https://5.z.wiki/autoupload/2022-09-14/62d62f3479a64502ab11fc04dfa746a4.loc-v0.3.4-x86_64-unknown-linux-gnu.tar.gz.zip))下载可执行程序
+
+```shell
+brew install loc
+
+```
 
 ### http-server
 
