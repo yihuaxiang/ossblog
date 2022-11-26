@@ -157,3 +157,9 @@ brew info jq
 
 
 ![](https://9.z.wiki/autoupload/20221124/UgEU.352X762-RPReplay_Final1669303784.gif)
+
+#### 安装
+
+```shell
+npm install -g gck
+```
