@@ -194,6 +194,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'shell',
         'mysql-login',
         'css-to-jss',
         'jsbin',
