@@ -130,6 +130,7 @@ fun1
 echo 状态吗是: $?
 ```
 
+> [点此下载以上脚本](https://1.z.wiki/autoupload/20221127/qWdP.fun.sh)
 
 运行结果如下：
 
