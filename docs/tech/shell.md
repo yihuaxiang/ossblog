@@ -158,4 +158,24 @@ result=$(fun1)
 echo return value is $result
 ```
 
+> [点此下载以上脚本](https://0.z.wiki/autoupload/20221127/Vvye.fun.sh)
+
 通过该方案可以返回小数、字符串类型的返回值。
+
+
+### 在函数中使用变量
+
+#### 参数变量
+
+在`shell`中调用函数同时需要传参的时候，函数和参数必须在用一行，如：`fun arg1 arg2`，同时函数内部可以通过`$1`、`$2`等变量获取对应的参数
+
+```shell
+#!/bin/bash
+
+fun() {
+  echo '$1 is' $1
+  echo '$2 is' $2
+}
+
+fun arg1 arg2
+```
