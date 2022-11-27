@@ -179,3 +179,68 @@ fun() {
 
 fun arg1 arg2
 ```
+
+#### 全局变量
+
+默认情况下，在`shell`脚本中定义的都是全局变量，在脚本任意地方均可读取，包括函数内部。
+
+#### 局部变量
+
+局部变量使用`local`来定义，这样在函数内部定义的变量就不会影响全局
+
+### 函数库
+
+如果相同函数在不同`shell`脚本中都用到了，这时候可以将通用的函数放到单独的文件中，既函数库，例如：`myFuncs.sh`
+
+
+```shell
+#!/bin/bash
+
+functioin add {
+  echo $[ $1 + $2 ]
+}
+
+function multem {
+  echo $[ $1 * $2 ]
+}
+
+function divem {
+  echo $[ $1 / $2 ]
+}
+
+```
+
+
+在使用的脚本中通过`source /path-to-myFunc.sh` 或 `. /path-to-myFunc.sh` 加载函数库，加载后即可使用`add`、`multem`、`divem`三个函数。
+
+### shtool
+
+如同其他编程语言都有各种第三方库一样，`shell`也有自己的第三方库，如非常流行的`shtool`，该函数库就提供了很多便捷的函数。
+
+#### 安装：
+
+
+下载地址：[shtool fpt](ftp://ftp.gnu.org/gnu/shtool/shtool-2.0.8.tar.gz)
+下载后执行以下脚本即可安装：
+
+```shell
+tar -zxvf shtool-2.0.8.tar.gz
+./configure
+make
+```
+
+安装后`shtool`提供的函数便可以再任意地方使用
+
+| 函数         | 功能描述     |
+|--------------|-----------|
+|  Arx | 创建归档文件|
+| Echo | 显示字符串，提供了一些扩展功能|
+| install | 安装脚本或文件 |
+| mdate | 显示文件或目录的修改时间 |
+| mkln | 根据相对路径创建链接 |
+| move| 移动文件，支持文件替换 |
+| Prop | 显示一个带有动画的进度条 |
+| version | 创建版本信息文件 |
+
+
+
