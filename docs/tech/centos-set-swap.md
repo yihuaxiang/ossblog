@@ -107,7 +107,7 @@ sudo echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 那具体到每个人，交换区应该设置多大比较合适呢？
 
 交换区大小没有绝对正确的设置，
-不过根据[红毛](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)建议：系统内存的`20%`大小。
+不过根据[红帽](https://www.redhat.com/en/blog/do-we-really-need-swap-modern-systems)建议：系统内存的`20%`大小。
 [centos](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/ch-swapspace.html)则建议：内存小于`2G`则交换区设置为内存的两倍，
 内存大于`2G`则交换区为内存+`2G`
 
