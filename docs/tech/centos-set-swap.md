@@ -102,6 +102,10 @@ sudo echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 
 支持，交换区已设置好
 
+至此，使用`idea`打开任何项目都没问题啦~
+
+![](https://2.z.wiki/autoupload/20221129/hlwX.1792X2176-image.png)
+
 ### 交换区大小
 
 那具体到每个人，交换区应该设置多大比较合适呢？
