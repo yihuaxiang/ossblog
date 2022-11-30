@@ -137,3 +137,5 @@ sudo swapoff -v /swapfile
 sudo rm /swapfile
 ```
 
+
+`gnome`： [gnome.org](https://www.gnome.org/)
