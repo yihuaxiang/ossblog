@@ -10,7 +10,7 @@ tags: ["centos", "swap", "交换区", "linux", "性能"]
 
 ### 起源
 
-曾经，体验过手机通过`ssh`登录服务器，使用`vim`进行开发，如果是前端的东西、或写博客还好（[手机-ssh-vim](https://z.wiki/misc/phone-blog.html)），但如果是`Java`开发的话`vim`还真有点吃力。
+曾经，体验过手机通过`ssh`登录服务器，使用`vim`进行开发，如果是前端的东西或写博客还好（[手机-ssh-vim](https://z.wiki/misc/phone-blog.html)），但如果是`Java`开发的话`vim`还真有点吃力。
 
 今天，我突发奇想，给服务器装了`gnome`桌面，通过`vnc`链接上去。安装`idea`也能顺利打开。
 
