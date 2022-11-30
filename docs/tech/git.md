@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: git 版本控制 别名 配置 安装器
+  - name: keywords
+    content: git 版本控制 别名 配置 安装器
+---
 # git 配置
 
 > `git` 配置文件为：`~/.gitconfig`，下文涉及到的配置便在该文件中
