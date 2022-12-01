@@ -66,9 +66,11 @@ export default {
     }
   },
   created() {
-    const preventAutoCopy = localStorage.getItem(PREVENT_AUTO_COPY_KEY);
-    if(preventAutoCopy) {
-      this.autoCopyUrl = false;
+    if(globalThis.localStorage) {
+      const preventAutoCopy = globalThis.localStorage.getItem(PREVENT_AUTO_COPY_KEY);
+      if(preventAutoCopy) {
+        this.autoCopyUrl = false;
+      }
     }
   },
   mounted() {
@@ -88,10 +90,12 @@ export default {
       this.reloadHistory();
     },
     autoCopyUrl(v) {
-      if(v) {
-        localStorage.removeItem(PREVENT_AUTO_COPY_KEY);
-      } else {
-        localStorage.setItem(PREVENT_AUTO_COPY_KEY, 'true');
+      if(globalThis.localStorage) {
+        if(v) {
+          localStorage.removeItem(PREVENT_AUTO_COPY_KEY);
+        } else {
+          localStorage.setItem(PREVENT_AUTO_COPY_KEY, 'true');
+        }
       }
     }
   },
