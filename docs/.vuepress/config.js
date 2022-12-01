@@ -268,6 +268,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'report',
         'macos-ventura',
         'lightproxy',
         'sls',
