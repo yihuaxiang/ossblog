@@ -65,11 +65,13 @@ export default {
       pageSize: 20,
     }
   },
-  mounted() {
+  created() {
     const preventAutoCopy = localStorage.getItem(PREVENT_AUTO_COPY_KEY);
     if(preventAutoCopy) {
       this.autoCopyUrl = false;
     }
+  },
+  mounted() {
     document.addEventListener('paste', this.handlePaste);
     this.createUserId();
     this.reloadHistory();
