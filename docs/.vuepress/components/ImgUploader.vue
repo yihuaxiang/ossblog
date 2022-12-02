@@ -47,6 +47,7 @@ import ImgPreview from './ImgPreview'
 const axios = require('axios').default;
 const lodash = require('lodash');
 const { v4 } = require('uuid');
+const PREVENT_AUTO_COPY_KEY = 'PREVENT_AUTO_COPY_KEY';
 export default {
   name: "ImgUploader",
   components: {OssPager, ImgPreview},
@@ -64,6 +65,14 @@ export default {
       pageSize: 20,
     }
   },
+  created() {
+    if(globalThis.localStorage) {
+      const preventAutoCopy = globalThis.localStorage.getItem(PREVENT_AUTO_COPY_KEY);
+      if(preventAutoCopy) {
+        this.autoCopyUrl = false;
+      }
+    }
+  },
   mounted() {
     document.addEventListener('paste', this.handlePaste);
     this.createUserId();
@@ -79,6 +88,15 @@ export default {
     pageSize() {
       this.page = 1;
       this.reloadHistory();
+    },
+    autoCopyUrl(v) {
+      if(globalThis.localStorage) {
+        if(v) {
+          localStorage.removeItem(PREVENT_AUTO_COPY_KEY);
+        } else {
+          localStorage.setItem(PREVENT_AUTO_COPY_KEY, 'true');
+        }
+      }
     }
   },
   methods: {

@@ -227,6 +227,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'moha',
         'ukraine',
         'horrible-lift-well',
         'olympic-tower',
@@ -269,6 +270,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'report',
         'macos-ventura',
         'lightproxy',
         'sls',
