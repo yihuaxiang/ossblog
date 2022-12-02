@@ -194,6 +194,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'db',
         'centos-set-swap',
         'shell',
         'mysql-login',
