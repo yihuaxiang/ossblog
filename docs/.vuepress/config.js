@@ -271,6 +271,7 @@ module.exports = {
       ],
       '/misc/': [
         'report',
+        'ShortUrl',
         'macos-ventura',
         'lightproxy',
         'sls',
