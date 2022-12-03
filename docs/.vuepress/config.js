@@ -108,7 +108,7 @@ module.exports = {
       {
         disabled: false,
         noCopy: false, // 选中的文字将无法被复制
-        minLength: 20, // 如果长度超过 100 个字符
+        minLength: 300, // 如果长度超过 100 个字符
         authorName: 'https://z.wiki'
       },
     ],
