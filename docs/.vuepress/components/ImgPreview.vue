@@ -3,21 +3,28 @@
     <img class="icon" :src="getIcon(data)" width="100" height="100" />
     <span class="name" :title="data.fileName">{{data.fileName}}</span>
     <div class="buttons">
-      <button class="button" @click="handleCopy(data)">复制连接</button>
-      <button class="button" @click="handleCopyMD(data)" v-show="isImg(data.url)">复制MD</button>
-      <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)">复制base64</button>
-      <button v-if="!isImg(data.url)" class="button" @click="handleCopyOssLink(data)">OSS链接</button>
-      <button v-if="isImg(data.url)" class="button" @click="handleCopyWikiLink(data)">原图</button>
-      <a class="button" target="_blank" :href="data.url">访问</a>
+      <button class="button" @click="handleCopy(data)" title="复制链接">链接</button>
+      <button class="button" @click="handleCopyMD(data)" v-show="isImg(data.url)" title="复制 MarkDown 图片">MD</button>
+      <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)" title="复制 base64 编码内容">base64</button>
+      <button v-if="!isImg(data.url)" class="button" @click="handleCopyOssLink(data)" title="复制 OSS 链接">OSS链接</button>
+      <button v-if="isImg(data.url)" class="button" @click="handleCopyWikiLink(data)" title="复制原图链接">原图</button>
+      <button class="button qrbutton">
+        <span title="查看二维码">二维码</span>
+        <QrCodeRender class="qr" :text="data.url" />
+      </button>
+      <a class="button" target="_blank" :href="data.url" title="访问">访问</a>
     </div>
   </div>
 </template>
 
 <script>
+import QrCodeRender from "./QrCodeRender.vue";
+
 const lodash = require('lodash');
 
 export default {
   name: "ImgPreview",
+  components: {QrCodeRender},
   props: {
     data: {
       type: Object,
@@ -161,6 +168,7 @@ export default {
   box-shadow: 0px 0px 7px #999;
 }
 .img-preview .buttons {
+  width: 100%;
   position: absolute;
   display: none;
   top: 50%;
@@ -172,11 +180,16 @@ export default {
 .img-preview:hover .buttons {
   display: block;
 }
+.img-preview:hover {
+  position: relative;
+  z-index: 9999999;
+}
 .img-preview .buttons .button {
   font-size: 12px;
   zoom: 0.8;
   white-space: nowrap;
   text-align: center;
+  position: relative;
 
   appearance: auto;
   writing-mode: horizontal-tb !important;
@@ -201,5 +214,21 @@ export default {
 .img-preview .buttons .button:not(:last-child) {
   margin-bottom: 2px;
   cursor: pointer;
+}
+
+.qrbutton {
+  position: relative;
+}
+.qrbutton:hover .qr{
+  display: block;
+  z-index: 9999;
+}
+.qrbutton .qr {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  width: 200px;
+  height: 200px;
+  display: none;
 }
 </style>
