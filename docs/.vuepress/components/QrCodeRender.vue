@@ -32,6 +32,9 @@ export default {
 
 <style scoped>
 .qr-code-render {
+}
+.qr-code-render img {
+  outline: 1px #ccc solid;
   box-shadow: 0px 0px 3px #ccc;
 }
 </style>
