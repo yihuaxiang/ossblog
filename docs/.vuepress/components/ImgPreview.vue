@@ -9,7 +9,7 @@
       <button v-if="!isImg(data.url)" class="button" @click="handleCopyOssLink(data)" title="复制 OSS 链接">OSS链接</button>
       <button v-if="isImg(data.url)" class="button" @click="handleCopyWikiLink(data)" title="复制原图链接">原图</button>
       <button class="button qrbutton">
-        <span title="查看二维码">二维码</span>
+        <span>二维码</span>
         <QrCodeRender class="qr" :text="data.url" />
       </button>
       <a class="button" target="_blank" :href="data.url" title="访问">访问</a>
