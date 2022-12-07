@@ -270,6 +270,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'vue-weekly-download',
         'report',
         'short-url',
         'macos-ventura',
