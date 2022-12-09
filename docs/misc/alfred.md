@@ -1,6 +1,7 @@
 # alfred 备忘录
 
-> `Alfred` 是一款 `Mac` 平台上的快捷启动器和文件搜索工具。它可以帮助用户快速启动应用程序、查找文件和执行其他常用操作。 Alfred 的基本版是免费的，如果想要使用更多高级功能，可以通过购买收费版来获取。
+> `Alfred` 是一款 `Mac` 平台上的快捷启动器和文件搜索工具。它可以帮助用户快速启动应用程序、查找文件和执行其他常用操作。 
+`Alfred` 的基本版是免费的，如果想要使用更多高级功能，可以通过购买收费版来获取。
 
 再次记录下我的`alfred`使用的插件。其中大部分插件都是从 [alfredforum](https://www.alfredforum.com/) 、 [awesome-alfred-workflows](https://github.com/alfred-workflows/awesome-alfred-workflows) 找到的。
 
