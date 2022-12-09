@@ -227,6 +227,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'detection-of-covid-19',
         'COVID-19',
         'moha',
         'ukraine',
