@@ -136,7 +136,7 @@ export default {
     },
     handlePaste(event) {
       console.info('handlePaste', event);
-      if(event.target.tagName == 'HTML' && event.target.type == 'text') {
+      if(event.target.tagName == 'INPUT' && event.target.type == 'text') {
         return;
       }
       const items = (event.clipboardData || window.clipboardData).items;
