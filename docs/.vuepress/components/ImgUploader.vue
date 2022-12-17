@@ -112,7 +112,6 @@ export default {
   methods: {
     getSharedFiles(e) {
       e.stopPropagation();
-      e.preventDefault();
       console.log('getSharedFiles', e.target.value);
       fetch(`https://playground.z.wiki/img/getByShareCode?shareCode=${e.target.value}`).then(res => res.json()).then(list => {
         console.log('list is', list);
