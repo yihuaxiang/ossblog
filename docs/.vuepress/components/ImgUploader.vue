@@ -31,7 +31,7 @@
     <p class="title">获取分享文件：<input type="text" placeholder="请输入分享码,回车搜索" @keydown="getSharedFiles" @onpaste="getSharedFiles" /></p>
     <div class="share-records">
       <template v-for="item in shareList">
-        <a :key="item.id" :href="item.url" target="_blank">{{item.fileName}}</a>
+        <a :key="item.id" :href="item.url" target="_blank" style="padding: 0 5px;">{{item.fileName}}</a>
       </template>
     </div>
   </div>
