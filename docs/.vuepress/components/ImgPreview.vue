@@ -13,6 +13,7 @@
         <span>二维码</span>
         <QrCodeRender class="qr" :text="data.url" />
       </button>
+      <button class="button" @click="handleCopyBase64(data)" title="设置分享码">分享码</button>
     </div>
   </div>
 </template>
