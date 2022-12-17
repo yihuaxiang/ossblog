@@ -110,14 +110,13 @@ export default {
     }
   },
   methods: {
-    getSharedFiles(e) {
-      e.stopPropagation();
+    getSharedFiles: lodash.debounce(function(e) {
       console.log('getSharedFiles', e.target.value);
       fetch(`https://playground.z.wiki/img/getByShareCode?shareCode=${e.target.value}`).then(res => res.json()).then(list => {
         console.log('list is', list);
         this.shareList = list;
       })
-    },
+    }, 300),
     handleChange(e) {
       this.autoCopyUrl = e.target.checked;
     },
