@@ -28,7 +28,7 @@
   <notifications position="top center"/>
 
   <div class="shared">
-    <p class="title">获取分享文件：<input type="text" placeholder="请输入分享码" /></p>
+    <p class="title">获取分享文件：<input type="text" placeholder="请输入分享码,回车搜索" @change="getSharedFiles" /></p>
     <div class="share-records">
       <a href="https://z.wiki">demo</a>
       <a href="https://z.wiki">demo</a>
@@ -73,6 +73,7 @@ export default {
       total: 0, // 总条数
       page: 1,
       pageSize: 20,
+      shareList: [],
     }
   },
   created() {
@@ -110,6 +111,13 @@ export default {
     }
   },
   methods: {
+    getSharedFiles(e) {
+      console.log('getSharedFiles', e.target.value);
+      fetch(`https://playground.z.wiki/img/getByShareCode?shareCode=${e.target.value}`).then(res => res.json()).then(list => {
+        console.log('list is', list);
+        this.shareList = list;
+      })
+    },
     handleChange(e) {
       this.autoCopyUrl = e.target.checked;
     },
