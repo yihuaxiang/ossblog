@@ -30,10 +30,9 @@
   <div class="shared">
     <p class="title">获取分享文件：<input type="text" placeholder="请输入分享码,回车搜索" @change="getSharedFiles" @onpaste="getSharedFiles" /></p>
     <div class="share-records">
-      <a href="https://z.wiki">demo</a>
-      <a href="https://z.wiki">demo</a>
-      <a href="https://z.wiki">demo</a>
-      <a href="https://z.wiki">demo</a>
+      <template v-for="item in shareList">
+        <a :key="item.id" :href="item.url" target="_blank">{{item.fileName}}</a>
+      </template>
     </div>
   </div>
 
