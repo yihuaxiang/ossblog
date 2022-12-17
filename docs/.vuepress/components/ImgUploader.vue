@@ -27,6 +27,16 @@
   </template>
   <notifications position="top center"/>
 
+  <div class="shared">
+    <p class="title">获取分享文件：<input type="text" placeholder="请输入分享码" /></p>
+    <div class="share-records">
+      <a href="https://z.wiki">demo</a>
+      <a href="https://z.wiki">demo</a>
+      <a href="https://z.wiki">demo</a>
+      <a href="https://z.wiki">demo</a>
+    </div>
+  </div>
+
   <div class="history">
     <p class="title">上传历史：</p>
     <div class="records">
