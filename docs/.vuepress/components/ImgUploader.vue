@@ -135,7 +135,7 @@ export default {
       })
     },
     handlePaste(event) {
-      console.info('handlePaste')
+      console.info('handlePaste', event);
       const items = (event.clipboardData || window.clipboardData).items;
       console.log('items are', items);
       lodash.map(items, item => {
