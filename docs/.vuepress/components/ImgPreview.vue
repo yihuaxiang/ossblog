@@ -129,7 +129,7 @@ export default {
       fetch(`https://playground.z.wiki/img/setShareCode?uid=${data.uid}&id=${data.id}&shareCode=${shareCode}`, {method: 'POST'}).then(res => {
         return res.json();
       }).then(data => {
-        if(data?.success) {
+        if(data.success) {
           this.$notify({
             type: 'success',
             text: '已设置分享码。'
