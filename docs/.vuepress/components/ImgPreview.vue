@@ -126,21 +126,23 @@ export default {
     handleSetShareCode(data) {
       console.log('handleSetShareCode', data);
       const shareCode = window.prompt('请输入分享码', data.shareCode || '')
-      fetch(`https://playground.z.wiki/img/setShareCode?uid=${data.uid}&id=${data.id}&shareCode=${shareCode}`, {method: 'POST'}).then(res => {
-        return res.json();
-      }).then(data => {
-        if(data.success) {
-          this.$notify({
-            type: 'success',
-            text: '已设置分享码。'
-          })
-        } else {
-          this.$notify({
-            type: 'error',
-            text: '分享失败。'
-          })
-        }
-      })
+      if(shareCode != null) {
+        fetch(`https://playground.z.wiki/img/setShareCode?uid=${data.uid}&id=${data.id}&shareCode=${shareCode}`, {method: 'POST'}).then(res => {
+          return res.json();
+        }).then(data => {
+          if(data.success) {
+            this.$notify({
+              type: 'success',
+              text: '已设置分享码。'
+            })
+          } else {
+            this.$notify({
+              type: 'error',
+              text: '分享失败。'
+            })
+          }
+        })
+      }
     }
   }
 }
