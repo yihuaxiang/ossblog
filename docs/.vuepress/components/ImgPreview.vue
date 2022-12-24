@@ -78,6 +78,7 @@ export default {
           ['.alfredworkflow']: 'https://1.z.wiki/autoupload/20221224/FwUM.workflow.svg',
           ['.tiff']: 'https://3.z.wiki/autoupload/20221224/x2Fz.Tiff.svg',
           ['.exe']: 'https://5.z.wiki/autoupload/20221224/PvKj.exe.svg',
+          ['.7z']: 'https://0.z.wiki/autoupload/20221224/NpA2.7z.svg',
           ['.dmg']: 'https://5.z.wiki/autoupload/20221224/0IXD.dmg.svg'
         };
         let icon = 'https://5.z.wiki/autoupload/2022-09-18/a426d828fa6242cdb9698fbe32a430a4.unknownfile.svg';
