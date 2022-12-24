@@ -81,6 +81,7 @@ export default {
           ['.7z']: 'https://0.z.wiki/autoupload/20221224/NpA2.7z.svg',
           ['.rar']: 'https://3.z.wiki/autoupload/20221224/uRGw.rar.svg',
           ['.gz']: 'https://6.z.wiki/autoupload/20221224/GUg7.gzip.svg',
+          ['.ts']: 'https://7.z.wiki/autoupload/20221224/X169.typescript-def.svg',
           ['.dmg']: 'https://5.z.wiki/autoupload/20221224/0IXD.dmg.svg'
         };
         let icon = 'https://5.z.wiki/autoupload/2022-09-18/a426d828fa6242cdb9698fbe32a430a4.unknownfile.svg';
