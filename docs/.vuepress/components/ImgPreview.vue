@@ -76,6 +76,7 @@ export default {
           ['.xlsm']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
           ['.xlsb']: 'https://6.z.wiki/autoupload/2022-09-18/8ed51cfaf5f04d88b7ef0f0eb13e0035.excel.svg',
           ['.alfredworkflow']: 'https://1.z.wiki/autoupload/20221224/FwUM.workflow.svg',
+          ['.tiff']: 'https://3.z.wiki/autoupload/20221224/x2Fz.Tiff.svg',
           ['.dmg']: 'https://5.z.wiki/autoupload/20221224/0IXD.dmg.svg'
         };
         let icon = 'https://5.z.wiki/autoupload/2022-09-18/a426d828fa6242cdb9698fbe32a430a4.unknownfile.svg';
