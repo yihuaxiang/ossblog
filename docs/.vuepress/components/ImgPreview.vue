@@ -106,7 +106,7 @@ export default {
     },
     isImg(url) {
       // 图片后缀，预览图中如果是图片需要显示照片内容，否则显示文件类型图标
-      const imgSuffixs = ['.bmp', '.jpg', '.jpeg', '.png', '.gif', '.webp', '.ico', '.tiff', '.svg'];
+      const imgSuffixs = ['.bmp', '.jpg', '.jpeg', '.png', '.gif', '.webp', '.ico', '.svg'];
       return lodash.some(imgSuffixs, imgSuffix => {
         return url && url.toLowerCase().endsWith(imgSuffix);
       })
