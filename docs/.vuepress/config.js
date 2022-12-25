@@ -227,6 +227,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'christmas-of-2022',
         'covid-19-positive',
         'openai',
         'detection-of-covid-19',
