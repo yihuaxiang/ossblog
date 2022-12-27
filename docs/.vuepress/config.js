@@ -33,6 +33,13 @@ module.exports = {
       }
     ],
     [
+      'link',
+      {
+        rel: 'manifest',
+        href: './manifest.json'
+      }
+    ],
+    [
       'meta',
       {
         name: 'viewport',
