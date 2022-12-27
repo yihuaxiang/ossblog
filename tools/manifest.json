@@ -1,0 +1,10 @@
+{
+  "theme_color" : "#f69435",
+  "background_color" : "#f69435",
+  "display" : "standalone",
+  "scope" : "/",
+  "start_url" : "/",
+  "name" : "敖武博客",
+  "short_name" : "敖武",
+  "description" : "敖武的博客"
+}

@@ -36,7 +36,7 @@ module.exports = {
       'link',
       {
         rel: 'manifest',
-        href: './manifest.json'
+        href: './tools/manifest.json'
       }
     ],
     [
