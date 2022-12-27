@@ -6,5 +6,26 @@
   "start_url" : "/",
   "name" : "敖武博客",
   "short_name" : "敖武",
+  "icons": [{
+    "src": "https://z.wiki/autoupload/20221227/6vAS.128X128-128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "https://z.wiki/autoupload/20221227/Swgu.144X144-144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://z.wiki/autoupload/20221227/OjYr.192X192-192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://z.wiki/autoupload/20221227/epDQ.256X256-256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }, {
+    "src": "https://z.wiki/autoupload/20221227/fFPJ.512X512-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
   "description" : "敖武的博客"
 }
