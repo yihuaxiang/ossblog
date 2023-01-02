@@ -234,6 +234,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'beijing-wildlife-park',
         'christmas-of-2022',
         'covid-19-positive',
         'openai',
