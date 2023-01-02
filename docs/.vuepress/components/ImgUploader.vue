@@ -11,7 +11,7 @@
   <br>
   <template v-if="loading">
     <span class="loading">
-      上传中...({{percent || '-'}}%)
+      <span class="index-of-files" v-show="totalOfFiles > 1">第个{{indexOfFiles + 1}}文件</span>上传中...({{percent || '-'}}%)
     </span>
   </template>
   <template v-else>
@@ -73,6 +73,8 @@ export default {
       page: 1,
       pageSize: 20,
       shareList: [],
+      indexOfFiles: 0,
+      totalOfFiles: 0,
     }
   },
   created() {
@@ -132,37 +134,73 @@ export default {
         this.total = pageData.total;
       })
     },
-    handlePaste(event) {
+    async handlePaste(event) {
       console.info('handlePaste', event);
       if(event.target.tagName == 'INPUT' && event.target.type == 'text') {
         return;
       }
       const items = (event.clipboardData || window.clipboardData).items;
       console.log('items are', items);
-      lodash.map(items, item => {
-        console.info('item is ', item);
-        const file = item && item.getAsFile();
-        if(file) {
-          this.postFile(file);
-        } else {
-          // 尝试读取剪切板中的内容
-          if(item.type.match('^text/plain')) {
-            item.getAsString(async (clipboardContent) => {
-              const blob = await new Blob([clipboardContent]);
-              const file = new File([blob], '来自剪切板的文本.txt', {
-                type : "text/plain;charset=utf-8"
-              });
-              this.postFile(file);
-            })
-          } else {
-            console.info('not found file')
-            this.$notify({
-              type: 'warn',
-              text: '剪切板中未找到任何文件。'
-            })
-          }
+      this.totalOfFiles = items.length;
+      this.indexOfFiles = 0;
+      if(items.length > 1 && items[0].kind != 'string') {
+        // 选择了多个文件
+        const files = lodash.map(items, item => {
+          return item.getAsFile();
+        })
+        for(const file of files) {
+          this.indexOfFiles += 1;
+          await new Promise(async (resolve) => {
+            if(file) {
+              try {
+                const result = await this.postFile(file).catch(() => {});
+                console.info('upload result is ', result);
+                resolve();
+              } catch(e) {
+                console.error(e);
+                resolve();
+              }
+            }
+          })
         }
-      })
+      } else {
+        for(const item of items) {
+          console.info('item is ', item, items.length);
+          new Promise(async (resolve) => {
+            const file = item && item.getAsFile();
+            if(file) {
+              try {
+                const result = await this.postFile(file).catch(() => {});
+                console.info('upload result is ', result);
+                resolve();
+              } catch(e) {
+                console.error(e);
+                resolve();
+              }
+            } else {
+              // 尝试读取剪切板中的内容
+              if(item.type.match('^text/plain')) {
+                item.getAsString(async (clipboardContent) => {
+                  const blob = await new Blob([clipboardContent]);
+                  const file = new File([blob], '来自剪切板的文本.txt', {
+                    type : "text/plain;charset=utf-8"
+                  });
+                  this.postFile(file);
+                })
+                resolve();
+              } else {
+                console.info('not found file')
+                this.$notify({
+                  type: 'warn',
+                  text: '剪切板中未找到任何文件。'
+                })
+                resolve();
+              }
+            }
+          })
+          console.info('upload done', items.length);
+        }
+      }
     },
     handleCopy(record) {
       navigator.clipboard.writeText(record && record.url || this.valueUrl).then(() => {
@@ -194,7 +232,7 @@ export default {
       formData.append('file', file);
       formData.append('fileName', file.name);
       formData.append('uid', this.uuid);
-      axios.request({
+      return axios.request({
         method: 'post',
         url: 'https://playground.z.wiki/img/upload',
         data: formData,
