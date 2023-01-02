@@ -38,7 +38,7 @@ export default {
       const url = data.url;
       if(this.isImg(url)) {
         // 图片：返回图片链接
-        return url;
+        return url + "?type=preview";
       } else {
         // 返回对应文件类型的后缀
         const map = {
