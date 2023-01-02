@@ -149,7 +149,6 @@ export default {
           return item.getAsFile();
         })
         for(const file of files) {
-          this.indexOfFiles += 1;
           await new Promise(async (resolve) => {
             if(file) {
               try {
@@ -162,6 +161,7 @@ export default {
               }
             }
           })
+          this.indexOfFiles += 1;
         }
       } else {
         for(const item of items) {
