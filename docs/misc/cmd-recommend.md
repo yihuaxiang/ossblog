@@ -163,3 +163,7 @@ brew info jq
 ```shell
 npm install -g gck
 ```
+
+### nodemon
+
+`nodemon`可是监听文件变化自动重启服务，开发提效工具，可通过`npm`安装
