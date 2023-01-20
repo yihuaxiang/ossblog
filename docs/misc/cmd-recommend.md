@@ -153,7 +153,7 @@ brew info jq
 
 ### gck
 
-[gck](npmjs.com/package/gck) 用于切换分枝的神器
+[gck](https://npmjs.com/package/gck) 用于切换分枝的神器
 
 
 ![](https://9.z.wiki/autoupload/20221124/UgEU.352X762-RPReplay_Final1669303784.gif)
