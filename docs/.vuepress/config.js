@@ -201,6 +201,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'aspx',
         'db',
         'centos-set-swap',
         'shell',
