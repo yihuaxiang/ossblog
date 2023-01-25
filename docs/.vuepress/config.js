@@ -235,6 +235,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'procreate',
         'friendship',
         'chrome-keychain',
         'beijing-wildlife-park',
