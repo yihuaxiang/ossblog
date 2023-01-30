@@ -46,4 +46,4 @@
 
 我这手艺！！！等我失业了取路边摆摊贴膜！！！
 
-![](https://4.z.wiki/autoupload/20230131/f7Gk.221X164-image.png)
+![](https://z.wiki/autoupload/20230131/f7Gk.221X164-image.png)
