@@ -235,6 +235,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'pad-pasting',
         'procreate',
         'friendship',
         'chrome-keychain',
