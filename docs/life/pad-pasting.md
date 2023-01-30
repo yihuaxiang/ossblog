@@ -38,10 +38,12 @@
 
 ![](https://2.z.wiki/autoupload/20230130/L7vF.IMG_2649.HEIC.jpg)
 
-再把防窥膜擦干净，完美
+没有丝毫气泡，再把防窥膜擦干净，完美
 
 ![](https://0.z.wiki/autoupload/20230130/ScM4.IMG_2650.HEIC.jpg)
 
 ![](https://5.z.wiki/autoupload/20230130/PZSQ.IMG_2651.HEIC.jpg)
 
 我这手艺！！！等我失业了取路边摆摊贴膜！！！
+
+![](https://4.z.wiki/autoupload/20230131/f7Gk.221X164-image.png)
