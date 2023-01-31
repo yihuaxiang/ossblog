@@ -201,6 +201,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'baota',
         'aspx',
         'db',
         'centos-set-swap',
