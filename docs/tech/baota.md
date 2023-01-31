@@ -32,3 +32,7 @@
 ### 软件商店
 
 ![](https://2.z.wiki/autoupload/20230131/vwJL.1418X2282-image.png)
+
+### 站点管理
+
+![](https://5.z.wiki/autoupload/20230131/hcsP.1062X2292-image.png)
