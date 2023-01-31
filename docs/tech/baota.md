@@ -36,3 +36,7 @@
 ### 站点管理
 
 ![](https://5.z.wiki/autoupload/20230131/hcsP.1062X2292-image.png)
+
+### 数据库管理
+
+![](https://9.z.wiki/autoupload/20230131/koxM.692X2506-image.png)
