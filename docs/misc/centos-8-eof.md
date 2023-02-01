@@ -67,3 +67,7 @@ EOF
 
 
 ![centos 更新软件](https://2.z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)
+
+### Centos 8.2 切换国内镜像源
+
+参考[文档](https://blog.csdn.net/hanhanjack/article/details/122318330)
