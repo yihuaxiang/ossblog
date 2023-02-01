@@ -70,4 +70,51 @@ EOF
 
 ### Centos 8.2 切换国内镜像源
 
-参考[文档](https://blog.csdn.net/hanhanjack/article/details/122318330)
+#### 备份原始源文件
+
+1. 进入目录/etc/yum.repos.d
+
+```shell
+cd /etc/yum.repos.d
+```
+
+2. 新建名称为bak的文件夹
+
+```shell
+mkdir bak
+```
+
+3. 将所有源文件保存到bak文件夹里
+
+```shell
+mv *.repo bak
+```
+
+
+#### 下载阿里镜像源文件
+
+
+下载对应系统的源文件并放到/etc/vum.repos.d目录下
+
+```shell
+curl -o /etc/yum.repos.d/CentOS-Base-Aliyun.repo http://mirrors.aliyun.com/repo/Centos-8.repo
+```
+
+
+#### 更新
+
+
+1. 清除`yum`仓库缓存
+
+```shell
+yum clean all
+yum makecache
+```
+
+
+
+2. 更新
+
+```shell
+yum update
+```
