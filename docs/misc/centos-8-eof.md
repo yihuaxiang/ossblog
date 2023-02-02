@@ -72,19 +72,19 @@ EOF
 
 #### 备份原始源文件
 
-1. 进入目录/etc/yum.repos.d
+1. 进入目录`/etc/yum.repos.d`
 
 ```shell
 cd /etc/yum.repos.d
 ```
 
-2. 新建名称为bak的文件夹
+2. 新建名称为`bak`的文件夹
 
 ```shell
 mkdir bak
 ```
 
-3. 将所有源文件保存到bak文件夹里
+3. 将所有源文件保存到`bak`文件夹里
 
 ```shell
 mv *.repo bak
