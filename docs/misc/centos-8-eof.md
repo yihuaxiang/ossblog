@@ -28,47 +28,15 @@ meta:
 [腾讯源](https://mirrors.cloud.tencent.com/centos-vault/)
 
 
-### 切换源
+### 一键切换(推荐)
 
-备份并切换源
+在服务器上执行以下脚本完成一键切换阿里云镜像
 
 ```shell
-# 备份原配置
-mkdir /etc/yum.repos.d/bak
-mv /etc/yum.repos.d/CentOS-Linux-* /etc/yum.repos.d/bak
-
-
-# 写入新镜像地址
-cat <<EOF > /etc/yum.repos.d/centos.repo 
-[baseos]
-name=CentOS Linux $releasever - BaseOS
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/BaseOS/$basearch/os/?arch=$basearch
-gpgcheck=1
-enabled=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
-
-[appstream]
-name=CentOS Linux $releasever - AppStream
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/AppStream/$basearch/os/
-gpgcheck=1
-enabled=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
-
-[extras]
-name=CentOS Linux $releasever - Extras
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/extras/$basearch/os/
-gpgcheck=1
-enabled=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
-EOF
+curl -o change-mirrors.sh https://9.z.wiki/autoupload/20230204/P561.change-mirrors.sh && sh ./change-mirrors.sh
 ```
 
-更新软件
-
-
-![centos 更新软件](https://2.z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)
-
-### 备用方案
+### 切换源
 
 #### 备份原始源文件
 
@@ -118,3 +86,43 @@ yum makecache
 ```shell
 yum update
 ```
+
+### 备用方案
+
+备份并切换源
+
+```shell
+# 备份原配置
+mkdir /etc/yum.repos.d/bak
+mv /etc/yum.repos.d/CentOS-Linux-* /etc/yum.repos.d/bak
+
+
+# 写入新镜像地址
+cat <<EOF > /etc/yum.repos.d/centos.repo 
+[baseos]
+name=CentOS Linux $releasever - BaseOS
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/BaseOS/$basearch/os/?arch=$basearch
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+
+[appstream]
+name=CentOS Linux $releasever - AppStream
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/AppStream/$basearch/os/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+
+[extras]
+name=CentOS Linux $releasever - Extras
+baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos-vault/8.5.2111/extras/$basearch/os/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial
+EOF
+```
+
+更新软件
+
+
+![centos 更新软件](https://2.z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)
