@@ -36,7 +36,7 @@ meta:
 curl -o change-mirrors.sh https://9.z.wiki/autoupload/20230204/P561.change-mirrors.sh && sh ./change-mirrors.sh
 ```
 
-### 切换源
+### 手动切换
 
 #### 备份原始源文件
 
