@@ -289,6 +289,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'the-nature-of-management',
         'vue-weekly-download',
         'report',
         'short-url',
