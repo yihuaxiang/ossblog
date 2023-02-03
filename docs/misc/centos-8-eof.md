@@ -12,7 +12,12 @@ meta:
 
 本想安装`JDK`，发现如下报错。
 
-![](https://0.z.wiki/images/20220320/f14250eb61f54149a400a8367ee3291e.png)
+```shell
+[root@046d05b87ece yum.repos.d]# yum update
+Failed to set locale, defaulting to C.UTF-8
+CentOS Linux 8 - AppStream                                                                                           81  B/s |  38  B     00:00
+Error: Failed to download metadata for repo 'appstream': Cannot prepare internal mirrorlist: No URLs in mirrorlist
+```
 
 看来`CentOS 8`的寿终正寝还真影响到我了。😓
 
