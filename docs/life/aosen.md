@@ -1,9 +1,9 @@
 ---
 meta:
   - name: description
-    content: 北京 奥林匹克森林公园 鸳鸯子
+    content: 北京 奥林匹克森林公园 鸳鸯
   - name: keywords
-    content: 北京 奥林匹克森林公园 鸳鸯子
+    content: 北京 奥林匹克森林公园 鸳鸯
 ---
 # 奥林匹克森林公园
 
