@@ -201,6 +201,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'cdn',
         'baota',
         'aspx',
         'db',
