@@ -8,7 +8,7 @@ meta:
 # 奥林匹克森林公园
 
 
-<ImgPlayer width="300px" :imgs="[
+<ImgPlayer :imgs="[
   'https://5.z.wiki/autoupload/2022-11-05/94d3d8a6c8194b7ebf9c75ef95bb432f.IMG_8925.HEIC.jpg',
   'https://8.z.wiki/autoupload/2022-11-05/2c534f5540ec4e5eaa3a4ae0d1b32d68.IMG_8910.HEIC.jpg',
   'https://5.z.wiki/autoupload/2022-11-05/58b6f46c8cd84568b42449160c212481.IMG_8909.HEIC.jpg',
