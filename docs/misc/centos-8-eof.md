@@ -38,7 +38,7 @@ Error: Failed to download metadata for repo 'appstream': Cannot prepare internal
 在服务器上执行以下脚本完成一键切换阿里云镜像
 
 ```shell
-curl -o change-mirrors.sh https://9.z.wiki/autoupload/20230204/P561.change-mirrors.sh && sh ./change-mirrors.sh
+/bin/bash -c "$(curl -fsSL https://2.z.wiki/autoupload/20230204/od1H.change-mirrors.sh)"
 ```
 
 ### 手动切换
