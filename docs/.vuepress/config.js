@@ -236,6 +236,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'spring-2023',
         'pad-pasting',
         'procreate',
         'friendship',
