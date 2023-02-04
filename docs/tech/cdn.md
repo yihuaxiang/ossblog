@@ -39,7 +39,7 @@ done
 
 测试脚本:
 
-```
+```shell
 #!/bin/bash
 for n in {1..5}
 do
