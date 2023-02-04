@@ -133,7 +133,13 @@ export default {
       this.doCopy(`![](${record && record.url || this.valueUrl})`);
     },
     handleCopyCDN(record) {
-      this.doCopy(record && record.cdnUrl);
+      const url = record && record.cdnUrl;
+      if(url) {
+        cdnUrl = url.replace(/\d.z.wiki/,'1.cdn.z.wiki');
+        this.doCopy(cdnUrl);
+      } else {
+        console.log('未找到URL', record);
+      }
     },
     handleSetShareCode(data) {
       console.log('handleSetShareCode', data);
