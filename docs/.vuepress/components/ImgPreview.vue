@@ -135,7 +135,7 @@ export default {
     handleCopyCDN(record) {
       const url = record && record.url;
       if(url) {
-        cdnUrl = url.replace(/\d.z.wiki/,'1.cdn.z.wiki');
+        const cdnUrl = url.replace(/\d.z.wiki/,'1.cdn.z.wiki');
         this.doCopy(cdnUrl);
       } else {
         console.log('未找到URL', record);
