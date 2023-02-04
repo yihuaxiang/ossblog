@@ -1,5 +1,5 @@
 <template>
-<div class="img-player">
+  <div class="img-player" :style="width ? `width: ${width}; margin: 0 auto;` : ''">
   <swiper class="swiper" :options="swiperOption">
     <template v-for="(img,index) in imgs">
       <swiper-slide :key="`${img}-${index}`">
@@ -33,6 +33,10 @@ export default {
     imgs: {
       type: Array,
       required: true,
+    },
+    width: {
+      type: String,
+      required: false,
     }
   },
   data() {
