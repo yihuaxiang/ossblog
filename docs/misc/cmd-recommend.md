@@ -167,3 +167,7 @@ npm install -g gck
 ### nodemon
 
 `nodemon`可是监听文件变化自动重启服务，开发提效工具，可通过`npm`安装
+
+### siege
+
+`siege`是个开源的服务压测工具，地址：[siege](https://github.com/JoeDog/siege)
