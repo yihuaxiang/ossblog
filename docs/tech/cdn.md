@@ -67,3 +67,40 @@ CDN域名，下载时间： .11 秒
 
 
 
+### Siege 压测
+
+使用[Siege](https://z.wiki/misc/cmd-recommend.html#siege)模式`10`个用户`10`次访问，结果如下：
+
+```
+# CDN 域名测试结果
+Transactions:		        1600 hits
+Availability:		      100.00 %
+Elapsed time:		      110.14 secs
+Data transferred:	       32.32 MB
+Response time:		        0.38 secs
+Transaction rate:	       14.53 trans/sec
+Throughput:		        0.29 MB/sec
+Concurrency:		        5.52
+Successful transactions:        1600
+Failed transactions:	           0
+Longest transaction:	       55.06
+Shortest transaction:	        0.01
+```
+
+```
+# 非 CDN 域名测试结果
+Transactions:		        1600 hits
+Availability:		      100.00 %
+Elapsed time:		      209.74 secs
+Data transferred:	       81.43 MB
+Response time:		        1.14 secs
+Transaction rate:	        7.63 trans/sec
+Throughput:		        0.39 MB/sec
+Concurrency:		        8.70
+Successful transactions:        1600
+Failed transactions:	           0
+Longest transaction:	      113.36
+Shortest transaction:	        0.00
+```
+
+总共`1600`个请求，`CDN`加速域名耗时`110`秒，比飞加速域名快了将近`100`秒，同时数据传输量也减少`60%`。
