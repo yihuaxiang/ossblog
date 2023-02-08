@@ -6,7 +6,6 @@
       <button class="button" @click="handleCopy(data)" title="复制链接">链接</button>
       <button class="button" @click="handleCopyMD(data)" v-show="isImg(data.url)" title="复制 MarkDown 图片">MD</button>
       <button class="button" @click="handleCopyBase64(data)" v-show="isImg(data.url)" title="复制 base64 编码内容">base64</button>
-      <button class="button" @click="handleCopyCDN(data)" v-show="isImg(data.url)" title="复制 CDN 链接">CDN</button>
       <button v-if="!isImg(data.url)" class="button" @click="handleCopyOssLink(data)" title="复制 OSS 链接">OSS链接</button>
       <button v-if="isImg(data.url)" class="button" @click="handleCopyWikiLink(data)" title="复制原图链接">原图</button>
       <a class="button" target="_blank" :href="data.url" title="访问">访问</a>
@@ -131,15 +130,6 @@ export default {
     },
     handleCopyMD(record) {
       this.doCopy(`![](${record && record.url || this.valueUrl})`);
-    },
-    handleCopyCDN(record) {
-      const url = record && record.url;
-      if(url) {
-        const cdnUrl = url.replace(/\d.z.wiki/,'1.cdn.z.wiki');
-        this.doCopy(cdnUrl);
-      } else {
-        console.log('未找到URL', record);
-      }
     },
     handleSetShareCode(data) {
       console.log('handleSetShareCode', data);
