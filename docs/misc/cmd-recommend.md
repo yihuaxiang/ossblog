@@ -171,3 +171,7 @@ npm install -g gck
 ### siege
 
 `siege`是个开源的服务压测工具，地址：[siege](https://github.com/JoeDog/siege)
+
+### viu 与 lsix
+
+在终端查看照片的工具，均可以通过`brew`安装。
