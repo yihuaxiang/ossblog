@@ -89,12 +89,55 @@ HTTP 报文是通过 HTTP 协议进行请求和响应的主要内容。HTTP 报�
 请求行：包含了请求方法（例如 GET、POST）、请求的 URL 和使用的 HTTP 版本。
 请求头：包含了有关请求的附加信息，例如请求的内容长度、请求的来源和请求的 Acceptable 内容类型。
 请求主体：请求的正文，仅在请求方法为 POST 时出现。
+
 响应报文通常由以下组成部分组成：
 
 状态行：包含了 HTTP 版本、响应状态代码和状态代码的文本描述。
 响应头：包含了有关响应的附加信息，例如内容长度、内容类型和服务器的类型。
 响应主体：响应的正文，包含了请求的结果。
+
 总的来说，HTTP 报文是通过首部字段、空行和正文组成的。首部字段包含了有关请求或响应的附加信息，而正文则包含了请求或响应的主要内容。
+
+例如当你访问[z.wiki](http://z.wiki)时：
+
+请求如下
+```
+GET / HTTP/1.1
+Host: z.wiki
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: io=MK50jBsxjF5t6aEsAAOG
+```
+
+响应如下
+```
+HTTP/1.1 301 Moved Permanently
+Server: Tengine
+Date: Sun, 12 Feb 2023 13:24:58 GMT
+Content-Type: text/html
+Content-Length: 262
+Location: https://z.wiki/
+Via: kunlun6.cn5186[,0]
+Timing-Allow-Origin: *
+EagleId: 7cec6e1016762082989013691e
+Proxy-Connection: Keep-alive
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<h1>301 Moved Permanently</h1>
+<p>The requested resource has been assigned a new permanent URI.</p>
+<hr/>Powered by Tengine</body>
+</html>
+
+```
+
+以上请求、响应可通过[Charles](https://www.charlesproxy.com/)查看
+
 
 ### 方法
 
