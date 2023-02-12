@@ -1,4 +1,4 @@
-# HTTP 精华，从 ZERO 到 HERO
+# HTTP 协议，从 ZERO 到 HERO
 
 ![](https://9.z.wiki/autoupload/20230212/2t8Y.1610X2000-image.png)
 
@@ -46,7 +46,7 @@ HTTP 请求/响应模型是 HTTP 协议的基础。它描述了客户端和服�
 
 URL 是请求的目标资源的位置。
 
-HTTP/版本是协议版本，通常是 HTTP/1.1。
+HTTP/版本是协议版本，最常见的是 HTTP/1.1。
 
 请求头是可选的附加信息，包括客户端的需求、请求的内容等。
 
@@ -78,7 +78,7 @@ HTTP/版本是协议版本，通常是 HTTP/1.1。
 7. Expires：指示响应过期的日期和时间。
 8. Last-Modified：指示资源的最后修改日期和时间。
 9. Server：指示服务器软件的名称和版本。
-10. Set-Cookie：用于发送 cookie。
+10. Set-Cookie：用于设置 cookie。
 
 这仅仅是一些常见的 HTTP 响应头，实际上还有很多其他类型的 HTTP 响应头。更多 HTTP 响应头可以查看[MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)文档。
 
