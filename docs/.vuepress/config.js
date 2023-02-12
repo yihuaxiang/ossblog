@@ -201,6 +201,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'http',
         'free-domain',
         'cdn',
         'baota',
