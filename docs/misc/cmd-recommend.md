@@ -178,4 +178,4 @@ npm install -g gck
 
 ps: 只能说，勉强能看😓
 
-![](https://3.z.wiki/autoupload/20230209/wWWi.1362X818-image.png)
+<img src="https://3.z.wiki/autoupload/20230209/wWWi.1362X818-image.png" width="200" alt="viu 看图效果" title="viu 看图效果" />
