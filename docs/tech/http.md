@@ -38,6 +38,7 @@ HTTP 请求/响应模型是 HTTP 协议的基础。它描述了客户端和服�
 ```
 请求方法 URL HTTP/版本
 请求头
+
 请求主体
 ```
 
@@ -56,6 +57,7 @@ HTTP/版本是协议版本，通常是 HTTP/1.1。
 ```
 HTTP/版本 状态码 状态码描述
 响应头
+
 响应主体
 ```
 
@@ -88,12 +90,14 @@ HTTP 报文是通过 HTTP 协议进行请求和响应的主要内容。HTTP 报�
 
 请求行：包含了请求方法（例如 GET、POST）、请求的 URL 和使用的 HTTP 版本。
 请求头：包含了有关请求的附加信息，例如请求的内容长度、请求的来源和请求的 Acceptable 内容类型。
+<空行>
 请求主体：请求的正文，仅在请求方法为 POST 时出现。
 
 响应报文通常由以下组成部分组成：
 
 状态行：包含了 HTTP 版本、响应状态代码和状态代码的文本描述。
 响应头：包含了有关响应的附加信息，例如内容长度、内容类型和服务器的类型。
+<空行>
 响应主体：响应的正文，包含了请求的结果。
 
 总的来说，HTTP 报文是通过首部字段、空行和正文组成的。首部字段包含了有关请求或响应的附加信息，而正文则包含了请求或响应的主要内容。
@@ -234,7 +238,7 @@ Accept: 表示客户端能够处理的内容类型，比如 "Accept: text/plain"
 
 Content-Type: 表示请求体的内容类型，比如 "Content-Type: application/json" 表示请求体是 JSON 格式的数据。
 
-User-Agent: 表示客户端软件的信息，比如 "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" 表示客户端是使用 Google Chrome 浏览器。
+User-Agent: 表示客户端软件的信息，比如 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" 表示客户端是使用 Google Chrome 浏览器。
 
 Accept-Encoding: 表示客户端能够接受的内容编码格式，比如 "Accept-Encoding: gzip" 表示客户端接受 GZIP 压缩格式的内容。
 
