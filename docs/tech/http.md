@@ -197,7 +197,7 @@ Authorization: 表示客户端的认证信息，比如 "Authorization: Basic dXN
 
 Cache-Control: 表示客户端缓存策略，比如 "Cache-Control: no-cache" 表示客户端不使用缓存。
 
-这些请求/响应头字段中只是 HTTP 协议中最常用的一部分。
+![](https://2.z.wiki/autoupload/20230212/eB8s.262X728-image.png)
 
 ### 安全性
 
