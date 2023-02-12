@@ -33,49 +33,6 @@ HTTP 请求/响应模型是 HTTP 协议的基础。它描述了客户端和服�
 
 在 HTTP 协议中，客户端是请求方，服务器是响应方。请求的过程是：客户端发送请求到服务器，服务器接收请求并做出响应。
 
-请求的格式如下：
-
-```
-请求方法 URL HTTP/版本
-请求头
-
-请求主体
-```
-
-请求方法描述了客户端对资源的请求方式，常用的请求方法包括 GET，POST，HEAD，PUT，DELETE 等。
-URL 是请求的目标资源的位置。
-HTTP/版本 是协议版本，最常见的是 HTTP/1.1。
-请求头是可选的附加信息，包括客户端的需求、请求的内容等。
-请求主体是请求的实际内容，如请求表单数据。
-
-响应的格式如下：
-
-```
-HTTP/版本 状态码 状态码描述
-响应头
-
-响应主体
-```
-
-HTTP/版本是协议版本，通常是 HTTP/1.1。
-状态码是一个三位数字，描述了服务器响应请求的结果。常见的状态码有 200 OK，404 Not Found，503 Service Unavailable 等。
-状态码描述是对状态码的文字说明。
-
-响应头是可选的附加信息，用于传递有关响应的附加信息。常见的 HTTP 响应头包括：
-
-1. Cache-Control：控制缓存的行为。
-2. Connection：指示是否需要保持连接。
-3. Content-Encoding：指示使用的压缩方法。
-4. Content-Length：指示响应正文的长度。
-5. Content-Type：指示响应正文的 MIME 类型。
-6. Date：指示响应的日期和时间。
-7. Expires：指示响应过期的日期和时间。
-8. Last-Modified：指示资源的最后修改日期和时间。
-9. Server：指示服务器软件的名称和版本。
-10. Set-Cookie：用于设置 cookie。
-
-这仅仅是一些常见的 HTTP 响应头，实际上还有很多其他类型的 HTTP 响应头。更多 HTTP 响应头可以查看[MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)文档。
-
 ### 报文格式
 
 HTTP 报文是通过 HTTP 协议进行请求和响应的主要内容。HTTP 报文由请求报文和响应报文两种形式组成。
@@ -241,6 +198,10 @@ Authorization: 表示客户端的认证信息，比如 "Authorization: Basic dXN
 Cache-Control: 表示客户端缓存策略，比如 "Cache-Control: no-cache" 表示客户端不使用缓存。
 
 ![](https://2.z.wiki/autoupload/20230212/eB8s.262X728-image.png)
+
+以上这些仅仅是一些常见的 HTTP 响应头，
+实际上还有很多其他类型的 HTTP 响应头。
+更多 HTTP 响应头可以查看[MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)文档。
 
 ### 安全性
 
