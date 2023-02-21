@@ -140,6 +140,8 @@ Proxy-Connection: Keep-alive
 
 例如；`TRACE`方法，由于可能导致安全漏洞，很多服务器（`Apache 2.0`、`Nginx 1.13.9`、`Microsoft IIS 6.0`）默认是将其禁用的。
 
+![](https://1.z.wiki/autoupload/20230221/ZdZz.175X211-doutub_gif.gif)
+
 ### 状态码
 
 ![](https://1.z.wiki/autoupload/20230212/jlwI.500X720-image.png)
