@@ -4,6 +4,8 @@
 
 ### 介绍
 
+![](https://1.z.wiki/autoupload/20230221/DJ83.408X581-image.png)
+
 `HTTP`（`Hypertext Transfer Protocol`）是一种用于分布式、协作式和超媒体信息系统的应用层协议。
 它是万维网（`World Wide Web`）的基础协议，所有的网页浏览和数据交互都依赖于它。
 
@@ -136,7 +138,7 @@ Proxy-Connection: Keep-alive
 
 以上只是 `HTTP` 协议支持的常见请求方法，不同的服务器实现可能支持不同的请求方法。当服务器不支持某种方法时通常会返回`405 Method Not Allowed`状态码。
 
-例如：
+例如；`TRACE`方法，由于可能导致安全漏洞，很多服务器（`Apache 2.0`、`Nginx 1.13.9`、`Microsoft IIS 6.0`）默认是将其禁用的。
 
 ### 状态码
 
