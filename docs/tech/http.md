@@ -1,10 +1,9 @@
 # 浅谈 HTTP 协议
 
-![](https://9.z.wiki/autoupload/20230212/2t8Y.1610X2000-image.png)
+![](https://1.z.wiki/autoupload/20230221/DJ83.408X581-image.png)
 
 ### 介绍
 
-![](https://1.z.wiki/autoupload/20230221/DJ83.408X581-image.png)
 
 `HTTP`（`Hypertext Transfer Protocol`）是一种用于分布式、协作式和超媒体信息系统的应用层协议。
 它是万维网（`World Wide Web`）的基础协议，所有的网页浏览和数据交互都依赖于它。
