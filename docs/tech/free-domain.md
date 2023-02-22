@@ -4,7 +4,7 @@
 
 另外，[https://nic.eu.org/](https://nic.eu.org/) 这是我见过最简洁的网站了。
 
-![](https://5.z.wiki/autoupload/20230206/Gntt.600X600-image.png)
+<img src="https://5.z.wiki/autoupload/20230206/Gntt.600X600-image.png" width="80" />
 
 
 ### 简洁如下
