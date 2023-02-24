@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 苟利国家生死以
+  - name: keywords
+    content: 苟利国家生死以
+---
 # 苟利国家生死以
 
 苟利国家生死以 岂因祸福避趋之
