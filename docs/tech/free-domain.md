@@ -12,3 +12,10 @@
 ![](https://8.z.wiki/autoupload/20230206/Ka88.1374X2500-image.png)
 
 ![](https://6.z.wiki/autoupload/20230206/DMUX.564X1660-image.png)
+
+
+### 申请结果
+
+没想到申请到这么多域名😂
+
+![](https://5.z.wiki/autoupload/20230322/joXS.804X1340-image.png)
