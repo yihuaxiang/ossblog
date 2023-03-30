@@ -75,6 +75,8 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 ### explain shell
 
+[explainshell.com](https://explainshell.com/)
+
 在线`shell`脚本解释网站，能对提供的脚本的每一个参数进行解释。
 
 ![explain shell](https://8.z.wiki/autoupload/20230323/mpzq.2528X2592-image.png)
