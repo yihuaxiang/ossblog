@@ -190,6 +190,7 @@ module.exports = {
         ariaLabel: '下载',
         items: [
           {text: '系统镜像', link: 'https://z.wiki/resource/system-mirror-iso.html'},
+          {text: '破解软件', link: 'https://z.wiki/resource/apps.html'},
         ]
       },
       {text: '生活', link: '/life/'},
