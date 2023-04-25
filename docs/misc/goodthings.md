@@ -247,3 +247,57 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 ![Clipboard Viewer](https://1.z.wiki/autoupload/2022-10-31/47088f002301463f83bfbef6dc64cf3d.image.png)
 
 > 复制粘贴也不是人人都懂啊 [语雀如何自动将粘贴的内容识别为代码块？](https://z.wiki/u/Cp8Rgl)
+
+### squid
+
+`Squid`是一种高性能的代理服务器软件，它可以帮助减少网络流量、提高访问速度并增加安全性。
+`Squid`可以作为`HTTP`、`HTTPS`、`FTP`等多种协议的代理服务器，同时支持缓存、访问控制、日志记录等多种功能。
+`Squid`还可以作为反向代理服务器，将外部请求转发到内部服务器上。
+
+#### 安装
+
+针对`centos8`可以按如下步骤安装
+
+1. 安装`dnf`包管理器：
+
+```shell
+sudo yum install dnf
+```
+
+2. 安装`Squid`：
+
+```shell
+sudo dnf install squid
+```
+
+启动`Squid`服务：
+
+```shell
+sudo systemctl start squid
+```
+
+配置`Squid`：默认配置文件位于`/etc/squid/squid.conf`，可以根据需要进行修改。
+
+```shell
+sudo vi /etc/squid/squid.conf
+```
+
+重启`Squid`：
+
+```shell
+sudo systemctl restart squid
+```
+
+安装完成后，可以使用浏览器或者curl等工具测试Squid是否正常工作。例如：
+
+```shell
+curl -x http://localhost:3128 http://www.baidu.com
+```
+
+以上命令将会使用`Squid`代理访问百度网站。
+
+注意：如果系统上已经安装了`Squid`，请使用以下命令卸载先前安装的`Squid`：
+
+```shell
+sudo dnf remove squid
+```
