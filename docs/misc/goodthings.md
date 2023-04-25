@@ -250,6 +250,8 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 ### squid
 
+![squid 代理服务](https://7.z.wiki/autoupload/20230425/GiIr.1888X1882-image.png)
+
 `Squid`是一种高性能的代理服务器软件，它可以帮助减少网络流量、提高访问速度并增加安全性。
 `Squid`可以作为`HTTP`、`HTTPS`、`FTP`等多种协议的代理服务器，同时支持缓存、访问控制、日志记录等多种功能。
 `Squid`还可以作为反向代理服务器，将外部请求转发到内部服务器上。
