@@ -260,7 +260,7 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 针对`centos8`可以按如下步骤安装
 
-1. 安装`dnf`包管理器：
+1. 安装`dnf`包管理器（`Dandified YUM`）：
 
 ```shell
 sudo yum install dnf
