@@ -4,6 +4,8 @@ tags: ["docker", "发布", "镜像"]
 
 # docker
 
+![docker](https://9.z.wiki/autoupload/20230501/VkEH.2160X3840-image.png)
+
 ### 介绍与基础概念
 
 `Docker`是一种容器化技术，它可以轻松地打包、部署和运行应用程序或服务。
