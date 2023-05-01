@@ -16,7 +16,8 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 > 
 
 ### clipMenu
-系统剪切板增强工具，支持历史复制内容
+`ClipMenu` 是一款 `Mac` 上的免费剪贴板增强工具，它可以帮助用户扩展剪贴板的容量，保存历史剪贴板内容，
+并快速访问剪贴板历史记录。`ClipMenu` 还支持自定义快捷键，让用户可以更方便地使用剪贴板功能。
 
 - [clipMenu 官网下载地址](http://www.clipmenu.com/)
 - [clipMenu 国内下载链接](https://5.z.wiki/autoupload/2022-09-16/a8241d8c04644ce2a75a1829a47d0270.ClipMenu.zip)
