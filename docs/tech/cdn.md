@@ -4,6 +4,31 @@
 
 ![CDN 加速](https://9.z.wiki/autoupload/20230205/1IZR.400X1180-image.png)
 
+### 测试函数
+
+首先使用`shell`编写函数用来测试下载资源所需要的时间。
+
+```shell
+# 参数1：URL
+# 参数2：循环次数
+function download_time_avg() {
+  local url="$1"
+  local count="$2"
+  local total_time=0
+
+  for ((i=0; i<count; i++)); do
+    local start_time=$(date +%s.%N)
+    curl -o /dev/null -s "$url"
+    local end_time=$(date +%s.%N)
+    local elapsed_time=$(echo "scale=6; $end_time - $start_time" | bc)
+    total_time=$(echo "scale=6; $total_time + $elapsed_time" | bc)
+  done
+
+  local avg_time=$(echo "scale=6; $total_time / $count" | bc)
+  echo $avg_time
+}
+```
+
 
 ### 非CDN测速
 
@@ -12,13 +37,7 @@
 ```shell
 for n in {1..5}
 do
-  total=0;
-  for i in {1..20}
-  do
-    content=$(curl -o /dev/null -s -w '%{time_total}'  https://1.z.wiki/autoupload/20230205/kipU.1154X1742-image.png)
-    total=`echo "scale=2;( $total + $content )" | bc -l`
-  done
-  avg=`echo "scale=2;( $total / 20 )" | bc -l`
+  avg=`download_time_avg https://1.z.wiki/autoupload/20230205/kipU.1154X1742-image.png 20`
   echo 非CDN域名，下载时间： $avg 秒
   total=0;
 done
@@ -43,13 +62,7 @@ done
 #!/bin/bash
 for n in {1..5}
 do
-  total=0;
-  for i in {1..20}
-  do
-    content=$(curl -o /dev/null -s -w '%{time_total}'  https://1.cdn.z.wiki/autoupload/20230205/kipU.1154X1742-image.png)
-    total=`echo "scale=2;( $total + $content )" | bc -l`
-  done
-  avg=`echo "scale=2;( $total / 20 )" | bc -l`
+  avg=`download_time_avg https://1.cdn.z.wiki/autoupload/20230205/kipU.1154X1742-image.png 20`
   echo CDN域名，下载时间： $avg 秒
   total=0;
 done
