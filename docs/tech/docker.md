@@ -4,6 +4,20 @@ tags: ["docker", "发布", "镜像"]
 
 # docker
 
+### 介绍与基础概念
+
+`Docker`是一种容器化技术，它可以轻松地打包、部署和运行应用程序或服务。
+`Docker`的核心组件包括`Docker Engine`、`Docker Hub`和`Docker CLI`。
+`Docker Engine`是一个运行在主机上的后台服务，用于管理容器、镜像和网络等`Docker`组件。
+`Docker Hub`是一个在线的镜像仓库，用户可以在其中存储、分享和拉取`Docker`镜像。
+`Docker CLI`是一个命令行工具，它提供了一系列用于管理`Docker`的命令。
+
+在`Docker`中，容器是一种轻量级、可移植、可自包含的软件单元，它可以在任何地方运行。
+`Docker`容器是基于镜像创建的，镜像是一个只读的模板，它包含了应用程序或服务运行所需的所有组件和配置。
+`Docker`镜像是由`Dockerfile`定义的，`Dockerfile`是一个包含了一系列指令的文件，它描述了如何构建`Docker`镜像。
+`Docker`网络是一个附加的组件，它允许容器之间互相通信，以及容器和主机之间的通信。
+
+
 ### 创建应用
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
