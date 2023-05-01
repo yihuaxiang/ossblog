@@ -17,6 +17,72 @@ tags: ["docker", "发布", "镜像"]
 `Docker`镜像是由`Dockerfile`定义的，`Dockerfile`是一个包含了一系列指令的文件，它描述了如何构建`Docker`镜像。
 `Docker`网络是一个附加的组件，它允许容器之间互相通信，以及容器和主机之间的通信。
 
+### 常用命令
+
+`docker run`：该命令用于在 `Docker` 容器中运行一个新的镜像。语法如下：
+
+```shell
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+```
+
+其中 `OPTIONS` 可以指定容器的各种选项，如 `-p` 表示指定端口映射，`-v` 表示挂载数据卷等。
+
+`docker ps`：该命令用于列出当前正在运行的容器。语法如下：
+
+```shell
+docker ps [OPTIONS]
+```
+
+其中 `OPTIONS` 可以指定各种筛选条件，如 `-a` 表示列出所有容器，包括已停止的容器。
+
+docker images：该命令用于列出当前系统中所有的镜像。语法如下：
+
+```shell
+docker images [OPTIONS] [REPOSITORY[:TAG]]
+```
+
+其中`OPTIONS`可以指定各种筛选条件，如 `-a` 表示列出所有镜像，包括中间层镜像。
+
+`docker build`：该命令用于根据 `Dockerfile` 构建一个新的镜像。语法如下：
+
+```shell
+docker build [OPTIONS] PATH
+```
+
+其中 `OPTIONS` 可以指定各种选项，如 `-t` 表示指定新镜像的名称和标签。
+
+`docker stop`：该命令用于停止运行中的容器。语法如下：
+
+```shell
+docker stop [OPTIONS] CONTAINER [CONTAINER...]
+```
+
+其中 `OPTIONS` 可以指定停止容器的选项，如 `-t` 表示指定等待容器停止的时间。
+
+`docker rm`：该命令用于删除一个或多个容器。语法如下：
+
+```shell
+docker rm [OPTIONS] CONTAINER [CONTAINER...]
+```
+
+其中 `OPTIONS` 可以指定删除容器的选项，如 -f 表示强制删除容器。
+
+`docker rmi`：该命令用于删除一个或多个镜像。语法如下：
+
+```shell
+docker rmi [OPTIONS] IMAGE [IMAGE...]
+```
+
+其中 `OPTIONS` 可以指定删除镜像的选项，如 `-f` 表示强制删除镜像。
+
+`docker exec`：该命令用于在运行中的容器中执行命令。语法如下：
+
+```shell
+docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+```
+
+其中 `OPTIONS` 可以指定执行命令的选项，如 -it 表示在交互模式下执行命令。
+
 
 ### 创建应用
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
