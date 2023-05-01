@@ -29,6 +29,14 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 其中 `OPTIONS` 可以指定容器的各种选项，如 `-p` 表示指定端口映射，`-v` 表示挂载数据卷等。
 
+举例说明：
+
+```shell
+docker run -itd -v $(pwd):/var/opt/home  -p 80:3000 node:18
+```
+
+该命令将宿主机的`80`端口映射到容器的`3000`端口，将当前目录挂在到容器的`/var/opt/home`目录。
+
 `docker ps`：该命令用于列出当前正在运行的容器。语法如下：
 
 ```shell
@@ -83,7 +91,15 @@ docker rmi [OPTIONS] IMAGE [IMAGE...]
 docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
 ```
 
-其中 `OPTIONS` 可以指定执行命令的选项，如 -it 表示在交互模式下执行命令。
+其中 `OPTIONS` 可以指定执行命令的选项，如 `-it` 表示在交互模式下执行命令。
+
+举例说明：
+
+```shell
+docker exec -it jolly_fermat bash
+```
+
+以上命令以交互模式下执行容器`jolly_fermat`里面的`bash`程序。
 
 
 ### 创建应用
