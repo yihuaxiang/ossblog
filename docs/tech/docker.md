@@ -262,6 +262,8 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 docker-compose version
 ```
 
+[docker-compose 安装文档](https://docs.docker.com/compose/install/)
+
 安装后在有`docker-compose.yml`文件的目录中执行`docker-compose up -d`即可运行程序。
 
 #### docker-compose.yml
