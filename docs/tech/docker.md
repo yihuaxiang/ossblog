@@ -239,6 +239,32 @@ docker run -d -p 8811:8080 fudocker/fddweb:latest
 ```
 运行后访问[http:localhost:8811](http://localhost:8811)即可
 
+### docker-compose
+
+`docker-compose`是用于定义和运行多容器 `Docker` 应用程序的工具。
+通过 `docker compose`，您可以使用 `YML` 文件来配置应用程序需要的所有服务。
+然后，使用`docker-compose up`或`docker-compose up -d`命令，就可以从 `YML` 文件配置中创建并启动所有服务。
+
+
+#### docker-compose 安装 
+
+```shell
+# 下载 docker-compose 可执行文件，具体版本号 [github](https://github.com/docker/compose/releases) 获取
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# 添加可执行权限
+sudo chmod +x /usr/local/bin/docker-compose
+
+# 软连接到 /usr/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+# 检查是否安装成功
+docker-compose version
+```
+
+安装后在有`docker-compose.yml`文件的目录中执行`docker-compose up -d`即可运行程序。
+
+
 
 #### 参考文档
 1. [runoob](https://www.runoob.com/docker/docker-dockerfile.html)
