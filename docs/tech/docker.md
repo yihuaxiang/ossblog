@@ -264,6 +264,10 @@ docker-compose version
 
 安装后在有`docker-compose.yml`文件的目录中执行`docker-compose up -d`即可运行程序。
 
+#### docker-compose.yml
+
+`docker-compose.yml`的写法可以参考官网文档：[docs.docker.com](https://docs.docker.com/compose/compose-file/03-compose-file/)。
+
 
 
 #### 参考文档
