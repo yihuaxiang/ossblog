@@ -296,6 +296,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'debian',
         'the-nature-of-management',
         'vue-weekly-download',
         'report',
