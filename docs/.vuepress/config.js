@@ -202,6 +202,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'coroutine',
         'http',
         'free-domain',
         'cdn',
