@@ -202,6 +202,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'ai-text-split',
         'docker-container-port',
         'coroutine',
         'http',
