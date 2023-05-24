@@ -3,7 +3,7 @@
 ### 使用说明
 
 将`/etc/apt/sources.list`文件中`Debian`默认的软件仓库地址和安全更新仓库地址修改为国内的镜像地址即可，
-比如将`deb.debian.org`和`security.debian.org`改为`mirrors.xxx.com`，并使用`https`访问，可使用如下命令：
+比如将`deb.debian.org`和`security.debian.org`改为`mirrors.aliyun.com`，并使用`https`访问，可使用如下命令：
 
 ```shell
 sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.xxx.com@g" /etc/apt/sources.list
