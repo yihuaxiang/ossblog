@@ -59,6 +59,8 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 并能够自动重新连接断开的连接。它还支持通过 `RPC` 接口来进行远程控制和管理，
 基于 `RPC` 接口又衍生出了 `WebUI-Aria2` 这个项目，可以可视化的进行下载管理。
 
+![WebUI-Aria2](https://9.z.wiki/autoupload/20230604/k4QQ.856X1554-image.png)
+
 ### brew
 包管理工具，支持`macOS`和`Linux`系统。
 
