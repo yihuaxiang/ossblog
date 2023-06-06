@@ -1,6 +1,6 @@
 # GLM-130B
 
-由于工作需要，部署`GLM-130B`模型，官网：[GLM-130B](https://github.com/THUDM/GLM-130B)
+由于工作需要，尝试进行部署`GLM-130B`模型，官网：[GLM-130B](https://github.com/THUDM/GLM-130B)
 
 
 ### 申请机器
@@ -51,6 +51,8 @@ yum install epel-release -y
 yum install aria2 -y
 ```
 
+此外，`GLM-130B`运行需要如下环境：
+
 `Python 3.9+` / `PyTorch 1.10+` / `DeepSpeed 0.6+` / `Apex`（需要安装包含 `CUDA` 和 `C++` 扩展的版本，参考资料）
 
 由于`centos 7.9` 默认自带 `python 2.7` `python3.6`所以需要更新`python`版本，这里我选择使用`miniconda`进行环境管理。
@@ -63,7 +65,7 @@ yum install aria2 -y
 
 安装流程：
 ```
-wget https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/20230606/gI1w.Miniconda3-latest-Linux-x86_64.sh
+wget https://9.z.wiki/autoupload/20230606/gI1w.Miniconda3-latest-Linux-x86_64.sh
 sh gI1w.Miniconda3-latest-Linux-x86_64.sh
 conda -V
 ```
@@ -119,7 +121,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 
 ### 下载模型
 
-申请下载 `GLM-130B` 的模型检查点
+申请下载 `GLM-130B` 的模型`checkpoint`，目前需要申请才能下载，(申请地址)[https://models.aminer.cn/glm/zh-CN/download/GLM-130B]
 
 ![](https://2.z.wiki/autoupload/20230606/9DVX.1320X1846-image.png)
 
