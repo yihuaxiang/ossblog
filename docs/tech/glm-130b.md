@@ -90,6 +90,55 @@ conda env list
 conda activate py39
 ```
 
+### 安装 apex
+
+```
+cd ~
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
+
+😅报错了。。。。
+
+
+```
+  RuntimeError: Cuda extensions are being compiled with a version of Cuda that does not match the version used to compile Pytorch binaries.  Pytorch binaries were compiled with Cuda 11.7.
+  In some cases, a minor-version mismatch will not cause later errors:  https://github.com/NVIDIA/apex/pull/323#discussion_r287021798.  You can try commenting out this check (at your own risk).
+  error: subprocess-exited-with-error
+
+  × Running setup.py install for apex did not run successfully.
+  │ exit code: 1
+  ╰─> See above for output.
+```
+
+从提示中可以看出`Pytorch`中要求`Cuda 11.7`，那机器上的`Cuda`是什么版本呢？,执行`nvcc -V`：
+
+
+
+```
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2021 NVIDIA Corporation
+Built on Wed_Jul_14_19:41:19_PDT_2021
+Cuda compilation tools, release 11.4, V11.4.100
+Build cuda_11.4.r11.4/compiler.30188945_0
+```
+
+果然，二者不匹配了。那就安装`Cuda 11.7`吧，从英伟达官网就能找到安装脚本：
+
+![](https://2.z.wiki/autoupload/20230606/f9jw.2496X2822-image.png)
+
+
+
+```
+wget https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
+rpm -i cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
+yum clean all
+yum -y install nvidia-driver-latest-dkms cuda
+yum -y install cuda-drivers
+```
+
+
 
 ### 下载GLM-130B源码
 
