@@ -242,3 +242,21 @@ watch -n 1 -c -d ifstat
 ```
 
 ![](https://5.z.wiki/autoupload/20230606/01TY.372X1142-image.png)
+
+
+### 其他报错排查与修复
+
+
+#### nvidia-smi 报错
+
+执行`nvidia-smi`的时候报错`Failed to initialize NVML: Driver/library version mismatch`，
+这是因为系统中安装的`NVIDIA`驱动程序版本与应用程序使用的`NVML`库版本不兼容。
+`NVML`是一个允许程序访问`NVIDIA GPU`监视和管理功能的库。
+
+解决方案一：
+
+[重新安装 NVIDIA 驱动](https://www.cyberciti.biz/faq/how-to-install-nvidia-driver-on-centos-7-linux/?__cf_chl_rt_tk=XtRGeteJHXCD0wUMOxZbiUq_1UZDoySBDKHgG49qJDk-1686036569-0-gaNycGzNDuU)
+
+解决方案二：
+
+[重新安装 NVIDIA 驱动](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#centos7)
