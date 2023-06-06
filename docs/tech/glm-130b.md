@@ -332,6 +332,8 @@ bash scripts/generate.sh --input-source interactive
 
 ![](https://0.z.wiki/autoupload/20230607/vQsX.328X500-image.png)
 
+![](https://3.z.wiki/autoupload/20230607/OKAj.498X2206-image.png)
+
 就酱吧，碎啦。。。
 
 ![](https://5.z.wiki/autoupload/20230607/UL69.174X174-image.png)
