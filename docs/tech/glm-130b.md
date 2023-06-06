@@ -326,6 +326,14 @@ bash scripts/generate.sh --input-source interactive
 
 ![](https://6.z.wiki/autoupload/20230606/yNlv.2340X2054-image.png)
 
+然而，现实从来不像童话故事里那么完美，回答一个简单的“你好，你是谁？”居然要 200+ 秒
+
+![](https://0.z.wiki/autoupload/20230607/ggTO.1290X2222-image.png)
+
+![](https://0.z.wiki/autoupload/20230607/vQsX.328X500-image.png)
+
+就酱吧，碎啦。。。
+
 
 ### 其他报错排查与修复
 
