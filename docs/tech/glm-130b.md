@@ -325,6 +325,14 @@ watch -n 1 -c -d ifstat
 
 [重新安装 NVIDIA 驱动](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#centos7)
 
+#### GLIBCXX not found
+
+[GLIBCXX not found](https://www.cnblogs.com/juedingsheng/p/15643394.html)
+
+#### 内存不足，设置交换区
+
+[设置交换区](https://z.wiki/tech/centos-set-swap.html#centos%E8%AE%BE%E7%BD%AE%E7%BC%93%E5%AD%98%E5%8C%BA)
+
 
 ### 相关项目
 
