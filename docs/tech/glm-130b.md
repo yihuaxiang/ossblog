@@ -1,5 +1,7 @@
 # GLM-130B
 
+huggingface 体验地址: [huggingface](https://huggingface.co/spaces/THUDM/GLM-130B)
+
 ### 摘要：何为 GLM-130B？
 
 `GLM-130B` 是一个开源开放的双语（中文和英文）双向稠密模型，拥有 `1300` 亿个参数，模型架构采用通用语言模型（`GLM`）。
