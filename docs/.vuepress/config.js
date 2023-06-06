@@ -202,6 +202,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'glm-130b',
         'ai-text-split',
         'docker-container-port',
         'coroutine',
