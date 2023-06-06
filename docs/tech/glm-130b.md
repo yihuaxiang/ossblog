@@ -119,7 +119,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 
 ### 下载模型
 
-申请下载 GLM-130B 的模型检查点
+申请下载 `GLM-130B` 的模型检查点
 
 ![](https://2.z.wiki/autoupload/20230606/9DVX.1320X1846-image.png)
 
@@ -127,7 +127,6 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 申请后很快便会收到邮件，按邮件里的流程下载即可
 
 注：模型较大，下载比较费时间。
-
 
 
 ![](https://3.z.wiki/autoupload/20230606/zOg4.1036X2796-image.png)
