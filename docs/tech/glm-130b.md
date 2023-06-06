@@ -27,11 +27,14 @@
 
 ![](https://0.z.wiki/autoupload/20230606/xnpS.1674X1314-image.png)
 
-`96`核`CPU`
+`96`核`CPU`, `724G`内存，这么牛逼的机器，我还是第一次体验
 
 ![](https://6.z.wiki/autoupload/20230606/QJlJ.966X2066-image.png)
 
 操作系统：`centos 7.9`
+
+
+![](https://7.z.wiki/autoupload/20230606/BThh.195X258-image.png)
 
 
 ### 安装必要依赖
