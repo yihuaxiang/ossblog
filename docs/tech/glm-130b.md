@@ -31,10 +31,12 @@
 
 ![](https://6.z.wiki/autoupload/20230606/QJlJ.966X2066-image.png)
 
+操作系统：`centos 7.9`
+
 
 ### 安装必要依赖
 
-```
+```shell
 yum update -y
 yum install dnf -y
 dnf groupinstall "Development Tools" -y
@@ -64,7 +66,8 @@ yum install aria2 -y
 
 
 安装流程：
-```
+
+```shell
 wget https://9.z.wiki/autoupload/20230606/gI1w.Miniconda3-latest-Linux-x86_64.sh
 sh gI1w.Miniconda3-latest-Linux-x86_64.sh
 conda -V
@@ -76,23 +79,25 @@ conda -V
 ### 创建 python3.9 运行环境
 
 
-```
+```shell
 conda create -n py39 python=3.9
 ```
 
 查看环境
-```
+
+```shell
 conda env list
 ```
 
 切换环境
-```
+
+```shell
 conda activate py39
 ```
 
 ### 安装 apex
 
-```
+```shell
 cd ~
 git clone https://github.com/NVIDIA/apex
 cd apex
@@ -102,7 +107,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 😅报错了。。。。
 
 
-```
+```shell
   RuntimeError: Cuda extensions are being compiled with a version of Cuda that does not match the version used to compile Pytorch binaries.  Pytorch binaries were compiled with Cuda 11.7.
   In some cases, a minor-version mismatch will not cause later errors:  https://github.com/NVIDIA/apex/pull/323#discussion_r287021798.  You can try commenting out this check (at your own risk).
   error: subprocess-exited-with-error
@@ -116,7 +121,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 
 
 
-```
+```shell
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2021 NVIDIA Corporation
 Built on Wed_Jul_14_19:41:19_PDT_2021
@@ -130,7 +135,7 @@ Build cuda_11.4.r11.4/compiler.30188945_0
 
 
 
-```
+```shell
 wget https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
 rpm -i cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
 yum clean all
@@ -138,17 +143,56 @@ yum -y install nvidia-driver-latest-dkms cuda
 yum -y install cuda-drivers
 ```
 
+到此，`Cuda 11.7`已安装完成，安装路径：`/usr/local/cuda-11.7`,通过设置`CUDA_HOME`这个环境变量后继续安装依赖：
+
+
+
+```shell
+export CUDA_HOME=/usr/local/cuda-11.7/
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
+
+😅+1，还得升级`g++`，搞起！！别的本事没有，搞这些还是有点经验的！
+
+```shell
+      raise RuntimeError(
+  RuntimeError: The current installed version of g++ (4.8.5) is less than the minimum required version by CUDA 11.7 (6.0.0). Please make sure to use an adequate version of g++ (>=6.0.0, <12.0).
+  error: subprocess-exited-with-error
+```
+
+#### 升级GCC
+
+```shell
+yum install centos-release-scl
+sudo yum install devtoolset-8-gcc*
+scl enable devtoolset-8 bash
+gcc -v
+
+# 注意：以上操作只对本次会话有效，重启会话后还是会变回原来的GCC版本
+```
+
+
+参考文档：[简书](https://www.jianshu.com/p/5bbd5219e79d)
+
+![](https://3.z.wiki/autoupload/20230606/HXSS.1578X1978-image.png)
+
+到此，继续安装`apex`未搞定的步骤即可安装成功。
+
+```shell
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
+
 
 
 ### 下载GLM-130B源码
 
-```
+```shell
 git clone https://github.com/THUDM/GLM-130B.git
 ```
 
 安装依赖
 
-```
+```shell
 cd GLM-130B
 pip install -r requirements.txt
 ```
@@ -158,7 +202,8 @@ pip install -r requirements.txt
 ps:百兆带宽，下载速度真快！！
 
 如果下载过程慢的话也可以尝试切换到国内其他源
-```
+
+```shell
 # 豆瓣源
 pip install -r requirements.txt -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 
@@ -170,7 +215,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 
 ### 下载模型
 
-申请下载 `GLM-130B` 的模型`checkpoint`，目前需要申请才能下载，(申请地址)[https://models.aminer.cn/glm/zh-CN/download/GLM-130B]
+申请下载 `GLM-130B` 的模型`checkpoint`，目前需要申请才能下载，[申请地址](https://models.aminer.cn/glm/zh-CN/download/GLM-130B)
 
 ![](https://2.z.wiki/autoupload/20230606/9DVX.1320X1846-image.png)
 
@@ -183,7 +228,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 ![](https://3.z.wiki/autoupload/20230606/zOg4.1036X2796-image.png)
 
 
-```
+```shell
 mkdir ~/130b
 cd ~/130b
 wget https://8.z.wiki/autoupload/20230606/Okx1.urls.txt
@@ -192,7 +237,7 @@ aria2c -x 16 -s 16 -j 4 --continue=true -i Okx1.urls.txt
 
 下载过程中可以通过`ifstat`来查看网络状况
 
-```
+```shell
 watch -n 1 -c -d ifstat
 ```
 
