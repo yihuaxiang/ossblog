@@ -334,6 +334,8 @@ bash scripts/generate.sh --input-source interactive
 
 就酱吧，碎啦。。。
 
+![](https://5.z.wiki/autoupload/20230607/UL69.174X174-image.png)
+
 
 ### 其他报错排查与修复
 
