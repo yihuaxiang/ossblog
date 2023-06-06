@@ -262,6 +262,41 @@ watch -n 1 -c -d ifstat
 ![](https://5.z.wiki/autoupload/20230606/01TY.372X1142-image.png)
 
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+![](https://0.z.wiki/autoupload/20230606/dH5T.746X1494-image.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
 ### 其他报错排查与修复
 
 
