@@ -219,6 +219,8 @@ pip install -r requirements.txt
 
 ps:百兆带宽，下载速度真快！！
 
+![百兆带宽，下载速度真快！！](https://2.z.wiki/autoupload/20230606/09H1.191X174-image.png)
+
 如果下载过程慢的话也可以尝试切换到国内其他源
 
 ```shell
@@ -278,7 +280,9 @@ watch -n 1 -c -d ifstat
 <br />
 <br />
 <br />
+
 ![](https://0.z.wiki/autoupload/20230606/dH5T.746X1494-image.png)
+
 <br />
 <br />
 <br />
