@@ -278,3 +278,10 @@ watch -n 1 -c -d ifstat
 解决方案二：
 
 [重新安装 NVIDIA 驱动](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html#centos7)
+
+
+### 相关项目
+
+* [GLM-130B](https://github.com/THUDM/GLM-130B/)
+* [chatglm-web](https://github.com/NCZkevin/chatglm-web)
+* [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
