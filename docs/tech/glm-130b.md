@@ -106,6 +106,15 @@ pip install -r requirements.txt
 
 ps:百兆带宽，下载速度真快！！
 
+如果下载过程慢的话也可以尝试切换到国内其他源
+```
+# 豆瓣源
+pip install -r requirements.txt -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+# 阿里云源
+pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+```
+
 
 
 ### 下载模型
