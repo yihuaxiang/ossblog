@@ -324,7 +324,7 @@ bash scripts/generate.sh --input-source interactive
 
 一切顺利哈哈哈
 
-![](https://7.z.wiki/autoupload/20230606/Mo3u.170X1774-image.png)
+![](https://0.z.wiki/autoupload/20230606/VMp1.170X1770-image.png)
 
 
 ### 其他报错排查与修复
