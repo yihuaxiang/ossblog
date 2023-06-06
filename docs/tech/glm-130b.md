@@ -308,6 +308,25 @@ watch -n 1 -c -d ifstat
 <br />
 
 
+到下载完、合并成一个文件、解压完，整整 9 个小时，天啦噜
+
+按照官网要求修改配置：
+
+
+将 `configs/model_glm_130b_v100.sh` 中的 `CHECKPOINT_PATH` 设置为解压文件夹的路径
+将 `scripts/generate.sh` 中的 `model_glm_130b.sh` 改成 `model_glm_130b_v100.sh`,
+
+#### 开始运行
+
+```shell
+bash scripts/generate.sh --input-source interactive
+```
+
+一切顺利哈哈哈
+
+![](https://7.z.wiki/autoupload/20230606/Mo3u.170X1774-image.png)
+
+
 ### 其他报错排查与修复
 
 
