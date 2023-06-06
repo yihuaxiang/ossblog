@@ -334,6 +334,8 @@ bash scripts/generate.sh --input-source interactive
 
 ![](https://3.z.wiki/autoupload/20230607/OKAj.498X2206-image.png)
 
+> 这 AI 是记性不太好？三亚出现了两次。。。
+
 就酱吧，碎啦。。。
 
 ![](https://5.z.wiki/autoupload/20230607/UL69.174X174-image.png)
