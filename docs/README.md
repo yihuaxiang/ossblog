@@ -23,13 +23,10 @@ meta:
 ## 站点导航
 
 <div class="app-navi" style="margin-top: 15px;">
-  <a title="敖武的技术" href="https://z.wiki/tech/">技术</a>
-  <a title="敖武的生活" href="https://z.wiki/life/">生活</a>
   <a title="敖武的游乐园" target="_blank" href="https://playground.z.wiki/">游乐园</a>
   <a title="敖武的代码片段" target="_blank" href="https://snippets.z.wiki/">代码片段</a>
   <a title="敖武的图床" target="_blank" href="https://tuchuang.z.wiki/misc/tuchuang.html">图床</a>
   <a title="正则表达式" target="_blank" href="https://z.wiki/tools/reg/">正则</a>
-  <a title="51杀猪网" target="_blank" href="https://51shazhu.com/">51杀猪网</a>
   <a title="短网址" target="_blank" href="https://z.wiki/misc/short-url.html">短网址</a>
   <a title="adcode 查询" target="_blank" href="https://playground.z.wiki/lbs/showCityInfo">adcode 查询</a>
 </div>
