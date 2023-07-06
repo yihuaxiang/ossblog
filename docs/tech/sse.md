@@ -62,3 +62,8 @@ while (true) {
 }
 ```
 
+
+#### 参考
+
+1. [Server-sent events](https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events/Using_server-sent_events)
+2. [EventSource](https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource)
