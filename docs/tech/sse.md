@@ -33,6 +33,8 @@
 
 [在线 DEMO](https://playground.z.wiki/sse)
 
+[SSE 前端](https://z.wiki/jsbin/roqepikolu)
+
 
 #### PHP 代码
 
