@@ -18,7 +18,7 @@ meta:
   <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="z.wiki 的服务状态" /></a>
 </div>
 
-本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki) 与 [51shazhu.com](https://51shazhu.com)。
+本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki)。
 
 ## 站点导航
 
