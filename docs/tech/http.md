@@ -225,6 +225,8 @@ Proxy-Connection: Keep-alive
 
 `Cache-Control`: 表示客户端缓存策略，比如 "`Cache-Control: no-cache`" 表示客户端不使用缓存。
 
+`text/event-stream`: `Server-Send Events`协议的`MIME`类型，详见[SSE](https://z.wiki/tech/sse.html)
+
 ![](https://2.z.wiki/autoupload/20230212/eB8s.262X728-image.png)
 
 以上这些仅仅是一些常见的 `HTTP` 响应头，
