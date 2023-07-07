@@ -1,5 +1,8 @@
 <template>
-  <iframe class="web-frame" :src="src" />
+  <div class="web-frame-ctn">
+    <iframe class="web-frame" :src="src" />
+    <div class="hidden-ctn" />
+  </div>
 </template>
 
 <script>
@@ -15,6 +18,18 @@ export default {
 </script>
 
 <style scoped>
+.web-frame-ctn {
+  position: relative;
+
+  .hidden-ctn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 50px;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
 .web-frame {
     margin-top: 15px;
     margin-bottom: 10px;
