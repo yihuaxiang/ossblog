@@ -44,7 +44,7 @@ data: ${dataString}
 
 [SSE 前端](https://z.wiki/jsbin/roqepikolu)
 
-<iframe style="width: 100%; border: none; outline: 1px #ccc solid;" src="https://z.wiki/jsbin/roqepikolu" />
+<WebFrame src="https://z.wiki/jsbin/roqepikolu" />
 
 
 #### PHP 代码
