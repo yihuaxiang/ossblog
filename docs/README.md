@@ -28,7 +28,7 @@ meta:
   <a title="敖武的图床" target="_blank" href="https://tuchuang.z.wiki/misc/tuchuang.html">图床</a>
   <a title="正则表达式" target="_blank" href="https://z.wiki/tools/reg/">正则</a>
   <a title="短网址" target="_blank" href="https://z.wiki/misc/short-url.html">短网址</a>
-  <a title="adcode 查询" target="_blank" href="https://playground.z.wiki/lbs/showCityInfo">adcode 查询</a>
+  <a title="adcode查询" target="_blank" href="https://playground.z.wiki/lbs/showCityInfo">adcode查询</a>
 </div>
 
 <LastPost :random='true' prefix="" :number="10"/>
