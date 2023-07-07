@@ -29,9 +29,12 @@ export default {
     height: 50px;
     transform: translateX(-50%) translateY(-50%);
     background: white;
+    z-index: 1;
   }
 }
 .web-frame {
+    position: relative;
+    z-index: 2;
     margin-top: 15px;
     margin-bottom: 10px;
     background-image: url(https://z.wiki/autoupload/20230707/9Tzi.1752X2456-image.png);
