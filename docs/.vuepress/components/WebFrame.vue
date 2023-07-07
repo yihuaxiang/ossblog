@@ -20,6 +20,11 @@ export default {
 <style scoped>
 .web-frame-ctn {
   position: relative;
+  background-image: url(https://z.wiki/autoupload/20230707/9Tzi.1752X2456-image.png);
+  background-size: 100%;
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-right: 40px;
 
   .hidden-ctn {
     position: absolute;
@@ -37,13 +42,8 @@ export default {
     z-index: 2;
     margin-top: 15px;
     margin-bottom: 10px;
-    background-image: url(https://z.wiki/autoupload/20230707/9Tzi.1752X2456-image.png);
     border: none;
-    background-size: 100%;
-    padding-top: 50px;
-    padding-left: 35px;
     width: -webkit-fill-available;
-    padding-right: 40px;
     height: 470px;
 }
 </style>
