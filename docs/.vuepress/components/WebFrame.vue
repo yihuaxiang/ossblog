@@ -25,9 +25,10 @@ export default {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100px;
+    width: 140px;
     height: 50px;
     transform: translateX(-50%) translateY(-50%);
+    background: white;
   }
 }
 .web-frame {
