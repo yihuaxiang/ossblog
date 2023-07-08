@@ -22,14 +22,7 @@ meta:
 
 ## 站点导航
 
-<div class="app-navi" style="margin-top: 15px;">
-  <a title="敖武的游乐园" target="_blank" href="https://playground.z.wiki/">游乐园</a>
-  <a title="敖武的代码片段" target="_blank" href="https://snippets.z.wiki/">代码片段</a>
-  <a title="敖武的图床" target="_blank" href="https://tuchuang.z.wiki/misc/tuchuang.html">图床</a>
-  <a title="正则表达式" target="_blank" href="https://z.wiki/tools/reg/">正则</a>
-  <a title="短网址" target="_blank" href="https://z.wiki/misc/short-url.html">短网址</a>
-  <a title="adcode查询" target="_blank" href="https://playground.z.wiki/lbs/showCityInfo">adcode查询</a>
-</div>
+<NaviLinks />
 
 <LastPost :random='true' prefix="" :number="10"/>
 
