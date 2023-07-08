@@ -6,9 +6,9 @@
     <template v-for="(link, index) in links">
       <li :key="link.url + index">
         <div style="margin-right: 20px; display: flex; justify-content: space-between;">
-          <a :href="link.url" target="_blank">{{link.title}}</a>
-          <div style="display: flex; align-items: center; font-size: 12px; color: rgba(0, 0, 0, 0.54); font-weight: 200;">
-            <span>{{link.desc}}</span>
+          <a :href="link.url" target="_blank" style="flex-shrink: 0;">{{link.title}}</a>
+          <div style="display: flex; align-items: center; font-size: 12px; color: rgba(0, 0, 0, 0.54); font-weight: 200;flex-shrink: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+            <span style="overflow: hidden; text-overflow: ellipsis;">{{link.desc}}</span>
           </div>
         </div>
       </li>
