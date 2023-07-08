@@ -28,27 +28,27 @@ export default {
       return [{
         title: '敖武的游乐园',
         url: 'https://playground.z.wiki/',
-        desc: '',
+        desc: '诸多游乐项目，快来体验吧！',
       }, {
         title: '代码片段',
         url: 'https://snippets.z.wiki/',
-        desc: '',
+        desc: '包含js、shell、nginx、java等实用代码片段！',
       }, {
         title: '敖武的图床',
         url: 'https://tuchuang.z.wiki/misc/tuchuang.html',
-        desc: '',
+        desc: '免费图床，上传图片、压缩包等任意文件。',
       }, {
         title: '端网址服务',
         url: 'https://z.wiki/misc/short-url.html',
-        desc: '',
+        desc: '缩短你的网址，永久有效。',
       }, {
         title: '城市信息查询',
         url: 'https://playground.z.wiki/lbs/showCityInfo',
-        desc: '',
+        desc: '城市 adcode 查询。',
       }, {
         title: '30分钟正则入门教程',
         url: 'https://z.wiki/tools/reg/',
-        desc: '',
+        desc: '通俗易懂的正则表达式入门教程。',
       }]
     },
    

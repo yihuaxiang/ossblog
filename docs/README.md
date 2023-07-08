@@ -20,8 +20,6 @@ meta:
 
 本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki)。
 
-## 站点导航
-
 <NaviLinks />
 
 <LastPost :random='true' prefix="" :number="10"/>
