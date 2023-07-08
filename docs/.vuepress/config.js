@@ -202,6 +202,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'lsof',
         'sse',
         'glm-130b',
         'ai-text-split',
