@@ -75,9 +75,20 @@ while (true) {
 }
 ```
 
+### nginx 代理 Server-Send-Events
+
+如果需要使用`nginx`对`Server-Send-Events`进行反向代理的话，需要进行如下额外配置：
+
+```
+proxy_http_version 1.1;
+proxy_set_header Connection "";
+proxy_buffering off;
+```
+
 
 #### 参考
 
 1. [Server-sent events](https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events/Using_server-sent_events)
 2. [EventSource](https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource)
 3. [Server-Sent Events: пример использования](https://habr.com/ru/articles/519982/)
+4. [Nginx proxy for SSE](https://serverfault.com/questions/801628/for-server-sent-events-sse-what-nginx-proxy-configuration-is-appropriate)
