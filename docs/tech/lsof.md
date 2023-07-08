@@ -26,3 +26,5 @@
 5. 查看设备文件
 
 `lsof` 可以查看系统中所有打开的设备文件，包括磁盘、光驱、串口、USB 等。可以使用 `lsof /dev/disk1` 命令来查看某个指定设备的信息。
+
+更多脚本可访问[敖武的代码片段](https://snippets.z.wiki/#!./snippets/shell/lsof/)
