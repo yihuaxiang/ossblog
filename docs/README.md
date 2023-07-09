@@ -9,7 +9,9 @@ meta:
 
 ## 关于博主
 
-<img title="敖武的头像" alt="敖武的头像" src="https://0.z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG" style="width: 40px;height: 40px; border-radius: 8px;">
+<p>
+  <img title="敖武的头像" alt="敖武的头像" src="https://0.z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG" style="width: 40px;height: 40px; border-radius: 8px;">
+</p>
 
 
 <div class="links" style="display: flex;">
