@@ -14,6 +14,8 @@ tags: ["centos", "swap", "交换区", "linux", "性能"]
 
 今天，我突发奇想，给服务器装了`gnome`桌面，通过`vnc`链接上去。安装`idea`也能顺利打开。
 
+> [How To Install and Configure VNC Remote Access for the GNOME Desktop on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-remote-access-for-the-gnome-desktop-on-centos-7)
+
 事情讲到这儿，形式似乎一篇大好，似乎如同灰姑娘和王子过上了幸福的生活，但现实不是通话
 
 当我一旦用`idea`得开某个项目的时候整个系统会进去假死状态😳
