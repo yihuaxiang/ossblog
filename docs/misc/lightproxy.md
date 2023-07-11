@@ -5,10 +5,10 @@
 
 通过`LightProxy`用户可以快速进行转包、修改包，解决开发过程中的各个拦路虎。
 
-![](https://3.z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png)
+![](https://z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png)
 
 1. 下载链接：[github/alibaba/lightproxy](https://github.com/alibaba/lightproxy/releases)
-2. 国内下载：[LightPxory](https://1.z.wiki/autoupload/2022-09-14/57a22caeb1b24568bd5a588f1062c5e2.LightProxy.app.zip)
+2. 国内下载：[LightPxory](https://z.wiki/autoupload/2022-09-14/57a22caeb1b24568bd5a588f1062c5e2.LightProxy.app.zip)
 
 典型应用：
 
@@ -51,7 +51,7 @@ https://z.wiki/path `{"content": "content"}`
 
 
 ```
-https://z.wiki https://1.z.wiki # 将前者的所有请求转发到后者
+https://z.wiki https://z.wiki # 将前者的所有请求转发到后者
 ```
 
 ### 设置响应头

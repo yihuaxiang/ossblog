@@ -10,11 +10,11 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 [web 端传送门](https://playground.z.wiki/lbs/showIp)
 
-![](https://1.z.wiki/images/20220409/b0ee56ce038a47889d283820bdda759f.png)
+![](https://z.wiki/images/20220409/b0ee56ce038a47889d283820bdda759f.png)
 
 [alfred 插件](https://github.com/yihuaxiang/alfred-workflow-ipip)
 
-![](https://2.z.wiki/images/20220410/45708155a39e45b989d0f2194e03a2d8.png)
+![](https://z.wiki/images/20220410/45708155a39e45b989d0f2194e03a2d8.png)
 
 # 背景
 
@@ -25,9 +25,9 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 目标如下：
 
-![](https://0.z.wiki/autoupload/2022-05-02/a13d3cbd720549618dc20d846e266049.ipip.drawio.svg)
+![](https://z.wiki/autoupload/2022-05-02/a13d3cbd720549618dc20d846e266049.ipip.drawio.svg)
 
-<img width="220" src="https://3.z.wiki/images/20220409/c42d3008d9ac405aad02c456cc2a7a88.png" />
+<img width="220" src="https://z.wiki/images/20220409/c42d3008d9ac405aad02c456cc2a7a88.png" />
 
 经过短暂的开发有了阶段性结果（意思是到此为止吧🤣)
 
@@ -37,13 +37,13 @@ tags: ["IP 归属地查询", "敖武的游乐园", "IP 查询"]
 
 [https://playground.z.wiki/lbs/showIp](https://playground.z.wiki/lbs/showIp)
 
-![](https://4.z.wiki/images/20220409/038dadb133ee4a1285876a634ee48b40.png)
+![](https://z.wiki/images/20220409/038dadb133ee4a1285876a634ee48b40.png)
 
 `alfred` 插件：
 
 [alfred-workflow-ipip](https://github.com/yihuaxiang/alfred-workflow-ipip)
 
-![](https://0.z.wiki/images/20220410/d68b782087bd45909d9e814bb8393272.png)
+![](https://z.wiki/images/20220410/d68b782087bd45909d9e814bb8393272.png)
 
 `API`接口：
 
@@ -64,4 +64,4 @@ https://playground.z.wiki/lbs/getIp
 curl -s -L "https://playground.z.wiki/lbs/getIp?ip=153.37.191.6"  | jq
 ```
 
-![](https://0.z.wiki/images/20220409/9c59a855d7a542388c94ccb4c7d035f0.png)
+![](https://z.wiki/images/20220409/9c59a855d7a542388c94ccb4c7d035f0.png)

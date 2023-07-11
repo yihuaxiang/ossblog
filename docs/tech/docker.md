@@ -4,7 +4,7 @@ tags: ["docker", "发布", "镜像"]
 
 # docker
 
-![docker](https://9.z.wiki/autoupload/20230501/VkEH.2160X3840-image.png)
+![docker](https://z.wiki/autoupload/20230501/VkEH.2160X3840-image.png)
 
 ### 介绍与基础概念
 
@@ -106,7 +106,7 @@ docker exec -it jolly_fermat bash
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
 
-![](https://0.z.wiki/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png)
+![](https://z.wiki/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png)
 
 
 ### 通过`docker`发布应用

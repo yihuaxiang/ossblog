@@ -7,11 +7,11 @@
 
 [青岛之旅](/life/tsingtao.html)
 
-![青岛之旅](https://2.z.wiki/images/20211117/b5a2c24586c04159a9ba0468d8ac2917.png)
+![青岛之旅](https://z.wiki/images/20211117/b5a2c24586c04159a9ba0468d8ac2917.png)
 
 [健身环之初体验](/life/switchfitness.html)
 
-![健身环之初体验](https://3.z.wiki/images/20211117/6ac15f3a27dc42039f5567b10fa151a3.png)
+![健身环之初体验](https://z.wiki/images/20211117/6ac15f3a27dc42039f5567b10fa151a3.png)
 
 
 [万圣节](/life/halloween.html)
@@ -21,5 +21,5 @@
 
 [大雪球](/life/snow.html)
 
-![大雪球](https://1.z.wiki/images/20211117/2ab4074a25094e999adab9dcbde2e502.png)
+![大雪球](https://z.wiki/images/20211117/2ab4074a25094e999adab9dcbde2e502.png)
 

@@ -10,7 +10,7 @@ meta:
 ## 关于博主
 
 <p>
-  <img title="敖武的头像" alt="敖武的头像" src="https://0.z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG" style="width: 40px;height: 40px; border-radius: 8px;">
+  <img title="敖武的头像" alt="敖武的头像" src="https://z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG" style="width: 40px;height: 40px; border-radius: 8px;">
 </p>
 
 
@@ -30,7 +30,7 @@ meta:
 
 <br />
 <ImgWithTitle :img="{
-  url: 'https://0.z.wiki/images/20211115/1548709a2750430cadb3021b209fa847.png',
+  url: 'https://z.wiki/images/20211115/1548709a2750430cadb3021b209fa847.png',
   title: '有脾气的人',
   desc: '2020年10月拍于天津泰达航母。',
   darkInfo: true,

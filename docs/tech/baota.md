@@ -14,29 +14,29 @@
 
 ### 一键安装环境
 
-![](https://1.z.wiki/autoupload/20230131/57eO.988X1332-image.png)
+![](https://z.wiki/autoupload/20230131/57eO.988X1332-image.png)
 
 ### 系统监控
 
-![](https://2.z.wiki/autoupload/20230131/j2Kd.1312X2298-image.png)
+![](https://z.wiki/autoupload/20230131/j2Kd.1312X2298-image.png)
 
 ### 安全防护
 
-![](https://2.z.wiki/autoupload/20230131/4WDl.954X2298-image.png)
+![](https://z.wiki/autoupload/20230131/4WDl.954X2298-image.png)
 
 ### 文件管理
 
-![](https://3.z.wiki/autoupload/20230131/Ovsy.654X2304-image.png)
+![](https://z.wiki/autoupload/20230131/Ovsy.654X2304-image.png)
 
 
 ### 软件商店
 
-![](https://2.z.wiki/autoupload/20230131/vwJL.1418X2282-image.png)
+![](https://z.wiki/autoupload/20230131/vwJL.1418X2282-image.png)
 
 ### 站点管理
 
-![](https://5.z.wiki/autoupload/20230131/hcsP.1062X2292-image.png)
+![](https://z.wiki/autoupload/20230131/hcsP.1062X2292-image.png)
 
 ### 数据库管理
 
-![](https://9.z.wiki/autoupload/20230131/koxM.692X2506-image.png)
+![](https://z.wiki/autoupload/20230131/koxM.692X2506-image.png)

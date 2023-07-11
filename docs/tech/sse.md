@@ -4,7 +4,7 @@
 
 以前我只知道有`WebSocket`
 
-![](https://6.z.wiki/autoupload/20230706/1u0z.580X1302-image.png)
+![](https://z.wiki/autoupload/20230706/1u0z.580X1302-image.png)
 
 最近在搞`AI`，大模型在生成回复的时候都是实时推送的，今天自己了解了下，原来用的是`Server-Send-Event`方案。
 

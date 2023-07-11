@@ -41,11 +41,11 @@ meta:
 
 打开浏览器控制台，切换到`console`面板，复制以上内容并粘贴进去回车执行即可
 
-![](https://3.z.wiki/autoupload/2022-09-12/929cf03e38e843c3bd8b409e3b475afd.image.png)
+![](https://z.wiki/autoupload/2022-09-12/929cf03e38e843c3bd8b409e3b475afd.image.png)
 
 自此，生产力极大提升
 
-![](https://7.z.wiki/autoupload/2022-09-12/12fa5566e24c4ceaaadce8271f55827c.红领巾.gif)
+![](https://z.wiki/autoupload/2022-09-12/12fa5566e24c4ceaaadce8271f55827c.红领巾.gif)
 
 ### 免责声明
 

@@ -150,7 +150,7 @@ Disallow:
 
 通过百度搜索以下关键字`腾讯 site:www.tencent.com`，如下图，我们能搜到腾讯官网上很多内容。
 
-![](https://1.z.wiki/images/20220501/2be3526a6ff6448ebdc28a776514ddee.png)
+![](https://z.wiki/images/20220501/2be3526a6ff6448ebdc28a776514ddee.png)
 
 #### 淘宝
 
@@ -174,7 +174,7 @@ Disallow: /
 
 试试使用百度搜索淘宝上的东西吧，比如：手机，效果如下：
 
-![](https://3.z.wiki/images/20220501/4ceadc46c25342e9a670807932c41354.png)
+![](https://z.wiki/images/20220501/4ceadc46c25342e9a670807932c41354.png)
 
 嗯嗯，整体效果还是不错的，搜索到的内容没有是`taobao.com`域名下的，不过有`cpcwi.taobao.com`域名下的内容，难道有漏网之鱼？
 看下这个二级域名下的`robots.txt`，内容如下：
@@ -194,7 +194,7 @@ Disallow: /
 
 果不其然
 
-![](https://1.z.wiki/images/20220501/edc227c484af4a559018ff9a3f1970c1.png)
+![](https://z.wiki/images/20220501/edc227c484af4a559018ff9a3f1970c1.png)
 
 ### 附录
 

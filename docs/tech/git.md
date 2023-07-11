@@ -54,7 +54,7 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 
 ```
 
-![](https://2.z.wiki/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png)
+![](https://z.wiki/images/20220204/da2b9ec480b74e9e95ecfd5d59572d7a.png)
 
 
 ### git 其他配置
@@ -68,7 +68,7 @@ alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =
 	tool = vimdiff
 ```
 
-![](https://3.z.wiki/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png)
+![](https://z.wiki/images/20220204/17be65c295f44100bb7802a6f43d8ec0.png)
 
 
 
@@ -99,7 +99,7 @@ git_config_install
 
 到此，`.gitconfig` 文件中已添加好上文提到的别名，可以欢乐的使用别名啦~~~
 
-![](https://0.z.wiki/images/20220204/10d124cd03274d1c894dee857e5203c0.png)
+![](https://z.wiki/images/20220204/10d124cd03274d1c894dee857e5203c0.png)
 
 
-![12341234.gif](https://1.z.wiki/images/20220204/26dc7d023d384894827a35c6be8a1e85.gif)
+![12341234.gif](https://z.wiki/images/20220204/26dc7d023d384894827a35c6be8a1e85.gif)

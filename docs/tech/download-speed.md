@@ -9,12 +9,12 @@ meta:
 
 在`web`开发中，有一个重要的性能优化就是压缩文件、减少体积以此来试下加载速度的提升，然而文件大小和加载速度到底是怎样的关系呢？做个小实验研究下吧
 
-![研究文件大小和下载速度的关系](https://3.z.wiki/autoupload/2022-09-06/469df116be87444c97e80a55539a8c82.image.png)
+![研究文件大小和下载速度的关系](https://z.wiki/autoupload/2022-09-06/469df116be87444c97e80a55539a8c82.image.png)
 
 
 ### 实验背景
 
-![服务器配置 ](https://6.z.wiki/autoupload/2022-09-06/ffe86ab53db34af18da4b55ff412d004.image.png)
+![服务器配置 ](https://z.wiki/autoupload/2022-09-06/ffe86ab53db34af18da4b55ff412d004.image.png)
 
 * 腾讯云服务器：`4C4G`，`8M`上行带宽，既从该服务器上下载资源最快可达到`8M`每秒
 * 本地环境：`MacBook Pro` `300M`带宽
@@ -39,11 +39,11 @@ done
 
 通过`shell`脚本生成`100`个文件，大小分别从`1K`到`100K`。
 
-![生成测试文件](https://2.z.wiki/autoupload/2022-09-06/169940ffc0a84c64806fdcc8f6452f74.image.png)
+![生成测试文件](https://z.wiki/autoupload/2022-09-06/169940ffc0a84c64806fdcc8f6452f74.image.png)
 
 查看文件大小如下：
 
-![查看文件大小](https://4.z.wiki/autoupload/2022-09-06/0daa2d5de85c44398ffad414b13ef59d.image.png)
+![查看文件大小](https://z.wiki/autoupload/2022-09-06/0daa2d5de85c44398ffad414b13ef59d.image.png)
 
 从图中可以看出所有文件最小占用`4K`，所有文件大小都是4k的整数倍。这是因为一个文件至少要占用一个分配单元的空间，而默认一个分配单元为`4K`。[关于4K的解释](https://www.zhihu.com/question/347758704/answer/836811084);
 
@@ -52,7 +52,7 @@ done
 
 通过 [http-server](https://www.npmjs.com/package/http-server) 启动一个简单的`http`服务器，服务器需要修改防火墙配置，允许通过该端口进行访问。
 
-![开启http服务](https://6.z.wiki/autoupload/2022-09-06/a61fc39739ba4ddda9427ec5e6accb7c.image.png)
+![开启http服务](https://z.wiki/autoupload/2022-09-06/a61fc39739ba4ddda9427ec5e6accb7c.image.png)
 
 ### 平均下载耗时
 
@@ -100,11 +100,11 @@ size is 100, avg time is .21
 
 ### 分析
 
-![分析结论](https://2.z.wiki/autoupload/2022-09-05/f9e9064e473b445c9f193f7fbdcc69d1.image.png)
+![分析结论](https://z.wiki/autoupload/2022-09-05/f9e9064e473b445c9f193f7fbdcc69d1.image.png)
 
 让我们通过图表分析下吧~
 
-![文件大小和下载速度趋势图](https://6.z.wiki/autoupload/2022-09-06/6c90b271d40c484294d66e2f8cced37f.image.png)
+![文件大小和下载速度趋势图](https://z.wiki/autoupload/2022-09-06/6c90b271d40c484294d66e2f8cced37f.image.png)
 
 > 文件从`1K`到`13K`的过程中下载时间几乎没有变化
 > 

@@ -4,8 +4,8 @@
 
 找我姐借了几个抗原试剂，这是弱阳性？🤔，第二条线特别不明显哎
 
-![抗原弱阳性？](https://5.z.wiki/autoupload/20221211/HwCu.IMG_9100.HEIC.jpg)
+![抗原弱阳性？](https://z.wiki/autoupload/20221211/HwCu.IMG_9100.HEIC.jpg)
 
 果然，阳了。
 
-![COVID-19 阳性](https://6.z.wiki/autoupload/20221212/BlZJ.IMG_9101.HEIC.jpg)
+![COVID-19 阳性](https://z.wiki/autoupload/20221212/BlZJ.IMG_9101.HEIC.jpg)

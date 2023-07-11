@@ -24,11 +24,11 @@ tags: ["网站", "备案", "域名", "阿里云", "腾讯云"]
 
 > 2022-04-09 更：腾讯又搞活动，给免费升级`4C4G`，nice~
 > 
-> ![](https://1.z.wiki/images/20220409/1cb4d2402c514752a5a142d17b0453bb.png)
+> ![](https://z.wiki/images/20220409/1cb4d2402c514752a5a142d17b0453bb.png)
 
 
 
-![](https://1.z.wiki/images/20211118/1488e183525d43b29dea72e8c109d898.png)
+![](https://z.wiki/images/20211118/1488e183525d43b29dea72e8c109d898.png)
 
 
 机器都搞好了，而且一次性买了三年，咬咬牙，备案再麻烦也得试试
@@ -44,13 +44,13 @@ tags: ["网站", "备案", "域名", "阿里云", "腾讯云"]
 
 给域名添加`A`记录，解析到指定的`IP`
 
-![](https://2.z.wiki/images/20211118/d1459dc3cfff4245a69e56313c971c06.png)
+![](https://z.wiki/images/20211118/d1459dc3cfff4245a69e56313c971c06.png)
 
 添加好`A`记录后几分钟即可访问，但是没多久便会被腾讯拦截
 
 > 网站未备案，需要备案后才可访问。吧啦吧啦
 
-![](https://2.z.wiki/images/20211118/b59037b763374238bbcd728ecfc42f3d.png)
+![](https://z.wiki/images/20211118/b59037b763374238bbcd728ecfc42f3d.png)
 
 
 #### 申请备案
@@ -58,11 +58,11 @@ tags: ["网站", "备案", "域名", "阿里云", "腾讯云"]
 首先在腾讯云官网申请，填写申请单
 
 1. 填写域名+机器IP
-![](https://3.z.wiki/images/20211118/9312a62bdba041369f5ac594ea98600d.png)
+![](https://z.wiki/images/20211118/9312a62bdba041369f5ac594ea98600d.png)
 
 2. 填写网站信息、负责人信息（各种证件照片、视频等）
 
-![](https://3.z.wiki/images/20211118/70c7e88bd2324ae98cfa10b93d98e25d.png)
+![](https://z.wiki/images/20211118/70c7e88bd2324ae98cfa10b93d98e25d.png)
 
 
 3. 提交备案
@@ -85,7 +85,7 @@ tags: ["网站", "备案", "域名", "阿里云", "腾讯云"]
 
 开开心心的给网站添加`ICP`号啦~
 
-![](https://1.z.wiki/images/20211118/079473f9753c46928ac1beafea3032d0.png)
+![](https://z.wiki/images/20211118/079473f9753c46928ac1beafea3032d0.png)
 
 
 

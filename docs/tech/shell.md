@@ -49,7 +49,7 @@ done
 echo 循环结束
 ```
 
-> [点此下载以上脚本](https://0.z.wiki/autoupload/20221127/GSD8.fun.sh)
+> [点此下载以上脚本](https://z.wiki/autoupload/20221127/GSD8.fun.sh)
 
 
 执行结果如下：
@@ -91,7 +91,7 @@ fun1
 echo 退出码为：$?
 ```
 
-> [点此下载以上脚本](https://0.z.wiki/autoupload/20221127/GSD8.fun.sh)
+> [点此下载以上脚本](https://z.wiki/autoupload/20221127/GSD8.fun.sh)
 
 执行结果如下：
 
@@ -130,7 +130,7 @@ fun1
 echo 状态吗是: $?
 ```
 
-> [点此下载以上脚本](https://1.z.wiki/autoupload/20221127/qWdP.fun.sh)
+> [点此下载以上脚本](https://z.wiki/autoupload/20221127/qWdP.fun.sh)
 
 运行结果如下：
 
@@ -158,7 +158,7 @@ result=$(fun1)
 echo return value is $result
 ```
 
-> [点此下载以上脚本](https://0.z.wiki/autoupload/20221127/Vvye.fun.sh)
+> [点此下载以上脚本](https://z.wiki/autoupload/20221127/Vvye.fun.sh)
 
 通过该方案可以返回小数、字符串类型的返回值。
 
@@ -180,7 +180,7 @@ fun() {
 fun arg1 arg2
 ```
 
-> [点此下载以上脚本](https://5.z.wiki/autoupload/20221127/DkTI.fun.sh)
+> [点此下载以上脚本](https://z.wiki/autoupload/20221127/DkTI.fun.sh)
 
 
 #### 全局变量

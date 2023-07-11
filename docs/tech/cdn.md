@@ -2,7 +2,7 @@
 
 图床上传的照片支持`CDN`加速域名，本地跑脚本测了下，速度提升`70%`以上，真赞，后续有空整站都进行`CDN`加速。
 
-![CDN 加速](https://9.z.wiki/autoupload/20230205/1IZR.400X1180-image.png)
+![CDN 加速](https://z.wiki/autoupload/20230205/1IZR.400X1180-image.png)
 
 ### 测试函数
 
@@ -39,7 +39,7 @@ function download_time_avg() {
 ```shell
 for n in {1..5}
 do
-  avg=`download_time_avg https://1.z.wiki/autoupload/20230205/kipU.1154X1742-image.png 20`
+  avg=`download_time_avg https://z.wiki/autoupload/20230205/kipU.1154X1742-image.png 20`
   echo 非CDN域名，下载时间： $avg 秒
   total=0;
 done

@@ -13,17 +13,17 @@ meta:
 
 看到物业费部分，震惊地发现，物业费：1.8元/平方米*日 
 
-![北方明珠的物业费](https://0.z.wiki/autoupload/2022-08-22/3f99cd0bc88b4bc8b7aad63c7e47139f.image.png)
+![北方明珠的物业费](https://z.wiki/autoupload/2022-08-22/3f99cd0bc88b4bc8b7aad63c7e47139f.image.png)
 
 
 由于平时对物业费完全没概念，简单算下，如果房子`100`平米，每年的物业费：`1.8 * 100 * 365 = 65700`
 
-![](https://5.z.wiki/autoupload/2022-08-22/679c0ace3e5d4d49908d2aa98ae7b038.image.png)
+![](https://z.wiki/autoupload/2022-08-22/679c0ace3e5d4d49908d2aa98ae7b038.image.png)
 
 
 一年`6`万的物业费，我陷入了深思
 
-![](https://8.z.wiki/autoupload/2022-08-22/f9864bab631149c58a861e6857af38e9.image.png)
+![](https://z.wiki/autoupload/2022-08-22/f9864bab631149c58a861e6857af38e9.image.png)
 
 
 ### 物业费标准
@@ -44,7 +44,7 @@ meta:
 
 继续沉思
 
-![](https://8.z.wiki/autoupload/2022-08-22/f9864bab631149c58a861e6857af38e9.image.png)
+![](https://z.wiki/autoupload/2022-08-22/f9864bab631149c58a861e6857af38e9.image.png)
 
 原来北京并未规定明确的物业收费标准。
 
@@ -63,21 +63,21 @@ meta:
 
 本着”有问题就改正“的原则，随手给百科提交了一版
 
-![](https://3.z.wiki/autoupload/2022-08-22/d30077e1723041a68c8293fbdcb55362.image.png)
+![](https://z.wiki/autoupload/2022-08-22/d30077e1723041a68c8293fbdcb55362.image.png)
 
 哟吼，第二天就审批通过了。
 
-<PhoneSnapshot url="https://6.z.wiki/autoupload/2022-08-22/1aea9f36256246ba8fedd6ebf82668fb.IMG_8089.PNG" title="百度百科" alt="百度百科" />
+<PhoneSnapshot url="https://z.wiki/autoupload/2022-08-22/1aea9f36256246ba8fedd6ebf82668fb.IMG_8089.PNG" title="百度百科" alt="百度百科" />
 
-![](https://4.z.wiki/autoupload/2022-08-23/ed38929a23bc4a3fa07df7dce9b0c62a.image.png)
+![](https://z.wiki/autoupload/2022-08-23/ed38929a23bc4a3fa07df7dce9b0c62a.image.png)
 
 
 ### 恍然大悟
 
-![](https://5.z.wiki/autoupload/2022-08-22/17e20ff21842439bbe4264ea588c2e13.image.png)
+![](https://z.wiki/autoupload/2022-08-22/17e20ff21842439bbe4264ea588c2e13.image.png)
 
 正当我叉腰自豪的时候突然意识到，我直接`Google`下北方明珠的物业费不就行了？折腾这么久干什么？！！我是脑子进水了吗？？？
 
-![](https://8.z.wiki/autoupload/2022-08-22/eb77e75f45c849aa84c3e842133af82c.image.png)
+![](https://z.wiki/autoupload/2022-08-22/eb77e75f45c849aa84c3e842133af82c.image.png)
 
-![](https://1.z.wiki/autoupload/2022-08-22/278aaa14a54a4bbfaf90e332c9032b41.image.png)
+![](https://z.wiki/autoupload/2022-08-22/278aaa14a54a4bbfaf90e332c9032b41.image.png)

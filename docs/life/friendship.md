@@ -4,7 +4,7 @@
 
 ### 兴趣爱好
 
-![](https://4.z.wiki/autoupload/20230122/ulcF.511X700-image.png)
+![](https://z.wiki/autoupload/20230122/ulcF.511X700-image.png)
 
 工作上的忙碌导致生活上的兴趣不会很多，一但有这种聊得来、玩的到一起的朋友往往可以不频繁但能长远的朋友。
 
@@ -12,7 +12,7 @@
 
 ### 利益关系
 
-![](https://0.z.wiki/autoupload/20230122/Zjy5.656X820-image.png)
+![](https://z.wiki/autoupload/20230122/Zjy5.656X820-image.png)
 
 > 张口闭口都是利益确实显示人太功利，然而“穷在闹市无人问，富在深山有远亲”却有万千真实的案例。
 
@@ -25,19 +25,19 @@
 
 ### 亲情关系
 
-![](https://1.z.wiki/autoupload/20230122/XD7m.367X550-image.png)
+![](https://z.wiki/autoupload/20230122/XD7m.367X550-image.png)
 
 亲情最难割舍，也无法割舍，平时也会相互照应，这种没有什么深仇大恨也都能长久下去，即使平时没有联系有事儿了一个电话也都能聚到一起。
 
 ### 深刻的交情
 
-![](https://2.z.wiki/autoupload/20230122/pYle.643X1200-image.png)
+![](https://z.wiki/autoupload/20230122/pYle.643X1200-image.png)
 
 如同上学时最要好的朋友，可能在不同的城市，平时联系少，但会互相挂念、互相惦记。
 
 ### 共同的圈子
 
-![](https://5.z.wiki/autoupload/20230122/zz0W.480X480-image.png)
+![](https://z.wiki/autoupload/20230122/zz0W.480X480-image.png)
 
 拥有共同的圈子也容易友谊地久天长，不然一群人聚在一起，你聊你的别墅、他聊他的仕途、我聊我的网贷，
 除了泛黄的曾经的共同记忆其他的真聊不到一起。

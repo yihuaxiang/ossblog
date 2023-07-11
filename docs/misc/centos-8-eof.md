@@ -21,7 +21,7 @@ Error: Failed to download metadata for repo 'appstream': Cannot prepare internal
 
 看来`CentOS 8`的寿终正寝还真影响到我了。😓
 
-![寿终正寝](https://1.z.wiki/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png)
+![寿终正寝](https://z.wiki/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png)
 
 正好顺便换成国内镜像，下载资源还能快点。
 
@@ -38,7 +38,7 @@ Error: Failed to download metadata for repo 'appstream': Cannot prepare internal
 在服务器上执行以下脚本完成一键切换阿里云镜像
 
 ```shell
-/bin/bash -c "$(curl -fsSL https://2.z.wiki/autoupload/20230204/od1H.change-mirrors.sh)"
+/bin/bash -c "$(curl -fsSL https://z.wiki/autoupload/20230204/od1H.change-mirrors.sh)"
 ```
 
 ### 手动切换
@@ -130,4 +130,4 @@ EOF
 更新软件
 
 
-![centos 更新软件](https://2.z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)
+![centos 更新软件](https://z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)
