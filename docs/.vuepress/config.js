@@ -202,6 +202,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'vim-macro',
         'lsof',
         'sse',
         'glm-130b',
