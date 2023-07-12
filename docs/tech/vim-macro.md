@@ -56,14 +56,9 @@ nnoremap ,<letter1> @<letter2>
 
 ### 实例应用
 
-#### 根据文本格式化输出
+![](https://9.z.wiki/autoupload/20230712/rGQJ.446X1168-image.png)
 
-TODO
+#### 通过宏快速添加后缀
 
-#### 查找替换
+<VideoPlayer src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/autoupload/20230712/a09D.我的影片_13.mp4" />
 
-TODO
-
-#### 字符串的操作
-
-TODO
