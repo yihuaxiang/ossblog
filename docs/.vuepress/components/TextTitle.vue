@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .text-title {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 </style>
 
