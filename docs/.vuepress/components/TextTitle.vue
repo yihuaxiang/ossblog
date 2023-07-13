@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped rel="stylesheet/scss">
+<style scoped>
 .text-title {
   margin-top: 10px;
 }
