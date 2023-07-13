@@ -6,7 +6,7 @@
 
 #### 宏的定义和作用
 
-<img src="https://z.wiki/placeholder/514x120?text=%E5%AE%9A%E4%B9%89&color=black&pinyin=true" title="宏的定义和作用" >
+<TextTitle text="定义" title="宏的定义和作用">
 
 对于文本编辑器来说，“宏”是一个由用户定义的命令序列，可以在编辑器中多次执行这个序列。
 
@@ -16,7 +16,7 @@
 
 ### 如何录制`Vim`宏
 
-<img src="https://z.wiki/placeholder/514x120?text=%E5%BD%95%E5%88%B6&color=black&pinyin=true" title="如何录制" >
+<TextTitle text="录制" title="如何录制">
 
 #### 开始和停止录制宏
 
@@ -41,7 +41,7 @@
 
 ### `Vim`宏的进阶使用
 
-<img src="https://z.wiki/placeholder/514x120?text=%E8%BF%9B%E9%98%B6&color=black&pinyin=true" title="进阶" >
+<TextTitle text="进阶" title="进阶">
 
 #### 强制执行宏
 
@@ -62,7 +62,7 @@ nnoremap ,<letter1> @<letter2>
 
 ### 实例应用
 
-<img src="https://z.wiki/placeholder/514x120?text=%E5%AE%9E%E6%88%98&color=black&pinyin=true" title="实战" >
+<TextTitle text="实战" title="实战">
 
 #### 通过宏快速添加后缀
 
