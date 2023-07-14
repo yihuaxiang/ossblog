@@ -29,10 +29,8 @@ export default {
     const img = this.$refs.img;
     img.addEventListener('load', () => {
       console.log('img load done');
+      this.isLoading = false;
     })
-    img.onload = () => {
-      console.log('img load done...');
-    }
   }
 }
 </script>
