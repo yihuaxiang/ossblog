@@ -1,7 +1,7 @@
 <template>
   <div>
     <img v-show="isLoading" class="img-loading" src="https://z.wiki/autoupload/20230714/yQFT.loading.svg" />
-    <img v-show="!isLoading" class="img-view" ref="img" :src="url" :title="title" >
+    <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" />
   </div>
 </template>
 
