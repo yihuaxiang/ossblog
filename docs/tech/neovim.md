@@ -10,9 +10,9 @@
 
 截止目前（2022-02-03），`neovim `在 `github `上已经有了 50K 的 `star `，而 `vim `具有 26K`star` 
 
-![](https://z.wiki/images/20220203/933d2b5126eb4e888ffbd54a4b937797.png)
+<ImgView title="neovim" url="https://z.wiki/images/20220203/933d2b5126eb4e888ffbd54a4b937797.png" />
 
-![](https://z.wiki/images/20220203/6c435b23da3747e19681934ebdbe562e.png)
+<ImgView title="neovim" url="https://z.wiki/images/20220203/6c435b23da3747e19681934ebdbe562e.png" />
 
 `Neovim `是 `Vim `的一个雄心勃勃的重构。主要目标是：
 
@@ -47,9 +47,9 @@ yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarc
 yum install -y neovim python3-neovim
 ```
 
-![iShot2022-02-03 17.39.49.gif](https://z.wiki/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif)
+<ImgView title="neovim" url="https://z.wiki/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif" />
 
-![iShot2022-02-03 17.43.11.gif](https://4.z.wiki/images/20220203/f8c164e653644520a180a475421236d4.gif)
+<ImgView title="neovim" url="https://4.z.wiki/images/20220203/f8c164e653644520a180a475421236d4.gif" />
 
 
 此时，已经`nvim`使用`neovim`了，为方便期间，设置别名，操作如下：
@@ -98,9 +98,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 无奈，国内的机器没法访问`github`，只能曲线下载了，从`gitee`找到对应的项目 [gitee fzf](https://gitee.com/yzymickey/fzf?_from=gitee_search)
 
-![](https://z.wiki/images/20220203/ac739d17ec2f4797ac5badbcbae8251b.png)
+<ImgView title="neovim" url="https://z.wiki/images/20220203/ac739d17ec2f4797ac5badbcbae8251b.png" />
 
-![](https://z.wiki/images/20220203/892222cc5823444ebf5f0409ccb3a174.png)
+<ImgView title="neovim" url="https://z.wiki/images/20220203/892222cc5823444ebf5f0409ccb3a174.png" />
 
 
 
@@ -120,7 +120,7 @@ source ~/.bashrc
 
 FZF 命令行使用效果如下：
 
-![fzf.git.gif](https://z.wiki/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif)
+<ImgView title="neovim" url="https://z.wiki/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif" />
 
 截至目前我们已经安装了了`fzf`，但是尚未和`nvim`建立任何整合，整合则需要借助 `fzf.vim` 插件
 
@@ -142,7 +142,7 @@ Plug 'junegunn/fzf.vim'
 
 1. 文件搜索
 
-![asdf.gif](https://4.z.wiki/images/20220203/b25e996392df47369cc92dbbab85fc7f.gif)
+<ImgView title="neovim 文件搜索" url="https://4.z.wiki/images/20220203/b25e996392df47369cc92dbbab85fc7f.gif" />
 
 此外，通过设置`iTerms`的按键映射，当按下`Ctrl+P`的时候自动触发`:Files`命令，实现文件查找的快捷键
 
@@ -160,7 +160,7 @@ export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_mo
 
 运行效果如下：
 
-![ag.gif](https://z.wiki/images/20220203/fbc3b5b87e5b467392d4942ccc48c154.gif)
+<ImgView title="neovim 文件内容搜索" url="https://z.wiki/images/20220203/fbc3b5b87e5b467392d4942ccc48c154.gif" />
 
 
 通过 `iTerms` 设置快捷键 `Command+Shift+F`进行全局搜索，效果杠杆的~
@@ -170,7 +170,7 @@ export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_mo
 
 `nerd-tree` 是`vim`中的文件管理插件
 
-![](https://z.wiki/images/20220203/76de3d0cf73649a496d708f801353b6c.png)
+<ImgView title="neovim nerd-tree" url="https://z.wiki/images/20220203/76de3d0cf73649a496d708f801353b6c.png" />
 
 安装：
 ```shell
