@@ -30,6 +30,9 @@ export default {
     img.addEventListener('load', () => {
       console.log('img load done');
     })
+    img.onload = () => {
+      console.log('img load done...');
+    }
   }
 }
 </script>
