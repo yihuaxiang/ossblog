@@ -2,6 +2,8 @@
 
 ### 创建函数
 
+<TextTitle text="创建" title="创建函数" />
+
 在`shell`中有两种创建函数的方法。
 
 一：关键字`function`
@@ -27,6 +29,8 @@ name() {
 
 
 ### 使用函数
+
+<TextTitle text="使用" title="使用函数" />
 
 在`shell`中使用函数只需要调用函数名即可（注：无需在函数名后面加括号）
 
@@ -164,6 +168,8 @@ echo return value is $result
 
 
 ### 在函数中使用变量
+
+<TextTitle text="变量" title="在函数中使用变量" />
 
 #### 参数变量
 
