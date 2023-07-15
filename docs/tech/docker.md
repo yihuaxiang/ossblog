@@ -4,9 +4,11 @@ tags: ["docker", "发布", "镜像"]
 
 # docker
 
-![docker](https://z.wiki/autoupload/20230501/VkEH.2160X3840-image.png)
+<ImgView title="docker" url="https://z.wiki/autoupload/20230501/VkEH.2160X3840-image.png" />
 
 ### 介绍与基础概念
+
+<TextTitle text="概念" title="介绍与基础概念" />
 
 `Docker`是一种容器化技术，它可以轻松地打包、部署和运行应用程序或服务。
 `Docker`的核心组件包括`Docker Engine`、`Docker Hub`和`Docker CLI`。
@@ -20,6 +22,8 @@ tags: ["docker", "发布", "镜像"]
 `Docker`网络是一个附加的组件，它允许容器之间互相通信，以及容器和主机之间的通信。
 
 ### 常用命令
+
+<TextTitle text="命令" title="常用命令" />
 
 `docker run`：该命令用于在 `Docker` 容器中运行一个新的镜像。语法如下：
 
@@ -103,13 +107,18 @@ docker exec -it jolly_fermat bash
 
 
 ### 创建应用
+
+<TextTitle text="创建" title="创建应用" />
+
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
 
-![](https://z.wiki/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png)
+<ImgView title="neovim" url="https://z.wiki/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png" />
 
 
 ### 通过`docker`发布应用
+
+<TextTitle text="发布" title="发布应用" />
 
 #### 找到`OpenJDK`的镜像
 
@@ -227,6 +236,8 @@ latest: digest: sha256:8ad87d86d41e7953f7c2542719b0d82f30f832b0eeb9fd7e8cb2012bc
 ```
 
 ### 使用应用镜像
+
+<TextTitle text="镜像" title="使用应用镜像" />
 
 拉取镜像
 ```shell
