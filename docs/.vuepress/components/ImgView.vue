@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img v-show="isLoading" class="img-loading" src="https://z.wiki/autoupload/20230714/yQFT.loading.svg" style="40" height="40" />
+    <div v-show="isLoading" class="loading"></div>
     <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" />
   </div>
 </template>
@@ -37,6 +37,51 @@ export default {
 
 <style scoped>
 .img-view {
+}
+.loading {
+  display: block;
+  position: relative;
+  width: 6px;
+  height: 10px;
+
+  animation: rectangle infinite 1s ease-in-out -0.2s;
+
+  background-color: #000;
+}
+
+.loading:before,
+.loading:after {
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  content: "";
+  background-color: #000;
+}
+
+.loading:before {
+  left: -14px;
+
+  animation: rectangle infinite 1s ease-in-out -0.4s;
+}
+
+.loading:after {
+  right: -14px;
+
+  animation: rectangle infinite 1s ease-in-out;
+}
+
+@keyframes rectangle {
+  0%,
+  80%,
+  100% {
+    height: 20px;
+    box-shadow: 0 0 #000;
+  }
+
+  40% {
+    height: 30px;
+    box-shadow: 0 -20px #000;
+  }
 }
 </style>
 
