@@ -24,11 +24,11 @@ huggingface 体验地址: [huggingface](https://huggingface.co/spaces/THUDM/GLM-
 
 
 `A100` 机器，`250`元每小时，一个月约：`18W`,
-![](https://z.wiki/autoupload/20230606/Mo3u.170X1774-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/Mo3u.170X1774-image.png" />
 
 `V100` 机器，`157`元每小时，一个月大约：`11W`
 
-![](https://z.wiki/autoupload/20230606/VMp1.170X1770-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/VMp1.170X1770-image.png" />
 
 预算有限，就选`V100`机器吧
 
@@ -40,16 +40,16 @@ huggingface 体验地址: [huggingface](https://huggingface.co/spaces/THUDM/GLM-
 
 `8`个显卡
 
-![](https://z.wiki/autoupload/20230606/xnpS.1674X1314-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/xnpS.1674X1314-image.png" />
 
 `96`核`CPU`, `724G`内存，这么牛逼的机器，我还是第一次体验
 
-![](https://z.wiki/autoupload/20230606/QJlJ.966X2066-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/QJlJ.966X2066-image.png" />
 
 操作系统：`centos 7.9`
 
 
-![](https://z.wiki/autoupload/20230606/BThh.195X258-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/BThh.195X258-image.png" />
 
 
 ### 安装必要依赖
@@ -192,7 +192,7 @@ gcc -v
 
 参考文档：[简书](https://www.jianshu.com/p/5bbd5219e79d)
 
-![](https://z.wiki/autoupload/20230606/HXSS.1578X1978-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/HXSS.1578X1978-image.png" />
 
 到此，继续安装`apex`未搞定的步骤即可安装成功。
 
@@ -215,7 +215,7 @@ cd GLM-130B
 pip install -r requirements.txt
 ```
 
-![](https://z.wiki/autoupload/20230606/G0XY.1396X2072-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/G0XY.1396X2072-image.png" />
 
 ps:百兆带宽，下载速度真快！！
 
@@ -237,7 +237,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 
 申请下载 `GLM-130B` 的模型`checkpoint`，目前需要申请才能下载，[申请地址](https://models.aminer.cn/glm/zh-CN/download/GLM-130B)
 
-![](https://z.wiki/autoupload/20230606/9DVX.1320X1846-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/9DVX.1320X1846-image.png" />
 
 
 申请后很快便会收到邮件，按邮件里的流程下载即可
@@ -245,7 +245,7 @@ pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/ --trus
 注：模型较大，下载比较费时间。
 
 
-![](https://z.wiki/autoupload/20230606/zOg4.1036X2796-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/zOg4.1036X2796-image.png" />
 
 
 ```shell
@@ -261,7 +261,7 @@ aria2c -x 16 -s 16 -j 4 --continue=true -i Okx1.urls.txt
 watch -n 1 -c -d ifstat
 ```
 
-![](https://z.wiki/autoupload/20230606/01TY.372X1142-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/01TY.372X1142-image.png" />
 
 
 <br />
@@ -275,7 +275,7 @@ watch -n 1 -c -d ifstat
 12M 的下载速度，60 个文件总共 260G 大小的资源，
 按这速度得下载 6 个小时 😭
 
-![](https://z.wiki/autoupload/20230606/iJzL.174X174-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/iJzL.174X174-image.png" />
 
 
 <br />
@@ -288,7 +288,7 @@ watch -n 1 -c -d ifstat
 <br />
 <br />
 
-![](https://z.wiki/autoupload/20230606/dH5T.746X1494-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/dH5T.746X1494-image.png" />
 
 <br />
 <br />
@@ -324,21 +324,21 @@ bash scripts/generate.sh --input-source interactive
 
 一切顺利哈哈哈
 
-![](https://z.wiki/autoupload/20230606/yNlv.2340X2054-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230606/yNlv.2340X2054-image.png" />
 
 然而，现实从来不像童话故事里那么完美，回答一个简单的“你好，你是谁？”居然要 200+ 秒
 
-![](https://z.wiki/autoupload/20230607/ggTO.1290X2222-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230607/ggTO.1290X2222-image.png" />
 
-![](https://z.wiki/autoupload/20230607/vQsX.328X500-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230607/vQsX.328X500-image.png" />
 
-![](https://z.wiki/autoupload/20230607/OKAj.498X2206-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230607/OKAj.498X2206-image.png" />
 
 > 这 AI 是记性不太好？三亚出现了两次。。。
 
 就酱吧，碎啦。。。
 
-![](https://z.wiki/autoupload/20230607/UL69.174X174-image.png)
+<ImgView title="GLM-130B" url="https://z.wiki/autoupload/20230607/UL69.174X174-image.png" />
 
 
 ### 其他报错排查与修复
