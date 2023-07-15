@@ -1,6 +1,6 @@
 # 浅谈 HTTP 协议
 
-![](https://z.wiki/autoupload/20230221/DJ83.408X581-image.png)
+<ImgView title="http 协议" url="https://z.wiki/autoupload/20230221/DJ83.408X581-image.png" />
 
 ### 介绍
 
@@ -25,7 +25,7 @@
 如网页浏览、电子邮件、文件传输等。`HTTP` `2.0` 版本在 `2015` 年发布，与之前的版本相比，
 `HTTP` `2.0` 提供了更快的数据传输速度和更高的效率，成为现代网络应用的主要协议之一。
 
-![](https://z.wiki/autoupload/20230212/bfkU.878X2212-image.png)
+<ImgView title="http 协议发展历史" url="https://z.wiki/autoupload/20230212/bfkU.878X2212-image.png" />
 
 
 ### 请求/响应模型
@@ -34,7 +34,7 @@
 
 在 `HTTP` 协议中，客户端是请求方，服务器是响应方。请求的过程是：客户端发送请求到服务器，服务器接收请求并做出响应。
 
-![](https://z.wiki/autoupload/20230212/b5we.227X717-image.png)
+<ImgView title="http 请求/响应模型" url="https://z.wiki/autoupload/20230212/b5we.227X717-image.png" />
 
 ### 报文格式
 
@@ -139,7 +139,7 @@ Proxy-Connection: Keep-alive
 
 例如；`TRACE`方法，由于可能导致安全漏洞，很多服务器（`Apache 2.0`、`Nginx 1.13.9`、`Microsoft IIS 6.0`）默认是将其禁用的。
 
-![](https://z.wiki/autoupload/20230221/ZdZz.175X211-doutub_gif.gif)
+<ImgView title="http method" url="https://z.wiki/autoupload/20230221/ZdZz.175X211-doutub_gif.gif" />
 
 ### 状态码
 
