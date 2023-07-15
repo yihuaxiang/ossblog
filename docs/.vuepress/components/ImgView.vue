@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div v-show="isLoading" class="loading"></div>
+    <div v-show="isLoading" class="loading-ctn">
+      <div class="loading"></div>
+    </div>
     <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" />
   </div>
 </template>
@@ -82,6 +84,11 @@ export default {
     height: 30px;
     box-shadow: 0 -20px #000;
   }
+}
+.loading-ctn {
+  height: 50px;
+  padding-top: 30px;
+  padding-left: 40px;
 }
 </style>
 
