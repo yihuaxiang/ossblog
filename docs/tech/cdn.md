@@ -2,7 +2,7 @@
 
 图床上传的照片支持`CDN`加速域名，本地跑脚本测了下，速度提升`70%`以上，真赞，后续有空整站都进行`CDN`加速。
 
-![CDN 加速](https://z.wiki/autoupload/20230205/1IZR.400X1180-image.png)
+<ImgView title="CDN 加速" url="https://z.wiki/autoupload/20230205/1IZR.400X1180-image.png" />
 
 ### 测试函数
 
