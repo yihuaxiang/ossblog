@@ -30,8 +30,11 @@ export default {
   mounted() {
     const img = this.$refs.img;
     img.addEventListener('load', () => {
-      console.log('img load done');
       this.isLoading = false;
+    })
+    img.addEventListener('error', () => {
+      this.isLoading = false;
+      this.$refs.img.src = "https://z.wiki/autoupload/20230717/PXa0.image-failed-filled_(1).svg";
     })
   }
 }
