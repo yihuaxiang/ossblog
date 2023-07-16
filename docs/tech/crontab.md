@@ -106,7 +106,7 @@ pm2 monit
 
 通过执行`pm2 monit`可直接在终端打开监控。
 
-![pm2 终端监控](https://z.wiki/autoupload/2022-07-28/e31fbb29ab28463f8417d03e3c2f0b72.image.png)
+<ImgView title="pm2 终端监控" url="https://z.wiki/autoupload/2022-07-28/e31fbb29ab28463f8417d03e3c2f0b72.image.png" />
 
 2. 在线地址
 
@@ -116,7 +116,7 @@ pm2 plus
 
 通过执行`pm2 plus`可开启在线监控，但该服务为收费服务，默认提供`14`天体验时间。
 
-![pm2 在线监控](https://z.wiki/autoupload/2022-07-28/d4b8b27aba294846b94bf2c8af4b9de4.image.png)
+<ImgView title="pm2 在线监控" url="https://z.wiki/autoupload/2022-07-28/d4b8b27aba294846b94bf2c8af4b9de4.image.png" />
 
 
 #### chkconfig
