@@ -113,7 +113,7 @@ docker exec -it jolly_fermat bash
 1. 从[start.spring.io](https://start.spring.io)初始化一个`web`应用
 2. 运行`package`生命周期，打包成`jar`
 
-<ImgView title="neovim" url="https://z.wiki/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png" />
+<ImgView title="docker" url="https://z.wiki/images/20211115/1c75893dcf694b7e94bcba31ef6c9ace.png" />
 
 
 ### 通过`docker`发布应用
