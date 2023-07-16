@@ -10,7 +10,7 @@
 
 不想这样，我大抵是厌倦了，横竖不想这么麻烦，打开谷歌搜了下"shell 文本查找"，歪歪扭扭的每页都写满了`grep`
 
-![](https://z.wiki/images/20220204/86d986c9244442048c80c9bc46395f65.png)
+<ImgView title="ripgrep" url="https://z.wiki/images/20220204/86d986c9244442048c80c9bc46395f65.png" />
 
 
 
@@ -39,7 +39,7 @@ grep -F -r "KEY_WORD" --exclude-dir=node_modules *  -B 3 -A 3
 
 我作为一个程序员，找到`grep`这个命令来进行内容匹配，这也是很合理的。
 
-![](https://z.wiki/images/20220204/3f713382c9d44784baea3f0252419ab9.png)
+<ImgView title="ripgrep" url="https://z.wiki/images/20220204/3f713382c9d44784baea3f0252419ab9.png" />
 
 
 ### 更好的方案
@@ -48,7 +48,7 @@ grep -F -r "KEY_WORD" --exclude-dir=node_modules *  -B 3 -A 3
 
 从16年起，其实就已经有了更好的（最好）的替代方案：`ripgrep`
 
-![b80464425dbe5b0023083b201b813804.gif](https://z.wiki/images/20220204/530d349519f34ee1bd2b8f181f391d69.gif)
+<ImgView title="ripgrep" url="https://z.wiki/images/20220204/530d349519f34ee1bd2b8f181f391d69.gif" />
 
 `ripgrep` 相比 `grep`，有很多特性，
 
@@ -58,5 +58,5 @@ grep -F -r "KEY_WORD" --exclude-dir=node_modules *  -B 3 -A 3
 4. 支持压缩文件搜索（zip、xz、bzip2、lz4、等等）
 5. 等等（懒得写了🤣）
 
-![886ef9339b6bea2a498afdbae861798f.gif](https://z.wiki/images/20220204/40caec342a1240438ff0a2c3ae63d85d.gif)
+<ImgView title="ripgrep" url="https://z.wiki/images/20220204/40caec342a1240438ff0a2c3ae63d85d.gif" />
 
