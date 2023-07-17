@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: sever-send-event sse http协议 服务端推送
+  - name: keywords
+    content: sever-send-event sse http协议 服务端推送
+tags: ["sse", "sever-side-events", "server-send-events", "http 协议", "服务端推送"]
+---
+
 # Server-Send-Event
 
 想从服务端进行数据推送的话有哪些方案呢？

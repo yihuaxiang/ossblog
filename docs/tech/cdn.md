@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: CDN 加速 下载速度 网络优化 性能优化
+  - name: keywords
+    content: CDN 加速 下载速度 网络优化 性能优化
+tags: ["CDN", "性能优化", "前端优化", "http 协议", "测评"]
+---
+
 # CDN 加速
 
 [图床](https://tuchuang.z.wiki/misc/tuchuang.html)上传的照片支持`CDN`加速域名，本地跑脚本测了下，速度提升`70%`以上，真赞，后续有空整站都进行`CDN`加速。
