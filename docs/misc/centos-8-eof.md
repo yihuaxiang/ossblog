@@ -21,7 +21,7 @@ Error: Failed to download metadata for repo 'appstream': Cannot prepare internal
 
 看来`CentOS 8`的寿终正寝还真影响到我了。😓
 
-![寿终正寝](https://z.wiki/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png)
+<ImgView title="寿终正寝" url="https://z.wiki/images/20220520/0225197518a5476a8cfb884ab3fc08c3.png" />
 
 正好顺便换成国内镜像，下载资源还能快点。
 
@@ -130,4 +130,4 @@ EOF
 更新软件
 
 
-![centos 更新软件](https://z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png)
+<ImgView title="centos 更新软件" url="https://z.wiki/images/20220320/3755fa2ff4374cbda253fb2dc29c43be.png" />
