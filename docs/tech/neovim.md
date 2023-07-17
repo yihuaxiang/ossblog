@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: neovim 配置 vim 开发
+  - name: keywords
+    content: neovim 配置 vim 开发
+tags: ["vim", "neovim", "上古编辑器"]
+---
+
 # neovim 配置体验
 
 ### 背景

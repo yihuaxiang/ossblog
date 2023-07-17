@@ -278,5 +278,5 @@ Proxy-Connection: Keep-alive
 至此大家应该对`HTTP`协议有了一个较为全面的认识。
 
 
-<img class="icon" width="200" height="59" src="https://z.wiki/autoupload/2022-04-09/b04222e6d4044901ab59a56862ba4bbd.svg" alt="the end" title="文章到此结束"/>
+<TheEnd />
 
