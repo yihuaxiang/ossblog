@@ -1,6 +1,6 @@
 # vim macro 从入门到精通
 
-![vim](https://5.z.wiki/autoupload/20230712/7VXh.225X224-image.png)
+<ImgView title="vim" url="https://5.z.wiki/autoupload/20230712/7VXh.225X224-image.png" />
 
 ### 什么是`Vim`宏
 

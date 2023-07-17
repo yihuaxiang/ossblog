@@ -10,7 +10,7 @@
 <img src="https://z.wiki/placeholder/512x128" />
 ```
 
-![](https://z.wiki/placeholder/512x128)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x128" />
 
 
 
@@ -18,7 +18,7 @@
 <img src="https://z.wiki/placeholder/512x256" />
 ```
 
-![](https://z.wiki/placeholder/512x256)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x256" />
 
 
 2. 图片加边框
@@ -27,7 +27,7 @@
 <img src="https://z.wiki/placeholder/512x256+border" />
 ```
 
-![](https://z.wiki/placeholder/512x256+border)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x256+border" />
 
 
 3. 图片加叉号
@@ -36,7 +36,7 @@
 <img src="https://z.wiki/placeholder/512x256+cross" />
 ```
 
-![](https://z.wiki/placeholder/512x256+cross)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x256+cross" />
 
 4. 图片加叉号加边框
 
@@ -44,7 +44,7 @@
 <img src="https://z.wiki/placeholder/512x256+border+cross" />
 ```
 
-![](https://z.wiki/placeholder/512x256+border+cross)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x256+border+cross" />
 
 5. 设置个性化文案
 
@@ -52,7 +52,7 @@
 <img src="https://z.wiki/placeholder/512x256+border+cross?text=z.wiki" />
 ```
 
-![](https://z.wiki/placeholder/512x256+border+cross?text=z.wiki)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x256+border+cross?text=z.wiki" />
 
 6. 自定义样式
 
@@ -67,7 +67,7 @@
 * `borderColor` 边框颜色
 * `crossColor` 叉号线颜色
 
-![](https://z.wiki/placeholder/512x128+cross+border?text=1234&color=red&bgColor=rgba(0,255,0,0.3)&borderColor=blue&crossColor=orange)
+<ImgView title="占位符" url="https://z.wiki/placeholder/512x128+cross+border?text=1234&color=red&bgColor=rgba(0,255,0,0.3)&borderColor=blue&crossColor=orange" />
 
 
 
