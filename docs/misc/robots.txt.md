@@ -150,7 +150,7 @@ Disallow:
 
 通过百度搜索以下关键字`腾讯 site:www.tencent.com`，如下图，我们能搜到腾讯官网上很多内容。
 
-![](https://z.wiki/images/20220501/2be3526a6ff6448ebdc28a776514ddee.png)
+<ImgView title="robots" url="https://z.wiki/images/20220501/2be3526a6ff6448ebdc28a776514ddee.png" />
 
 #### 淘宝
 
@@ -168,13 +168,13 @@ User-agent: baiduspider
 Disallow: /
 ```
 
-![](https://z.wiki/images/20220501/bc60a315f18c4d19bf732f83c9890ecb.png)
+<ImgView title="robots" url="https://z.wiki/images/20220501/bc60a315f18c4d19bf732f83c9890ecb.png" />
 
 唯独屏蔽百度爬虫，有意思，有意思！
 
 试试使用百度搜索淘宝上的东西吧，比如：手机，效果如下：
 
-![](https://z.wiki/images/20220501/4ceadc46c25342e9a670807932c41354.png)
+<ImgView title="robots" url="https://z.wiki/images/20220501/4ceadc46c25342e9a670807932c41354.png" />
 
 嗯嗯，整体效果还是不错的，搜索到的内容没有是`taobao.com`域名下的，不过有`cpcwi.taobao.com`域名下的内容，难道有漏网之鱼？
 看下这个二级域名下的`robots.txt`，内容如下：
@@ -186,7 +186,7 @@ Disallow: /
 
 咳咳，`cpcwi.taobao.com`这个域名是禁止所有爬虫的，难道是百度爬虫不道德？使用百度和必应搜索`手机 site:cpcwi.taobao.com`对比下结果吧。
 
-![](https://4.z.wiki/images/20220501/2e75b51248b941b7b652c425886d7d3a.png)
+<ImgView title="robots" url="https://4.z.wiki/images/20220501/2e75b51248b941b7b652c425886d7d3a.png" />
 
 哈哈，果然是百度不道德了😒😒😒
 
@@ -194,7 +194,7 @@ Disallow: /
 
 果不其然
 
-![](https://z.wiki/images/20220501/edc227c484af4a559018ff9a3f1970c1.png)
+<ImgView title="robots" url="https://z.wiki/images/20220501/edc227c484af4a559018ff9a3f1970c1.png" />
 
 ### 附录
 
