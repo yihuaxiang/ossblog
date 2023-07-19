@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: http 协议发展史，http 协议介绍，http 解析
+  - name: keywords
+    content: http 网络协议 解析 介绍 前端
+tags: ["http", "网络协议", "解析", "介绍", "前端", "http 协议介绍"]
+---
+
 # 浅谈 HTTP 协议
 
 <ImgView title="http 协议" url="https://z.wiki/autoupload/20230221/DJ83.408X581-image.png" />
