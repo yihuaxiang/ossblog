@@ -79,3 +79,4 @@ export class UserController {
 此外，`midway.js`还支持一体化应用、`serverless`、函数式编程等诸多场景。
 
 <ImgView title="前端框架, koa express egg midway.js" url="https://4.z.wiki/images/20220327/5ae1c57f624f4f14ab1e76c5134a66a8.png" />
+

@@ -102,3 +102,4 @@ proxy_buffering off;
 3. [Server-Sent Events: пример использования](https://habr.com/ru/articles/519982/)
 4. [Nginx proxy for SSE](https://serverfault.com/questions/801628/for-server-sent-events-sse-what-nginx-proxy-configuration-is-appropriate)
 
+

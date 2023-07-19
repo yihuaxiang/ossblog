@@ -124,4 +124,3 @@ pm2 plus
 
 参考文档： [chkconfig](https://www.linuxjournal.com/article/4445)
 
-
