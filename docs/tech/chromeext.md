@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: 谷歌插件 chrome 插件开发
+  - name: keywords
+    content: 谷歌插件 chrome 插件开发
 tags: ["谷歌插件", "浏览器", "开发"]
 ---
 
@@ -18,7 +23,7 @@ tags: ["谷歌插件", "浏览器", "开发"]
 
 # 2021-11-09 更新
 尴尬了，删除默认快捷键后没测就提交了。。还得重新等待审核
-![](https://z.wiki/images/20211115/efc061658d504072acd12c962ed4b8e0.png)
+<ImgView title="neovim" url="https://z.wiki/images/20211115/efc061658d504072acd12c962ed4b8e0.png" />
 
 
 # 2021-11-11 更新
