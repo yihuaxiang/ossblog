@@ -12,7 +12,7 @@ meta:
 或需要通过程序老师行定时任务，
 交互式密码输入是在让人头大。
 
-<ImgView title="mysql" url="https://z.wiki/autoupload/2022-11-21/c0fc5435dc9942e4afbd8d611fcadc25.38E97C3A-0CDE-467B-9493-FB7B823C98B9.png" />
+<ImgView title="mysql" url="https://z.wiki/autoupload/2022-11-21/c0fc5435dc9942e4afbd8d611fcadc25.38E97C3A-0CDE-467B-9493-FB7B823C98B9.png" width="150px" />
 
 下面介绍一种非交互式密码输入的方式
 

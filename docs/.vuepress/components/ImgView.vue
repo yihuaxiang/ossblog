@@ -3,7 +3,7 @@
     <div v-show="isLoading" class="loading-ctn">
       <div class="loading"></div>
     </div>
-    <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" />
+    <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" :style="imgStyle" />
   </div>
 </template>
 
@@ -18,11 +18,17 @@ export default {
     title: {
       type: String,
       required: true
+    },
+    width: {
+      type: String,
+      required: false,
+      default: null
     }
   },
   data() {
     return {
-      isLoading: true
+      isLoading: true,
+      isError: false
     }
   },
   created() {
@@ -34,8 +40,18 @@ export default {
     })
     img.addEventListener('error', () => {
       this.isLoading = false;
+      this.isError = true;
       this.$refs.img.src = "https://z.wiki/autoupload/20230717/PXa0.image-failed-filled_(1).svg";
     })
+  },
+  computed: {
+    imgStyle() {
+      const style = {};
+      if(this.width && !this.isError) {
+        style.width = this.width;
+      }
+      return style;
+    }
   }
 }
 </script>
