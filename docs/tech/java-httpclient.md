@@ -2,7 +2,7 @@
 
 在`Java`中和其他系统进行交互，`http`接口调用是最频繁不过的的一种方式了。
 
-![](https://z.wiki/autoupload/2022-05-15/fb51e14d6fc548f895b2f6020150aa01.http-call.drawio.svg)
+<ImgView title="http-client" url="https://z.wiki/autoupload/2022-05-15/fb51e14d6fc548f895b2f6020150aa01.http-call.drawio.svg" />
 
 ### HttpURLConnection
 
@@ -37,7 +37,8 @@ Request.Get("https://z.wiki")
 
 ### OKHttpClient
 
-[okHttpClient](https://square.github.io/okhttp/4.x/okhttp/okhttp3/-ok-http-client/) 也不错。
+<ImgView title="okHttpClient" url="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-ok-http-client/" />
+也不错。
 
 ```java
   private final OkHttpClient client = new OkHttpClient();
