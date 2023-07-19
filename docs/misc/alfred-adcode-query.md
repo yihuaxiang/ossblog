@@ -4,7 +4,7 @@
 
 [https://github.com/yihuaxiang/alfred-adcode-query](https://github.com/yihuaxiang/alfred-adcode-query)
 
-![](https://z.wiki/autoupload/2022-05-24/54786b494ce54ea39269ae3860169218.image.png)
+<ImgView title="adcode查询" url="https://z.wiki/autoupload/2022-05-24/54786b494ce54ea39269ae3860169218.image.png" />
 
 ### adcode 简介
 
@@ -15,7 +15,7 @@
 
 ### adcode 的规律
 
-![adcode 规律](https://z.wiki/images/20220525/47c8f20b84a742a4b0c6b1ed7786d5b6.png?x-oss-process=image/resize,w_800/quality,q_80)
+<ImgView title="adcode 规律" url="https://z.wiki/images/20220525/47c8f20b84a742a4b0c6b1ed7786d5b6.png?x-oss-process=image/resize,w_800/quality,q_80" />
 
 `adcode`是有特定规律的
 
@@ -48,7 +48,7 @@
 > 
 > 冷知识：在台湾，台北区号是`02`，`01`是留给南京用的
 
-![](https://z.wiki/images/20220525/78052b6063b1438793b44185cf1238b6.png?x-oss-process=image/resize,w_800/quality,q_80)
+<ImgView title="adcode查询" url="https://z.wiki/images/20220525/78052b6063b1438793b44185cf1238b6.png?x-oss-process=image/resize,w_800/quality,q_80" />
 
 最后两位`00`表示非区县，既：石家庄市
 
