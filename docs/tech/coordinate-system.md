@@ -9,7 +9,7 @@ tags: ["GPS", "坐标系", "WGS84", "GCJ02", "BD09", "火星坐标系"]
 
 # 坐标系
 
-<ImgView title="坐标系" url="https://z.wiki/autoupload/2022-09-16/504ca78002d343bd89e6364a97916299.image.png" />
+<ImgView title="坐标系" width="200px" url="https://z.wiki/autoupload/2022-09-16/504ca78002d343bd89e6364a97916299.image.png" />
 
 摘要：国际通用`WGS84`坐标系，高德使用在此基础上加密的火星坐标系（国内通用），百度又是在火星坐标系上加密的
 
