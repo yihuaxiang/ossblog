@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: linux crontab 定时任务 pm2 任务管理 守护进程 任务调度
+  - name: keywords
+    content: linux crontab 定时任务 pm2 任务管理 守护进程 任务调度
 tags: ["crontab", "定时任务", "任务调度"]
 ---
 

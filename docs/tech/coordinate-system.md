@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: GPS 坐标系简介 WGS84 GCJ02 BD09 火星坐标系
+  - name: keywords
+    content: GPS 坐标系简介 WGS84 GCJ02 BD09 火星坐标系
+tags: ["GPS", "坐标系", "WGS84", "GCJ02", "BD09", "火星坐标系"]
+---
+
 # 坐标系
 
 <ImgView title="坐标系" url="https://z.wiki/autoupload/2022-09-16/504ca78002d343bd89e6364a97916299.image.png" />
