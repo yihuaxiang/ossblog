@@ -5,7 +5,7 @@
 
 通过`LightProxy`用户可以快速进行转包、修改包，解决开发过程中的各个拦路虎。
 
-![](https://z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png)
+<ImgView title="lightProxy" url="https://z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png" />
 
 1. 下载链接：[github/alibaba/lightproxy](https://github.com/alibaba/lightproxy/releases)
 2. 国内下载：[LightPxory](https://z.wiki/autoupload/2022-09-14/57a22caeb1b24568bd5a588f1062c5e2.LightProxy.app.zip)
