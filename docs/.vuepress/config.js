@@ -247,6 +247,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'zelda',
         'sanguo',
         'spring-2023',
         'pad-pasting',
