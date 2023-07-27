@@ -247,6 +247,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'tuchuang-upgrade',
         'zelda',
         'sanguo',
         'spring-2023',
