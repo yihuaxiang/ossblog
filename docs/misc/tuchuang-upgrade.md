@@ -6,3 +6,9 @@
 <ImgView title="图床" url="https://5.z.wiki/autoupload/20230728/aRGv.1474X2620-image.png" />
 
 等有空了开发一版💪🏻
+
+### 第一版
+
+[传送门](https://playground.z.wiki/img-cloud/index.html)
+
+一期到此为止，基本功能是有。
