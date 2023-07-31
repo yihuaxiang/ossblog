@@ -19,4 +19,6 @@ comment: false
 
 > 支持上传`照片`、`视频`、`ZIP`、`pdf`等多种文件，最大支持`100M`，上传后支持复制`url`、`base64`、`Markdown 照片`三种方式
 
+<p style=""><a href="https://playground.z.wiki/img-cloud/index.html">新版传送门</a></p>
+
 <ImgUploader />
