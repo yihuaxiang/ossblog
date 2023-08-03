@@ -248,7 +248,6 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
-        'tuchuang-upgrade',
         'zelda',
         'sanguo',
         'spring-2023',
@@ -305,6 +304,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'tuchuang-upgrade',
         'debian',
         'the-nature-of-management',
         'vue-weekly-download',
