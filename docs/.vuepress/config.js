@@ -202,6 +202,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'docker-tech',
         'vim-macro',
         'lsof',
         'sse',
