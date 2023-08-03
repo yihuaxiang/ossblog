@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: docker 技术 详解
+  - name: keywords
+    content: docker 技术 详解
+---
+
 # docker 技术
 
 前文[docker](https://z.wiki/tech/docker.html#docker)中简单介绍过`docker`的用法，这里来深入了解讲述下`docker`的技术内幕
