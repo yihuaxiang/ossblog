@@ -11,7 +11,7 @@ meta:
 前文[docker](https://z.wiki/tech/docker.html#docker)中简单介绍过`docker`的用法，这里来深入了解讲述下`docker`的技术内幕
 
 
-<ImgView width="100" title="docker" url="https://z.wiki/autoupload/20230501/VkEH.2160X3840-image.png" />
+<ImgView width="200px" title="docker" url="https://z.wiki/autoupload/20230501/VkEH.2160X3840-image.png" />
 
 #### 容器生态系统
 
@@ -24,8 +24,7 @@ meta:
 
 容器核心技术、容器平台技术、容器支持技术。
 
-![image.png](https://5.z.wiki/autoupload/20230803/8EJ6.664X1334-image.png)
-
+<ImgView title="docker" url="https://5.z.wiki/autoupload/20230803/8EJ6.664X1334-image.png" />
 
 
 #### 容器核心技术
