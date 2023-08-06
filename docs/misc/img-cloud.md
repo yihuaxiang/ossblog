@@ -10,7 +10,7 @@ tags: ["图床", "敖武的图床", "免费图床"]
 
 > 传送门：
 > 
-> 敖武的图床： [https://tuchuang.z.wiki](https://tuchuang.z.wiki/misc/tuchuang.html)
+> 敖武的图床： [敖武的图床](https://playground.z.wiki/img-cloud/index.html)
 
 ### 故事起源
 
@@ -21,7 +21,7 @@ tags: ["图床", "敖武的图床", "免费图床"]
 
 ### 操刀上阵
 
-干脆自己开发一个小图床，地址 [敖武的图床](https://tuchuang.z.wiki/misc/tuchuang.html) 支持一键粘贴、一键复制。
+干脆自己开发一个小图床，地址 [敖武的图床](https://playground.z.wiki/img-cloud/index.html) 支持一键粘贴、一键复制。
 
 <img src="https://z.wiki/images/20220405/a8d7ff1dfad142f69a983e06c2cfd1b6.png" width="100" />
 

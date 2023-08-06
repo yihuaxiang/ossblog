@@ -6,7 +6,7 @@
 
 ### 事儿是酱的
 
-我在开发 [图床](https://tuchuang.z.wiki/misc/tuchuang.html) 的时候，想让上传方可以自行添加水印，
+我在开发 [图床](https://playground.z.wiki/img-cloud/index.html) 的时候，想让上传方可以自行添加水印，
 想到水印，我突然想到，我的博客上的照片可都没水印啊，这可咋整？
 
 <ImgView title="水印保护" url="https://z.wiki/images/20220520/b35f5032e53f457b88dc0ae9440c8785.png" />

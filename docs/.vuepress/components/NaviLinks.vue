@@ -35,7 +35,7 @@ export default {
         desc: '包含js、shell、nginx、java等实用代码片段！',
       }, {
         title: '🖼 敖武的图床',
-        url: 'https://tuchuang.z.wiki/misc/tuchuang.html',
+        url: 'https://playground.z.wiki/img-cloud/index.html',
         desc: '免费图床，上传图片、压缩包等任意文件。',
       }, {
         title: '🔗 短网址服务',
