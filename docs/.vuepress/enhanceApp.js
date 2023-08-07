@@ -356,7 +356,7 @@ export default ({
       // $('.chatroom').toggleClass('chatroom-fold');
       if(!$('.chatroom').hasClass('chatroom-fold')) {
         $('.chatroom').addClass('chatroom-fold');
-        $('.chatroom textarea').focus();
+        $('.chatroom textarea').blur();
         $('.chatroom-tribe').removeClass('current');
         $('.chatroom-item').removeClass('current');
         $('.chatroom-tribes>li').first().addClass('current');
