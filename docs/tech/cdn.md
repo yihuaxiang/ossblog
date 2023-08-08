@@ -73,7 +73,7 @@ done
 #!/bin/bash
 for n in {1..5}
 do
-  avg=`download_time_avg https://1.cdn.z.wiki/autoupload/20230205/kipU.1154X1742-image.png 20`
+  avg=`download_time_avg https://1.z.wiki/autoupload/20230205/kipU.1154X1742-image.png 20`
   echo CDN域名，下载时间： $avg 秒
   total=0;
 done
