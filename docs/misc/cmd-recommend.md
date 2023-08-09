@@ -5,7 +5,7 @@
 `fzf`是一款使用`GO`语言编写的交互式的`Unix`命令行工具。
 可以用来查找任何 列表内容、文件、历史命令、 本机绑定的`host`、 进程、`Git`分支、进程 等。所有的命令行工具可以生成列表输出的都可以再通过管道`pipe`到`fzf`上进行搜索和查找
 
-<ImgView title="fzf" url="https://z.wiki/images/20220318/85ed7eeda5f8490794630145886067fa.gif" />
+<ImgView title="fzf" url="https://8.z.wiki/images/20220318/85ed7eeda5f8490794630145886067fa.gif" />
 
 [github](https://github.com/junegunn/fzf)
 
@@ -97,7 +97,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 轻量级命令行`json`处理器，使用`C`语言开发、零依赖。
 
-<ImgView title="jq" url="https://z.wiki/images/20220319/92902799ed1c44e9bca8fa2cbd9fbc73.png" />
+<ImgView title="jq" url="https://9.z.wiki/images/20220319/92902799ed1c44e9bca8fa2cbd9fbc73.png" />
 
 ```shell
 # centos 安装命令
@@ -111,7 +111,7 @@ brew info jq
 
 命令行`json`查看工具，最大的特点是支持折叠。
 
-<ImgView title="jless" url="https://z.wiki/autoupload/2022-09-14/a7c95bd5fd0546be85cc5c5f5fa33b81.jless-recording.gif" />
+<ImgView title="jless" url="https://5.z.wiki/autoupload/2022-09-14/a7c95bd5fd0546be85cc5c5f5fa33b81.jless-recording.gif" />
 
 ### mycli
 
@@ -123,13 +123,13 @@ brew info jq
 
 终端自动提示工具。
 
-<ImgView title="fig" url="https://z.wiki/images/20220319/6d94bfddc24a48d08b12b6c51144b3b9.gif" />
+<ImgView title="fig" url="https://4.z.wiki/images/20220319/6d94bfddc24a48d08b12b6c51144b3b9.gif" />
 
 ### tig
 
 `git` 提交日志查看工具，以文本形式查看提交历史，[安装方法](https://jonas.github.io/tig/INSTALL.html)
 
-<ImgView title="tig" url="https://z.wiki/images/20220327/e04486b038f64aaab1effc3fe4cdd6ad.png" />
+<ImgView title="tig" url="https://2.z.wiki/images/20220327/e04486b038f64aaab1effc3fe4cdd6ad.png" />
 
 
 ### tldr
@@ -137,14 +137,14 @@ brew info jq
 `tdlr` 是 `Too long, Don't read` 的缩写（太长不读、太长不看），
 可以帮助你快速查看常用命令的使用实例，比如 `tar` 命令，那后面一长串参数谁记得清呢？当然，`linux` 大佬除外。
 
-<ImgView title="tldr" url="https://z.wiki/images/20220327/6b8f1df8617c4b0b8105c3962fe86819.png" />
+<ImgView title="tldr" url="https://3.z.wiki/images/20220327/6b8f1df8617c4b0b8105c3962fe86819.png" />
 
 
 ### zsh-autosuggestions
 
 `zsh`命令自动补全插件`zsh-autosuggestions`
 
-<ImgView title="zsh-autosuggestions" url="https://z.wiki/images/20220327/c049aa1a16774e54a99ef7369a860f55.png" />
+<ImgView title="zsh-autosuggestions" url="https://4.z.wiki/images/20220327/c049aa1a16774e54a99ef7369a860f55.png" />
 
 
 ### cnpm
@@ -156,7 +156,7 @@ brew info jq
 [gck](https://npmjs.com/package/gck) 用于切换分枝的神器
 
 
-<ImgView title="cnpm" url="https://z.wiki/autoupload/20221124/UgEU.352X762-RPReplay_Final1669303784.gif" />
+<ImgView title="cnpm" url="https://9.z.wiki/autoupload/20221124/UgEU.352X762-RPReplay_Final1669303784.gif" />
 
 #### 安装
 

@@ -14,7 +14,7 @@ tags: ["前端", "框架对比", "express", "egg.js", "midway.js", "koa"]
 是 Node.JS 诞生之初，最早出现的一款框架，现在仍然很流行，
 但随着`ECMAScript`的发展（`generator yield`、异步、回调地狱等原因）`express`的创作者开始推荐了`Koa`了。
 
-<ImgView title="前端框架, koa express egg midway.js" url="https://z.wiki/images/20220327/e2442616a29b4fe8a5d3a9ecdf338a35.png" />
+<ImgView title="前端框架, koa express egg midway.js" url="https://9.z.wiki/images/20220327/e2442616a29b4fe8a5d3a9ecdf338a35.png" />
 
 
 ### Koa
@@ -33,7 +33,7 @@ Koa 是一个非常优秀的框架，但同时它也还是一个较为基础的�
 
 然而，一百个开发者可能会有一百种不同的配置、整合。
 
-<ImgView title="前端框架, koa express egg midway.js" url="https://z.wiki/images/20220327/3c027342d0e14401b7bae07b181a45f7.png" />
+<ImgView title="前端框架, koa express egg midway.js" url="https://5.z.wiki/images/20220327/3c027342d0e14401b7bae07b181a45f7.png" />
 
 
 
@@ -49,7 +49,7 @@ Koa 是一个非常优秀的框架，但同时它也还是一个较为基础的�
 4. 扩展:在基于 `Egg` 的框架或者应用中，我们可以通过定义 
 `app/extend/{application}.js` , `app/extend/{context}.js` , `app/extend/{request}.js` , `app/extend/{response}.js` 来扩展 Koa 中对应的四个对象的原型，通过这个功能，我们可以快速的增加更多的辅助方法。
 
-<ImgView title="前端框架, koa express egg midway.js" url="https://z.wiki/images/20220327/eba932cbdfcf4017995ec40742d8fff8.png" />
+<ImgView title="前端框架, koa express egg midway.js" url="https://7.z.wiki/images/20220327/eba932cbdfcf4017995ec40742d8fff8.png" />
 
 ### midway.js
 

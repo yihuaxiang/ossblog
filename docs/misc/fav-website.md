@@ -17,7 +17,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 [http://cn.linux.vbird.org/linux_server/](http://cn.linux.vbird.org/linux_server/)
 
-<ImgView title="鸟哥的`linux`私房菜" url="https://z.wiki/images/20220520/ee8e1cc1fb2a43c08342ca98cc9e5a40.png" />
+<ImgView title="鸟哥的`linux`私房菜" url="https://2.z.wiki/images/20220520/ee8e1cc1fb2a43c08342ca98cc9e5a40.png" />
 
 咳咳，界面很古典
 
@@ -27,14 +27,14 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 [logo制作](https://logoly.pro/)
 
-<ImgView title="logo制作" url="https://z.wiki/images/20220520/cf09003dd1ed4fc0913207c905e95fb5.png" />
+<ImgView title="logo制作" url="https://3.z.wiki/images/20220520/cf09003dd1ed4fc0913207c905e95fb5.png" />
 
 
 ### photopea
 
 在线`PS`，无需下载、安装
 
-<ImgView title="photopea" url="https://z.wiki/autoupload/20230709/3Hjl.2294X3994-image.png" />
+<ImgView title="photopea" url="https://4.z.wiki/autoupload/20230709/3Hjl.2294X3994-image.png" />
 
 ### 表情制作
 
@@ -42,7 +42,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 [表情制作](https://sorry.xuty.tk/wangjingze/)
 
-<ImgView title="表情制作" url="https://z.wiki/images/20220520/91bf5202d0ff4b9e8678592f21823fca.gif" />
+<ImgView title="表情制作" url="https://2.z.wiki/images/20220520/91bf5202d0ff4b9e8678592f21823fca.gif" />
 
 ### 修图神器
 
@@ -51,7 +51,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 [修图神器](https://www.remove.bg/zh)
 
 
-<ImgView title="修图神器" url="https://z.wiki/images/20220520/ea66cb8143a14f35b4dde6a43d8fa581.png" />
+<ImgView title="修图神器" url="https://1.z.wiki/images/20220520/ea66cb8143a14f35b4dde6a43d8fa581.png" />
 
 > `iPhone`升级`iOS 16`后自带移除背景的功能了，赞。
 
@@ -61,7 +61,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 [https://unsplash.com/](https://unsplash.com/)
 
-<ImgView title="随机美图" url="https://z.wiki/images/20220520/987cdbd366724946911c690ad0ef47d9.png" />
+<ImgView title="随机美图" url="https://4.z.wiki/images/20220520/987cdbd366724946911c690ad0ef47d9.png" />
 
 ### 拟人插画
 
@@ -69,7 +69,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 [https://www.manypixels.co/gallery](https://www.manypixels.co/gallery)
 
-<ImgView title="拟人插画" url="https://z.wiki/images/20220520/c6cfecfc628b47dc9079e101936c79eb.png" />
+<ImgView title="拟人插画" url="https://3.z.wiki/images/20220520/c6cfecfc628b47dc9079e101936c79eb.png" />
 
 ### 代码配图
 
@@ -77,7 +77,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 [代码配图](https://carbon.now.sh/)
 
-<ImgView title="代码配图" url="https://z.wiki/images/20220520/10525c34f95e40d4872f89f190880cc6.png" />
+<ImgView title="代码配图" url="https://5.z.wiki/images/20220520/10525c34f95e40d4872f89f190880cc6.png" />
 
 ### explain shell
 
@@ -85,4 +85,4 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 在线`shell`脚本解释网站，能对提供的脚本的每一个参数进行解释。
 
-<ImgView title="explain shell" url="https://z.wiki/autoupload/20230323/mpzq.2528X2592-image.png" />
+<ImgView title="explain shell" url="https://6.z.wiki/autoupload/20230323/mpzq.2528X2592-image.png" />

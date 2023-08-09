@@ -9,7 +9,7 @@ tags: ["uuid", "唯一ID", "全局ID", "guid", "版本"]
 
 # UUID版本指南
 
-<ImgView title="uuid" url="https://z.wiki/autoupload/2022-05-02/6da7a9010ba747ba9fdf0678e55b1643.uuid.drawio.svg" />
+<ImgView title="uuid" url="https://1.z.wiki/autoupload/2022-05-02/6da7a9010ba747ba9fdf0678e55b1643.uuid.drawio.svg" />
 
 这篇文章将介绍`UUID`从`V1`到`V5`的差异以及该如何选择正确的版本。
 
@@ -25,7 +25,7 @@ tags: ["uuid", "唯一ID", "全局ID", "guid", "版本"]
 
 ### UUID 的结构
 
-<ImgView title="uuid" url="https://z.wiki/autoupload/2022-05-02/6da7a9010ba747ba9fdf0678e55b1643.uuid.drawio.svg" />
+<ImgView title="uuid" url="https://2.z.wiki/autoupload/2022-05-02/6da7a9010ba747ba9fdf0678e55b1643.uuid.drawio.svg" />
 
 `UUID`包含`32`个`16`进制数字，分为`5`段，`5`段长度分别为`8`、`4`、`4`、`4`、`12`，中间使用连字符连接。
 
@@ -50,7 +50,7 @@ tags: ["uuid", "唯一ID", "全局ID", "guid", "版本"]
 `UUID-V1` 是通过使用主机 `MAC` 地址和当前日期和时间的组合生成的。除此之外，它还引入了另一个随机组件，以确保其唯一性。
 但是如果使用同一台机器、同时时间生成`UUID`，会有很小的几率重复。
 
-<ImgView title="uuid" url="https://z.wiki/autoupload/2022-05-02/5e3cd31cab884203a2b317f8e92ad146.uuid-v1.drawio.svg" />
+<ImgView title="uuid" url="https://3.z.wiki/autoupload/2022-05-02/5e3cd31cab884203a2b317f8e92ad146.uuid-v1.drawio.svg" />
 
 `UUID-v1`存在的问题是：
 
@@ -69,14 +69,14 @@ tags: ["uuid", "唯一ID", "全局ID", "guid", "版本"]
 `UUID-v3` 通过散列（`MD5`）名字空间（`namespace`）标识符和名称生成。和`V1`、`V2`不同，`V3`不依赖与机器信息和时间信息，
 但是`V3`要求输入命名空间+名称，命名空间本身也是一个`UUID`，用来标识应用环境，名称通常是用户账号、用户名之类的内容，通过命名空间+名称+三列算法算出`UUID`。
 
-<ImgView title="uuid" url="https://z.wiki/autoupload/2022-05-02/e0763e1ca4db43ac90b868a76076e37b.uuid-v3.drawio.svg" />
+<ImgView title="uuid" url="https://5.z.wiki/autoupload/2022-05-02/e0763e1ca4db43ac90b868a76076e37b.uuid-v3.drawio.svg" />
 
 ### V4
 
 `UUID-v4` 组成 `UUID v4` 的位是随机生成的，没有固有逻辑（除了第三段首个数字，该数字标识版本号），不包含命名空间、设备信息、时间信息。
 故，`UUID-v4`最容易理解、应用也最为广泛。
 
-<ImgView title="uuid" url="https://z.wiki/autoupload/2022-05-02/fefb73e8621d455aa20930dcbb7c3a4b.uuid-v4.drawio.svg" />
+<ImgView title="uuid" url="https://4.z.wiki/autoupload/2022-05-02/fefb73e8621d455aa20930dcbb7c3a4b.uuid-v4.drawio.svg" />
 
 `java` 生成 `UUID-V4`
 ```java
@@ -88,7 +88,7 @@ tags: ["uuid", "唯一ID", "全局ID", "guid", "版本"]
 
 `UUID-v5` 和`V3`类似，区别在于散列算法，使用了`sha1`散列算法。
 
-<ImgView title="uuid" url="https://z.wiki/autoupload/2022-05-02/eb11afcbca884332aa8196f92a563c72.uuid-v5.drawio.svg" />
+<ImgView title="uuid" url="https://6.z.wiki/autoupload/2022-05-02/eb11afcbca884332aa8196f92a563c72.uuid-v5.drawio.svg" />
 
 > 注：相同的命名空间、名称，将映射到同一`UUID`，且推荐使用`V5`而非`V3`
 

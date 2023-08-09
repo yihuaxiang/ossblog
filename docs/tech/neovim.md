@@ -179,7 +179,7 @@ export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_mo
 
 `nerd-tree` 是`vim`中的文件管理插件
 
-<ImgView title="neovim nerd-tree" url="https://z.wiki/images/20220203/76de3d0cf73649a496d708f801353b6c.png" />
+<ImgView title="neovim nerd-tree" url="https://4.z.wiki/images/20220203/76de3d0cf73649a496d708f801353b6c.png" />
 
 安装：
 ```shell

@@ -9,13 +9,13 @@
 
 ### 简洁如下
 
-<ImgView title="eu.org 免费域名" url="https://z.wiki/autoupload/20230206/Ka88.1374X2500-image.png" />
+<ImgView title="eu.org 免费域名" url="https://1.z.wiki/autoupload/20230206/Ka88.1374X2500-image.png" />
 
-<ImgView title="eu.org 免费域名" url="https://z.wiki/autoupload/20230206/DMUX.564X1660-image.png" />
+<ImgView title="eu.org 免费域名" url="https://2.z.wiki/autoupload/20230206/DMUX.564X1660-image.png" />
 
 
 ### 申请结果
 
 没想到申请到这么多域名😂
 
-<ImgView title="免费域名 eu.org" url="https://z.wiki/autoupload/20230322/joXS.804X1340-image.png" />
+<ImgView title="免费域名 eu.org" url="https://3.z.wiki/autoupload/20230322/joXS.804X1340-image.png" />
