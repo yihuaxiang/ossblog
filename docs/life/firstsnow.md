@@ -27,18 +27,18 @@ meta:
 
 
 白雪纷飞
-<ImgView title="北京下雪" url="https://z.wiki/images/20211115/73de228197a245d1b8e62397da94353d.png" />
+<ImgView title="北京下雪" url="https://1.z.wiki/images/20211115/73de228197a245d1b8e62397da94353d.png" />
 
 她在丛中笑
-<ImgView title="北京下雪" url="https://z.wiki/images/20211115/eb6e95cc912b46ca8e0a792ee9463089.png" />
+<ImgView title="北京下雪" url="https://2.z.wiki/images/20211115/eb6e95cc912b46ca8e0a792ee9463089.png" />
 
 
 仙女散花
-<ImgView title="北京下雪" url="https://z.wiki/images/20211115/13034135a12344f7898e47c91eb3cfb4.png" />
+<ImgView title="北京下雪" url="https://1.z.wiki/images/20211115/13034135a12344f7898e47c91eb3cfb4.png" />
 
 
 厚厚的白雪
-<ImgView title="北京下雪" url="https://z.wiki/images/20211115/ef6464e0b6814de5b9e1cbd532669b5d.png" />
+<ImgView title="北京下雪" url="https://1.z.wiki/images/20211115/ef6464e0b6814de5b9e1cbd532669b5d.png" />
 
 
 滚雪球
