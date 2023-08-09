@@ -3,7 +3,7 @@
 宝塔`linux`面板是个好东西，在`docker`里面体验了下，方便很多。
 
 
-<ImgView title="宝塔 linux 面板" url="https://z.wiki/autoupload/20230131/LH4e.168X286-image.png" />
+<ImgView title="宝塔 linux 面板" url="https://2.z.wiki/autoupload/20230131/LH4e.168X286-image.png" />
 
 不过，已部署项目的系统中无法使用。
 
