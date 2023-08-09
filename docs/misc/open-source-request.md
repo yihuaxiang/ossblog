@@ -72,3 +72,11 @@ meta:
 
 <ImgView title="Idea 开源License申请" url="https://z.wiki/autoupload/2022-08-29/fbfdbf77dd064af194cf77f785f57365.image.png" />
 
+
+
+### 一年后的续期
+
+![image.png](https://3.z.wiki/autoupload/20230809/lUkb.894X1480-image.png)
+
+时间如梭，一年期限已到，按邮件提示的流程续期~
+
