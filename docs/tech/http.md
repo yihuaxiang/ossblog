@@ -9,7 +9,7 @@ tags: ["http", "网络协议", "解析", "介绍", "前端", "http 协议介绍"
 
 # 浅谈 HTTP 协议
 
-<ImgView title="http 协议" url="https://z.wiki/autoupload/20230221/DJ83.408X581-image.png" />
+<ImgView title="http 协议" url="https://2.z.wiki/autoupload/20230221/DJ83.408X581-image.png" />
 
 ### 介绍
 
@@ -34,7 +34,7 @@ tags: ["http", "网络协议", "解析", "介绍", "前端", "http 协议介绍"
 如网页浏览、电子邮件、文件传输等。`HTTP` `2.0` 版本在 `2015` 年发布，与之前的版本相比，
 `HTTP` `2.0` 提供了更快的数据传输速度和更高的效率，成为现代网络应用的主要协议之一。
 
-<ImgView title="http 协议发展历史" url="https://z.wiki/autoupload/20230212/bfkU.878X2212-image.png" />
+<ImgView title="http 协议发展历史" url="https://2.z.wiki/autoupload/20230212/bfkU.878X2212-image.png" />
 
 
 ### 请求/响应模型
@@ -43,7 +43,7 @@ tags: ["http", "网络协议", "解析", "介绍", "前端", "http 协议介绍"
 
 在 `HTTP` 协议中，客户端是请求方，服务器是响应方。请求的过程是：客户端发送请求到服务器，服务器接收请求并做出响应。
 
-<ImgView title="http 请求/响应模型" url="https://z.wiki/autoupload/20230212/b5we.227X717-image.png" />
+<ImgView title="http 请求/响应模型" url="https://2.z.wiki/autoupload/20230212/b5we.227X717-image.png" />
 
 ### 报文格式
 
@@ -119,7 +119,7 @@ Proxy-Connection: Keep-alive
 
 以上请求、响应可通过[Charles](https://www.charlesproxy.com/)查看
 
-<ImgView title="http请求" url="https://z.wiki/autoupload/20230212/UIZu.2112X2366-image.png" />
+<ImgView title="http请求" url="https://5.z.wiki/autoupload/20230212/UIZu.2112X2366-image.png" />
 
 
 ### 方法
@@ -148,11 +148,11 @@ Proxy-Connection: Keep-alive
 
 例如；`TRACE`方法，由于可能导致安全漏洞，很多服务器（`Apache 2.0`、`Nginx 1.13.9`、`Microsoft IIS 6.0`）默认是将其禁用的。
 
-<ImgView title="http method" url="https://z.wiki/autoupload/20230221/ZdZz.175X211-doutub_gif.gif" />
+<ImgView title="http method" url="https://5.z.wiki/autoupload/20230221/ZdZz.175X211-doutub_gif.gif" />
 
 ### 状态码
 
-<ImgView title="状态码" url="https://z.wiki/autoupload/20230212/jlwI.500X720-image.png" />
+<ImgView title="状态码" url="https://5.z.wiki/autoupload/20230212/jlwI.500X720-image.png" />
 
 `HTTP` 协议的状态码是服务器向客户端返回的状态码，它表示请求的处理结果。状态码由三位数字组成，第一个数字定义了状态码的类别，如下所示：
 
@@ -214,7 +214,7 @@ Proxy-Connection: Keep-alive
 
 这些状态码在日常开发和使用中并不常用，但了解其含义还是有必要的。
 
-<ImgView title="不常见状态码" url="https://z.wiki/autoupload/20230212/gqfx.736X641-状态码.png" />
+<ImgView title="不常见状态码" url="https://5.z.wiki/autoupload/20230212/gqfx.736X641-状态码.png" />
 
 
 ### 常用头字段
@@ -236,7 +236,7 @@ Proxy-Connection: Keep-alive
 
 `text/event-stream`: `Server-Send Events`协议的`MIME`类型，详见[SSE](https://z.wiki/tech/sse.html)
 
-<ImgView title="常用头字段" url="https://z.wiki/autoupload/20230212/eB8s.262X728-image.png" />
+<ImgView title="常用头字段" url="https://7.z.wiki/autoupload/20230212/eB8s.262X728-image.png" />
 
 以上这些仅仅是一些常见的 `HTTP` 响应头，
 实际上还有很多其他类型的 `HTTP` 响应头。
@@ -255,7 +255,7 @@ Proxy-Connection: Keep-alive
 `Cache-Control` 字段提供了更加灵活的缓存策略。
 
 高德交通分析报告官网中的强缓存：
-<ImgView title="强缓存" url="https://z.wiki/autoupload/20230212/7znL.800X3046-image.png" />
+<ImgView title="强缓存" url="https://7.z.wiki/autoupload/20230212/7znL.800X3046-image.png" />
 
 #### 协商缓存
 
@@ -264,7 +264,7 @@ Proxy-Connection: Keep-alive
 判断是否需要更新缓存。协商缓存通过 `HTTP` 响应头中的 `Last-Modified` 和 `ETag` 字段实现。
 
 高德开放平台中的协商缓存：
-<ImgView title="协商缓存" url="https://z.wiki/autoupload/20230212/uoFF.140X2962-image.png" />
+<ImgView title="协商缓存" url="https://7.z.wiki/autoupload/20230212/uoFF.140X2962-image.png" />
 
 正确使用 HTTP 缓存机制，可以显著提高网站的加载速度和用户体验。
 
@@ -278,7 +278,7 @@ Proxy-Connection: Keep-alive
 
 除此之外，还有其他安全问题，如：`XSS`、`CSRF`、`SSRF`等，需要采取相应措施保护。
 
-<ImgView title="安全性" url="https://z.wiki/autoupload/20230212/DpLC.878X1228-web安全.png" />
+<ImgView title="安全性" url="https://7.z.wiki/autoupload/20230212/DpLC.878X1228-web安全.png" />
 
 ### 总结
 

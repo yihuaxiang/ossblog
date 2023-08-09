@@ -9,7 +9,7 @@ meta:
 
 每周都要抢 _***_ ，作为程序员的我怎么能纯人肉抢呢？于是这个脚本应运而生。
 
-<ImgView title="脚本" url="https://z.wiki/autoupload/2022-09-12/be11be625b444277b6c348e12f37a29c.image.png" />
+<ImgView title="脚本" url="https://8.z.wiki/autoupload/2022-09-12/be11be625b444277b6c348e12f37a29c.image.png" />
 
 ### 脚本内容
 
@@ -41,11 +41,11 @@ meta:
 
 打开浏览器控制台，切换到`console`面板，复制以上内容并粘贴进去回车执行即可
 
-<ImgView title="脚本" url="https://z.wiki/autoupload/2022-09-12/929cf03e38e843c3bd8b409e3b475afd.image.png" />
+<ImgView title="脚本" url="https://8.z.wiki/autoupload/2022-09-12/929cf03e38e843c3bd8b409e3b475afd.image.png" />
 
 自此，生产力极大提升
 
-![](https://z.wiki/autoupload/2022-09-12/12fa5566e24c4ceaaadce8271f55827c.红领巾.gif)
+<ImgView title="脚本" url="https://4.z.wiki/autoupload/2022-09-12/12fa5566e24c4ceaaadce8271f55827c.红领巾.gif" />
 
 ### 免责声明
 

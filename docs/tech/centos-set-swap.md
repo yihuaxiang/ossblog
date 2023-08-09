@@ -20,15 +20,15 @@ tags: ["centos", "swap", "交换区", "linux", "性能"]
 
 当我一旦用`idea`得开某个项目的时候整个系统会进去假死状态😳
 
-<ImgView title="gnome" url="https://z.wiki/autoupload/20221129/pQy8.1792X2176-image.png" />
+<ImgView title="gnome" url="https://1.z.wiki/autoupload/20221129/pQy8.1792X2176-image.png" />
 
-<ImgView title="idea" url="https://z.wiki/autoupload/20221129/duWx.1792X2176-image.png" />
+<ImgView title="idea" url="https://1.z.wiki/autoupload/20221129/duWx.1792X2176-image.png" />
 
 一旦进去假死状态，整个服务器便无任何反应（`ssh`无法登陆、`telnet`无法连接、`uptime`监控报`502`）
 
-<ImgView title="系统假死" url="https://z.wiki/autoupload/20221129/fHkd.1060X1898-image.png" />
+<ImgView title="系统假死" url="https://1.z.wiki/autoupload/20221129/fHkd.1060X1898-image.png" />
 
-<ImgView title="监控 502" url="https://z.wiki/autoupload/20221129/TeGc.1326X1338-image.png" />
+<ImgView title="监控 502" url="https://1.z.wiki/autoupload/20221129/TeGc.1326X1338-image.png" />
 
 由于腾讯云无法收集到假死期间的任何日志、监控，想借助监控来排查的方案看来是走不通了😌
 
@@ -47,7 +47,7 @@ tags: ["centos", "swap", "交换区", "linux", "性能"]
 brew install htop
 ```
 
-<ImgView title="htop 查看监控" url="https://z.wiki/autoupload/20221129/vu7o.1990X2484-image.png" />
+<ImgView title="htop 查看监控" url="https://2.z.wiki/autoupload/20221129/vu7o.1990X2484-image.png" />
 
 赫然发现，`swap` 0️⃣😲，`4G`内存本身并不少，但是运行`idea`这样重量级的软件还是有点捉襟见肘，同时没有设置任何交换区
 导致运行既卡死。
@@ -68,7 +68,7 @@ sudo swapon --show
 
 通过`swapon`可以查看已设置的交换区
 
-<ImgView title="查看交换区" url="https://z.wiki/autoupload/20221129/Gmv4.630X1280-image.png" />
+<ImgView title="查看交换区" url="https://2.z.wiki/autoupload/20221129/Gmv4.630X1280-image.png" />
 
 
 如上图，我已经给服务器设置了三块交互区，共计`6.5G`空间
@@ -115,11 +115,11 @@ sudo echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 
 至此，使用`idea`打开任何项目都没问题啦~
 
-<ImgView title="运行 idea" url="https://z.wiki/autoupload/20221129/hlwX.1792X2176-image.png" />
+<ImgView title="运行 idea" url="https://2.z.wiki/autoupload/20221129/hlwX.1792X2176-image.png" />
 
 同时，由于交换区的存在，系统平均内存使用量也有大幅度的下降。
 
-<ImgView title="内存监控 大幅下降" url="https://z.wiki/autoupload/20221129/vlDo.1076X2134-image.png" />
+<ImgView title="内存监控 大幅下降" url="https://2.z.wiki/autoupload/20221129/vlDo.1076X2134-image.png" />
 
 ### 交换区大小
 
