@@ -1,6 +1,6 @@
 # nginx 缓存设置
 
-<ImgView title="nginx 缓存设置" url="https://z.wiki/images/20220430/541461df6dca45498a9960f79f9a7de8.png" />
+<ImgView title="nginx 缓存设置" url="https://1.z.wiki/images/20220430/541461df6dca45498a9960f79f9a7de8.png" />
 
 ### nginx 是什么
 

@@ -19,9 +19,9 @@ tags: ["vim", "neovim", "上古编辑器"]
 
 截止目前（2022-02-03），`neovim `在 `github `上已经有了 50K 的 `star `，而 `vim `具有 26K`star` 
 
-<ImgView title="neovim" url="https://z.wiki/images/20220203/933d2b5126eb4e888ffbd54a4b937797.png" />
+<ImgView title="neovim" url="https://2.z.wiki/images/20220203/933d2b5126eb4e888ffbd54a4b937797.png" />
 
-<ImgView title="neovim" url="https://z.wiki/images/20220203/6c435b23da3747e19681934ebdbe562e.png" />
+<ImgView title="neovim" url="https://2.z.wiki/images/20220203/6c435b23da3747e19681934ebdbe562e.png" />
 
 `Neovim `是 `Vim `的一个雄心勃勃的重构。主要目标是：
 
@@ -56,7 +56,7 @@ yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarc
 yum install -y neovim python3-neovim
 ```
 
-<ImgView title="neovim" url="https://z.wiki/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif" />
+<ImgView title="neovim" url="https://2.z.wiki/images/20220203/50a8b21c9aed4349af93e5a52a8cb6b2.gif" />
 
 <ImgView title="neovim" url="https://4.z.wiki/images/20220203/f8c164e653644520a180a475421236d4.gif" />
 
@@ -107,9 +107,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 无奈，国内的机器没法访问`github`，只能曲线下载了，从`gitee`找到对应的项目 [gitee fzf](https://gitee.com/yzymickey/fzf?_from=gitee_search)
 
-<ImgView title="neovim" url="https://z.wiki/images/20220203/ac739d17ec2f4797ac5badbcbae8251b.png" />
+<ImgView title="neovim" url="https://2.z.wiki/images/20220203/ac739d17ec2f4797ac5badbcbae8251b.png" />
 
-<ImgView title="neovim" url="https://z.wiki/images/20220203/892222cc5823444ebf5f0409ccb3a174.png" />
+<ImgView title="neovim" url="https://2.z.wiki/images/20220203/892222cc5823444ebf5f0409ccb3a174.png" />
 
 
 
@@ -129,7 +129,7 @@ source ~/.bashrc
 
 FZF 命令行使用效果如下：
 
-<ImgView title="neovim" url="https://z.wiki/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif" />
+<ImgView title="neovim" url="https://5.z.wiki/images/20220203/a6a3e01357eb4752aa76d1c5f7265cf0.gif" />
 
 截至目前我们已经安装了了`fzf`，但是尚未和`nvim`建立任何整合，整合则需要借助 `fzf.vim` 插件
 
@@ -169,7 +169,7 @@ export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_mo
 
 运行效果如下：
 
-<ImgView title="neovim 文件内容搜索" url="https://z.wiki/images/20220203/fbc3b5b87e5b467392d4942ccc48c154.gif" />
+<ImgView title="neovim 文件内容搜索" url="https://7.z.wiki/images/20220203/fbc3b5b87e5b467392d4942ccc48c154.gif" />
 
 
 通过 `iTerms` 设置快捷键 `Command+Shift+F`进行全局搜索，效果杠杆的~

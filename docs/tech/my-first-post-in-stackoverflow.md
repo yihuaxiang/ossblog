@@ -11,7 +11,7 @@ tags: ["ANSI", "ANSI 转义序列", "ANSI escape code"]
 
 > 云构建就是讲本地构建移植到云上，需要在前端实时显示日志
 
-<ImgView title="[36m 是什么" url="https://z.wiki/images/20220408/36a762a83c3b4555b28262ef2105ca32.png" />
+<ImgView title="[36m 是什么" url="https://8.z.wiki/images/20220408/36a762a83c3b4555b28262ef2105ca32.png" />
 
 ```shell
 2022-04-08 21:48:35[36m⠙[39m [0/43] Installing vue-template-compiler@^2.6.5
@@ -38,7 +38,7 @@ tags: ["ANSI", "ANSI 转义序列", "ANSI escape code"]
 
 感觉像是某种特殊字符，想百度下，却又无从下手，实在想不出来该搜索什么关键字
 
-<ImgView title="[36m 是什么" url="https://z.wiki/images/20220408/5b383319d9524e9e97b855f3b9f5decb.png" />
+<ImgView title="[36m 是什么" url="https://8.z.wiki/images/20220408/5b383319d9524e9e97b855f3b9f5decb.png" />
 
 ### 献出我的一血
 
@@ -46,7 +46,7 @@ tags: ["ANSI", "ANSI 转义序列", "ANSI escape code"]
 
 [What does "\[0;31m" means?](https://stackoverflow.com/questions/71796687/what-does-031m-means)
 
-<ImgView title="Stack Overflow" url="https://z.wiki/images/20220408/2ffdf2d3a8b74c85b8d45bc6409d4fe4.png" />
+<ImgView title="Stack Overflow" url="https://8.z.wiki/images/20220408/2ffdf2d3a8b74c85b8d45bc6409d4fe4.png" />
 
 ### 探索真相
 
@@ -65,7 +65,7 @@ tags: ["ANSI", "ANSI 转义序列", "ANSI escape code"]
 print "\u001b[31mHelloWorld"
 ```
 
-<ImgView title="富文本" url="https://z.wiki/images/20220408/36470f8dd8e74e25b1eebe9e31ec0bfe.png" />
+<ImgView title="富文本" url="https://8.z.wiki/images/20220408/36470f8dd8e74e25b1eebe9e31ec0bfe.png" />
 
 
 其中含义如下：
@@ -92,7 +92,7 @@ print "\u001b[30m A \u001b[31m B \u001b[32m C \u001b[33m D \u001b[0m"
 print "\u001b[34m E \u001b[35m F \u001b[36m G \u001b[37m H \u001b[0m"
 ```
 
-<ImgView title="富文本" url="https://z.wiki/images/20220408/4c5e43a7339c4d80a9ad50f018710118.png" />
+<ImgView title="富文本" url="https://8.z.wiki/images/20220408/4c5e43a7339c4d80a9ad50f018710118.png" />
 
 
 除了以上 8 中基础颜色，大多数终端还支持**加亮**、**粗体**等配色或显示效果，并在原来代码后面多了`;1`这个标志。
@@ -139,7 +139,7 @@ print "\u001b[44m A \u001b[45m B \u001b[46m C \u001b[47m D \u001b[0m";
 print "\u001b[40;1m A \u001b[41;1m B \u001b[42;1m C \u001b[43;1m D \u001b[0m";
 print "\u001b[44;1m A \u001b[45;1m B \u001b[46;1m C \u001b[47;1m D \u001b[0m";
 ```
-<ImgView title="shell" url="https://z.wiki/images/20220408/a66e9aeac6794c28832e2dfac60be5a4.png" />
+<ImgView title="shell" url="https://3.z.wiki/images/20220408/a66e9aeac6794c28832e2dfac60be5a4.png" />
 
 测试例子二如下：
 ```shell
@@ -205,7 +205,7 @@ function _showcolor256_bg() {
 showcolors256
 ```
 
-<ImgView title="shell show color 256" url="https://z.wiki/images/20220413/919d8511629e4d2d999704b1d34b0ee7.png" />
+<ImgView title="shell show color 256" url="https://3.z.wiki/images/20220413/919d8511629e4d2d999704b1d34b0ee7.png" />
 
 
 
@@ -276,7 +276,7 @@ echo ""
 
 运行效果如下：
 
-<ImgView title="shell loading" url="https://z.wiki/images/20220408/1ceac5fd91294989b9cc7fdd09dffbf0.gif" />
+<ImgView title="shell loading" url="https://3.z.wiki/images/20220408/1ceac5fd91294989b9cc7fdd09dffbf0.gif" />
 
 
 通过不断将光标左移 1000 个字符从而实现后打印的字符覆盖前打印的字符。
@@ -321,7 +321,7 @@ echo ""
 
 如果前端在显示日志的时候能支持这些控制指令的话，那最终效果将和在终端安装依赖类似：安装进度不断在同一行刷新刷新刷新...
 
-<ImgView title="shell" url="https://z.wiki/images/20220408/1f6b8d5b24e948c29aad2df3035b5e40.gif" />
+<ImgView title="shell" url="https://3.z.wiki/images/20220408/1f6b8d5b24e948c29aad2df3035b5e40.gif" />
 
 
 
