@@ -1,6 +1,6 @@
 # 重温8年前写的聊天室
 
-附上链接 [聊天室](https://chat.weizeling.com/)
+附上链接 [聊天室](https://chat.z.wiki/)
 
 [代码](https://github.com/yihuaxiang/nodejs_chat)
 
@@ -12,13 +12,13 @@
 
 <ImgView title="聊天室" url="https://2.z.wiki/images/20220206/ced6e3cb4b44482aae45087e92161811.png" />
 
-[音乐播放器](https://chat.weizeling.com/player)
+[音乐播放器](https://chat.z.wiki/player)
 
 还有如此简陋的聊天室😂
 
 <ImgView title="聊天室" url="https://2.z.wiki/images/20220206/b10f53ed62e54c0ebff4b4ac592c4e08.png" />
 
- [聊天室](https://chat.weizeling.com/)
+ [聊天室](https://chat.z.wiki/)
 
 真的喜极而泣🤡
 
