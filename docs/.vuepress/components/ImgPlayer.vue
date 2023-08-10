@@ -4,7 +4,7 @@
     <template v-for="(img,index) in imgs">
       <swiper-slide :key="`${img}-${index}`">
         <template v-if="typeof img === 'string'">
-          <img :src="img" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." />
+          <img :src="img" loading="lazy" title="敖武的博客-照片" alt="照片加载中..." onerror="this.onerror=null;this.src='https://z.wiki/autoupload/20230717/PXa0.image-failed-filled_(1).svg'" />
         </template>
         <template v-else>
           <ImgWithTitle :img="img" />

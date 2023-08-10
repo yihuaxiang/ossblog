@@ -3,7 +3,7 @@
   <swiper class="swiper" :options="swiperOption">
     <template v-for="(img,index) in imgs">
       <swiper-slide :key="`${img}-${index}`">
-        <img :src="img" loading="lazy" />
+        <img :src="img" loading="lazy" onerror="this.onerror=null;this.src='https://z.wiki/autoupload/20230717/PXa0.image-failed-filled_(1).svg'" />
       </swiper-slide>
     </template>
     <div class="swiper-pagination" slot="pagination"></div>
