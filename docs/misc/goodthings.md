@@ -28,24 +28,24 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 常用功能
 * 数学计算
 
-<ImgView title="alfred" url="https://z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png" />
+<ImgView title="alfred" url="https://0.z.wiki/autoupload/2022-05-02/eaaba6b40de44a8aa1f134f2b891dd76.image.png" />
 
 * 程序启动
 
-<ImgView title="程序启动" url="https://z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png" />
+<ImgView title="程序启动" url="https://0.z.wiki/autoupload/2022-05-02/9688bb111e794952ae35b16cda9e2904.image.png" />
 
 * 搜索（本地搜索、网络搜索）
 * 翻译
 
-<ImgView title="翻译" url="https://z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png" />
+<ImgView title="翻译" url="https://0.z.wiki/autoupload/2022-05-02/605273ed05d843f6a3e63299529a2aea.image.png" />
 
 * 自定义插件
 
-<ImgView title="自定义插件" url="https://z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png" />
+<ImgView title="自定义插件" url="https://0.z.wiki/autoupload/2022-05-02/5824d383c3be4c94bb2d0f1c9aefd041.image.png" />
 
 * 编码、解码
 
-<ImgView title="解码" url="https://z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png" />
+<ImgView title="解码" url="https://1.z.wiki/autoupload/2022-05-02/e48741002f5c41b389ef4a869d3e545d.image.png" />
 
 [下载地址](https://www.alfredapp.com/)
 
@@ -59,7 +59,7 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 并能够自动重新连接断开的连接。它还支持通过 `RPC` 接口来进行远程控制和管理，
 基于 `RPC` 接口又衍生出了 `WebUI-Aria2` 这个项目，可以可视化的进行下载管理。
 
-<ImgView title="aria2" url="https://z.wiki/autoupload/20230604/k4QQ.856X1554-image.png" />
+<ImgView title="aria2" url="https://1.z.wiki/autoupload/20230604/k4QQ.856X1554-image.png" />
 
 ### brew
 包管理工具，支持`macOS`和`Linux`系统。
@@ -79,11 +79,11 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 ### Popclip
 鼠标拓展小工具，当选中文本后会自动弹出操作框，支持复制、粘贴、大小写转换、单词计数、搜词等诸多功能。
 
-<ImgView title="Popclip" url="https://z.wiki/images/20220317/68a45b525b93406e964904c2e782ae6c.png" />
+<ImgView title="Popclip" url="https://1.z.wiki/images/20220317/68a45b525b93406e964904c2e782ae6c.png" />
 
 支持安装多种扩展程序，如下图：
 
-<ImgView title="Popclip" url="https://z.wiki/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png" />
+<ImgView title="Popclip" url="https://1.z.wiki/images/20220317/38752814af6b47f2a1dfe559a4386f2a.png" />
 
 
 ### 1Password
@@ -127,7 +127,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 全局激活某个 app 的快捷键设置程序
 
-<ImgView title="thor launcher" url="https://z.wiki/images/20220123/3f659b2ae9454def86b92a8223cf9f5d.png" />
+<ImgView title="thor launcher" url="https://3.z.wiki/images/20220123/3f659b2ae9454def86b92a8223cf9f5d.png" />
 
 
 ### iTerm2
@@ -137,7 +137,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 喜欢`iTerm2`的一个重要原因就是它支持快捷键绑定，如下图：
 
-<ImgView title="iTerm2" url="https://z.wiki/images/20220317/2b9b39dd89fc408a9b71a7d155c3f94b.png" />
+<ImgView title="iTerm2" url="https://3.z.wiki/images/20220317/2b9b39dd89fc408a9b71a7d155c3f94b.png" />
 
 当我按下`Command+/`时，`iTerm2`会自动输入`,cc`,在`vim`编辑文件的时候自动将当前行给注释掉。从而实现类似`VS Code`、`idea`很多相同的快捷键。
 
@@ -150,7 +150,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 1. 基于密钥的认证
 
-<ImgView title="sshpass" url="https://z.wiki/images/20220322/ed6739bed9534abcb32510b71ac9a94d.png" />
+<ImgView title="sshpass" url="https://3.z.wiki/images/20220322/ed6739bed9534abcb32510b71ac9a94d.png" />
 
 2. sshpass
 
@@ -163,7 +163,7 @@ Beyond Compare中文版是一款专业的文本文件对比工具,可以高效�
 
 Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体验和效率提升很大。用快捷键 command + 数字（0-9）启动/唤起Dock对应的程序。
 
-<ImgView title="snap" url="https://z.wiki/images/20220330/6a64681197f849388e3e3c79660f1630.png" />
+<ImgView title="snap" url="https://3.z.wiki/images/20220330/6a64681197f849388e3e3c79660f1630.png" />
 
 右侧`option`键一般用不到，故通过`karabiner`将右侧`option`改成了`command`键，通过右侧`option`+数字启动/唤起Dock对应的程序。
 
@@ -174,7 +174,7 @@ Snap是一款快速启动程序的插件App， 功能虽小，但是对开发体
 
 通过`LightProxy`用户可以快速进行转包、修改包，解决开发过程中的各个拦路虎。
 
-<ImgView title="LightProxy" url="https://z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png" />
+<ImgView title="LightProxy" url="https://3.z.wiki/images/20220330/bdb51ebd3fb94a479cad74fb631bd68e.png" />
 
 1. 下载链接：[github/alibaba/lightproxy](https://github.com/alibaba/lightproxy/releases)
 2. 国内下载：[LightPxory](https://z.wiki/autoupload/2022-09-14/57a22caeb1b24568bd5a588f1062c5e2.LightProxy.app.zip)
@@ -211,14 +211,14 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 本地`mock API`服务，搭配`LightProxy`成为前端开发利剑。
 
-<ImgView title="mockoon" url="https://z.wiki/images/20220331/94ae7c76fd8549aab17783f47c997328.png" />
+<ImgView title="mockoon" url="https://5.z.wiki/images/20220331/94ae7c76fd8549aab17783f47c997328.png" />
 
 
 ### Go2Shell
 
 `Go2Shell`是`Finder`的一个扩展软件，正如其名字描述的那样，`Go2Shell`支持在`Finder`中一键使用终端打开当前目录。终端爱好者必备良器。
 
-<ImgView title="Go2Shell" url="https://z.wiki/autoupload/2022-04-23/287920b1229e42af8043f32bd3f17212.image.png" />
+<ImgView title="Go2Shell" url="https://5.z.wiki/autoupload/2022-04-23/287920b1229e42af8043f32bd3f17212.image.png" />
 
 ### TotalFinder
 
@@ -226,7 +226,7 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 `TotalFinder` 是`Mac`上一款好用的`Finder`增强工具，`TotalFinder` 提供了多标签式浏览、拷贝路径、剪切文件、显示隐藏文件、多栏窗口模式、彩色标签等功能。
 
-<ImgView title="TotalFinder" url="https://z.wiki/images/20220423/2a2589b2a18d4682acdcd14d667e8206.png" />
+<ImgView title="TotalFinder" url="https://5.z.wiki/images/20220423/2a2589b2a18d4682acdcd14d667e8206.png" />
 
 ### 超级右键
 
@@ -241,7 +241,7 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 轻量级录屏工具，下载地址[LICEcap](https://www.macupdate.com/app/mac/49461/licecap)
 
-<ImgView title="LICEcap" url="https://z.wiki/images/20220501/dbfba0970e4643e897470b7a21c81c65.png" />
+<ImgView title="LICEcap" url="https://5.z.wiki/images/20220501/dbfba0970e4643e897470b7a21c81c65.png" />
 
 
 ### drawio-desktop
@@ -254,19 +254,19 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 和其他绘图工具相比，`PDDON`最大的特点是支持手绘风格、支持一键美化。
 
-![PDDON](https://9.z.wiki/autoupload/20230809/DY3A.926X1374-image.png)
+<ImgView title="PDDON" url="https://9.z.wiki/autoupload/20230809/DY3A.926X1374-image.png" />
 
 ### Clipboard Viewer
 
 剪切板查看软件，当你复制的时候，剪切板内存的并不是一个内容，而是多个，有普通文本、有`html`、有二进制文件等等，通过`Clipboard Viewer`能更深入的了解剪切板。
 
-<ImgView title="Clipboard Viewer" url="https://z.wiki/autoupload/2022-10-31/47088f002301463f83bfbef6dc64cf3d.image.png" />
+<ImgView title="Clipboard Viewer" url="https://5.z.wiki/autoupload/2022-10-31/47088f002301463f83bfbef6dc64cf3d.image.png" />
 
 > 复制粘贴也不是人人都懂啊 [语雀如何自动将粘贴的内容识别为代码块？](https://z.wiki/u/Cp8Rgl)
 
 ### squid
 
-<ImgView title="squid 代理服务" url="https://z.wiki/autoupload/20230425/GiIr.1888X1882-image.png" />
+<ImgView title="squid 代理服务" url="https://5.z.wiki/autoupload/20230425/GiIr.1888X1882-image.png" />
 
 `Squid`是一种高性能的代理服务器软件，它可以帮助减少网络流量、提高访问速度并增加安全性。
 `Squid`可以作为`HTTP`、`HTTPS`、`FTP`等多种协议的代理服务器，同时支持缓存、访问控制、日志记录等多种功能。
