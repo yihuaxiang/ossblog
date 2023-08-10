@@ -10,12 +10,12 @@
 
 自卖自夸一下😂
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/2d22e40dd1f94fcabc623a7a17b79274.png" />
+<ImgView title="karabiner" url="https://5.z.wiki/images/20220124/2d22e40dd1f94fcabc623a7a17b79274.png" />
 
 
 最近发现`Google chrome`支持了原生的"标签选择"功能
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/9ee6318c08fe407d9dd9a35e9e7e1da8.png" />
+<ImgView title="karabiner" url="https://5.z.wiki/images/20220124/9ee6318c08fe407d9dd9a35e9e7e1da8.png" />
 
 
 针不戳、针不戳
@@ -37,11 +37,11 @@
 1. 系统设置 - 键盘
 通过添加各种"App 快捷键"来设定
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/555859898b0947e4a8bfee99984a2945.png" />
+<ImgView title="karabiner" url="https://5.z.wiki/images/20220124/555859898b0947e4a8bfee99984a2945.png" />
 
 如图：我为`keynote`的多种图形设置了快捷键，然而这种方案有一个硬性要求：要求改功能在软件菜单栏中有对应的按钮
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/7aeb4d916298435b96e5ebd4baf47280.png" />
+<ImgView title="karabiner" url="https://5.z.wiki/images/20220124/7aeb4d916298435b96e5ebd4baf47280.png" />
 
 
 犯难了，找了半天，没找到`Google chrome`中和"标签选择"相关的按钮
@@ -64,7 +64,7 @@ karabiner 中我常用的功能分三种，如下
 
 如下图：一般我习惯使用左侧的`Command`键，右侧基本用不到，所以干脆映射成了`Option`键，通过`Option+数字`来切换程序坞中的应用
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/8d1c7916e08540798798422447f825f6.png" />
+<ImgView title="karabiner" url="https://4.z.wiki/images/20220124/8d1c7916e08540798798422447f825f6.png" />
 
 
 
@@ -74,7 +74,7 @@ karabiner 中我常用的功能分三种，如下
 
 如下图：将 F1、F2、F3 等功能键映射为各种功能
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/cdf8070f0a4041d492370a1e76a42f1f.png" />
+<ImgView title="karabiner" url="https://4.z.wiki/images/20220124/cdf8070f0a4041d492370a1e76a42f1f.png" />
 
 #### 复杂映射（Complex modifications）
 
@@ -84,7 +84,7 @@ karabiner 中我常用的功能分三种，如下
 
 点击下图红框即可打开配置市场，搜索合适的脚本
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/d1e3a96ef3214a5ebf4ffbc99fafa165.png" />
+<ImgView title="karabiner" url="https://4.z.wiki/images/20220124/d1e3a96ef3214a5ebf4ffbc99fafa165.png" />
 
 [Karabiner-Elements complex_modifications rules](https://ke-complex-oss-process=style/z.wiki)
 
@@ -96,7 +96,7 @@ karabiner 中我常用的功能分三种，如下
 
 任意选一个规则，点击"Edit JSON"，打开配置的网站
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/260e7e8f4df14819acc94dc6e607b65a.png" />
+<ImgView title="karabiner" url="https://3.z.wiki/images/20220124/260e7e8f4df14819acc94dc6e607b65a.png" />
 
 也可以点此直接进入：[Karabiner Complex Modification](https://genesy.github.io/karabiner-complex-oss-process=style/z.wiki)
 
@@ -113,15 +113,15 @@ karabiner 中我常用的功能分三种，如下
 
 1. 触发条件
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/c62af2f1745b4715bd1c870e41df3a90.png" />
+<ImgView title="karabiner" url="https://3.z.wiki/images/20220124/c62af2f1745b4715bd1c870e41df3a90.png" />
 
 2. 模拟触发目标
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/8cd27fa984bc4b959a4dfd7e310d337d.png" />
+<ImgView title="karabiner" url="https://3.z.wiki/images/20220124/8cd27fa984bc4b959a4dfd7e310d337d.png" />
 
 3. 条件，仅限谷歌浏览器，避免对其他软件造成干扰
 
-<ImgView title="karabiner" url="https://z.wiki/images/20220124/32b80281c85143e997618cf555e5f223.png" />
+<ImgView title="karabiner" url="https://3.z.wiki/images/20220124/32b80281c85143e997618cf555e5f223.png" />
 
 上图中`com.google.Chrome`为谷歌浏览器的标识，那如何知道谷歌浏览器的标识的呢？
 
