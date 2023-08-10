@@ -8,7 +8,7 @@ meta:
 # 交通分析报告
 
 <a href="https://report.amap.com/download.do" target="_blank">
-  <ImgView title="交通分析报告" url="https://z.wiki/autoupload/20221201/Qq0n.1726X2476-image.png" />
+  <ImgView title="交通分析报告" url="https://5.z.wiki/autoupload/20221201/Qq0n.1726X2476-image.png" />
 </a>
 
 [2022年度中国主要城市交通分析报告](https://z.wiki/autoupload/20230204/IsdA.2022年度中国主要城市交通分析报告final.pdf)
