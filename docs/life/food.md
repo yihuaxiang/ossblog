@@ -24,7 +24,7 @@ meta:
 <ImgView title="鲜肉包" url="https://4.z.wiki/images/20211115/f6e53308df394601814a80bfa083f863.png" />
 
 ### 红烧土豆排骨 
-<ImgView title="红烧土豆排骨" url="https://z.wiki/images/20220527/7465e0686155470a8c36859548774d5f.png?x-oss-process=image/resize,w_800/quality,q_80" />
+<ImgView title="红烧土豆排骨" url="https://8.z.wiki/images/20220527/7465e0686155470a8c36859548774d5f.png?x-oss-process=image/resize,w_800/quality,q_80" />
 
 ### 五福家庭餐
 <ImgView title="五福家庭餐" url="https://2.z.wiki/images/20220527/b55d1426a130495a803c41b34cbac356.png?x-oss-process=image/resize,w_800/quality,q_80" />
@@ -71,9 +71,9 @@ meta:
 ### 酱肉包
 <ImgView title="酱肉包" url="https://4.z.wiki/images/20220213/eef59dfcbe32498faa3d4ae3860f50fa.png" />
 
-<ImgView title="酱肉包" url="https://z.wiki/images/20220213/e70995bb005549c2b1797eaec13a7191.png" />
+<ImgView title="酱肉包" url="https://2.z.wiki/images/20220213/e70995bb005549c2b1797eaec13a7191.png" />
 
 ### 意面
 
-<ImgView title="意面" url="https://z.wiki/images/20220219/e509255f14384acc81f72576d69821e5.png" />
+<ImgView title="意面" url="https://9.z.wiki/images/20220219/e509255f14384acc81f72576d69821e5.png" />
 
