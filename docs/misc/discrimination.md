@@ -7,7 +7,7 @@
 > 是针对特定族群的成员，仅由于其身份或归类，而非个人特质，给予不同且较差的对待，包含负面眼光的对待。像是国家、地区、肤色、种族、宗教、性别、性向、阶级、贫富、教育、职业和年龄等不同性质的层面中都可能会产生不同程度的歧视。
 > 
 
-<ImgView title="歧视" url="https://z.wiki/images/20220226/187658ac8da045329de394e43438c620.png" />
+<ImgView title="歧视" url="https://5.z.wiki/images/20220226/187658ac8da045329de394e43438c620.png" />
 
 ### 常见案例
 
@@ -29,7 +29,7 @@
 
 好多地方出台规定说，女性可以请“痛经假”，“痛经假”的出台本意是为了保护女性职工的权益，而事实上有可能成为就业障碍。
 
-<ImgView title="歧视" url="https://z.wiki/images/20220226/a254a48fbb024c9f9aec759d1b1b1e8a.png" />
+<ImgView title="歧视" url="https://5.z.wiki/images/20220226/a254a48fbb024c9f9aec759d1b1b1e8a.png" />
 
 看上去是保护妇女权益，但国家给补贴吗？用人单位又不傻，这种情况下明显雇佣男性更划算。
 
@@ -58,7 +58,7 @@
 
 [习五一的微博](https://weibo.com/1442246695/Lh5g5dzCE)
 
-<ImgView title="歧视" url="https://z.wiki/images/20220226/1d4c1f791ad74a8c89d817deef83ed2f.png" />
+<ImgView title="歧视" url="https://5.z.wiki/images/20220226/1d4c1f791ad74a8c89d817deef83ed2f.png" />
 
 
 
@@ -85,4 +85,4 @@
 
 此外：中国的少数民族高考加分政策也是此类种族逆向歧视。
 
-<ImgView title="歧视" url="https://z.wiki/images/20220226/82771cb600384118bd60cd96cd0b2327.png" />
+<ImgView title="歧视" url="https://5.z.wiki/images/20220226/82771cb600384118bd60cd96cd0b2327.png" />
