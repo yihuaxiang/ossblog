@@ -100,3 +100,4 @@ add_header Cache-Control "public, max-age=120";
 
 1. [http 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
 2. [nginx 添加 header](https://snippets.z.wiki/#!./snippets/nginx/nginx-header/)
+
