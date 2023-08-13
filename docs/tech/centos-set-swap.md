@@ -142,4 +142,3 @@ sudo rm /swapfile
 
 `gnome`： [gnome.org](https://www.gnome.org/)
 
-
