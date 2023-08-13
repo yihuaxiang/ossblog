@@ -92,7 +92,7 @@ sudo chmod 600 /swapfile
 #### 激活交换区
 
 ```shell
-sudo mkswap
+sudo mkswap /swapfile
 sudo swapon /swapfile
 ```
 
