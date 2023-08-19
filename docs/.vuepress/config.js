@@ -305,6 +305,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'mvn',
         'tuchuang-upgrade',
         'debian',
         'the-nature-of-management',
