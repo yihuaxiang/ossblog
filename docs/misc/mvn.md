@@ -2,7 +2,7 @@
 
 打开 `maven` 的配置文件（ `windows` 机器一般在 `maven` 安装目录的 `conf/settings.xml` ），在`<mirrors></mirrors>`标签中添加 `mirror` 子节点:
 
-```
+```xml
 <mirror>
   <id>aliyunmaven</id>
   <mirrorOf>*</mirrorOf>
@@ -14,7 +14,7 @@
 
 修改远程仓库可在`pom.xml`中的`<repositories></repositories>`节点中加入对应的仓库使用地址。
 
-```
+```xml
 <repository>
   <id>central</id>
   <url>https://maven.aliyun.com/repository/central</url>
