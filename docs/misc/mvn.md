@@ -27,3 +27,10 @@
 </repository>
 ```
 
+`central`和`public`两个仓库的区别如下：
+
+
+|   仓库  | 源地址  |
+|  ----  | ----  |
+| central  | https://repo1.maven.org/maven2/ |
+| public  | central仓和jcenter仓的聚合仓 |
