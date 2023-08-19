@@ -68,11 +68,16 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 ```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# 或国内镜像
+
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
 > 注1：如果通过以上脚本安装失败的话可以从[releases](https://github.com/Homebrew/brew/releases)中下载最新版本，里面包含可执行文件。
 
 > 注2：通过`brew`安装程序时默认每次都会进行更新，如果需要关闭可以通过设置`export HOMEBREW_NO_AUTO_UPDATE=true`来取消更新。
+
 
 
 
