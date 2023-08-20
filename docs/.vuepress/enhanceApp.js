@@ -38,8 +38,7 @@ export default ({
         // 代码片段模块，有服务端路由控制
         typeof globalThis == 'object' && globalThis.location && globalThis.location.assign(to.path);
       } else {
-        // four-zero-four 404 页面
-        next("/fzf.html");
+        next("/notfound.html");
       }
     } else {
       next();
