@@ -191,6 +191,7 @@ module.exports = {
         items: [
           {text: '系统镜像', link: 'https://z.wiki/resource/system-mirror-iso.html'},
           {text: '破解软件', link: 'https://z.wiki/resource/apps.html'},
+          {text: '电子书', link: 'https://z.wiki/resource/ebooks.html'},
         ]
       },
       {text: '生活', link: '/life/'},
