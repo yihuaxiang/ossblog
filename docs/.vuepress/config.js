@@ -249,6 +249,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'weight',
         'tianjin',
         'zelda',
         'sanguo',
