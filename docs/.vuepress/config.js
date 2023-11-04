@@ -183,6 +183,8 @@ module.exports = {
           {text: '实验室', link: 'https://z.wiki/jsbin/'},
           {text: '短网址', link: 'https://z.wiki/misc/short-url.html'},
           {text: 'adcode 查询', link: 'https://playground.z.wiki/lbs/showCityInfo'},
+          {text: '在线画图', link: 'https://hua.ps.ooo'},
+          {text: '在线PS', link: 'https://ps.ooo/'},
         ]
       },
       {
