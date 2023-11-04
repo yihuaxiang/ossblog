@@ -185,6 +185,7 @@ module.exports = {
           {text: 'adcode 查询', link: 'https://playground.z.wiki/lbs/showCityInfo'},
           {text: '在线画图', link: 'https://hua.ps.ooo'},
           {text: '在线PS', link: 'https://ps.ooo/'},
+          {text: '文心一言', link: 'https://yiyan.baidu.com/'},
         ]
       },
       {
