@@ -253,6 +253,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'turtledove',
         'sla-compensation',
         'weight',
         'tianjin',
