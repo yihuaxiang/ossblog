@@ -18,6 +18,7 @@ meta:
   <a target="_blank" href="https://weibo.com/u/2558497932" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg" title="敖武的微博" /></a>
   <a target="_blank" href="https://github.com/yihuaxiang" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg" title="敖武的github" /></a>
   <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="z.wiki 的服务状态" /></a>
+  <a target="_blank" href="https://1.z.wiki/autoupload/20231209/2Vsb.1164X1122-IMG_1279.JPG"><img src="https://z.wiki/autoupload/20231209/rt4Z.%E5%BE%AE%E4%BF%A1-%E5%85%AC%E4%BC%97%E5%8F%B7-0ac261.svg" title="敖武的博客 公众号" /></a>
 </div>
 
 本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki)。
