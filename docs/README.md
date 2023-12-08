@@ -13,10 +13,16 @@ meta:
   <img title="敖武的头像" alt="敖武的头像" src="https://z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG" style="width: 40px;height: 40px; border-radius: 8px;">
 </p>
 
+<style>
+.links > a {
+  margin-right: 15px;
+}
+</style>
+
 
 <div class="links" style="display: flex;">
-  <a target="_blank" href="https://weibo.com/u/2558497932" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg" title="敖武的微博" /></a>
-  <a target="_blank" href="https://github.com/yihuaxiang" style="margin-right: 15px;"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg" title="敖武的github" /></a>
+  <a target="_blank" href="https://weibo.com/u/2558497932"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/weibo.svg" title="敖武的微博" /></a>
+  <a target="_blank" href="https://github.com/yihuaxiang"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/github.svg" title="敖武的github" /></a>
   <a target="_blank" href="https://stats.uptimerobot.com/jM7p3TY1ng"><img src="https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/shieldio/uptime.svg" title="z.wiki 的服务状态" /></a>
   <a target="_blank" href="https://1.z.wiki/autoupload/20231209/2Vsb.1164X1122-IMG_1279.JPG"><img src="https://z.wiki/autoupload/20231209/rt4Z.%E5%BE%AE%E4%BF%A1-%E5%85%AC%E4%BC%97%E5%8F%B7-0ac261.svg" title="敖武的博客 公众号" /></a>
 </div>
