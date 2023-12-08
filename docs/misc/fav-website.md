@@ -91,4 +91,6 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 支持动态徽章、静态徽章，非常漂亮
 
+<ImgView title="徽章制作" url="https://5.z.wiki/autoupload/20231209/tMrU.236X1054-image.png" />
+
 [shields.io](https://shields.io/)
