@@ -86,3 +86,9 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 在线`shell`脚本解释网站，能对提供的脚本的每一个参数进行解释。
 
 <ImgView title="explain shell" url="https://6.z.wiki/autoupload/20230323/mpzq.2528X2592-image.png" />
+
+### 徽章制作
+
+支持动态徽章、静态徽章，非常漂亮
+
+[shields.io](https://shields.io/)
