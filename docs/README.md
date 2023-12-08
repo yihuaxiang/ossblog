@@ -14,8 +14,12 @@ meta:
 </p>
 
 <style>
+.links {
+  flex-wrap: wrap;
+}
 .links > a {
   margin-right: 15px;
+  flex-shrink: 0;
 }
 </style>
 
