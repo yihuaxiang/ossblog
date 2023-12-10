@@ -206,6 +206,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'github-passkey',
         'http2',
         'docker-tech',
         'vim-macro',
