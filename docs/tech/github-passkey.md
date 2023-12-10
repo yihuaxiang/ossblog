@@ -91,3 +91,9 @@ WebAuthn 原理如下：
 此外 WebAuthn 还支持跨平台认证，这意味着用户可以使用手机或其他移动设备来认证笔记本电脑或台式电脑上的登录过程。
 
 这种基于公钥加密和本地验证的方法提供了一个更安全、更难以伪造的用户认证方式，因为它依赖用户拥有的物理设备和/或生物特征，而这些都是难以被黑客远程窃取的。
+
+### 浏览器兼容性
+
+[MDN Web Authentication API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Authentication_API#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E6%80%A7)
+
+<ImgView title="webauthn" url="https://6.z.wiki/autoupload/20231211/W0YU.1936X1424-image.png" />
