@@ -47,11 +47,13 @@ GitHub 的双重验证，也称为双因素认证（2FA），是一种安全措�
 
 没办法，天朝自有国情在。
 
+[支持 SMS 身份验证的国家/地区](https://docs.github.com/zh/authentication/securing-your-account-with-two-factor-authentication-2fa/countries-where-sms-authentication-is-supported)
+
 ### 更方便的方式
 
 ***Passkey***
 
-GitHub 的 Passkey 是一种基于 WebAuthn（Web 身份认证）标准的无密码认证方式。WebAuthn 是一个由 W3C 和 FIDO 联盟开发的网络标准，它允许用户只需使用生物识别（如指纹或面部识别）、安全密钥或其他本地身份验证手段，而不需输入传统的密码来登录和认证网络服务。这种技术是 FIDO2 标准的一部分，旨在为用户提供更为安全和便捷的登录体验。
+GitHub 的 Passkey 是一种基于 [WebAuthn](https://webauthn.io/)（Web 身份认证）标准的无密码认证方式。WebAuthn 是一个由 W3C 和 FIDO 联盟开发的网络标准，它允许用户只需使用生物识别（如指纹或面部识别）、安全密钥或其他本地身份验证手段，而不需输入传统的密码来登录和认证网络服务。这种技术是 FIDO2 标准的一部分，旨在为用户提供更为安全和便捷的登录体验。
 
 WebAuthn 原理如下：
 
