@@ -60,6 +60,8 @@ WebAuthn 原理如下：
 
 #### 注册过程（用户注册新设备）
 
+<br />
+
 <ImgView title="webauthn" url="https://0.z.wiki/autoupload/20231211/NfY9.1207X1080-image.png" />
 
 * 用户请求注册：用户在支持WebAuthn的网站上请求注册一个新的认证器设备（如指纹扫描器、面部识别摄像头、安全密钥等）。
@@ -73,6 +75,8 @@ WebAuthn 原理如下：
 * 注册公钥：设备使用私钥对“Challenge”签名，并连同公钥和签名发送回网站。网站将公钥存储为用户的认证凭证。
 
 #### 登录过程（用户使用已注册设备认证）
+
+<br />
 
 <ImgView title="webauthn" url="https://0.z.wiki/autoupload/20231211/z9qx.1207X1080-image.png" />
 
