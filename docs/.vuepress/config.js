@@ -254,6 +254,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'us-visa',
         'ai',
         'turtledove',
         'sla-compensation',
