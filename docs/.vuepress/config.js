@@ -206,6 +206,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'reversal',
         'github-passkey',
         'http2',
         'docker-tech',
