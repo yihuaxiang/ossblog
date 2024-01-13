@@ -1,6 +1,6 @@
 # TLS 指纹
 
-<ImgView title="TLS 指纹" url="https://6.z.wiki/autoupload/20240113/o2WU.186X163-image.png" />
+<ImgView title="TLS 指纹" url="https://z.wiki/autoupload/20240113/o2WU.186X163-image.png" />
 
 大多数现代网站现已普遍采用 HTTPS，其建立过程涉及服务器与客户端之间进行 TLS 握手。在此握手阶段，双方会相互交换支持的 TLS 版本、加密算法等关键信息。鉴于不同客户端之间存在显著差异，且这些信息通常较为固定，服务器能够利用 TLS 握手的特征数据来区分请求类型，判断是常规用户的浏览器访问还是来自如 Python 等脚本的自动化访问工具。
 
@@ -127,4 +127,4 @@ Microsoft edge
 
 PS：不同网站服务端获取到的密码套件（Cipher Suites）不同，因此可能看到不同网站给出了不同的 TSL 指纹。
 
-![image.png](https://2.z.wiki/autoupload/20240113/fFbL.128X433-image.png)
+![image.png](https://z.wiki/autoupload/20240113/fFbL.128X433-image.png)
