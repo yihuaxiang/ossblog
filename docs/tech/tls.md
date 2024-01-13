@@ -1,6 +1,6 @@
 # TLS 指纹
 
-![image.png](https://6.z.wiki/autoupload/20240113/o2WU.186X163-image.png)
+<ImgView title="TLS 指纹" url="https://6.z.wiki/autoupload/20240113/o2WU.186X163-image.png" />
 
 大多数现代网站现已普遍采用 HTTPS，其建立过程涉及服务器与客户端之间进行 TLS 握手。在此握手阶段，双方会相互交换支持的 TLS 版本、加密算法等关键信息。鉴于不同客户端之间存在显著差异，且这些信息通常较为固定，服务器能够利用 TLS 握手的特征数据来区分请求类型，判断是常规用户的浏览器访问还是来自如 Python 等脚本的自动化访问工具。
 
@@ -24,9 +24,9 @@ SSLVersion,Cipher,SSLExtension,EllipticCurve,EllipticCurvePointFormat
 该特征值可以通过 [Wireshark](https://www.wireshark.org/) 抓包获取
 
 
-![image.png](https://6.z.wiki/autoupload/20240113/XiPV.760X1248-image.png)
+<ImgView title="TLS 指纹" url="https://6.z.wiki/autoupload/20240113/XiPV.760X1248-image.png" />
 
-![image.png](https://5.z.wiki/autoupload/20240113/o3vv.611X998-image.png)
+<ImgView title="TLS 指纹" url="https://5.z.wiki/autoupload/20240113/o3vv.611X998-image.png" />
 
 3. 对特征值进行哈希运算，产生 32 位长度的哈希值
 
