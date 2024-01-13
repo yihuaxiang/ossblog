@@ -206,6 +206,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'tls',
         'reversal',
         'github-passkey',
         'http2',
