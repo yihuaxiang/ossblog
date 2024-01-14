@@ -68,7 +68,7 @@ module.exports = {
       }
     ]
   ],
-  title: '敖武的博客',
+  title: '我的日常记录',
   description: '敖武的博客',
   lang: 'zh-CN',
   plugins: [
