@@ -207,6 +207,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'edge-rubbish',
         'tls',
         'reversal',
         'github-passkey',
