@@ -4,3 +4,6 @@ node_modules
 
 
 dist
+yarn-error.log
+deploy.sh
+clean_node_modules.sh
