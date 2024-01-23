@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 程序员必备 神奇 终端 提示 shell 工具 linux 开源 推荐
+  - name: keywords
+    content: 程序员必备 神奇 终端 提示 shell 工具 linux 开源 推荐
+---
 # 终端工具推荐
 
 ### fzf
