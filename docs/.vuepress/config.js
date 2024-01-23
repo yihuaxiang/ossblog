@@ -258,6 +258,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'google-search-console',
         'us-visa',
         'ai',
         'turtledove',
