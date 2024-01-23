@@ -10,13 +10,13 @@ module.exports = {
     [
       "script",
       {
-        src: "https://cdn.staticfile.org/socket.io/1.3.7/socket.io.js"
+        src: "https://z.wiki/autoupload/20240123/it8z.socket.io.js"
       }
     ],
     [
       "script",
       {
-        src: "https://cdn.staticfile.org/jquery/2.2.1/jquery.min.js"
+        src: "https://z.wiki/autoupload/20240123/ndwt.jquery.min.js"
       }
     ],
     [
