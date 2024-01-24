@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: nginx 缓存 http 协议 301 302 程序员 开发 后端 前端
+  - name: keywords
+    content: nginx 缓存 http 协议 301 302 程序员 开发 后端 前端
+---
 # nginx 缓存设置
 
 <ImgView title="nginx 缓存设置" url="https://1.z.wiki/images/20220430/541461df6dca45498a9960f79f9a7de8.png" />
