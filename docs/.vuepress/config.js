@@ -207,6 +207,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'google-seo',
         'edge-rubbish',
         'tls',
         'reversal',
