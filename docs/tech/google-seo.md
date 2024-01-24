@@ -22,6 +22,8 @@ meta:
 
 这时候还没修改页面中的 description keyword 等 meta 标签呢，现在已修改并发布到线上，等几天再更新看下效果。
 
+<ImgView title="SEO 优化" url="https://4.z.wiki/autoupload/20240125/3lAI.2346X3712-image.png" />
+
 
 ### 关键词：绩效自评
 
