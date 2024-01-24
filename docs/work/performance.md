@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 程序员 绩效 考核 自评 年终 工作总结 打工人
+  - name: keywords
+    content: 程序员 绩效 考核 自评 年终 工作总结 打工人
+---
 # 技术人员如何写绩效自评
 
 ### 背景
