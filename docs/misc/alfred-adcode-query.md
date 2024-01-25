@@ -1,9 +1,9 @@
 ---
 meta:
   - name: description
-    content: 查询 adcode，提供 alfred 插件和 web 端
+    content: 查询 adcode 查询行政区划，提供 alfred 插件和 web 端在线查询
   - name: keywords
-    content: adcode 查询
+    content: adcode 查询 行政区划查询 行政编码
 ---
 # alfred adcode 查询插件
 
