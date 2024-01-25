@@ -58,6 +58,9 @@ meta:
 
 [泪雪博客](https://zhangzifan.com)
 [尼尔的编程专栏](https://www.supremepole.com/)
+[黄金工具箱](https://goldtools.cn/)
+[余子越的博客](https://yuchaoshui.com/)
+
 
 <br />
 
