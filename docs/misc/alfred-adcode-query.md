@@ -1,6 +1,17 @@
+---
+meta:
+  - name: description
+    content: 查询 adcode，提供 alfred 插件和 web 端
+  - name: keywords
+    content: adcode 查询
+---
 # alfred adcode 查询插件
 
-### 源码地址
+### WEB 版
+
+1. `web` 版地址：[adcode 查询平台](https://playground.z.wiki/lbs/showCityInfo?keyword=110000) 
+
+### 插件源码地址
 
 [https://github.com/yihuaxiang/alfred-adcode-query](https://github.com/yihuaxiang/alfred-adcode-query)
 
@@ -58,6 +69,3 @@
 
 3. `130102` 石家庄市长安区
 
-### 其他
-
-1. `web` 版地址：[adcode 查询平台](https://playground.z.wiki/lbs/showCityInfo?keyword=110000) 
