@@ -9,7 +9,9 @@ meta:
 
 ### WEB 版
 
-1. `web` 版地址：[adcode 查询平台](https://playground.z.wiki/lbs/showCityInfo?keyword=110000) 
+`web` 版地址：[adcode 查询平台](https://playground.z.wiki/lbs/showCityInfo?keyword=110000) 
+
+<ImgView title="adcode查询" url="https://8.z.wiki/autoupload/20240125/9v0b.1180X1316-image.png" />
 
 ### 插件源码地址
 
