@@ -57,6 +57,7 @@ meta:
 ## 友情链接
 
 [泪雪博客](https://zhangzifan.com)
+[尼尔的编程专栏](https://www.supremepole.com/)
 
 <br />
 
