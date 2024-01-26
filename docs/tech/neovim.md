@@ -1,9 +1,9 @@
 ---
 meta:
   - name: description
-    content: neovim 配置 vim 开发
+    content: neovim 配置 vim 开发 程序员 开发神器
   - name: keywords
-    content: neovim 配置 vim 开发
+    content: neovim 配置 vim 开发 程序员 开发神器
 tags: ["vim", "neovim", "上古编辑器"]
 ---
 
@@ -214,3 +214,10 @@ map <Leader>s :w<CR>
 `init.vim` 配置连接 [github](https://github.com/yihuaxiang/neovim-config/blob/main/neovim_init.vim)
 
 
+### 参考链接
+
+[neovim](https://neovim.io/)
+
+[vim-plug](https://vimawesome.com/plugin/vim-plug-already-like-death)
+
+[Vim 到底可以配置得多漂亮?](https://www.zhihu.com/question/26248191/answer/2987005687)
