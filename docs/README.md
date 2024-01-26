@@ -54,15 +54,5 @@ meta:
 
 请赐予我力量，全力改变那些可以改变的事情，平静接受那些无能为力的事情，拥有智慧区分这两者。
 
-## 友情链接
-
-[泪雪博客](https://zhangzifan.com)
-[尼尔的编程专栏](https://www.supremepole.com/)
-[黄金工具箱](https://goldtools.cn/)
-[余子越的博客](https://yuchaoshui.com/)
-
-
-<br />
-
 
 [京ICP备2021035392号](https://beian.miit.gov.cn/)

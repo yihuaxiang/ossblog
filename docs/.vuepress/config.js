@@ -198,6 +198,17 @@ module.exports = {
           {text: '电子书', link: 'https://z.wiki/resource/ebooks.html'},
         ]
       },
+      {
+        text: '友链',
+        ariaLabel: '友情链接',
+        items: [
+          {text: '泪雪博客', link: 'https://zhangzifan.com'},
+          {text: '尼尔的编程专栏', link: 'https://www.supremepole.com/'},
+          {text: '黄金工具箱', link: 'https://goldtools.cn/'},
+          {text: '余子越的博客', link: 'https://yuchaoshui.com/'},
+          {text: '小鹿的个人网站', link: 'https://www.siena.zone/'},
+        ]
+      },
       {text: '生活', link: '/life/'},
       {text: '工作', link: '/work/'},
       {text: '琐碎', link: '/misc/'},
