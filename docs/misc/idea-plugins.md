@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 优秀软件,提效神器,工具,idea 开发工具 插件 Java 程序员
+  - name: keywords
+    content: 优秀软件,提效神器,工具,idea 开发工具 插件 Java 程序员
+---
 # idea 插件篇
 
 ### IdeaVim
