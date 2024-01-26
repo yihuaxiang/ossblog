@@ -350,3 +350,9 @@ iotop 是一个 Linux 下的磁盘 I/O 监控工具，
 线程信息，
 可以实时查看哪些进程正在进行磁盘读写操作，
 以及这些操作占用了多大的磁盘 I/O 带宽。
+
+### KeyCastr
+
+按键可视化神器，给人录屏演示的时候很有帮助。
+
+<ImgView title="按键可视化神器" url="https://7.z.wiki/autoupload/20240126/dkrF.832X1265-neovim.gif" />
