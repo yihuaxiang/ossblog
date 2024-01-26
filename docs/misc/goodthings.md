@@ -353,6 +353,6 @@ iotop 是一个 Linux 下的磁盘 I/O 监控工具，
 
 ### KeyCastr
 
-按键可视化神器，给人录屏演示的时候很有帮助。
+按键可视化神器，给人录屏演示的时候很有帮助。[KeyCastr](https://github.com/keycastr/keycastr)
 
 <ImgView title="按键可视化神器" url="https://7.z.wiki/autoupload/20240126/dkrF.832X1265-neovim.gif" />
