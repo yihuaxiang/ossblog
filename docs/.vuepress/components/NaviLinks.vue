@@ -30,6 +30,10 @@ export default {
         url: 'https://playground.z.wiki/',
         desc: '诸多游乐项目，快来体验吧！',
       }, {
+        title: '🔍 站内搜',
+        url: 'https://playground.z.wiki/lbs/showCityInfo',
+        desc: '全文检索，无所不能',
+      }, {
         title: '🧑‍💻 代码片段',
         url: 'https://snippets.z.wiki/',
         desc: '包含js、shell、nginx、java等实用代码片段！',
