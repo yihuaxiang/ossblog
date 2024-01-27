@@ -201,6 +201,7 @@ module.exports = {
         ]
       },
       {text: '生活', link: '/life/'},
+      {text: '搜索', link: 'https://playground.z.wiki/search/page'},
       {
         text: '其他', 
         items: [
