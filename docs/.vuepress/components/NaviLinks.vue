@@ -31,7 +31,7 @@ export default {
         desc: '诸多游乐项目，快来体验吧！',
       }, {
         title: '🔍 站内搜',
-        url: 'https://playground.z.wiki/lbs/showCityInfo',
+        url: 'https://playground.z.wiki/search/page',
         desc: '全文检索，无所不能',
       }, {
         title: '🧑‍💻 代码片段',
