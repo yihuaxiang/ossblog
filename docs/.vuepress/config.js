@@ -190,15 +190,6 @@ module.exports = {
         ]
       },
       {
-        text: '下载',
-        ariaLabel: '下载',
-        items: [
-          {text: '系统镜像', link: 'https://z.wiki/resource/system-mirror-iso.html'},
-          {text: '破解软件', link: 'https://z.wiki/resource/apps.html'},
-          {text: '电子书', link: 'https://z.wiki/resource/ebooks.html'},
-        ]
-      },
-      {
         text: '友链',
         ariaLabel: '友情链接',
         items: [
@@ -210,10 +201,24 @@ module.exports = {
         ]
       },
       {text: '生活', link: '/life/'},
-      {text: '工作', link: '/work/'},
-      {text: '琐碎', link: '/misc/'},
-      {text: '游乐场', link: 'https://playground.z.wiki'},
-      {text: 'snippets', link: 'https://snippets.z.wiki'},
+      {
+        text: '其他', 
+        items: [
+          {text: '琐碎', link: '/misc/'},
+          {text: '工作', link: '/work/'},
+          {text: '游乐场', link: 'https://playground.z.wiki'},
+          {text: 'snippets', link: 'https://snippets.z.wiki'},
+          {
+            text: '下载',
+            ariaLabel: '下载',
+            items: [
+              {text: '系统镜像', link: 'https://z.wiki/resource/system-mirror-iso.html'},
+              {text: '破解软件', link: 'https://z.wiki/resource/apps.html'},
+              {text: '电子书', link: 'https://z.wiki/resource/ebooks.html'},
+            ]
+          },
+        ]
+      },
       // {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
     sidebar: {
