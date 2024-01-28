@@ -148,10 +148,7 @@ module.exports = {
         dayjs.locale(lang)
         return dayjs(timestamp).toString()
       }
-    }],
-    [
-      path.resolve(__dirname, './searchbox/enhanceApp'),
-    ],
+    }]
   ],
   themeConfig: {
     algolia: {
