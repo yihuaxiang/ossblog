@@ -2,6 +2,7 @@ import Notifications from 'vue-notification/dist/ssr.js';
 const lodash = require('lodash');
 // 使用异步函数也是可以的
 export default ({
+                    app,
                     Vue, // VuePress 正在使用的 Vue 构造函数
                     options, // 附加到根实例的一些选项
                     router, // 当前应用的路由实例
