@@ -49,17 +49,16 @@ export default ({
     let tryToFixSearchBox = () => {
       if(!fixedSearchBox) {
         if (typeof globalThis == 'object' && globalThis.document) {
-          document.body.classList.add('tuchuang-domain');
+          const searchBox = document.querySelector('#search-form');
+          if(searchBox) {
+            fixedSearchBox = true;
+            searchBox.querySelector('input').addEventListener('focus', () => {
+              console.info('click')
+              window.location.assign('https://playground.z.wiki/search/page');
+            })
+          }
+          console.info('box is', searchBox);
         }
-        const searchBox = document.querySelector('#search-form');
-        if(searchBox) {
-          fixedSearchBox = true;
-          searchBox.querySelector('input').addEventListener('focus', () => {
-            console.info('click')
-            window.location.assign('https://playground.z.wiki/search/page');
-          })
-        }
-        console.info('box is', searchBox);
       }
     }
     [100, 200, 300, 400, 500, 800, 900, 1400].forEach(milliSeconds => {
