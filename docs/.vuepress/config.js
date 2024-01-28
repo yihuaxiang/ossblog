@@ -339,6 +339,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'tech-article-skill',
         'mvn',
         'tuchuang-upgrade',
         'debian',
