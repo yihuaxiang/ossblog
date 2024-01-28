@@ -395,3 +395,4 @@ module.exports = {
   globalUIComponents: ['PvAccumulation'],
   evergreen: true
 }
+
