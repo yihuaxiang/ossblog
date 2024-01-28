@@ -48,6 +48,9 @@ export default ({
 
     let tryToFixSearchBox = () => {
       if(!fixedSearchBox) {
+        if (typeof globalThis == 'object' && globalThis.document) {
+          document.body.classList.add('tuchuang-domain');
+        }
         const searchBox = document.querySelector('#search-form');
         if(searchBox) {
           fixedSearchBox = true;
