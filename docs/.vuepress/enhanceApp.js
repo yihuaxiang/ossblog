@@ -1,5 +1,7 @@
 import Notifications from 'vue-notification/dist/ssr.js';
 const lodash = require('lodash');
+
+let fixedSearchBox = false;
 // 使用异步函数也是可以的
 export default ({
                     Vue, // VuePress 正在使用的 Vue 构造函数
@@ -43,6 +45,23 @@ export default ({
     } else {
       next();
     }
+
+    let tryToFixSearchBox = () => {
+      if(!fixedSearchBox) {
+        const searchBox = document.querySelector('#search-form');
+        if(searchBox) {
+          fixedSearchBox = true;
+          searchBox.querySelector('input').addEventListener('focus', () => {
+            console.info('click')
+            window.location.assign('https://playground.z.wiki/search/page');
+          })
+        }
+        console.info('box is', searchBox);
+      }
+    }
+    [100, 200, 300, 400, 500, 800, 900, 1400].forEach(milliSeconds => {
+      setTimeout(() => {tryToFixSearchBox();}, milliSeconds)
+    })
   });
 
 
@@ -506,4 +525,5 @@ export default ({
     globalThis.chatRoomClient = new ChatRoomClient();
   } catch(e) {
   }
+
 }
