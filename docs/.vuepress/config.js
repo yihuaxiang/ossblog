@@ -387,14 +387,14 @@ module.exports = {
         'the-answers-of-alibaba'
       ],
       '/snippets/': [
-        'css',
-        'htaccess',
-        'html',
-        'javascript',
-        'mac',
-        'nginx',
-        'robots',
-        'shell'
+        'css/',
+        'htaccess/',
+        'html/',
+        'javascript/',
+        'mac/',
+        'nginx/',
+        'robots/',
+        'shell/'
       ]
 
     }
