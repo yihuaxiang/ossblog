@@ -1,6 +1,3 @@
----
-sidebar: auto
----
 # 内置 Apache
 
 
