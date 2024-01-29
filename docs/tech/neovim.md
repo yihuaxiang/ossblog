@@ -221,3 +221,4 @@ map <Leader>s :w<CR>
 [vim-plug](https://vimawesome.com/plugin/vim-plug-already-like-death)
 
 [Vim 到底可以配置得多漂亮?](https://www.zhihu.com/question/26248191/answer/2987005687)
+
