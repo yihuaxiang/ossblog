@@ -1,4 +1,4 @@
 # 代码片段-shell
 
 
-<LastPost :random="true" prefix="/snippets/shell" :number="10" />
+<LastPost :random="true" prefix="/snippets/shell" :number="100" />

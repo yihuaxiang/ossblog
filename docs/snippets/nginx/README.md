@@ -1,4 +1,4 @@
 # 代码片段-Nginx
 
 
-<LastPost :random="true" prefix="/snippets/nginx" :number="10" />
+<LastPost :random="true" prefix="/snippets/nginx" :number="100" />

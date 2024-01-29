@@ -1,4 +1,4 @@
 # 代码片段-Mac
 
-<LastPost :random="true" prefix="/snippets/mac" :number="10" />
+<LastPost :random="true" prefix="/snippets/mac" :number="100" />
 
