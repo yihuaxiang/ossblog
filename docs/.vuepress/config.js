@@ -385,7 +385,18 @@ module.exports = {
       '/work/': [
         'performance',
         'the-answers-of-alibaba'
+      ],
+      '/snippets/': [
+        'css',
+        'htaccess',
+        'html',
+        'javascript',
+        'mac',
+        'nginx',
+        'robots',
+        'shell'
       ]
+
     }
   },
   locales: {
