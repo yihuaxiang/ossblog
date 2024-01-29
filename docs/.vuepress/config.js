@@ -208,7 +208,7 @@ module.exports = {
           {text: '琐碎', link: '/misc/'},
           {text: '工作', link: '/work/'},
           {text: '游乐场', link: 'https://playground.z.wiki'},
-          {text: 'snippets', link: 'https://snippets.z.wiki'},
+          {text: '代码片段', link: 'https://z.wiki/snippets'},
           {
             text: '下载',
             ariaLabel: '下载',
