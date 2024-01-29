@@ -1,6 +1,6 @@
 <template>
 <div class="last-post">
-  <h2>最近更新</h2>
+  <h2>{{title}}</h2>
 
   <ul>
     <template v-for="(article, index) in topArticles">
@@ -90,6 +90,11 @@ const lodash = require('lodash');
 export default {
   name: "LastPost",
   props: {
+    title: {
+      type: String,
+      required: false,
+      default: '最近更新'
+    },
     number: {
       type: Number,
       required: false,
