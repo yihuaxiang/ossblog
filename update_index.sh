@@ -13,7 +13,7 @@ find . -name '*.md' -print0 | while IFS= read -r -d $'\0' file; do
     # 读取文件内容，使用一个工具如 cat 或者 sed 来获取文件完整内容
     # 根据需要清洗文件内容，使其适合作为 HSET 的值
     # 注意: 如果内容包含特殊字符（如引号），你需要适当地转义它们
-    content=$(cat "$file" | sed ':a;N;$!ba;s/\n/\\n/g' | sed 's/"/\\"/g')
+    content=$(cat "$file" | sed ':a;N;$!ba;s/\n/\\n/g' | sed 's/"/\\"/g' | sed -E 's/^#+//' | sed -E 's/^---//')
 
     # 生成文件路径（移除'./'前缀并替换空格为'-'）
     file_path=$(echo "$file" | sed 's/^.\///' | sed 's/ /-/g' | sed 's/\.md//' | sed 's/README/index/')

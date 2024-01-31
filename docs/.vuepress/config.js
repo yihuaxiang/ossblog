@@ -224,6 +224,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'secure-gallery',
         'google-seo',
         'edge-rubbish',
         'tls',
