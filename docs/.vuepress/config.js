@@ -28,6 +28,13 @@ module.exports = {
     [
       'link',
       {
+        rel: "prerender",
+        href: "https://playground.z.wiki/search/page"
+      }
+    ],
+    [
+      'link',
+      {
         rel: "stylesheet",
         href: "https://z.wiki/autoupload/20240201/ehnl.css%403.css"
       }
