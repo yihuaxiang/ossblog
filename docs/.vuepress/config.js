@@ -29,7 +29,7 @@ module.exports = {
       'link',
       {
         rel: "stylesheet",
-        href: "https://fudongdong-statics.oss-cn-beijing.aliyuncs.com/css/css@3.css"
+        href: "https://z.wiki/autoupload/20240201/ehnl.css%403.css"
       }
     ],
     [
