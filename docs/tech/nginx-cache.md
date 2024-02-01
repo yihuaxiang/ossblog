@@ -103,6 +103,31 @@ add_header Surrogate-Control "public, max-age=86400";
 add_header Cache-Control "public, max-age=120";
 ```
 
+### 服务端缓存
+
+`nginx`不仅仅可以通过 `http` 协议来实现客户端缓存，还可以利用 `proxy_cache` 来实现服务端缓存，避免频繁从上游拉取资源。
+
+
+```nginx
+# 定义缓存文件路径 和 缓存名称、大小、失效规则
+proxy_cache_path ./cache-file-of-nginx levels=1:2 keys_zone=MYAPP:100m inactive=60m;
+# 定义缓存的key
+proxy_cache_key "$scheme$request_method$host$request_uri";
+
+server {
+    ...
+
+    location / {
+        proxy_pass http://backend;
+        # 使用缓存
+        proxy_cache MYAPP;
+        proxy_cache_valid 200 302 1m;
+        proxy_cache_valid 404 1m;
+    }
+}
+```
+
+
 ### 参考文档
 
 1. [http 缓存](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
