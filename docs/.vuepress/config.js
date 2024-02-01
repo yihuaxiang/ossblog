@@ -198,6 +198,8 @@ module.exports = {
           {text: '黄金工具箱', link: 'https://goldtools.cn/'},
           {text: '余子越的博客', link: 'https://yuchaoshui.com/'},
           {text: '小鹿的个人网站', link: 'https://www.siena.zone/'},
+          {text: '谦行 CSDN', link: 'https://home.cnblogs.com/u/dolphinX'},
+          {text: '谦行 语雀', link: 'https://www.yuque.com/sunluyong'},
         ]
       },
       {text: '生活', link: '/life/'},
