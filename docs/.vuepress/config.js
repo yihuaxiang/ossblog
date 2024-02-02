@@ -286,6 +286,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'zhuhai',
         'google-search-console',
         'us-visa',
         'ai',
