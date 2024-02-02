@@ -287,6 +287,7 @@ module.exports = {
       ],
       '/life/': [
         'zhuhai',
+        'tianjin-2',
         'google-search-console',
         'us-visa',
         'ai',
