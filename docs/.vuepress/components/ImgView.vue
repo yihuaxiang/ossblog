@@ -96,12 +96,12 @@ export default {
   80%,
   100% {
     height: 20px;
-    box-shadow: 0 0 #000;
+    box-shadow: 0 0 #2c3e50;
   }
 
   40% {
     height: 30px;
-    box-shadow: 0 -20px #000;
+    box-shadow: 0 -20px #2c3e50;
   }
 }
 .loading-ctn {
