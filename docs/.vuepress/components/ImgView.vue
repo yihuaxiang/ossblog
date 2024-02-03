@@ -67,7 +67,7 @@ export default {
 
   animation: rectangle infinite 1s ease-in-out -0.2s;
 
-  background-color: #000;
+  background-color: #2c3e50;
 }
 
 .loading:before,
@@ -76,7 +76,7 @@ export default {
   width: 6px;
   height: 10px;
   content: "";
-  background-color: #000;
+  background-color: #2c3e50;
 }
 
 .loading:before {
