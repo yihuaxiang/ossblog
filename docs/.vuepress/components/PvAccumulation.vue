@@ -28,7 +28,7 @@ export default {
         }
         if (typeof fetch != undefined) {
           try {
-            fetch(`https://playground.z.wiki/blog/accumulation?url=${encodeURIComponent(path)}`)
+            fetch(`https://playground.z.wiki/blog/accumulation?url=${encodeURIComponent(path)}&host=${encodeURIComponent(window.location.host)}`)
               .then(res => res.text()).then(pv => {
               this.pv = pv;
             })
