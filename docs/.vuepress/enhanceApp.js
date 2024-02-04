@@ -54,7 +54,7 @@ export default ({
             fixedSearchBox = true;
             searchBox.querySelector('input').addEventListener('focus', () => {
               console.info('click')
-              window.location.assign('https://playground.z.wiki/search/page');
+              globalThis && globalThis.location && globalThis.location.assign('https://playground.z.wiki/search/page');
             })
           }
           console.info('box is', searchBox);
