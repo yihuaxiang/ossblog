@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div v-show="isLoading" class="loading-ctn">
-      <div class="loading"></div>
+    <div v-show="isLoading" class="loading-container">
+      <div class="loader"></div>
     </div>
     <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" :style="imgStyle" />
   </div>
@@ -109,5 +109,35 @@ export default {
   padding-top: 30px;
   padding-left: 40px;
 }
+
+
+
+.loading-container {
+  position: relative;
+  width: 100%; /* Adjust based on parent container */
+  height: 100%; /* Adjust based on parent container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3); /* Light grey border */
+  border-left-color: #ccc; /* Red part */
+  border-radius: 50%;
+  width: 30px; /* Size of loader */
+  height: 30px; /* Size of loader */
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 </style>
 
