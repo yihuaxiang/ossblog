@@ -145,6 +145,12 @@ export default {
 
 
 
+@media only screen and (max-width: 600px) {
+  .loading-container-div {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 
 
 .lds-hourglass {
