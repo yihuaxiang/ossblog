@@ -1,6 +1,6 @@
 <template>
   <div class="ctn">
-    <img :src="img.url" loading="lazy" :title="img.desc || '敖武的博客-照片'" :alt="img.title || '敖武的照片'" />
+    <ImgView :title="img.title || '敖武的照片'" :url="img.url" />
     <div class="info" :style="infoStyle" :class="{isDark: img.darkInfo}">
       <h3 class="title" v-show="img.title">{{img.title}}</h3>
       <p class="desc" v-show="img.desc">{{img.desc}}</p>
@@ -9,8 +9,12 @@
 </template>
 
 <script>
+import ImgWithTitle from "./ImgWithTitle";
 export default {
   name: "ImgWithTitle",
+  components: {
+    ImgWithTitle
+  },
   props: {
     img: {
       type: Object,

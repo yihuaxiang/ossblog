@@ -3,7 +3,7 @@
     <div v-show="isLoading" class="loading-container-div">
       <div class="lds-hourglass"></div>
     </div>
-    <img v-show="!isLoading" class="img-view" ref="img" :src="url" :alt="title" :title="title" :style="imgStyle" />
+    <img v-show="!isLoading" loading="lazy" class="img-view" ref="img" :src="url" :alt="title" :title="title" :style="imgStyle" />
   </div>
 </template>
 
