@@ -160,7 +160,7 @@ export default {
   margin: 8px;
   box-sizing: border-box;
   border: 32px solid #ccc;
-  border-color: #000 transparent #000 transparent;
+  border-color: #ccc transparent #ccc transparent;
   animation: lds-hourglass 1.2s infinite;
 }
 @keyframes lds-hourglass {
