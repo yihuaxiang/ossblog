@@ -58,6 +58,8 @@ export default {
 
 <style scoped>
 .img-view {
+  border: 1px solid #e7e9e8;
+  border-radius: 4px;
 }
 .loading {
   display: block;
