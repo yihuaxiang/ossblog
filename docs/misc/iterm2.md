@@ -71,4 +71,5 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 导入方式：
 
-![iTerm2 导入配置](https://z.wiki/autoupload/2022-08-16/b23a6f9e70254855977843979d554ae7.image.png)
+<ImgView title="iTerm2 导入配置" url="https://z.wiki/autoupload/2022-08-16/b23a6f9e70254855977843979d554ae7.image.png" />
+
