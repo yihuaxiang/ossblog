@@ -17,40 +17,47 @@ tags: ["iTerms", "终端", "神器", "效率", "程序员"]
 
 当点击`Command + /`的时候自动发送`,cc`按键指令，`vim`便会对内容进行快速注释。
 
-![](https://z.wiki/autoupload/2022-08-16/e1d296d06b4649af85b561320906ebda.image.png)
+<ImgView title="终端" url="https://z.wiki/autoupload/2022-08-16/e1d296d06b4649af85b561320906ebda.image.png" />
+
 
 #### 全局内容搜索
 
 当点击`Command + Shift + F`的时候自动发送`:Ag\n`按键指令，`vim`便会通过`Ag`插件进行弹框并搜索指定内容。
 
-![iTerm2 全局搜索功能](https://z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png)
+<ImgView title="iTerm2 全局搜索功能" url="https://z.wiki/autoupload/2022-08-16/9f8fc6aadb1647e5b403f56d83be806c.image.png" />
+
 
 效果如下：
 
-![iTerm2 全局搜索功能](https://z.wiki/autoupload/2022-08-16/7ba175e0686e4b7fa9cc4b98fee04631.findcntent.gif)
+<ImgView title="iTerm2 全局搜索功能" url="https://z.wiki/autoupload/2022-08-16/7ba175e0686e4b7fa9cc4b98fee04631.findcntent.gif" />
+
 
 #### 文件搜索
 
 当点击`Command + P`的时候自动发送`:Files\n`按键指令，`vim`根据文件名进行搜索。
 
-![iTerm2 文件搜索](https://z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png)
+<ImgView title="iTerm2 文件搜索" url="https://z.wiki/autoupload/2022-08-16/ff50fb4486b64bf58f84bc49ea66acf2.image.png" />
+
 
 
 效果如下：
 
-![iTerm2 文件搜索](https://z.wiki/autoupload/2022-08-16/ba80163df6a74a268160b922e5d971a2.files.gif)
+<ImgView title="iTerm2 文件搜索" url="https://z.wiki/autoupload/2022-08-16/ba80163df6a74a268160b922e5d971a2.files.gif" />
+
 
 #### 最近文件
 
 点击`Command + E`时自动发送`:History`按键指令，打开最近使用过的文件
 
-![](https://z.wiki/autoupload/2022-09-09/77d891f0c5fb48809790cbc77c12461c.image.png)
+<ImgView title="终端" url="https://z.wiki/autoupload/2022-09-09/77d891f0c5fb48809790cbc77c12461c.image.png" />
+
 
 #### 快速保存
 
 当点击`Command + S`的时候自动发送`:w\n`按键指令，`vim`对当前编辑的文件进行保存。
 
-![iTerm2 快速保存](https://z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png)
+<ImgView title="iTerm2 快速保存" url="https://z.wiki/autoupload/2022-08-16/4e92304b1acc4a61939d611c95625545.image.png" />
+
 
 #### 其他
 

@@ -227,7 +227,8 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 ### TotalFinder
 
-![](https://z.wiki/images/20220423/a120002c11e6428a91a0cefa77b78f3a.png)
+<ImgView title="TotalFinder" url="https://z.wiki/images/20220423/a120002c11e6428a91a0cefa77b78f3a.png" />
+
 
 `TotalFinder` 是`Mac`上一款好用的`Finder`增强工具，`TotalFinder` 提供了多标签式浏览、拷贝路径、剪切文件、显示隐藏文件、多栏窗口模式、彩色标签等功能。
 
@@ -239,7 +240,8 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 下载地址：[超级右键](https://apps.apple.com/cn/app/%E8%B6%85%E7%BA%A7%E5%8F%B3%E9%94%AE-irightmouse/id1497428978?mt=12)
 
-![](https://z.wiki/images/20220501/bc7a37c1906c4dc7a7e81bf7e2c9d1c0.png)
+<ImgView title="超级右键" url="https://z.wiki/images/20220501/bc7a37c1906c4dc7a7e81bf7e2c9d1c0.png" />
+
 
 
 ### LICEcap

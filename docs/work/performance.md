@@ -44,7 +44,8 @@ meta:
 年初的时候需要规划好这一年有哪些技术迭代规划、有哪些架构升级、概念升级，
 然后在项目开发中尽可能往这些技术、架构、概念上靠拢，机会不会从天而降，需要自己去寻找。
 
-![](https://z.wiki/images/20220219/2d052d98c01e401b86152f572bcd7839.png)
+<ImgView title="技术规划" url="https://z.wiki/images/20220219/2d052d98c01e401b86152f572bcd7839.png" />
+
 
 技术规划需要从一下两个方面去考虑
 
@@ -96,7 +97,8 @@ meta:
 
 以上两种错误的示范给人躺平的感觉，无欲无求。
 
-![躺平](https://z.wiki/images/20220220/b55dec45c6da4740a1ead1afc187d9f7.png)
+<ImgView title="躺平" url="https://z.wiki/images/20220220/b55dec45c6da4740a1ead1afc187d9f7.png" />
+
 
 #### 正确总结原则
 
