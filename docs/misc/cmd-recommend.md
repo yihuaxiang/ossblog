@@ -51,7 +51,8 @@ brew install ripgrep
 
 `lines of code`,快速统计代码行数的工具
 
-![](https://z.wiki/images/20220318/eb49ea01501344e688d39e31bfe59013.png)
+<ImgView title="终端推荐" url="https://z.wiki/images/20220318/eb49ea01501344e688d39e31bfe59013.png" />
+
 
 
 #### 安装

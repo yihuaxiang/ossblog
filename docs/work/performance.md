@@ -14,7 +14,8 @@ meta:
 尽管不想写，而且技术开发往往擅长写代码，不擅长写总结报告，抓耳挠腮，憋个半死，
 但是制度如此，不得不写，同时对自己负责，写写回顾、展望未来，想必也定是极好的
 
-![想必定是极好的](https://z.wiki/images/20220220/a87a312aad2e4cdb8652bf48c82cf34e.png)
+<ImgView title="想必定是极好的" url="https://z.wiki/images/20220220/a87a312aad2e4cdb8652bf48c82cf34e.png" />
+
 
 
 年终总结，写好的话，有助于说明自己的工作绩效，绩效好可以多拿年终奖，还有机会争取晋升。
@@ -72,14 +73,16 @@ meta:
 结合工作，能做到避开内卷有如下一点：
 1. 国家降维，把国外的技术引进到过国内，进一步引申为：把团队外、公司外的技术引进到团队内，人与人之间不仅有竞争关系，更多的是合作、互利管理，前提是你能用好这些关系，他们做底层你就做上层，生态上相互补充，互相拿到一个相对好的绩效。
 
-![](https://4.z.wiki/images/20220220/4f46ee1626d745a5af207e4193d8f32d.png)
+<ImgView title="珠海旅游" url="https://4.z.wiki/images/20220220/4f46ee1626d745a5af207e4193d8f32d.png" />
+
 
 
 ### 开写总结
 
 有了以上积累后我们就可以开始写年终总结了。
 
-![](https://z.wiki/images/20220219/748f3f3f673b442ba27b41dd8018c644.png)
+<ImgView title="珠海旅游" url="https://z.wiki/images/20220219/748f3f3f673b442ba27b41dd8018c644.png" />
+
 
 #### 错误示范
 
@@ -104,7 +107,8 @@ meta:
 
 在不弄虚作假的前提下，突出自己的优点、长处
 
-![](https://z.wiki/images/20220219/0600a3c582b64e6aa5ab4b2021e0179e.png)
+<ImgView title="珠海旅游" url="https://z.wiki/images/20220219/0600a3c582b64e6aa5ab4b2021e0179e.png" />
+
 
 
 典型案例： “屡败屡战”
@@ -160,7 +164,8 @@ meta:
 
 你需要拿出案例说明你的独一无二，比如：技术选型，之前是什么方案（A方案），你选的是什么方案（B方案）？同期其他人的方案（C方案）是什么？拿出B方案优于A方案、C方案的证据，这是里的贡献是最有利的支撑
 
-![](https://z.wiki/images/20220220/902ec797ff584baa8085df718649141c.png)
+<ImgView title="珠海旅游" url="https://z.wiki/images/20220220/902ec797ff584baa8085df718649141c.png" />
+
 
 
 2. 你是如何把普通的事情做的不普通了
@@ -177,7 +182,8 @@ meta:
 * A（action）：完成的有助于结果的动作，包括意外插入的，eg.进行异步化改造
 * R（result）：拿到了什么样的结果，可以的话，量化它，eg. 同样的机器能够支撑更多QPS，进而实现机器成本下降
 
-![](https://4.z.wiki/images/20220220/8b9fde33e8bf45808cac63c730bf966a.png)
+<ImgView title="珠海旅游" url="https://4.z.wiki/images/20220220/8b9fde33e8bf45808cac63c730bf966a.png" />
+
 
 
 4. 适当的高级词汇
@@ -187,7 +193,8 @@ meta:
 
 [From pua-lang](https://github.com/flaneur2020/pua-lang)
 
-![](https://z.wiki/images/20220220/192c31ad9eb54c26893274607877f4d6.png)
+<ImgView title="珠海旅游" url="https://z.wiki/images/20220220/192c31ad9eb54c26893274607877f4d6.png" />
+
 
 
 ### 结尾
