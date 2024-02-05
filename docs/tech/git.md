@@ -99,7 +99,8 @@ git_config_install
 
 到此，`.gitconfig` 文件中已添加好上文提到的别名，可以欢乐的使用别名啦~~~
 
-![](https://z.wiki/images/20220204/10d124cd03274d1c894dee857e5203c0.png)
+<ImgView title="git" url="https://z.wiki/images/20220204/10d124cd03274d1c894dee857e5203c0.png" />
+
 
 
 <ImgView title="安装 git 配置" url="https://z.wiki/images/20220204/26dc7d023d384894827a35c6be8a1e85.gif" />

@@ -127,5 +127,6 @@ Microsoft edge
 
 PS：不同网站服务端获取到的密码套件（Cipher Suites）不同，因此可能看到不同网站给出了不同的 TSL 指纹。
 
-![image.png](https://z.wiki/autoupload/20240113/fFbL.128X433-image.png)
+<ImgView title="TSL指纹" url="https://z.wiki/autoupload/20240113/fFbL.128X433-image.png" />
+
 
