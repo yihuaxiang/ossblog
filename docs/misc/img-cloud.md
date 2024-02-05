@@ -27,17 +27,20 @@ tags: ["图床", "敖武的图床", "免费图床"]
 
 支持历史数据查询，匿名使用，租户隔离😘
 
-![](https://4.z.wiki/images/20220411/da4d0367e28548a3989cde9fb42ff75d.png)
+<ImgView title="珠海旅游" url="https://4.z.wiki/images/20220411/da4d0367e28548a3989cde9fb42ff75d.png" />
+
 
 ### 点滴困惑
 
 不过貌似网速有点慢啊😂
 
-![](https://z.wiki/images/20220405/5000de8b59174089bbe452f4d8f85e4e.png)
+<ImgView title="敖武的图床" url="https://z.wiki/images/20220405/5000de8b59174089bbe452f4d8f85e4e.png" />
+
 
 `vpn`的问题，关闭`vpn`，上传速度飞起。
 
-![tuchuang.gif](https://z.wiki/images/20220405/6b6963fbfdc247e58d5dca81ba234dec.gif)
+<ImgView title="敖武的图床" url="https://z.wiki/images/20220405/6b6963fbfdc247e58d5dca81ba234dec.gif" />
+
 
 ### 展望规划
 

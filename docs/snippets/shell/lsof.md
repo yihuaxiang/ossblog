@@ -4,7 +4,8 @@
 `lsof` 是一个列出所有打开文件的工具，可以用来检查打开的文件、网络连接、进程等信息。下面是 `lsof` 常用的功能和用途：
 
 
-![lsof](https://1.z.wiki/autoupload/20230708/BlFy.450X800-image.png)
+<ImgView title="lsof" url="https://1.z.wiki/autoupload/20230708/BlFy.450X800-image.png" />
+
 
 1. 查看文件
 
