@@ -351,6 +351,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'art-of-strategy',
         'tech-article-skill',
         'mvn',
         'tuchuang-upgrade',
