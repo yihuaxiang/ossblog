@@ -351,6 +351,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'comment-plugin',
         'art-of-strategy',
         'tech-article-skill',
         'mvn',
