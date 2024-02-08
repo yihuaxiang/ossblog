@@ -151,6 +151,7 @@ export default {
       display: flex;
 
       .infos {
+        overflow: hidden;
         padding-left: 12px;
         padding-top: 6px;
         flex-shrink: 1;
