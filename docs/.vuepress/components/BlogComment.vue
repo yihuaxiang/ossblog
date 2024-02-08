@@ -231,7 +231,19 @@ export default {
 }
 </style>
 <style>
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 500px) {
+  .blog-comment{
+    padding-left: 0px;
+
+    .ctn {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+      margin-left: 7px !important;
+      margin-right: 7px !important;
+    }
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 720px) {
   .blog-comment{
     padding-left: 261px;
   }
