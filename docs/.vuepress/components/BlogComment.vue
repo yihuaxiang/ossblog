@@ -73,7 +73,8 @@ export default {
         setTimeout(() => {
           document.querySelector('#commentBox').focus();
           document.querySelector('#commentBox').scrollIntoView({
-            behavior: "smooth"
+            behavior: "smooth",
+            block: 'center'
           })
         }, 50)
       })
