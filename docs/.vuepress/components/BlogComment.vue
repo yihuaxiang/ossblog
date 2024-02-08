@@ -22,7 +22,7 @@ export default {
 
         if (typeof fetch != undefined) {
           try {
-            fetch(`https://playground.z.wiki/comment/list?url=${encodeURIComponent(path)}`)
+            fetch(`https://playground.z.wiki/comment/list?path=${encodeURIComponent(path)}`)
               .then(res => res.text()).then(info => {
                 console.log('info is', info);
             })
