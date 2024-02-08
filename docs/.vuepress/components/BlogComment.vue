@@ -72,6 +72,9 @@ export default {
       this.$nextTick(() => {
         setTimeout(() => {
           document.querySelector('#commentBox').focus();
+          document.querySelector('#commentBox').scrollIntoView({
+            behavior: "smooth"
+          })
         }, 50)
       })
     },
