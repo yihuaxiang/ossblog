@@ -68,7 +68,11 @@ export default {
       console.info('handleReplyClick', comment);
 
       this.msg = `回复:\"${comment}\"\n\n------------\n\n`
-      document.querySelector('#commentBox').focus();
+      this.$nextTick(() => {
+        setTimeout(() => {
+          document.querySelector('#commentBox').focus();
+        }, 50)
+      })
     },
     postComment() {
       this.$notify({
