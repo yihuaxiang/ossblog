@@ -93,19 +93,19 @@ module.exports = {
       }
     ],
     // 评论插件
-    [
-      "vuepress-plugin-comment",
-      {
-        choosen: "valine",
-        // options选项中的所有参数，会传给Valine的配置
-        options: {
-          el: "#valine-vuepress-comment",
-          appId: "yWol7msCKGE7rhKvJ8GF2wvT-gzGzoHsz",
-          appKey: "U22GE79KAkhSrl66FaHi1qqx",
-          path: '<%- frontmatter.to.path %>'
-        }
-      }
-    ],
+    // [
+    //   "vuepress-plugin-comment",
+    //   {
+    //     choosen: "valine",
+    //     // options选项中的所有参数，会传给Valine的配置
+    //     options: {
+    //       el: "#valine-vuepress-comment",
+    //       appId: "yWol7msCKGE7rhKvJ8GF2wvT-gzGzoHsz",
+    //       appKey: "U22GE79KAkhSrl66FaHi1qqx",
+    //       path: '<%- frontmatter.to.path %>'
+    //     }
+    //   }
+    // ],
     [
       'social-share',
       {
