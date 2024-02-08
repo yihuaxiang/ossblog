@@ -419,7 +419,7 @@ module.exports = {
       lang: 'zh-CN',
     }
   },
-  globalUIComponents: ['PvAccumulation'],
+  globalUIComponents: ['PvAccumulation', 'BlogComment'],
   evergreen: true
 }
 
