@@ -4,6 +4,7 @@
   <div class="ctn">
     <div class="form">
       <textarea
+        id="commentBox"
         placeholder="请输入您的想法～"
         v-model="msg"
         @keydown.ctrl.enter="postComment"
@@ -37,6 +38,9 @@
               <span class="time">{{item.time}}</span>
             </div>
           </div>
+          <button class="reply" @click="handleReplyClick(item.comment)">
+            回复
+          </button>
         </div>
         <div class="comment-content" v-html="item.comment">
         </div>
@@ -60,6 +64,12 @@ export default {
   mounted() {
   },
   methods: {
+    handleReplyClick(comment) {
+      console.info('handleReplyClick', comment);
+
+      this.msg = `回复:\"${comment}\"\n\n------------\n\n`
+      document.querySelector('#commentBox').focus();
+    },
     postComment() {
       this.$notify({
         type: 'info',
@@ -139,6 +149,7 @@ export default {
       .infos {
         padding-left: 12px;
         padding-top: 6px;
+        flex-shrink: 1;
         .first-line {
           display: flex;
         }
@@ -157,7 +168,6 @@ export default {
           font-size: .75em;
           border-radius: 0.2em;
           margin-right: 0.3em;
-          max-width: 200px;
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
@@ -172,10 +182,12 @@ export default {
   }
   .comment-content {
     padding-left: 62px;
+    font-size: 14px;
     color: #b2b2b5;
     border-bottom: 1px dashed #f5f5f5;
     padding-bottom: 0.5em;
     margin-bottom: 12px;
+    white-space: pre;
   }
 
   .form {
@@ -227,6 +239,29 @@ export default {
         border-color: #333;
       }
     }
+  }
+
+  .reply {
+    color: #b2b2b5;
+    border-color: #b2b2b5;
+    transition-duration: .4s;
+    text-align: center;
+    color: #555;
+    border: 1px solid #ededed;
+    border-radius: 0.3em;
+    display: inline-block;
+    background: transparent;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    bottom: 12px;
+    right: 12px;
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 24px;
+
+    margin-left: auto;
   }
 }
 </style>
