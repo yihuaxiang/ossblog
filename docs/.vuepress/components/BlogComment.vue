@@ -67,6 +67,7 @@ export default {
     handleReplyClick(comment) {
       console.info('handleReplyClick', comment);
 
+      document.querySelector('#commentBox').blur();
       this.msg = `回复:\"${comment}\"\n\n------------\n\n`
       this.$nextTick(() => {
         setTimeout(() => {
@@ -149,6 +150,7 @@ export default {
 
     .comment-detail {
       display: flex;
+      white-space: nowrap;
 
       .infos {
         overflow: hidden;
