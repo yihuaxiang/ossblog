@@ -4,6 +4,8 @@
 
 <img width="300px" src="https://1.z.wiki/autoupload/20230130/1KnL.IMG_9546.HEIC.jpg" style="display: block; margin: 0 auto;" />
 
+<ImgView title="防窥膜" url="https://1.z.wiki/autoupload/20230130/1KnL.IMG_9546.HEIC.jpg" />
+
 打开包装，经典的四件套：按板、擦拭巾、软垫、防窥膜
 
 <ImgPlayer width="300px" :imgs="[
