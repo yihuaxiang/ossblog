@@ -4,6 +4,7 @@
   <div class="ctn">
     <div class="form">
       <textarea
+          style="display: block;width: 100%;border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
         id="commentBox"
         placeholder="请输入您的想法～"
         v-model="msg"
@@ -214,19 +215,7 @@ export default {
     position: relative;
 
     textarea {
-      border: none;
-      resize: none;
-      outline: none;
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      height: 100%;
-      width: 100%;
-      box-sizing: border-box;
-      color: #b2b2b5;
-      padding: 12px;
-      width: 100%;
-      display: block;
+      border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;
     }
 
     button {
