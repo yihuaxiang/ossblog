@@ -82,6 +82,15 @@ export default {
       })
     },
     postComment() {
+      if (this.msg || this.msg.trim() == '') {
+        this.$notify({
+          type: 'error',
+          text: '内容不能为空哟'
+        })
+
+        return;
+      }
+
       this.$notify({
         type: 'info',
         text: '提交中'
