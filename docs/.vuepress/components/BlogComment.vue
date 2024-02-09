@@ -225,6 +225,8 @@ export default {
       box-sizing: border-box;
       color: #b2b2b5;
       padding: 12px;
+      width: 100%;
+      display: block;
     }
 
     button {
