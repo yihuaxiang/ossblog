@@ -82,7 +82,7 @@ export default {
       })
     },
     postComment() {
-      if (this.msg || this.msg.trim() == '') {
+      if (!this.msg || this.msg.trim() == '') {
         this.$notify({
           type: 'error',
           text: '内容不能为空哟'
