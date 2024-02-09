@@ -4,6 +4,7 @@
   <div class="ctn">
     <div class="form">
       <textarea
+          class="textarea"
           style="display: block;width: 100%;border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
         id="commentBox"
         placeholder="请输入您的想法～"
@@ -13,7 +14,7 @@
       >
 
       </textarea>
-      <button @click="postComment">提交</button>
+      <button class="btn" @click="postComment">提交</button>
     </div>
     <br>
 
@@ -214,11 +215,11 @@ export default {
 
     position: relative;
 
-    textarea {
+    .textarea {
       border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;
     }
 
-    button {
+    .btn {
       position: absolute;
       color: #b2b2b5;
       border-color: #b2b2b5;
