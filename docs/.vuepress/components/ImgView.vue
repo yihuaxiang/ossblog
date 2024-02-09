@@ -23,6 +23,11 @@ export default {
       type: String,
       required: false,
       default: null
+    },
+    extStyle: {
+      type: Object,
+      required: false,
+      default: null
     }
   },
   data() {
@@ -46,7 +51,7 @@ export default {
   },
   computed: {
     imgStyle() {
-      const style = {};
+      const style = this.extStyle || {};
       if(this.width && !this.isError) {
         style.width = this.width;
       }
