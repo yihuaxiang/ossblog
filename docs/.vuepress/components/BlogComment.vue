@@ -22,30 +22,35 @@
     <br>
 
     <div class="vcards">
-      <template v-for="item in list">
-        <div class="comment-detail" :key="item.id" :id="item.id">
-          <div class="avatar">
-            <img src="https://z.wiki/autoupload/20240209/jZRq.avatar.svg" width="50" height="50" />
-          </div>
-          <div class="infos">
-            <div class="first-line">
-              <span class="name">
-                {{item.nick}}
-              </span>
-              <span class="ua">
-                {{item.ua}}
-              </span>
+      <template v-if="loading">
+        <div class="loading">加载中...</div>
+      </template>
+      <template v-else>
+        <template v-for="item in list">
+          <div class="comment-detail" :key="item.id" :id="item.id">
+            <div class="avatar">
+              <img src="https://z.wiki/autoupload/20240209/jZRq.avatar.svg" width="50" height="50" />
             </div>
-            <div class="second-line">
-              <span class="time">{{item.time}}</span>
+            <div class="infos">
+              <div class="first-line">
+                <span class="name">
+                  {{item.nick}}
+                </span>
+                <span class="ua">
+                  {{item.ua}}
+                </span>
+              </div>
+              <div class="second-line">
+                <span class="time">{{item.time}}</span>
+              </div>
             </div>
+            <button class="reply" @click="handleReplyClick(item.comment)">
+              回复
+            </button>
           </div>
-          <button class="reply" @click="handleReplyClick(item.comment)">
-            回复
-          </button>
-        </div>
-        <div class="comment-content" v-html="item.comment">
-        </div>
+          <div class="comment-content" v-html="item.comment">
+          </div>
+        </template>
       </template>
     </div>
   </div>
@@ -59,6 +64,7 @@ export default {
   name: "BlogComment",
   data() {
     return {
+      loading: true,
       list: [],
       msg: ''
     }
@@ -121,14 +127,16 @@ export default {
 
       if (typeof fetch != undefined) {
         try {
+          this.loading = true;
           fetch(`https://playground.z.wiki/comment/list?path=${encodeURIComponent(path)}`)
             .then(res => res.json()).then(info => {
-            console.log('info is', info);
-            this.list = info;
+              this.list = info;
+              this.loading = false;
           })
         } catch(e) {
           console.warn('failed to fetch accumulation', e);
           this.list = [];
+          this.loading = false;
         }
       }
     }
