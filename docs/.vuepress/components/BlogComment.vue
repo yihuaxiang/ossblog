@@ -25,7 +25,7 @@
       <template v-for="item in list">
         <div class="comment-detail" :key="item.id" :id="item.id">
           <div class="avatar">
-            <img src="https://z.wiki/autoupload/20240208/H0gu.80X80-image.png" width="50" height="50" />
+            <img src="https://z.wiki/autoupload/20240209/jZRq.avatar.svg" width="50" height="50" />
           </div>
           <div class="infos">
             <div class="first-line">
