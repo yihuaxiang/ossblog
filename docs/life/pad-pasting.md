@@ -2,8 +2,6 @@
 
 在淘宝上`15`块钱买了一个防窥膜，刚取到货😝
 
-<img width="300px" src="https://1.z.wiki/autoupload/20230130/1KnL.IMG_9546.HEIC.jpg" style="display: block; margin: 0 auto;" />
-
 <ImgView title="防窥膜" url="https://1.z.wiki/autoupload/20230130/1KnL.IMG_9546.HEIC.jpg" :ext-style="{display: 'block', margin: '0 auto', width: '300px'}" />
 
 打开包装，经典的四件套：按板、擦拭巾、软垫、防窥膜
@@ -15,21 +13,21 @@
 
 摆好手机，开干！！！
 
-<img width="300px" src="https://2.z.wiki/autoupload/20230130/Vcca.IMG_2636.HEIC.jpg" style="display: block; margin: 0 auto;" />
+<ImgView title="防窥膜" url="https://2.z.wiki/autoupload/20230130/Vcca.IMG_2636.HEIC.jpg" :ext-style="{display: 'block', margin: '0 auto', width: '300px'}" />
 
 
 犹抱琵琶半遮面的防窥膜
 
-<img width="300px" src="https://3.z.wiki/autoupload/20230130/S2HP.IMG_2637.HEIC.jpg" style="display: block; margin: 0 auto;" />
+<ImgView title="防窥膜" url="https://3.z.wiki/autoupload/20230130/S2HP.IMG_2637.HEIC.jpg" :ext-style="{display: 'block', margin: '0 auto', width: '300px'}" />
 
 先擦干净手机屏幕
 
-<img width="300px" src="https://4.z.wiki/autoupload/20230130/C3nI.IMG_2638.HEIC.jpg" style="display: block; margin: 0 auto;" />
+<ImgView title="防窥膜" url="https://4.z.wiki/autoupload/20230130/C3nI.IMG_2638.HEIC.jpg" :ext-style="{display: 'block', margin: '0 auto', width: '300px'}" />
 
 
 按上防窥膜
 
-<img width="300px" src="https://1.z.wiki/autoupload/20230130/G9BH.IMG_2639.HEIC.jpg" style="display: block; margin: 0 auto;" />
+<ImgView title="防窥膜" url="https://1.z.wiki/autoupload/20230130/G9BH.IMG_2639.HEIC.jpg" :ext-style="{display: 'block', margin: '0 auto', width: '300px'}" />
 
 压紧
 
