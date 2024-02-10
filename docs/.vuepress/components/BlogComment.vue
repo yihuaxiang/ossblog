@@ -282,6 +282,7 @@ export default {
     cursor: pointer;
     margin-top: 10px;
     height: 24px;
+    display: block;
 
     margin-left: auto;
   }
