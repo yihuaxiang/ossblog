@@ -2,6 +2,14 @@
 <div class="blog-comment">
   <notifications position="top center"/>
   <div class="ctn">
+    <div class="reply-info" v-show="replyContent">
+      <span class="info">
+        回复：
+      </span>
+      <span class="content" style="" v-html="replyContent">
+      </span>
+      <span class="close" @click="replyContent = null">X</span>
+    </div>
     <div class="form">
       <textarea
           class="textarea"
@@ -68,7 +76,8 @@ export default {
     return {
       loading: true,
       list: [],
-      msg: ''
+      msg: '',
+      replyContent: ''
     }
   },
   mounted() {
@@ -76,17 +85,12 @@ export default {
   methods: {
     handleReplyClick(comment) {
       console.info('handleReplyClick', comment);
+      this.replyContent = comment;
 
-      document.querySelector('#commentBox').blur();
-      this.msg = `回复:\"${comment}\"\n\n------------\n\n`
-      this.$nextTick(() => {
-        setTimeout(() => {
-          document.querySelector('#commentBox').focus();
-          document.querySelector('#commentBox').scrollIntoView({
-            behavior: "smooth",
-            block: 'center'
-          })
-        }, 50)
+      document.querySelector('#commentBox').focus();
+      document.querySelector('#commentBox').scrollIntoView({
+        behavior: "smooth",
+        block: 'center'
       })
     },
     postComment() {
@@ -99,6 +103,9 @@ export default {
         return;
       }
 
+      if (this.replyContent) {
+        this.msg = `回复:\"${this.replyContent}\"\n\n------------\n\n${this.msg}`
+      }
       this.$notify({
         type: 'info',
         text: '提交中'
@@ -114,6 +121,7 @@ export default {
             url: this.$route.path
           })
         }).then(res => res.json()).finally(() => {
+          this.replyContent = null;
           this.$notify({
             type: 'success',
             text: '提交成功'
@@ -148,6 +156,7 @@ export default {
       immediate: true,
       handler: function() {
         this.query();
+        this.replyContent = null;
       }
     }
   }
@@ -159,6 +168,27 @@ export default {
   .ctn {
     margin: 0 14px;
     padding: 14px 40px 32px;
+
+    .reply-info {
+      font-size: 14px;
+      color: #b2b2b5;
+
+      display: flex;
+
+      .info {
+        white-space: nowrap;
+      }
+
+      .content{
+        flex-grow: 1;
+      }
+
+      .close {
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+      }
+    }
   }
   .vcount {
     padding: 5px;
@@ -219,7 +249,10 @@ export default {
     border-bottom: 1px dashed #f5f5f5;
     padding-bottom: 0.5em;
     margin-bottom: 12px;
-    white-space: pre;
+    white-space: break-spaces;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .form {
