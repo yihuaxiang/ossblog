@@ -10,7 +10,7 @@
       </span>
       <span class="close" @click="replyContent = null">X</span>
     </div>
-    <div class="form">
+    <div class="form" :class="{saving: saving}">
       <textarea
           class="textarea"
           style="display: block;width: 100%;border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
@@ -77,7 +77,8 @@ export default {
       loading: true,
       list: [],
       msg: '',
-      replyContent: ''
+      replyContent: '',
+      saving: false,
     }
   },
   mounted() {
@@ -103,13 +104,18 @@ export default {
         return;
       }
 
+      let msg = '';
       if (this.replyContent) {
-        this.msg = `回复:\"${this.replyContent}\"\n\n------------\n\n${this.msg}`
+        msg = `回复:\"${this.replyContent}\"\n\n------------\n\n${this.msg}`
+      } else {
+        msg = this.msg;
       }
+
       this.$notify({
         type: 'info',
         text: '提交中'
       })
+      this.saving = true;
       if (typeof fetch != undefined) {
         fetch(`https://playground.z.wiki/comment/post`, {
           method: 'POST',
@@ -117,7 +123,7 @@ export default {
             'Content-Type': 'application/json;charset=utf8',
           },
           body: JSON.stringify({
-            comment: this.msg,
+            comment: msg,
             url: this.$route.path
           })
         }).then(res => res.json()).finally(() => {
@@ -128,6 +134,7 @@ export default {
           })
           this.query();
           this.msg = '';
+          this.saving = false;
         })
       }
       console.info('postComment', this.msg);
@@ -172,7 +179,7 @@ export default {
     .reply-info {
       font-size: 14px;
       color: #b2b2b5;
-
+      padding-bottom: 5px;
       display: flex;
 
       .info {
@@ -293,6 +300,21 @@ export default {
 
       &:active {
         border-color: #333;
+      }
+    }
+
+    &.saving {
+      &::after {
+        content: '提交中';
+        position: absolute;
+        z-index: 3;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        background: #c3c3c39c;
+        text-align: center;
+        line-height: 60px;
       }
     }
   }
