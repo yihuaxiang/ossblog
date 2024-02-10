@@ -37,7 +37,9 @@
                   {{item.nick}}
                 </span>
                 <span class="ua">
-                  {{item.ua}}
+                  {{item.platform || ''}}
+                  {{item.browser || ''}}
+                  {{item.version || ''}}
                 </span>
               </div>
               <div class="second-line">
