@@ -249,6 +249,7 @@ export default {
       border-radius: 0.3em;
       display: inline-block;
       background: transparent;
+      height: 24px;
       margin-bottom: 0;
       font-weight: 400;
       vertical-align: middle;
