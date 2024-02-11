@@ -1,6 +1,6 @@
 # 2024年春节
 
-大年初一前往峨眉山。
+大年初一前往[峨眉山](https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1/2676)。
 
 <ImgView title="峨眉山" url="https://6.z.wiki/autoupload/20240211/HaA0.IMG_8309.heic.jpg" />
 
