@@ -24,7 +24,7 @@ tags: ["网站", "备案", "域名", "阿里云", "腾讯云"]
 
 > 2022-04-09 更：腾讯又搞活动，给免费升级`4C4G`，nice~
 > 
-> <ImgView title="网站备案" url="https://z.wiki/images/20220409/1cb4d2402c514752a5a142d17b0453bb.png)" />
+> <ImgView title="网站备案" url="https://z.wiki/images/20220409/1cb4d2402c514752a5a142d17b0453bb.png" />
 
 
 
