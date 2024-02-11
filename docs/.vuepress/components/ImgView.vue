@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :origin-url="url">
     <div v-show="isLoading" class="loading-container-div">
       <div class="lds-hourglass"></div>
     </div>
