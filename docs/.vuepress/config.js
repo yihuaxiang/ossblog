@@ -233,6 +233,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'google-console-insight',
         'secure-gallery',
         'google-seo',
         'edge-rubbish',
