@@ -29,7 +29,7 @@
 <ImgView title="峨眉山" url="https://8.z.wiki/autoupload/20240211/r01Q.IMG_8313.HEIC.jpg" />
 
 
-<ImgView title="峨眉山" url="https://7.z.wiki/autoupload/20240211/fUGP.4032X3024-IMG_8312.JPG" />
+<ImgView title="峨眉山" url="https://9.z.wiki/autoupload/20240211/3hl4.1924X1440-image.png" />
 
 
 <ImgView title="峨眉山" url="https://4.z.wiki/autoupload/20240211/QJzt.4032X3024-IMG_8311.JPG" />
