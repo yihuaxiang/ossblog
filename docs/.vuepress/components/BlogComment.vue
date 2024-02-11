@@ -2,7 +2,15 @@
 <div class="blog-comment">
   <notifications position="top center"/>
   <div class="ctn">
-    <div class="form">
+    <div class="reply-info" v-show="replyContent">
+      <span class="info">
+        回复：
+      </span>
+      <span class="content" style="" v-html="replyContent">
+      </span>
+      <span class="close" @click="replyContent = null">X</span>
+    </div>
+    <div class="form" :class="{saving: saving}">
       <textarea
           class="textarea"
           style="display: block;width: 100%;border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
@@ -68,7 +76,9 @@ export default {
     return {
       loading: true,
       list: [],
-      msg: ''
+      msg: '',
+      replyContent: '',
+      saving: false,
     }
   },
   mounted() {
@@ -76,17 +86,12 @@ export default {
   methods: {
     handleReplyClick(comment) {
       console.info('handleReplyClick', comment);
+      this.replyContent = comment;
 
-      document.querySelector('#commentBox').blur();
-      this.msg = `回复:\"${comment}\"\n\n------------\n\n`
-      this.$nextTick(() => {
-        setTimeout(() => {
-          document.querySelector('#commentBox').focus();
-          document.querySelector('#commentBox').scrollIntoView({
-            behavior: "smooth",
-            block: 'center'
-          })
-        }, 50)
+      document.querySelector('#commentBox').focus();
+      document.querySelector('#commentBox').scrollIntoView({
+        behavior: "smooth",
+        block: 'center'
       })
     },
     postComment() {
@@ -99,10 +104,18 @@ export default {
         return;
       }
 
+      let msg = '';
+      if (this.replyContent) {
+        msg = `回复:\"${this.replyContent}\"\n\n------------\n\n${this.msg}`
+      } else {
+        msg = this.msg;
+      }
+
       this.$notify({
         type: 'info',
         text: '提交中'
       })
+      this.saving = true;
       if (typeof fetch != undefined) {
         fetch(`https://playground.z.wiki/comment/post`, {
           method: 'POST',
@@ -110,16 +123,18 @@ export default {
             'Content-Type': 'application/json;charset=utf8',
           },
           body: JSON.stringify({
-            comment: this.msg,
+            comment: msg,
             url: this.$route.path
           })
         }).then(res => res.json()).finally(() => {
+          this.replyContent = null;
           this.$notify({
             type: 'success',
             text: '提交成功'
           })
           this.query();
           this.msg = '';
+          this.saving = false;
         })
       }
       console.info('postComment', this.msg);
@@ -148,6 +163,7 @@ export default {
       immediate: true,
       handler: function() {
         this.query();
+        this.replyContent = null;
       }
     }
   }
@@ -159,6 +175,27 @@ export default {
   .ctn {
     margin: 0 14px;
     padding: 14px 40px 32px;
+
+    .reply-info {
+      font-size: 14px;
+      color: #b2b2b5;
+      padding-bottom: 5px;
+      display: flex;
+
+      .info {
+        white-space: nowrap;
+      }
+
+      .content{
+        flex-grow: 1;
+      }
+
+      .close {
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+      }
+    }
   }
   .vcount {
     padding: 5px;
@@ -219,7 +256,10 @@ export default {
     border-bottom: 1px dashed #f5f5f5;
     padding-bottom: 0.5em;
     margin-bottom: 12px;
-    white-space: pre;
+    white-space: break-spaces;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .form {
@@ -260,6 +300,21 @@ export default {
 
       &:active {
         border-color: #333;
+      }
+    }
+
+    &.saving {
+      &::after {
+        content: '提交中';
+        position: absolute;
+        z-index: 3;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        background: #c3c3c39c;
+        text-align: center;
+        line-height: 60px;
       }
     }
   }
