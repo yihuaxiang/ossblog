@@ -116,7 +116,7 @@ Microsoft edge
 
 
 
-目前主流的云服务商均支持基于 TLS 指纹的 WAF，比如：![阿里云](https://playground.z.wiki/search/page?keyword=%E9%98%BF%E9%87%8C%E4%BA%91)、Akamai。
+目前主流的云服务商均支持基于 TLS 指纹的 WAF，比如：[阿里云](https://playground.z.wiki/search/page?keyword=%E9%98%BF%E9%87%8C%E4%BA%91)、Akamai。
 
 
 可以通过以下工具查看当前客户端的 TLS 指纹
