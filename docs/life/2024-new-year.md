@@ -2,6 +2,10 @@
 
 大年初一前往峨眉山。
 
+<ImgView title="峨眉山" url="https://6.z.wiki/autoupload/20240211/HaA0.IMG_8309.heic.jpg" />
+
+<ImgView title="峨眉山" url="https://2.z.wiki/autoupload/20240211/AB9B.IMG_8310.heic.jpg" />
+
 <ImgView title="峨眉山" url="https://1.z.wiki/autoupload/20240211/qlzF.3024X4032-IMG_8307.JPG" />
 
 
@@ -35,8 +39,6 @@
 <ImgView title="峨眉山" url="https://4.z.wiki/autoupload/20240211/QJzt.4032X3024-IMG_8311.JPG" />
 
 
-<ImgView title="峨眉山" url="https://2.z.wiki/autoupload/20240211/AB9B.IMG_8310.heic.jpg" />
 
 
-<ImgView title="峨眉山" url="https://6.z.wiki/autoupload/20240211/HaA0.IMG_8309.heic.jpg" />
 
