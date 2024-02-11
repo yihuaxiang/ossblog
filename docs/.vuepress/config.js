@@ -287,6 +287,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        '2024-new-year',
         'zhuhai',
         'tianjin-2',
         'google-search-console',
