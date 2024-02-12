@@ -52,7 +52,7 @@ public class UserService implements IUserService{
     return future.get();
   }
 
-  public List<Map<String, Object>> batchQueryUser(List<Long> ids) {
+  private List<Map<String, Object>> batchQueryUser(List<Long> ids) {
     return restTemplate.getForEntity("https://playground.z.wiki/test/getUserInfo?ids=" + Joiner.on(",").join(ids), List.class).getBody();
   }
 
@@ -124,4 +124,4 @@ Shortest transaction:	        1.40
 
 ![](https://z.wiki/placeholder/740x120?text=注意&color=black&pinyin=true)
 
-注意，***没有银弹***，只有高冰饭且批量请求有助于减轻下游负载的情况下才适合进行请求合并。
+注意，***没有银弹***，只有高并发且批量请求有助于减轻下游负载的情况下才适合进行请求合并。
