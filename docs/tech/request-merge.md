@@ -101,7 +101,8 @@ public class UserService implements IUserService{
 
 ![](https://z.wiki/placeholder/740x120?text=测试&color=black&pinyin=true)
 
-测试脚本：`siege "http://localhost:8080/test/getUserInfo?id=9" --time=20s --concurrent=100`
+1. 测试工具：[siege](https://z.wiki/misc/cmd-recommend.html#siege)
+2. 测试脚本：`siege "http://localhost:8080/test/getUserInfo?id=9" --time=20s --concurrent=100`
 
 这里模拟 100 个并发，持续 20s 的压测
 
