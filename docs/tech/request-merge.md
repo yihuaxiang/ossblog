@@ -98,3 +98,30 @@ public class UserService implements IUserService{
 }
 
 ```
+
+![](https://z.wiki/placeholder/740x120?text=测试&color=black&pinyin=true)
+
+测试脚本：`siege "http://localhost:8080/test/getUserInfo?id=9" --time=20s --concurrent=100`
+
+这里模拟 100 个并发，持续 20s 的压测
+
+```
+Transactions:		         886 hits
+Availability:		      100.00 %
+Elapsed time:		       19.24 secs
+Data transferred:	        0.11 MB
+Response time:		        2.12 secs
+Transaction rate:	       46.05 trans/sec
+Throughput:		        0.01 MB/sec
+Concurrency:		       97.60
+Successful transactions:         886
+Failed transactions:	           0
+Longest transaction:	       10.42
+Shortest transaction:	        1.40
+```
+
+
+
+![](https://z.wiki/placeholder/740x120?text=注意&color=black&pinyin=true)
+
+注意，***没有银弹***，只有高冰饭且批量请求有助于减轻下游负载的情况下才适合进行请求合并。
