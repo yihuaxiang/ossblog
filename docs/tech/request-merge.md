@@ -1,8 +1,8 @@
 # 高性能实践-请求合并
 
-在高并发场景下，对下游服务的请求往往会引起大量的网络IO和服务端处理负载。通过请求合并将多个单独的请求合并成一个批量请求，可以显著减轻这些压力。
+在高并发场景下，对下游服务的请求往往会引起大量的网络`IO`和服务端处理负载。通过请求合并将多个单独的请求合并成一个批量请求，可以显著减轻这些压力。
 
-本文介绍一种单机模式下的下游请求合并方案。（如果需要分布式模式下请求合并则需要借助 redis Kafka 等中间件，本文暂不涉及）
+本文介绍一种单机模式下的下游请求合并方案。（如果需要分布式模式下请求合并则需要借助 `redis` `Kafka` 等中间件，本文暂不涉及）
 
 ![](https://z.wiki/placeholder/740x120?text=思路&color=black&pinyin=true)
 
@@ -13,9 +13,9 @@
 
 技术手段主要为：
 
-1. LinkedBlockingQueue 线程安全阻塞队列
-2. ExecutorService ScheduledExecutorService 线程池
-3. CompleteableFuture Java 8 引入的API，位于 java.util.concurrent 包中。它提供了一种异步编程的方式，允许以声明性的方式编写异步代码。
+1. `LinkedBlockingQueue` 线程安全阻塞队列
+2. `ExecutorService` `ScheduledExecutorService` 线程池
+3. `CompleteableFuture` Java 8 引入的 API，位于 `java.util.concurrent` 包中。它提供了一种异步编程的方式，允许以声明性的方式编写异步代码。
 
 
 
