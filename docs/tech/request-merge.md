@@ -1,15 +1,16 @@
-# 高性能实践-请求合并
+# 高性能实践：精致的请求合并策略
 
-在高并发场景下，对下游服务的请求往往会引起大量的网络`IO`和服务端处理负载。通过请求合并将多个单独的请求合并成一个批量请求，可以显著减轻这些压力。
+在高并发场景下，来自下游服务的请求往往会引起大量的网络`IO`和服务端处理负载。有一种巧妙的方式可以减缓这些压力——请求合并。
+其原理就是将一堆零散的请求拼凑成一个批量请求，如此便可以大幅降低上游服务器的压力。
 
-本文介绍一种单机模式下的下游请求合并方案。（如果需要分布式模式下请求合并则需要借助 `redis` `Kafka` 等中间件，本文暂不涉及）
+本文将探讨一种高效的单机模式下的请求合并策略。(分布式系统中实现请求合并会更复杂，涉及到 redis、Kafka 等中间件，这部分内容非了本文的讨论范围）
 
-![](https://z.wiki/placeholder/740x120?text=思路&color=black&pinyin=true)
+![](https://z.wiki/placeholder/740x120?text=实现思路&color=black&pinyin=true)
 
-核心实现思路：通过消息队列，将请求先发送到队列中，然后使用工作线程进行消费处理，工作线程会不断地从队列中取出请求进行批量处理。
+核心实现思路：将请求先发送到队列中，然后使用工作线程进行消费处理，工作线程会不断地从队列中取出请求进行批量处理。
 
 
-![](https://z.wiki/placeholder/740x120?text=手段&color=black&pinyin=true)
+![](https://z.wiki/placeholder/740x120?text=技术手段&color=black&pinyin=true)
 
 技术手段主要为：
 
@@ -61,15 +62,16 @@ public class UserService implements IUserService{
     ExecutorService executorService = Executors.newFixedThreadPool(100);
     ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(10);
     scheduledExecutorService.scheduleAtFixedRate(() -> {
+      // 这里利用单独的线程池处理，是因为通过 scheduleAtFixedRate 运行的任务会收到前一个任务的影响，只有前一个任务执行完毕后一个才会开始
       executorService.execute(() -> {
         int queueSize = this.queue.size();
         if (queueSize == 0) {
           return ;
         }
 
-        List<UserQuery> userQueryList = new ArrayList<>(50);
         // 每次最多请求10个
         final int maxBatchSize = 10;
+        List<UserQuery> userQueryList = new ArrayList<>(maxBatchSize);
 
         for (int i = 0;i<maxBatchSize;i++) {
           if (queue.isEmpty()) {
@@ -99,6 +101,9 @@ public class UserService implements IUserService{
 
 ```
 
+在这段代码中，我们首先定义了一个线程安全的阻塞队列以保存所有待查询信息，然后通过工作线程来执行批量查询操作。
+
+
 ![](https://z.wiki/placeholder/740x120?text=测试&color=black&pinyin=true)
 
 1. 测试工具：[siege](https://z.wiki/misc/cmd-recommend.html#siege)
@@ -125,4 +130,8 @@ Shortest transaction:	        1.40
 
 ![](https://z.wiki/placeholder/740x120?text=注意&color=black&pinyin=true)
 
-注意，***没有银弹***，只有高并发且批量请求有助于减轻下游负载的情况下才适合进行请求合并。
+注意，***没有银弹***，只有高并发且批量请求有助于减轻下游负载的情况下才需要进行请求合并。
+
+代码粗糙，但是意思应该表达出来了
+
+![image.png](https://2.z.wiki/autoupload/20240212/IXyf.360X314-image.png)
