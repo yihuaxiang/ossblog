@@ -24,6 +24,8 @@
 
 ![](https://z.wiki/placeholder/740x120?text=代码&color=black&pinyin=true)
 
+源码地址：[https://github.com/yihuaxiang/spring-merge-request-demo](https://github.com/yihuaxiang/spring-merge-request-demo)
+
 
 ```java
 @Service
