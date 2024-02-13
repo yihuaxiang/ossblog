@@ -3,11 +3,13 @@
 在高并发场景下，来自下游服务的请求往往会引起大量的网络`IO`和服务端处理负载。有一种巧妙的方式可以减缓这些压力——请求合并。
 其原理就是将一堆零散的请求拼凑成一个批量请求，如此便可以大幅降低上游服务器的压力。
 
-本文将探讨一种高效的单机模式下的请求合并策略。(分布式系统中实现请求合并会更复杂，涉及到 `redis`、`Kafka` 等中间件，这部分内容非了本文的讨论范围）
+本文将探讨一种高效的单机模式下的请求合并策略。
 
 ![](https://z.wiki/placeholder/740x120?text=实现思路&color=black&pinyin=true)
 
 核心实现思路：将请求先发送到队列中，然后使用工作线程进行消费处理，工作线程会不断地从队列中取出请求进行批量处理。
+
+![请求合并.drawio.png](https://3.z.wiki/autoupload/20240213/4dcJ.931X1383-%E8%AF%B7%E6%B1%82%E5%90%88%E5%B9%B6.drawio.png)
 
 
 ![](https://z.wiki/placeholder/740x120?text=技术手段&color=black&pinyin=true)
@@ -126,6 +128,8 @@ Longest transaction:	       10.42
 Shortest transaction:	        1.40
 ```
 
+![image.png](https://5.z.wiki/autoupload/20240213/L76A.458X1176-image.png)
+从日志中可以看出来短时间内的多次请求被合并到了一起。
 
 
 ![](https://z.wiki/placeholder/740x120?text=注意&color=black&pinyin=true)
