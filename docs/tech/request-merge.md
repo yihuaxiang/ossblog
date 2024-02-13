@@ -10,7 +10,8 @@
 
 核心实现思路：将请求先发送到队列中，然后使用工作线程进行消费处理，工作线程会不断地从队列中取出请求进行批量处理。
 
-![请求合并.drawio.png](https://3.z.wiki/autoupload/20240213/4dcJ.931X1383-%E8%AF%B7%E6%B1%82%E5%90%88%E5%B9%B6.drawio.png)
+<ImgView title="请求合并" url="https://3.z.wiki/autoupload/20240213/4dcJ.931X1383-%E8%AF%B7%E6%B1%82%E5%90%88%E5%B9%B6.drawio.png" />
+
 
 
 <ImgView title="合并请求" url="https://z.wiki/placeholder/740x120?text=技术手段&color=black&pinyin=true" />
