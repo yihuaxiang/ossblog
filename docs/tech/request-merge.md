@@ -5,14 +5,16 @@
 
 本文将探讨一种高效的单机模式下的请求合并策略。
 
-![](https://z.wiki/placeholder/740x120?text=实现思路&color=black&pinyin=true)
+<ImgView title="合并请求" url="https://z.wiki/placeholder/740x120?text=实现思路&color=black&pinyin=true" />
+
 
 核心实现思路：将请求先发送到队列中，然后使用工作线程进行消费处理，工作线程会不断地从队列中取出请求进行批量处理。
 
 ![请求合并.drawio.png](https://3.z.wiki/autoupload/20240213/4dcJ.931X1383-%E8%AF%B7%E6%B1%82%E5%90%88%E5%B9%B6.drawio.png)
 
 
-![](https://z.wiki/placeholder/740x120?text=技术手段&color=black&pinyin=true)
+<ImgView title="合并请求" url="https://z.wiki/placeholder/740x120?text=技术手段&color=black&pinyin=true" />
+
 
 技术手段主要为：
 
@@ -22,7 +24,8 @@
 
 
 
-![](https://z.wiki/placeholder/740x120?text=代码&color=black&pinyin=true)
+<ImgView title="合并请求" url="https://z.wiki/placeholder/740x120?text=代码&color=black&pinyin=true" />
+
 
 源码地址：[https://github.com/yihuaxiang/spring-merge-request-demo](https://github.com/yihuaxiang/spring-merge-request-demo)
 
@@ -108,7 +111,8 @@ public class UserService implements IUserService{
 在这段代码中，我们首先定义了一个线程安全的阻塞队列以保存所有待查询信息，然后通过工作线程来执行批量查询操作。
 
 
-![](https://z.wiki/placeholder/740x120?text=测试&color=black&pinyin=true)
+<ImgView title="合并请求" url="https://z.wiki/placeholder/740x120?text=测试&color=black&pinyin=true" />
+
 
 1. 测试工具：[siege](https://z.wiki/misc/cmd-recommend.html#siege)
 2. 测试脚本：`siege "http://localhost:8080/test/getUserInfo?id=9" --time=20s --concurrent=100`
@@ -130,14 +134,17 @@ Longest transaction:	       10.42
 Shortest transaction:	        1.40
 ```
 
-![image.png](https://5.z.wiki/autoupload/20240213/L76A.458X1176-image.png)
+<ImgView title="合并请求" url="https://5.z.wiki/autoupload/20240213/L76A.458X1176-image.png" />
+
 从日志中可以看出来短时间内的多次请求被合并到了一起。
 
 
-![](https://z.wiki/placeholder/740x120?text=注意&color=black&pinyin=true)
+<ImgView title="合并请求" url="https://z.wiki/placeholder/740x120?text=注意&color=black&pinyin=true" />
+
 
 注意，***没有银弹***，只有高并发且批量请求有助于减轻下游负载的情况下才需要进行请求合并。
 
 代码粗糙，但是意思应该表达出来了，另外以上只是为了演示效果而编写的代码，实际应用中建议直接 `Hystrix` 提供的请求合并能力。
 
-![image.png](https://2.z.wiki/autoupload/20240212/IXyf.360X314-image.png)
+<ImgView title="合并请求" url="https://2.z.wiki/autoupload/20240212/IXyf.360X314-image.png" />
+
