@@ -150,9 +150,7 @@ module.exports = {
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
       }
     ],
-    [
-      require('./search.js')
-    ]
+    require('./search.js'),
     ['@vuepress/last-updated', {
       transformer: (timestamp, lang) => {
         dayjs.locale(lang)
