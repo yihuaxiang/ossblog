@@ -89,7 +89,7 @@ export default {
       padding: 0 .5rem 0 2rem;
       outline: none;
       transition: all .2s ease;
-      background: #fff url(/assets/img/search.83621669.svg) .6rem .5rem no-repeat;
+      background: #fff url(https://z.wiki/autoupload/20240215/DV4S.search.83621669.svg) .6rem .5rem no-repeat;
       background-size: 1rem;
     }
   }
