@@ -9,6 +9,9 @@
           <p v-html="item.title">{{item.title}}</p>
         </a>
       </div>
+      <div class="">
+        <a :href="`https://playground.z.wiki/search/page?keyword=${keyword}`">详细搜索</a>
+      </div>
     </div>
   </div>
 </template>
