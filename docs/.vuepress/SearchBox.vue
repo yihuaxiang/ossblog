@@ -12,13 +12,13 @@ export default {
     }
   },
   methods: {
-    handleInput() {
-      console.log('handleInput')
+    handleInput(e) {
+      console.log('handleInput', e.target.value);
     }
   },
   watch: {
     keyword() {
-      console.log('keyword is', keyword);
+      console.log('keyword is', this.keyword);
     }
   }
 }
