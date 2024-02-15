@@ -4,13 +4,15 @@
       <input type="text" v-model="keyword" placeholder="搜索" @input="handleInput" @blur="handleBlur" />
     </div>
     <div class="list" v-if="list && list.length > 0">
+      <div class="">
+        <a :href="`https://playground.z.wiki/search/page?keyword=${keyword}`">
+          <p style="color: #3eaf7c">点此查看详细搜索</p>
+        </a>
+      </div>
       <div v-for="item in list">
         <a :href="item.link">
           <p v-html="item.title">{{item.title}}</p>
         </a>
-      </div>
-      <div class="">
-        <a :href="`https://playground.z.wiki/search/page?keyword=${keyword}`">详细搜索</a>
       </div>
     </div>
   </div>
