@@ -62,7 +62,7 @@ export default {
 
     input {
       cursor: text;
-      width: 10rem;
+      width: 6rem;
       height: 2rem;
       color: #4e6e8e;
       display: inline-block;
