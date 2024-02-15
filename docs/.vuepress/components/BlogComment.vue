@@ -62,9 +62,9 @@
           </div>
         </template>
       </template>
-      <div class="pages" style="display: flex;padding-left: 55px;">
+      <div class="pages">
         <template v-for="pageIndex in totalPage">
-          <span class="page" style="display: inline-block; cursor: pointer; padding-left: 5px; padding-right: 5px; padding-bottom: 2px; padding-top: 2px; color: #555; border: 1px solid #ededed; border-radius: 4px; margin-left: 5px; margin-right: 5px; font-size: 14px;">{{pageIndex}}</span>
+          <span class="page">{{pageIndex}}</span>
         </template>
       </div>
     </div>
@@ -358,6 +358,26 @@ export default {
     display: block;
 
     margin-left: auto;
+  }
+
+  .pages {
+    display: flex;
+    padding-left: 55px;
+
+    .page {
+       display: inline-block;
+       cursor: pointer;
+       padding-left: 5px;
+       padding-right: 5px;
+       padding-bottom: 2px;
+       padding-top: 2px;
+       color: #555;
+       border: 1px solid #ededed;
+       border-radius: 4px;
+       margin-left: 5px;
+       margin-right: 5px;
+       font-size: 14px;
+    }
   }
 }
 </style>
