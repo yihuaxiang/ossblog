@@ -385,7 +385,7 @@ export default {
        font-size: 14px;
 
        &.active {
-         background-color: rgb(211 211 211);
+         border-color: #ccc;
        }
     }
   }
