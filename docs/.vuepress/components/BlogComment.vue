@@ -34,7 +34,7 @@
         <div class="loading">加载中...</div>
       </template>
       <template v-else>
-        <template v-for="item in list">
+        <template v-for="item in pageList">
           <div class="comment-detail" :key="item.id" :id="item.id">
             <div class="avatar">
               <img src="https://z.wiki/autoupload/20240209/jZRq.avatar.svg" width="50" height="50" />
@@ -62,6 +62,11 @@
           </div>
         </template>
       </template>
+      <div class="pages">
+        <template v-for="pageIndex in totalPage">
+          <span class="page">{{pageIndex + 1}}</span>
+        </template>
+      </div>
     </div>
   </div>
 </div>
@@ -69,6 +74,7 @@
 </template>
 
 <script>
+const pageSize = 5;
 import fetch from 'cross-fetch';
 export default {
   name: "BlogComment",
@@ -79,6 +85,7 @@ export default {
       msg: '',
       replyContent: '',
       saving: false,
+      page: 0,
     }
   },
   mounted() {
@@ -140,6 +147,7 @@ export default {
       console.info('postComment', this.msg);
     },
     query() {
+      this.page = 0;
       const path = this.$route.path;
 
       if (typeof fetch != undefined) {
@@ -156,6 +164,15 @@ export default {
           this.loading = false;
         }
       }
+    }
+  },
+  computed: {
+    pageList() {
+      return (this.list || [].slice(page * pageSize, page * pageSize + pageSize);
+    },
+    totalPage() {
+      const fullList = this.list || [];
+      return Math.floor(fullList.length / pageSize);
     }
   },
   watch: {
