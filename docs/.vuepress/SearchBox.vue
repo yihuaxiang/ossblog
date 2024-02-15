@@ -23,8 +23,10 @@ export default {
   },
   methods: {
     handleBlur() {
-      this.keyword = '';
-      this.list = [];
+      setTimeout(() => {
+        this.keyword = '';
+        this.list = [];
+      }, 100);
     },
     handleInput(e) {
       console.log('handleInput', e.target.value);
