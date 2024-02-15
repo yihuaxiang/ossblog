@@ -64,7 +64,7 @@
       </template>
       <div class="pages">
         <template v-for="pageIndex in totalPage">
-          <span class="page">{{pageIndex}}</span>
+          <span class="page" @click="page = pageIndex - 1">{{pageIndex}}</span>
         </template>
       </div>
     </div>
