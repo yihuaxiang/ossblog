@@ -1,7 +1,7 @@
 <template>
   <div class="sb-ctn">
     <div class="search-box">
-      <input type="text" v-model="keyword" placeholder="搜索" @input="handleInput" @blur="handleBlur" />
+      <input type="text" v-model="keyword" :placeholder="recommend || '搜索'" @input="handleInput" @blur="handleBlur" />
     </div>
     <div class="list" v-if="list && list.length > 0">
       <div class="">
