@@ -64,7 +64,7 @@
       </template>
       <div class="pages">
         <template v-for="pageIndex in totalPage">
-          <span class="page">{{pageIndex + 1}}</span>
+          <span class="page">{{pageIndex}}</span>
         </template>
       </div>
     </div>
@@ -172,7 +172,7 @@ export default {
     },
     totalPage() {
       const fullList = this.list || [];
-      return Math.floor(fullList.length / pageSize);
+      return Math.ceil(fullList.length / pageSize);
     }
   },
   watch: {
