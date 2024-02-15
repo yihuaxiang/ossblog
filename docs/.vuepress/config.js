@@ -159,11 +159,6 @@ module.exports = {
     }]
   ],
   themeConfig: {
-    algolia: {
-      apiKey: 'c9c735fa648b371048492cc6e47695d9',
-      indexName: 'fudongdong',
-      appId: 'LYSTANXHG8',
-    },
     lastUpdated: '最后更新', // string | boolean
     // sidebar: 'auto',
     displayAllHeaders: true,
