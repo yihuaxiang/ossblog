@@ -229,6 +229,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'here-document',
         'request-merge',
         'google-console-insight',
         'secure-gallery',
