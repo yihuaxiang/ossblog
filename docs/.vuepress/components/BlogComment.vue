@@ -168,7 +168,7 @@ export default {
   },
   computed: {
     pageList() {
-      return (this.list || [].slice(page * pageSize, page * pageSize + pageSize);
+      return (this.list || []).slice(page * pageSize, page * pageSize + pageSize);
     },
     totalPage() {
       const fullList = this.list || [];
