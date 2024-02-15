@@ -32,6 +32,11 @@ export default {
       console.log('handleInput', e.target.value);
       const value = e.target.value;
       fetch(`https://playground.z.wiki/search/index?keyword=${value}`).then(res => res.json()).then(data => {
+
+        if (this.keyword != value) {
+          return;
+        }
+
         console.log('data is', data);
         this.list = (data || []).map(item => {
           item.title = item.title
