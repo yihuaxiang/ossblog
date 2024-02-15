@@ -23,8 +23,14 @@ export default {
   data() {
     return {
       keyword: '',
-      list: []
+      list: [],
+      recommend: ''
     }
+  },
+  mounted() {
+      fetch(`https://playground.z.wiki/search/recommend`).then(res => res.text()).then(data => {
+        this.recommend = data;
+      })
   },
   methods: {
     handleBlur() {
