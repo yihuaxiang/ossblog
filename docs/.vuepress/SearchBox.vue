@@ -1,6 +1,11 @@
 <template>
-  <div class="search-box">
-    <input type="text" v-model="keyword" placeholder="搜索" @input="handleInput" />
+  <div class="sb-ctn">
+    <div class="search-box">
+      <input type="text" v-model="keyword" placeholder="搜索" @input="handleInput" />
+    </div>
+    <div class="list">
+
+    </div>
   </div>
 </template>
 <script>
@@ -8,7 +13,8 @@ export default {
   name: 'SearchBox',
   data() {
     return {
-      keyword: ''
+      keyword: '',
+      list: []
     }
   },
   methods: {
@@ -17,6 +23,7 @@ export default {
       const value = e.target.value;
       fetch(`https://playground.z.wiki/search/index?keyword=${value}`).then(res => res.json()).then(data => {
         console.log('data is', data);
+        this.list = data || [];
       })
     }
   },
