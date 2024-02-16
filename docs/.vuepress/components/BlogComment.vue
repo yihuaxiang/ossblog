@@ -419,7 +419,7 @@ export default {
         line-height: 0px;
         padding: 0px;
 
-        img {
+        .icon {
           width: 24px;
           height: 24px;
         }
