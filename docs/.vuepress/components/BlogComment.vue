@@ -13,16 +13,94 @@
     <div class="form" :class="{saving: saving}">
       <textarea
           class="textarea"
-          style="display: block;width: 100%;border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
+          style="display: block;width: 100%;border: none; resize: none; outline: none;  height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
         id="commentBox"
         placeholder="请输入您的想法～"
         v-model="msg"
         @keydown.ctrl.enter="postComment"
         @keydown.meta.enter="postComment"
       >
-
       </textarea>
-      <button class="btn" @click="postComment">提交</button>
+      <div class="emojis" v-show="showEmoji">
+        <img alt="smile" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/smile.png" @click="handleClickEmoji"/>
+        <img alt="lovely" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/lovely.png" @click="handleClickEmoji"/>
+        <img alt="happy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/happy.png" @click="handleClickEmoji"/>
+        <img alt="clap" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/clap.png" @click="handleClickEmoji"/>
+        <img alt="whee" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/whee.png" @click="handleClickEmoji"/>
+        <img alt="haha" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/haha.png" @click="handleClickEmoji"/>
+        <img alt="laugh-and-cry" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/laugh-and-cry.png" @click="handleClickEmoji"/>
+        <img alt="wink" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/wink.png" @click="handleClickEmoji"/>
+        <img alt="greddy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/greddy.png" @click="handleClickEmoji"/>
+        <img alt="awkward" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/awkward.png" @click="handleClickEmoji"/>
+        <img alt="sweat" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/sweat.png" @click="handleClickEmoji"/>
+        <img alt="pick-nose" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/pick-nose.png" @click="handleClickEmoji"/>
+        <img alt="hum" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/hum.png" @click="handleClickEmoji"/>
+        <img alt="angry" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/angry.png" @click="handleClickEmoji"/>
+        <img alt="grievance" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/grievance.png" @click="handleClickEmoji"/>
+        <img alt="poor" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/poor.png" @click="handleClickEmoji"/>
+        <img alt="disappoint" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/disappoint.png" @click="handleClickEmoji"/>
+        <img alt="sad" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/sad.png" @click="handleClickEmoji"/>
+        <img alt="tear" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/tear.png" @click="handleClickEmoji"/>
+        <img alt="no-way" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/no-way.png" @click="handleClickEmoji"/>
+        <img alt="shy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/shy.png" @click="handleClickEmoji"/>
+        <img alt="dirt" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/dirt.png" @click="handleClickEmoji"/>
+        <img alt="love-you" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/love-you.png" @click="handleClickEmoji"/>
+        <img alt="kiss" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/kiss.png" @click="handleClickEmoji"/>
+        <img alt="amorousness" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/amorousness.png" @click="handleClickEmoji"/>
+        <img alt="longing" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/longing.png" @click="handleClickEmoji"/>
+        <img alt="desire" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/desire.png" @click="handleClickEmoji"/>
+        <img alt="bad-laugh" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/bad-laugh.png" @click="handleClickEmoji"/>
+        <img alt="blackness" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/blackness.png" @click="handleClickEmoji"/>
+        <img alt="laugh-without-word" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/laugh-without-word.png" @click="handleClickEmoji"/>
+        <img alt="titter" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/titter.png" @click="handleClickEmoji"/>
+        <img alt="cool" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/cool.png" @click="handleClickEmoji"/>
+        <img alt="not-easy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/not-easy.png" @click="handleClickEmoji"/>
+        <img alt="think" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/think.png" @click="handleClickEmoji"/>
+        <img alt="question" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/question.png" @click="handleClickEmoji"/>
+        <img alt="no-idea" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/no-idea.png" @click="handleClickEmoji"/>
+        <img alt="dizzy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/dizzy.png" @click="handleClickEmoji"/>
+        <img alt="bomb" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/bomb.png" @click="handleClickEmoji"/>
+        <img alt="bone" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/bone.png" @click="handleClickEmoji"/>
+        <img alt="be-quiet" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/be-quiet.png" @click="handleClickEmoji"/>
+        <img alt="shut-up" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/shut-up.png" @click="handleClickEmoji"/>
+        <img alt="stupid" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/stupid.png" @click="handleClickEmoji"/>
+        <img alt="surprise" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/surprise.png" @click="handleClickEmoji"/>
+        <img alt="vomit" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/vomit.png" @click="handleClickEmoji"/>
+        <img alt="cold" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/cold.png" @click="handleClickEmoji"/>
+        <img alt="sick" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/sick.png" @click="handleClickEmoji"/>
+        <img alt="bye" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/bye.png" @click="handleClickEmoji"/>
+        <img alt="look-down-on" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/look-down-on.png" @click="handleClickEmoji"/>
+        <img alt="white-eye" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/white-eye.png" @click="handleClickEmoji"/>
+        <img alt="left-hum" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/left-hum.png" @click="handleClickEmoji"/>
+        <img alt="right-hum" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/right-hum.png" @click="handleClickEmoji"/>
+        <img alt="crazy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/crazy.png" @click="handleClickEmoji"/>
+        <img alt="scold" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/scold.png" @click="handleClickEmoji"/>
+        <img alt="hit-on-face" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/hit-on-face.png" @click="handleClickEmoji"/>
+        <img alt="wow" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/wow.png" @click="handleClickEmoji"/>
+        <img alt="fan" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/fan.png" @click="handleClickEmoji"/>
+        <img alt="money" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/money.png" @click="handleClickEmoji"/>
+        <img alt="yawn" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/yawn.png" @click="handleClickEmoji"/>
+        <img alt="sleepy" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/sleepy.png" @click="handleClickEmoji"/>
+        <img alt="sleep" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/sleep.png" @click="handleClickEmoji"/>
+        <img alt="watermelon" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/watermelon.png" @click="handleClickEmoji"/>
+        <img alt="doge" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/doge.png" @click="handleClickEmoji"/>
+        <img alt="dog" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/dog.png" @click="handleClickEmoji"/>
+        <img alt="cat" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/cat.png" @click="handleClickEmoji"/>
+        <img alt="thumb" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/thumb.png" @click="handleClickEmoji"/>
+        <img alt="good" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/good.png" @click="handleClickEmoji"/>
+        <img alt="ok" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/ok.png" @click="handleClickEmoji"/>
+        <img alt="yeah" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/yeah.png" @click="handleClickEmoji"/>
+        <img alt="shack-hand" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/shack-hand.png" @click="handleClickEmoji"/>
+        <img alt="bow" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/bow.png" @click="handleClickEmoji"/>
+        <img alt="come" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/come.png" @click="handleClickEmoji"/>
+        <img alt="punch" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/punch.png" @click="handleClickEmoji"/>
+      </div>
+      <div class="btns">
+        <button class="emoji" @click="showEmoji = !showEmoji">
+          <img class="icon" src="https://z.wiki/autoupload/20240216/EFwK.%E8%A1%A8%E6%83%85_%281%29.svg" />
+        </button>
+        <button class="btn" @click="postComment">提交</button>
+      </div>
     </div>
     <br>
 
@@ -92,11 +170,18 @@ export default {
       replyContent: '',
       saving: false,
       page: 0,
+      showEmoji: false
     }
   },
   mounted() {
   },
   methods: {
+    handleClickEmoji(e) {
+      console.info(e.target);
+      const dom = e.target;
+      const alt = dom.alt;
+      this.msg = this.msg + ` :${alt}: `
+    },
     handleReplyClick(comment) {
       console.info('handleReplyClick', comment);
       this.replyContent = comment;
@@ -298,31 +383,68 @@ export default {
     position: relative;
 
     .textarea {
-      border: none; resize: none; outline: none; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;
+      border: none;
+      resize: none;
+      outline: none;
+      left: 0px;
+      top: 0px;
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+      color: #b2b2b5;
+      padding: 12px;
+      width: 100%;
+      display: block;
+
     }
 
-    .btn {
+    .emojis {
+      img {
+        width: 27px;
+        height: 27px;
+      }
+    }
+    .btns {
+      background: white;
       position: absolute;
-      color: #b2b2b5;
-      border-color: #b2b2b5;
-      transition-duration: .4s;
-      text-align: center;
-      color: #555;
-      border: 1px solid #ededed;
-      border-radius: 0.3em;
-      display: inline-block;
-      background: transparent;
-      height: 24px;
-      margin-bottom: 0;
-      font-weight: 400;
-      vertical-align: middle;
       bottom: 12px;
       right: 12px;
-      z-index: 2;
-      cursor: pointer;
+      display: flex;
+      align-items: center;
 
-      &:active {
-        border-color: #333;
+      .emoji {
+        border: none;
+        cursor: pointer;
+        background-color: rgba(0,0,0,0);
+        line-height: 0px;
+        padding: 0px;
+
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .btn {
+        margin-left: 5px;
+        color: #b2b2b5;
+        border-color: #b2b2b5;
+        transition-duration: .4s;
+        text-align: center;
+        color: #555;
+        border: 1px solid #ededed;
+        border-radius: 0.3em;
+        display: inline-block;
+        background: transparent;
+        height: 24px;
+        margin-bottom: 0;
+        font-weight: 400;
+        vertical-align: middle;
+        z-index: 2;
+        cursor: pointer;
+
+        &:active {
+          border-color: #333;
+        }
       }
     }
 
