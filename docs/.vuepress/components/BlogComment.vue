@@ -13,7 +13,6 @@
     <div class="form" :class="{saving: saving}">
       <textarea
           class="textarea"
-          style="display: block;width: 100%;border: none; resize: none; outline: none;  height: 100%; width: 100%; box-sizing: border-box; color: #b2b2b5; padding: 12px; width: 100%; display: block;"
         id="commentBox"
         placeholder="请输入您的想法～"
         v-model="msg"
@@ -393,6 +392,8 @@ export default {
       box-sizing: border-box;
       color: #b2b2b5;
       padding: 12px;
+      padding-left: 0px;
+      padding-top: 0px;
       width: 100%;
       display: block;
 
