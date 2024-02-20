@@ -48,8 +48,10 @@ export default {
       })
   },
   methods: {
-    handleEnterClick() {
-      console.log('handleEnterClick...');
+    handleEnterClick(e) {
+      const val = e.target.value;
+      console.log('handleEnterClick...', val);
+      window.location.assign(`https://playground.z.wiki/search/page?keyword=${val}`)
     },
     handleBlur() {
       setTimeout(() => {
