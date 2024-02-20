@@ -1,7 +1,7 @@
 <template>
   <div class="sb-ctn">
     <div class="search-box">
-      <input type="text" v-model="keyword" :placeholder="recommend || '搜索'" @input="handleInput" @blur="handleBlur" />
+      <input type="text" v-model="keyword" :placeholder="recommend || '搜索'" @input="handleInput" @blur="handleBlur" @keyup.enter="handleEnterClick"  />
     </div>
     <div class="list" v-if="list && list.length > 0">
       <div class="">
@@ -48,6 +48,9 @@ export default {
       })
   },
   methods: {
+    handleEnterClick() {
+      console.log('handleEnterClick...');
+    },
     handleBlur() {
       setTimeout(() => {
         this.keyword = '';
