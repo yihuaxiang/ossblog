@@ -51,7 +51,7 @@ export default {
     handleEnterClick(e) {
       const val = e.target.value;
       console.log('handleEnterClick...', val);
-      window.location.assign(`https://playground.z.wiki/search/page?keyword=${val}`)
+      window.location.assign(`https://playground.z.wiki/search/page?keyword=${val || this.recommend}`)
     },
     handleBlur() {
       setTimeout(() => {
