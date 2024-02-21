@@ -351,6 +351,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'issue-from-comment-plugins',
         'redis-search',
         'comment-plugin',
         'art-of-strategy',
