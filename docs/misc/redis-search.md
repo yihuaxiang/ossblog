@@ -33,3 +33,11 @@ meta:
 
 <ImgView title="搜索升级" url="https://1.z.wiki/autoupload/20240208/XLaC.2666X4034-image.png" />
 
+
+### 升级
+
+将评论也添加到索引中了，这下可以搜索到评论啦💐💐
+
+
+<ImgView title="搜索升级" url="https://2.z.wiki/autoupload/20240224/UGrL.2026X3292-image.png" />
+

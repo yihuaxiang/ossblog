@@ -17,7 +17,13 @@ find . -name '*.md' -print0 | while IFS= read -r -d $'\0' file; do
 
     # 生成文件路径（移除'./'前缀并替换空格为'-'）
     file_path=$(echo "$file" | sed 's/^.\///' | sed 's/ /-/g' | sed 's/\.md//' | sed 's/README/index/')
+    curl "https://playground.z.wiki/comment/list?path=/${file_path}.html" -o tmp.file
+    comments=$(cat tmp.file | jq . | grep comment | awk -F '"comment"' '{print $2}')
+    comments=$(echo "$comments" | sed ':a;N;$!ba;s/\n/\\n/g' | sed 's/"/\\"/g' | sed 's/\\\\"/\\"/g')
+    content="${content}${comments}"
+    
 
+    echo $content
     # 输出 HSET 命令
     echo "HSET blogs:https://z.wiki/${file_path}.html title \"$title\" content \"$content\"" >> change_index
     echo ${file_path}
