@@ -33,6 +33,8 @@
 
 <ImgView title="隐私保护" url="https://4.z.wiki/autoupload/20240224/o7mC.915X1777-xxxxxxxx.gif" />
 
+<VideoPlayer src="https://z.wiki/autoupload/20240224/JuJE.RPReplay_Final1708779365.MP4" />
+
 > Mac 的邮件客户端好歹会提示“无法通过隐私模式加载”，手机邮箱客户端可是什么提示都没有。。。
 
 通过上述步骤 3 和 4 说明
