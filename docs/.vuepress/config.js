@@ -229,6 +229,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'apple-privacy-protection',
         'here-document',
         'request-merge',
         'google-console-insight',
