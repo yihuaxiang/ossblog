@@ -51,7 +51,8 @@ meta:
 > 7. 台湾
 > 8. 港澳
 
-<ImgView title="adcode 查询" url="https://9.z.wiki/autoupload/20240225/L731.1772X1540-image.png" />
+<ImgView title="adcode 查询行政区划" url="https://1.z.wiki/autoupload/20240225/jFx5.1634X1536-image.png" />
+
 
 前两位`13`表示河北省，河北所有的`adcode`开头都是`13`
 
