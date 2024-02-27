@@ -17,6 +17,7 @@ find . -name '*.md' -print0 | while IFS= read -r -d $'\0' file; do
 
     # 生成文件路径（移除'./'前缀并替换空格为'-'）
     file_path=$(echo "$file" | sed 's/^.\///' | sed 's/ /-/g' | sed 's/\.md//' | sed 's/README/index/')
+    echo path is https://playground.z.wiki/comment/list?path=/${file_path}.html
     curl "https://playground.z.wiki/comment/list?path=/${file_path}.html" -o tmp.file
     comments=$(cat tmp.file | jq . | grep comment | awk -F '"comment"' '{print $2}')
     comments=$(echo "$comments" | sed ':a;N;$!ba;s/\n/\\n/g' | sed 's/"/\\"/g' | sed 's/\\\\"/\\"/g' | sed 's/[[:space:]]\{1,\}/ /g')
