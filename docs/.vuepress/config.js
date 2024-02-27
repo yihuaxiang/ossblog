@@ -229,6 +229,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'vim-jump',
         'apple-privacy-protection',
         'here-document',
         'request-merge',
