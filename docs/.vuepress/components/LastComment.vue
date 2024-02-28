@@ -21,6 +21,7 @@
 </template>
 
 <script>
+import fetch from 'cross-fetch';
 const lodash = require('lodash');
 export default {
   name: "LastComment",
