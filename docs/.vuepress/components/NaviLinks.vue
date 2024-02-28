@@ -34,25 +34,9 @@ export default {
         url: 'https://playground.z.wiki/search/page',
         desc: '全文检索，无所不能',
       }, {
-        title: '🧑‍💻 代码片段',
-        url: 'https://snippets.z.wiki/',
-        desc: '包含js、shell、nginx、java等实用代码片段！',
-      }, {
         title: '🖼 敖武的图床',
         url: 'https://playground.z.wiki/img-cloud/index.html',
         desc: '免费图床，上传图片、压缩包等任意文件。',
-      }, {
-        title: '🔗 短网址服务',
-        url: 'https://z.wiki/misc/short-url.html',
-        desc: '缩短你的网址，永久有效。',
-      }, {
-        title: '🌆 城市信息查询',
-        url: 'https://playground.z.wiki/lbs/showCityInfo',
-        desc: '城市 adcode 查询。',
-      }, {
-        title: '🏫 30分钟正则入门教程',
-        url: 'https://z.wiki/tools/reg/',
-        desc: '通俗易懂的正则表达式入门教程。',
       }, {
         title: '🧪 敖武的实验室',
         url: 'https://z.wiki/jsbin',
