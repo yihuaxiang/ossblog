@@ -77,8 +77,9 @@ export default {
 <style scoped>
 .comment-link {
   display: flex;
+  align-items: center;
 }
 .comment-link /deep/ img {
-  height: 27px;
+  height: 18px;;
 }
 </style>
