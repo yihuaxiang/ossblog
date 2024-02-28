@@ -354,6 +354,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'blog-upgrade',
         'issue-from-comment-plugins',
         'redis-search',
         'comment-plugin',
