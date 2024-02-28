@@ -143,12 +143,15 @@ export default {
         this.queryData();
       }
     }
-  }
+  },
   computed: {
     topArticles() {
       let pages = this.$site.pages;
-      const commenntUrl = lodash.uniqBy(this.comments, 'url');
-      console.log(commenntUrl)
+      const commenntUrls = lodash.uniqBy(this.comments, 'url');
+      commenntUrls.map(item => {
+
+      })
+      console.log(commenntUrls)
     }
   }
 }
