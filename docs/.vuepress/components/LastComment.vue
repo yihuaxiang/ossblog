@@ -111,6 +111,11 @@ export default {
       return dateDiff(timestamp);
     }
   },
+  data() {
+    return {
+      comments: null
+    }
+  },
   methods: {
     getDate(datetime) {
       const idx = datetime.indexOf(' ');
@@ -121,20 +126,29 @@ export default {
       this.$router.push({
         path
       });
+    },
+    queryData() {
+      fetch("https://playground.z.wiki/comment/latest?size=2").then(res => res.json()).then(list => {
+        console.log('info is', list);
+      })
     }
   },
   mounted() {
+    queryData();
   },
+  watch: {
+    '$route.path': {
+      immediate: true,
+      handler: function() {
+        this.queryData();
+      }
+    }
+  }
   computed: {
     topArticles() {
       let pages = this.$site.pages;
-      return lodash.sortBy(pages.filter(p => p.path.endsWith('.html')).filter(p => {
-        if(!this.prefix) {
-          return true;
-        } else {
-          return p.path.startsWith(this.prefix);
-        }
-      }), 'lastUpdatedTimestamp').reverse().slice(0, this.number);
+      const commenntUrl = lodash.uniqBy(this.comments, 'url');
+      console.log(commenntUrl)
     }
   }
 }
