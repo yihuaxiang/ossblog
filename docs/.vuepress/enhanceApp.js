@@ -45,25 +45,6 @@ export default ({
     } else {
       next();
     }
-
-    let tryToFixSearchBox = () => {
-      if(!fixedSearchBox) {
-        if (typeof globalThis == 'object' && globalThis.document) {
-          const searchBox = document.querySelector('#search-form');
-          if(searchBox) {
-            fixedSearchBox = true;
-            searchBox.querySelector('input').addEventListener('focus', () => {
-              console.info('click')
-              globalThis && globalThis.location && globalThis.location.assign('https://playground.z.wiki/search/page');
-            })
-          }
-          console.info('box is', searchBox);
-        }
-      }
-    }
-    [100, 200, 300, 400, 500, 800, 900, 1400].forEach(milliSeconds => {
-      setTimeout(() => {tryToFixSearchBox();}, milliSeconds)
-    })
   });
 
 
