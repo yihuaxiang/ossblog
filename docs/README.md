@@ -35,7 +35,7 @@ meta:
 
 <NaviLinks />
 
-<LastPost :random='true' prefix="" :number="7"/>
+<LastPost :random='true' prefix="" :number="6"/>
 
 <LastComment title="最新评论" prefix="" :number="3"/>
 
