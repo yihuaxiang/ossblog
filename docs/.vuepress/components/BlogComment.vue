@@ -103,7 +103,7 @@
     </div>
     <br>
 
-    <div class="vcount" style="display: block;"><span class="vnum">{{list && list.length || 0}}</span> 评论</div>
+    <div id="comment-list" class="vcount" style="display: block;"><span class="vnum">{{list && list.length || 0}}</span> 评论</div>
     <br>
 
     <div class="vcards">
