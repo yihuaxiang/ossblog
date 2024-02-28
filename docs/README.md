@@ -35,7 +35,9 @@ meta:
 
 <NaviLinks />
 
-<LastPost :random='true' prefix="" :number="10"/>
+<LastPost :random='true' prefix="" :number="7"/>
+
+<LastComment title="最新评论" prefix="" :number="3"/>
 
 ## 封面图：有脾气的人
 
