@@ -14,6 +14,8 @@ tags: ["robots", "爬虫协议", "爬虫", "搜索排名", "SEO"]
 
 `robots.txt` 是位于网站根目录下的纯文本文件，用于告知网络爬虫"改网站中哪些可以被爬取，哪些不可以被爬取"。
 
+如：淘宝： [https://taobao.com/robots.txt](https://taobao.com/robots.txt), 腾讯 [https://www.qq.com/robots.txt](https://www.qq.com/robots.txt)
+
 `robots.txt` 只是约定俗成的协议，`Google`、百度、`bing`等爬虫都会遵守该规范，但并非所有搜索引擎都支持，故通过`robots.txt`无法 100% 地保证爬取效果（屏蔽效果）。
 
 ### robots.txt 怎么用
