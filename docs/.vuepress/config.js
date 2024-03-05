@@ -403,6 +403,7 @@ module.exports = {
         'discrimination'
       ],
       '/work/': [
+        'my-minds',
         'performance',
         'the-answers-of-alibaba'
       ],
