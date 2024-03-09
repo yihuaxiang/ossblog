@@ -131,11 +131,19 @@
                 <span class="time">{{item.time}}</span>
               </div>
             </div>
-            <button class="reply" @click="handleReplyClick(item.comment)">
+            <button class="reply" @click="handleReplyClick(item.comment, item.id)">
               回复
             </button>
           </div>
-          <div class="comment-content" v-html="item.comment">
+          <div class="comment-content" v-if="item.replyComment">
+            <div class="rpl-d" style="white-space: normal;">
+              <span style="color: #ef2f11;">回复</span> <span class="nick">{{item.replyComment.nick}}</span>：<span class="d--" v-html="item.replyComment.comment"></span>
+            </div>
+            <div class="comment" v-html="item.comment">
+
+            </div>
+          </div>
+          <div class="comment-content" v-else v-html="item.comment">
           </div>
         </template>
       </template>
@@ -167,6 +175,7 @@ export default {
       list: [],
       msg: '',
       replyContent: '',
+      replyId: null,
       saving: false,
       page: 0,
       showEmoji: false
@@ -181,9 +190,14 @@ export default {
       const alt = dom.alt;
       this.msg = this.msg + ` :${alt}: `
     },
-    handleReplyClick(comment) {
+    clearReply() {
+      this.replyContent = null;
+      this.replyId = null;
+    },
+    handleReplyClick(comment, id) {
       console.info('handleReplyClick', comment);
       this.replyContent = comment;
+      this.replyId = id;
 
       document.querySelector('#commentBox').focus();
       document.querySelector('#commentBox').scrollIntoView({
@@ -201,13 +215,6 @@ export default {
         return;
       }
 
-      let msg = '';
-      if (this.replyContent) {
-        msg = `回复:\"${this.replyContent}\"\n\n------------\n\n${this.msg}`
-      } else {
-        msg = this.msg;
-      }
-
       this.$notify({
         type: 'info',
         text: '提交中'
@@ -220,11 +227,12 @@ export default {
             'Content-Type': 'application/json;charset=utf8',
           },
           body: JSON.stringify({
-            comment: msg,
-            url: this.$route.path
+            comment: this.msg,
+            url: this.$route.path,
+            replyId: this.replyId,
           })
         }).then(res => res.json()).finally(() => {
-          this.replyContent = null;
+          this.clearReply();
           this.$notify({
             type: 'success',
             text: '提交成功'
@@ -270,7 +278,7 @@ export default {
       immediate: true,
       handler: function() {
         this.query();
-        this.replyContent = null;
+        this.clearReply();
       }
     }
   }
