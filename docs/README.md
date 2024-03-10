@@ -39,10 +39,6 @@ meta:
 
 <LastComment title="最新评论" prefix="" :number="3"/>
 
-## 封面图：有脾气的人
-
-<br />
-
 
 
 ## 序
