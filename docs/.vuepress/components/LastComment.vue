@@ -50,7 +50,7 @@ export default {
       });
     },
     queryData() {
-      fetch("https://playground.z.wiki/comment/latest?size=3").then(res => res.json()).then(list => {
+      fetch("https://playground.z.wiki/comment/latest?size=9").then(res => res.json()).then(list => {
         this.comments = list;
       })
     }
@@ -68,7 +68,7 @@ export default {
   },
   computed: {
     topComments() {
-      return lodash.uniqBy(this.comments, 'url');
+      return lodash.uniqBy(this.comments, 'url').slice(0, 3);
     }
   }
 }
