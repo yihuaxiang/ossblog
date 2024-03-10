@@ -125,7 +125,7 @@ Crawl-delay: 10
 # 每次爬取等待10秒后继续爬取其他链接
 ```
 
-### 其他替代品
+### 其他替代品一
 
 `robots.txt`是最为广泛使用的方法，
 此外也可以通过`robots Meta`标签针对特定页面做设置。
@@ -135,6 +135,34 @@ Crawl-delay: 10
 	<meta name="robots" content="noindex,nofollow" />
 </head>
 ```
+
+详细含义如下：
+
+| content 内容  |  含义 |
+|---|---|
+| all  |  对索引编制或内容显示无任何限制。该规则为默认值，因此明确列出时并无任何效果 |
+| noindex  | 	不在搜索结果中显示此网页、媒体或资源。如果您未指定该规则，则此网页、媒体或资源可能会编入索引并显示在搜索结果中。  |
+|  nofollow |  不追踪该网页上的链接 |
+|  none |  等同于 noindex, nofollow |
+|  noarchive | 不在搜索结果中显示缓存  |
+| nositelinkssearchbox  |  不在搜索结果中显示该网页的站点链接搜索框 |
+|  nosnippet | 在搜索结果中显示该网页的文本摘要或视频预览  |
+| indexifembedded  |  如果网页内容通过 iframes 或类似 HTML 标记嵌入到其他网页中，那么搜索引擎可以将该网页内容编入索引 |
+| unavailable_after: [date/time] | 在指定日期/时间过后，不在搜索结果中显示该网页  |
+
+### 其他替代品二
+
+除了 `robots meta`外，我们还可以通过 `http`响应头来设置爬取策略,如：
+
+```
+HTTP/1.1 200 OK
+Date: Tue, 25 May 2010 21:42:43 GMT
+...
+X-Robots-Tag: robots: noindex // 禁止爬虫进行爬取，其他关键词可以参考 robots meta 中的 conent 含义
+...
+```
+
+
 
 ### 案例分析
 
