@@ -9,3 +9,11 @@
 <ImgView title="美国签证" url="https://0.z.wiki/autoupload/20231217/8gJJ.154X544-image.png" />
 
 > PS: 一千多的面签费，还不一定过，期待上帝保佑吧🙏
+
+
+### 2024.03.14 更新
+
+<ImgView title="申请美国签证" url="https://6.z.wiki/autoupload/20240314/7D8o.IMG_1645.HEIC.jpg" />
+
+顺顺利利、平平安安，期待是个十年的有效期。
+
