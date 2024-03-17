@@ -73,6 +73,14 @@ module.exports = {
         src: "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js",
         id: "sozz"
       }
+    ],
+    [
+      "script",
+      {
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6344690795699907",
+        async: "",
+        crossorigin: "anonymous"
+      }
     ]
   ],
   title: '敖武的博客',
