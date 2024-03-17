@@ -81,6 +81,14 @@ module.exports = {
         async: "",
         crossorigin: "anonymous"
       }
+    ],
+    [
+      "script",
+      {
+        src: "https://cdn.ampproject.org/v0/amp-ad-0.1.js",
+        async: true,
+        "custom-element": "amp-ad"
+      }
     ]
   ],
   title: '敖武的博客',
