@@ -17,3 +17,13 @@
 
 顺顺利利、平平安安，期待是个十年的有效期。
 
+
+### 2024.03.19 更新
+
+收到快递了，付了 106 的费用。
+
+<ImgView title="申请美国签证" url="https://4.z.wiki/autoupload/20240319/e8m6.IMG_1660.HEIC.jpg" />
+
+<ImgView title="申请美国签证" url="https://6.z.wiki/autoupload/20240319/BtRI.2110X1582-IMG_1661.jpg" />
+
+
