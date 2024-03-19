@@ -1,5 +1,6 @@
 <template>
 <div class="blog-comment">
+
   <notifications position="top center"/>
   <div class="ctn">
     <div class="reply-info" v-show="replyContent">

@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: 占位图片,前端占位图片,image holder
+  - name: keywords
+    content: 占位图片生成器，一键式生成我们想要的占位图。
+---
 # 占位图服务
 
 一个简单的占位符服务，服务地址：[占位符服务](https://z.wiki/placeholder)
