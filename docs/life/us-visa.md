@@ -26,4 +26,6 @@
 
 <ImgView title="申请美国签证" url="https://6.z.wiki/autoupload/20240319/BtRI.2110X1582-IMG_1661.jpg" />
 
+PS: 十年有效期 
+<ImgView title="申请美国签证" url="https://z.wiki/autoupload/20240319/yLvG.188X200-image.png" />
 
