@@ -219,6 +219,7 @@ module.exports = {
           {text: '小鹿的个人网站', link: 'https://www.siena.zone/'},
           {text: '谦行 CSDN', link: 'https://home.cnblogs.com/u/dolphinX'},
           {text: '谦行 语雀', link: 'https://www.yuque.com/sunluyong'},
+          {text: '鄢云峰的个人网站', link: 'https://yanyunfeng.com/'},
         ]
       },
       {text: '生活', link: '/life/'},
