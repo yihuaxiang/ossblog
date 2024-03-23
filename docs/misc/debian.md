@@ -6,7 +6,7 @@
 比如将`deb.debian.org`和`security.debian.org`改为`mirrors.aliyun.com`，并使用`https`访问，可使用如下命令：
 
 ```shell
-sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.xxx.com@g" /etc/apt/sources.list
+sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list
 ```
 
 ### 国内镜像源
