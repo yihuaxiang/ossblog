@@ -33,3 +33,10 @@
 <ImgView title="Let's Encrypt 证书" url="https://6.z.wiki/autoupload/20240323/rFHJ.600X1173-cert.gif" />
 
 
+```shell
+# 模拟更新所有证书
+sudo certbot renew --nginx --dry-run
+
+# 一键更新所有 nginx 证书
+sudo certbot renew --nginx
+```
