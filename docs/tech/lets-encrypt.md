@@ -30,5 +30,6 @@
 
 通过脚本一键更新证书，后续还可以结合 [crontab](https://z.wiki/snippets/shell/crontab.html) 自动更新，再也不用关心证书的事情啦。
 
-<ImgView title="Let's Encrypt 证书" url="https://8.z.wiki/autoupload/20240323/EIFt.2106X2918-image.png" />
+<ImgView title="Let's Encrypt 证书" url="https://6.z.wiki/autoupload/20240323/rFHJ.600X1173-cert.gif" />
+
 
