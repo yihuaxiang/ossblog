@@ -4,6 +4,9 @@
 
 一直是[阿里云](http://aliyun.com/)的忠实粉丝，从上学的时候就开始用阿里云的服务，到现在十多年了。
 
+<ImgView title="阿里云" url="https://2.z.wiki/autoupload/20240324/uWpp.225X225-image.png" />
+
+
 网站的证书也一直用阿里云的免费证书，免费证书是一年有效期，到期后需要手动更新，人力成本倒也可控。
 
 <ImgView title="阿里云证书" url="https://2.z.wiki/autoupload/20240323/o3Zk.266X2442-image.png" />
