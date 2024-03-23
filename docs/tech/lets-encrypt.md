@@ -40,3 +40,15 @@ sudo certbot renew --nginx --dry-run
 # 一键更新所有 nginx 证书
 sudo certbot renew --nginx
 ```
+
+
+### 总结
+
+总结下 Let's encrypt 的有点
+
+* 自动下载
+* 自动部署
+* 自动续期
+
+<ImgView title="Let's Encrypt 证书" url="https://z.wiki/autoupload/20240324/2NA9.225X225-image.png" />
+
