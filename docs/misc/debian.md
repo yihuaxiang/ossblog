@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: debian 11 切换国内镜像源
+  - name: keywords
+    content: centos debian 11 镜像源 软件仓库 国内 阿里云 腾讯云
+---
 # debian 11 国内镜像源
 
 ### 使用说明
