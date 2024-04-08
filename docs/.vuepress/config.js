@@ -245,23 +245,7 @@ module.exports = {
       },
       // {text: 'github', link: 'https://github.com/yihuaxiang/ossblog'}
     ],
-    sidebar: {
-      '/tech/': 'auto',
-      '/life/': 'auto',
-      '/misc/': 'auto',
-      '/work/': 'auto',
-      '/snippets/': [
-        'css/',
-        'htaccess/',
-        'html/',
-        'javascript/',
-        'mac/',
-        'nginx/',
-        'robots/',
-        'shell/'
-      ]
-
-    }
+    sidebar: 'auto',
   },
   locales: {
     '/': {
