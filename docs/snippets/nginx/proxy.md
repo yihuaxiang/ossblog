@@ -6,7 +6,7 @@
 ```nginx
 location /v1/resources {
     resolver 8.8.8.8;
-    proxy_pass https://domain.com$uri?key=value
+    proxy_pass https://domain.com$uri?key=value;
 }
 ```
 
