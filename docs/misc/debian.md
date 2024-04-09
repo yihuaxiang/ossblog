@@ -16,6 +16,8 @@ meta:
 sed -i "s@http://\(deb\|security\).debian.org@https://mirrors.aliyun.com@g" /etc/apt/sources.list
 ```
 
+> PS：以上命令可直接执行，一键切换阿里云镜像源
+
 ### 国内镜像源
 
 #### 阿里云
