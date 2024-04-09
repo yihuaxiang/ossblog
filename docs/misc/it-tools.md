@@ -1,9 +1,9 @@
 ---
 meta:
   - name: description
-    content: 程序员的开发工具箱 加密 解密 在线工具
+    content: 程序员的开发工具箱 加密 解密 在线工具 JSON对比 JSON压缩 文本比较 URL分析 开发必备 前端开发 java开发 后端开发
   - name: keywords
-    content: 程序员的开发工具箱 加密 解密 在线工具
+    content: 程序员的开发工具箱 加密 解密 在线工具 JSON对比 JSON压缩 文本比较 URL分析 开发必备 前端开发 java开发 后端开发
 ---
 
 # 程序员的工具箱
@@ -70,7 +70,7 @@ meta:
 </style>
 
 <div data-v-856c1567="" class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
-  <a data-v-856c1567="" href="/token-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/token-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -104,7 +104,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用您想要的字符、大写或小写字母、数字和/或符号生成随机字符串。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/hash-text" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/hash-text" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -137,7 +137,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用所需的函数哈希文本字符串：MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/bcrypt" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/bcrypt" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -170,7 +170,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用bcrypt对文本字符串进行哈希和比较。Bcrypt是一个基于Blowfish密码的密码哈希函数。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/uuid-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/uuid-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -205,7 +205,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">通用唯一标识符（UUID）是一个128位数字，用于标识计算机系统中的信息。可能的UUID数量为16^32，即2^128或约3.4x10^38（这是一个很大的数字！）。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/ulid-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/ulid-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -240,7 +240,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">生成随机的通用唯一词典可排序标识符（ULID）。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/encryption" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/encryption" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -273,7 +273,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用加密算法（如AES、TripleDES、Rabbit或RC4）加密和解密文本明文。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/bip39-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/bip39-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -306,7 +306,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">从现有或随机助记符生成BIP39密码短语，或从密码短语获取助记符。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/hmac-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/hmac-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -335,7 +335,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用密钥和您喜欢的哈希函数计算基于哈希的消息身份验证代码（HMAC）。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/rsa-key-pair-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/rsa-key-pair-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -371,7 +371,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">生成新的随机RSA私钥和公钥pem证书。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/password-strength-analyser" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/password-strength-analyser" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -400,7 +400,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用此密码强度分析器和破解时间估计工具来发现密码的强度。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/pdf-signature-checker" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/pdf-signature-checker" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -429,7 +429,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">验证PDF文件的签名。签名的PDF文件包含一个或多个签名，可用于确定文件的内容在签名后是否已被更改。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/date-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/date-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -465,7 +465,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将日期和时间转换为各种不同的格式</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/base-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/base-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -499,7 +499,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">在不同的基数（十进制、十六进制、二进制、八进制、base64…）之间转换数字</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/roman-numeral-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/roman-numeral-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -531,7 +531,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将罗马数字转换为数字，并将数字转换为罗马数字。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/base64-string-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/base64-string-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -565,7 +565,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将字符串编码和解码为其 Base64 格式表示形式即可。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/base64-file-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/base64-file-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -599,7 +599,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将字符串、文件或图像转换为其 Base64 表示形式。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/color-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/color-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -633,7 +633,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">在不同格式（十六进制、rgb、hsl和css名称）之间转换颜色</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/case-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/case-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -667,7 +667,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">更改字符串的大小写并在不同格式之间进行选择</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/text-to-nato-alphabet" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/text-to-nato-alphabet" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -700,7 +700,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将文本转换为北约拼音字母以进行口头传播。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/text-to-binary" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/text-to-binary" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -734,7 +734,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将文本转换为其 ASCII 二进制表示形式，反之亦然。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/text-to-unicode" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/text-to-unicode" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -767,7 +767,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析文本并将其转换为 unicode，反之亦然</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/yaml-to-json-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/yaml-to-json-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -800,7 +800,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用此在线转换器将YAML转换为JSON。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/yaml-to-toml" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/yaml-to-toml" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -833,7 +833,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析YAML并将其转换为TOML。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/json-to-yaml-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/json-to-yaml-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -865,7 +865,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">在线转换将JSON转换为YAML。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/json-to-toml" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/json-to-toml" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -897,7 +897,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析JSON并将其转换为TOML。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/list-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/list-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -933,7 +933,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">该工具可以处理基于数组的数据，并将各种更改（转置、添加前缀和后缀、反向列表、排序列表、小写值、截断值）应用于每一行。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/toml-to-json" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/toml-to-json" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -962,7 +962,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析TOML并将其转换为JSON。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/toml-to-yaml" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/toml-to-yaml" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -991,7 +991,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">Parse and convert TOML to YAML.</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/url-encoder" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/url-encoder" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1023,7 +1023,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">编码为url编码格式（也称为“百分比编码”）或从中解码。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/html-entities" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/html-entities" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1056,7 +1056,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">转义或unescape html实体（将&lt;、&gt;、&amp;、“和\'替换为其html版本）</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/url-parser" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/url-parser" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1092,7 +1092,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析url字符串以获取所有不同的部分（协议、来源、参数、端口、用户名密码…）</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/device-information" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/device-information" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1126,7 +1126,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">获取有关当前设备的信息（屏幕大小、像素比率、用户代理…）</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/basic-auth-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/basic-auth-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1155,7 +1155,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">从用户名和密码生成 base64 基本身份验证标头。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/og-meta-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/og-meta-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1188,7 +1188,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">为您的网站生成开放式图形和社交html元标记。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/otp-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/otp-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1221,7 +1221,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">为多因素身份验证生成和验证基于时间的OTP（一次性密码）。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/mime-types" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/mime-types" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1256,7 +1256,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将mime类型转换为扩展，反之亦然。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/jwt-parser" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/jwt-parser" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1290,7 +1290,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析和解码JSON Web Token（jwt）并显示其内容。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/keycode-info" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/keycode-info" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1328,7 +1328,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">查找任何按下的键的javascript键代码、代码、位置和修饰符。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/slugify-string" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/slugify-string" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1357,7 +1357,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">确保字符串 url、文件名和 id 安全。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/html-wysiwyg-editor" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/html-wysiwyg-editor" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1390,7 +1390,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">在线HTML编辑器具有功能丰富的所见即所得编辑器，立即获得内容的源代码。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/user-agent-parser" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/user-agent-parser" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1423,7 +1423,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">从用户代理字符串中检测和分析浏览器、引擎、操作系统、CPU和设备类型/型号。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/http-status-codes" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/http-status-codes" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1452,7 +1452,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">所有HTTP状态的列表对其名称和含义解释。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/json-diff" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/json-diff" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1481,7 +1481,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">比较两个JSON对象并获得它们之间的差异。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/safelink-decoder" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/safelink-decoder" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1514,7 +1514,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">Decode Outlook SafeLink links</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/qrcode-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/qrcode-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1556,7 +1556,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">生成并下载url或文本的QR代码，并自定义背景和前景颜色。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/wifi-qrcode-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/wifi-qrcode-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1598,7 +1598,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">生成和下载QR码以快速连接到WiFi网络。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/svg-placeholder-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/svg-placeholder-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1627,7 +1627,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">生成 svg 图像以用作应用程序中的占位符。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/camera-recorder" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/camera-recorder" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1659,7 +1659,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">从网络摄像头或照相机拍摄照片或录制视频。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/git-memo" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/git-memo" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1696,7 +1696,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">Git是一种去中心化的版本管理软件。使用此备忘单，您可以快速访问最常见的git命令.</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/random-port-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/random-port-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1730,7 +1730,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">生成“已知”端口范围（0-1023）之外的随机端口号。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/crontab-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/crontab-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1764,7 +1764,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">验证并生成crontab，并获取cron调度的可读描述。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/json-prettify" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/json-prettify" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1796,7 +1796,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将JSON字符串修饰为友好的可读格式。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/json-minify" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/json-minify" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1828,7 +1828,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">通过删除不必要的空白来缩小和压缩JSON。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/json-to-csv" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/json-to-csv" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1864,7 +1864,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用自动标头检测将JSON转换为CSV。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/sql-prettify" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/sql-prettify" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1897,7 +1897,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">在线格式化和美化您的 SQL 查询（它支持各种 SQL 方言）。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/chmod-calculator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/chmod-calculator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1932,7 +1932,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">使用此在线的chmod计算器计算chmod权限和命令。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/docker-run-to-docker-compose-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/docker-run-to-docker-compose-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -1971,7 +1971,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将 docker run 命令行转换为 docker-compose 文件!</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/xml-formatter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/xml-formatter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2004,7 +2004,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将XML字符串修饰为友好的可读格式。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/yaml-prettify" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/yaml-prettify" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2037,7 +2037,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">将YAML字符串修饰为友好的可读格式。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/ipv4-subnet-calculator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/ipv4-subnet-calculator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2066,7 +2066,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析IPv4 CIDR块，并获取有关子网络的所有所需信息。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/ipv4-address-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/ipv4-address-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2100,7 +2100,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">在ipv6中，将ip地址转换为十进制、二进制、十六进制或事件</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/ipv4-range-expander" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/ipv4-range-expander" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2129,7 +2129,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">给定起始和结束IPv4地址，此工具使用其CIDR表示法计算有效的IPv4网络。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/mac-address-lookup" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/mac-address-lookup" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2162,7 +2162,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">通过设备的MAC地址查找设备的供应商和制造商。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/mac-address-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/mac-address-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2195,7 +2195,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">输入数量和前缀。MAC地址将以您选择的大小写（大写或小写）生成</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/ipv6-ula-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/ipv6-ula-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2229,7 +2229,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">根据RFC4193在网络上生成您自己的本地不可路由IP地址。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/math-evaluator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/math-evaluator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2261,7 +2261,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">计算数学表达式的计算器。您可以使用sqrt、cos、sin、abs等函数。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/eta-calculator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/eta-calculator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2295,7 +2295,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">ETA（估计到达时间）计算器，用于知道任务的近似结束时间，例如下载的结束时刻。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/percentage-calculator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/percentage-calculator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2328,7 +2328,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">轻松计算从一个值到另一个值的百分比，或从百分比到值的百分比。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/chronometer" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/chronometer" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2357,7 +2357,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">监控事物的持续时间。基本上是一种具有简单计时器功能的计时器。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/temperature-converter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/temperature-converter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2389,7 +2389,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">开尔文、摄氏度、华氏度、兰金、德莱尔、牛顿、雷奥穆尔和罗默温度度数转换。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/benchmark-builder" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/benchmark-builder" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2418,7 +2418,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">简单的在线基准构建器可以轻松比较任务的执行时间。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/lorem-ipsum-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/lorem-ipsum-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2451,7 +2451,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">Lorem ipsum是一种占位符文本，通常用于演示文档或字体的视觉形式，而不依赖于有意义的内容</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/text-statistics" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/text-statistics" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2486,7 +2486,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">获取有关文本、字符数、字数、大小等的信息</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/emoji-picker" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/emoji-picker" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2520,7 +2520,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">轻松复制和粘贴Emoji表情符号，并获得每个表情符号的unicode和code points值.</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/string-obfuscator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/string-obfuscator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2553,7 +2553,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">混淆字符串（如秘密、IBAN 或令牌），使其可共享和可识别，而不泄露其内容。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/text-diff" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/text-diff" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2588,7 +2588,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">比较两个文本并查看它们之间的差异。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/numeronym-generator" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/numeronym-generator" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2617,7 +2617,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">数字名是一个用数字构成缩写的词。例如，“i18n”是“国际化”的名词，其中18表示单词中第一个i和最后一个n之间的字母数。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/ascii-text-drawer" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/ascii-text-drawer" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2656,7 +2656,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">Create ASCII art text with many fonts and styles.</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/phone-parser-and-formatter" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/phone-parser-and-formatter" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
@@ -2685,7 +2685,7 @@ meta:
       <div class="line-clamp-2 text-neutral-500 dark:text-neutral-400">解析、验证和格式化电话号码。获取有关电话号码的信息，如国家/地区代码、类型等。</div>
     </div>
   </a>
-  <a data-v-856c1567="" href="/iban-validator-and-parser" class="decoration-none">
+  <a data-v-856c1567="" href="http://fukit.cn/iban-validator-and-parser" class="decoration-none">
     <div data-v-236d2dc6="" class="c-card h-full transition transition-duration-0.5s !border-2px !hover:border-primary" style="--51386d66: #ffffff; --1d9c24b0: #efeff5;">
       <!---->
       <div flex="" items-center="" justify-between="">
