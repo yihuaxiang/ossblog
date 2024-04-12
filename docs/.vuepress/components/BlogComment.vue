@@ -13,9 +13,10 @@
     </div>
     <div class="form" :class="{saving: saving}">
       <textarea
-          class="textarea"
+        class="textarea"
+        ref="textarea"
         id="commentBox"
-        placeholder="请输入您的想法～"
+        placeholder="请输入您的想法～，支持粘贴图片。"
         v-model="msg"
         @keydown.ctrl.enter="postComment"
         @keydown.meta.enter="postComment"
@@ -168,6 +169,7 @@
 <script>
 const pageSize = 5;
 import fetch from 'cross-fetch';
+import axios from "axios";
 export default {
   name: "BlogComment",
   data() {
@@ -183,8 +185,94 @@ export default {
     }
   },
   mounted() {
+    console.info('mounted')
+    this.initEvent();
   },
   methods: {
+    postFile: (file, onUploadProgress) => {
+      const reader = new FileReader(); // 创建读取文件对象
+      reader.readAsDataURL(file); // 发起异步请求，读取文件
+      reader.onload = function () {  // 文件读取完成后
+        // 读取完成后，将结果赋值给img的src
+      };
+      const formData = new FormData();  // 创建一个formdata对象
+      formData.append('file', file);
+      formData.append('fileName', file.name);
+      formData.append('uid', "from-comment");
+      return axios.request({
+        method: 'post',
+        url: 'https://playground.z.wiki/img/upload',
+        data: formData,
+        onUploadProgress: (p) => {
+          const percent = Math.floor(p.loaded / (p.total || 0) * 100);
+          console.info('percent is', percent);
+          onUploadProgress && onUploadProgress(percent);
+        }
+      }).then(res => {
+        console.log("upload.then");
+        const record = res.data;
+        const url = record.url;
+        console.info('url is ', url);
+        return url;
+      }).catch(error => {
+        console.warn("upload.catch", error);
+      })
+    },
+    initEvent() {
+      console.info('initEvent', this.$refs.textarea);
+      const textarea = this.$refs.textarea;
+
+      const handlePaste = async (event) => {
+        const items = (event.clipboardData).items || [];
+        console.info('items is', items);
+        if (items && items[0].kind == 'string') {
+          // 粘贴文本，无需处理
+        } else if(items.length > 1 && items[0].kind != 'string') {
+          // 选择了多个文件
+          const files = [...items].map((item) => {
+            return item.getAsFile();
+          })
+          for(const file of files) {
+            await new Promise(async (resolve) => {
+              if(file) {
+                try {
+                  const result = await this.postFile(file, (percent) => {
+                  }).catch(() => {});
+                  this.msg += ` ${result} `
+                  console.info('upload result is ', result, textarea);
+                  resolve(true);
+                } catch(e) {
+                  console.error(e);
+                  resolve(true);
+                }
+              }
+            })
+          }
+        } else if(items.length > 0) {
+          for(const item of items) {
+            console.info('item is ', item, items.length);
+            await new Promise(async (resolve) => {
+              const file = item && item.getAsFile();
+              if(file) {
+                try {
+                  const result = await this.postFile(file, (percent) => {
+                  }).catch(() => {});
+                  this.msg += ` ${result} `
+                  console.info('upload result is ', result, textarea);
+                  resolve(true);
+                } catch(e) {
+                  console.error(e);
+                  resolve(true);
+                }
+              }
+            })
+            console.info('upload done', items.length);
+          }
+        }
+      }
+
+      textarea.addEventListener('paste', handlePaste);
+    },
     handleClickEmoji(e) {
       console.info(e.target);
       const dom = e.target;
