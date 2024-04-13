@@ -247,6 +247,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'lets-encrypt',
         'vim-jump',
         'apple-privacy-protection',
         'here-document',
@@ -372,6 +373,12 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'try-files',
+        'it-tools',
+        'zlib',
+        'riskprins',
+        'google-ads',
+        'opera',
         'blog-upgrade',
         'issue-from-comment-plugins',
         'redis-search',
