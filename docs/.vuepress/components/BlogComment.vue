@@ -228,6 +228,7 @@ export default {
         if (items && items[0].kind == 'string') {
           // 粘贴文本，无需处理
         } else if(items.length > 1 && items[0].kind != 'string') {
+          event.preventDefault();
           // 选择了多个文件
           const files = [...items].map((item) => {
             return item.getAsFile();
@@ -257,6 +258,7 @@ export default {
             })
           }
         } else if(items.length > 0) {
+          event.preventDefault();
           this.$notify({
             type: 'info',
             text: '上传中...'
