@@ -306,6 +306,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'remove',
         'cloud',
         '2024-new-year',
         'zhuhai',
