@@ -236,9 +236,17 @@ export default {
             await new Promise(async (resolve) => {
               if(file) {
                 try {
+                  this.$notify({
+                    type: 'info',
+                    text: '上传中...'
+                  })
                   const result = await this.postFile(file, (percent) => {
                   }).catch(() => {});
                   this.msg += ` ${result} `
+                  this.$notify({
+                    type: 'success',
+                    text: '上传中成功'
+                  })
                   console.info('upload result is ', result, textarea);
                   resolve(true);
                 } catch(e) {
@@ -249,6 +257,10 @@ export default {
             })
           }
         } else if(items.length > 0) {
+          this.$notify({
+            type: 'info',
+            text: '上传中...'
+          })
           for(const item of items) {
             console.info('item is ', item, items.length);
             await new Promise(async (resolve) => {
@@ -268,6 +280,10 @@ export default {
             })
             console.info('upload done', items.length);
           }
+          this.$notify({
+            type: 'success',
+            text: '上传中成功'
+          })
         }
       }
 
