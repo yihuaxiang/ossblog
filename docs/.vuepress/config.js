@@ -375,6 +375,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'aigc',
         'try-files',
         'it-tools',
         'zlib',
