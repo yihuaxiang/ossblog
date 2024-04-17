@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: Manico 破解版 Thor Launcher 下载 安装 mac 软件
+  - name: keywords
+    content: Manico 破解版 Thor Launcher 下载 安装 mac 软件
+---
 # 神器的 Manico
 
 一直想要一个 Mac 上全局激活某个 app 的快捷键设置程序
