@@ -376,6 +376,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'china-in-1925',
         'aigc',
         'try-files',
         'it-tools',
