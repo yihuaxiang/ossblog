@@ -261,6 +261,8 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 和其他绘图工具相比，`PDDON`最大的特点是支持手绘风格、支持一键美化。
 
+> drawio 也支持手绘风格
+
 <ImgView title="PDDON" url="https://9.z.wiki/autoupload/20230809/DY3A.926X1374-image.png" />
 
 ### Clipboard Viewer
@@ -363,3 +365,10 @@ iotop 是一个 Linux 下的磁盘 I/O 监控工具，
 ```shell
 brew install --cask keycastr
 ```
+
+### ShadowsocksX
+
+程序员翻墙必备。
+
+<ImgView title="ShadowsocksX" url="https://7.z.wiki/autoupload/20240519/wpXU/402X568/image.png" />
+
