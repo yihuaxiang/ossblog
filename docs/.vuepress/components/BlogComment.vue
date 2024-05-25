@@ -189,7 +189,7 @@ export default {
     console.info('mounted')
     this.initEvent();
 
-    if (typeof document != undefined) {
+    if (typeof document != undefined && typeof localStorage != undefined) {
       const emailValue = localStorage.getItem('email');
       if (emailValue && document.querySelector && document.querySelector('.email-input')) {
         //................
