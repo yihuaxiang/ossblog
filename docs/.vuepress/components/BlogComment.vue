@@ -193,7 +193,7 @@ export default {
       const emailValue = localStorage.getItem('email');
       if (emailValue && document.querySelector && document.querySelector('.email-input')) {
         //................
-        document.querySelector('.email-input')?.value = emailValue;
+        document.querySelector('.email-input').value = emailValue;
       }
     }
   },
