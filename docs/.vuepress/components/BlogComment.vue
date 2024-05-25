@@ -189,9 +189,11 @@ export default {
     console.info('mounted')
     this.initEvent();
 
-    const emailValue = localStorage.getItem('email');
-    if (emailValue) {
-      document.querySelector('.email-input')?.value = emailValue;
+    if (typeof document != undefined) {
+      const emailValue = localStorage.getItem('email');
+      if (emailValue) {
+        document.querySelector('.email-input')?.value = emailValue;
+      }
     }
   },
   methods: {
@@ -333,7 +335,7 @@ export default {
         text: '提交中'
       })
       this.saving = true;
-      if (typeof fetch != undefined) {
+      if (typeof fetch != undefined && typeof document != undefined) {
         const emailValue = document.querySelector('.email-input').value || ''
         localStorage.setItem('email', emailValue);
         fetch(`https://playground.z.wiki/comment/post`, {
