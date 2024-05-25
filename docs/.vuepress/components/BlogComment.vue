@@ -191,7 +191,7 @@ export default {
 
     if (typeof document != undefined) {
       const emailValue = localStorage.getItem('email');
-      if (emailValue) {
+      if (emailValue && document.querySelector('.email-input')) {
         //....
         document.querySelector('.email-input')?.value = emailValue;
       }
