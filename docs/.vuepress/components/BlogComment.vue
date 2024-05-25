@@ -97,7 +97,7 @@
         <img alt="punch" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/punch.png" @click="handleClickEmoji"/>
       </div>
       <div class="btns">
-        <input type="email" class="email-input" />
+        <input type="email" class="email-input" placeholder="邮箱可选" />
         <button class="emoji" @click="showEmoji = !showEmoji">
           <img class="icon" src="https://z.wiki/autoupload/20240216/EFwK.%E8%A1%A8%E6%83%85_%281%29.svg" />
         </button>
