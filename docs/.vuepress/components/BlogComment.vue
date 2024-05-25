@@ -97,6 +97,7 @@
         <img alt="punch" class="icon" src="https://z.wiki/autoupload/20240216/etef.emoji.zip/emoji/punch.png" @click="handleClickEmoji"/>
       </div>
       <div class="btns">
+        <input type="email" class="email-input" />
         <button class="emoji" @click="showEmoji = !showEmoji">
           <img class="icon" src="https://z.wiki/autoupload/20240216/EFwK.%E8%A1%A8%E6%83%85_%281%29.svg" />
         </button>
@@ -334,6 +335,7 @@ export default {
             'Content-Type': 'application/json;charset=utf8',
           },
           body: JSON.stringify({
+            email: document.querySelector('.email-input').value || '',
             comment: this.msg,
             url: this.$route.path,
             replyId: this.replyId,
@@ -527,6 +529,22 @@ export default {
       right: 12px;
       display: flex;
       align-items: center;
+
+      .email-input {
+        color: #555;
+        border: 1px solid #ededed;
+        border-radius: .3em;
+        display: inline-block;
+        background: transparent;
+        height: 24px;
+        margin-bottom: 0;
+        font-weight: 400;
+        vertical-align: middle;
+        z-index: 2;
+        margin-right: 5px;
+        padding-left: 5px;
+        outline: none;
+      }
 
       .emoji {
         border: none;
