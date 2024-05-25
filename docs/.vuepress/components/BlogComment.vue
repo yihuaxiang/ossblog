@@ -188,6 +188,11 @@ export default {
   mounted() {
     console.info('mounted')
     this.initEvent();
+
+    const emailValue = localStorage.getItem('email');
+    if (emailValue) {
+      document.querySelector('.email-input')?.value = emailValue;
+    }
   },
   methods: {
     postFile: (file, onUploadProgress) => {
@@ -329,6 +334,8 @@ export default {
       })
       this.saving = true;
       if (typeof fetch != undefined) {
+        const emailValue = document.querySelector('.email-input').value || ''
+        localStorage.setItem('email', emailValue);
         fetch(`https://playground.z.wiki/comment/post`, {
           method: 'POST',
           headers: {
