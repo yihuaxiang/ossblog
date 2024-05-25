@@ -171,6 +171,17 @@
 const pageSize = 5;
 import fetch from 'cross-fetch';
 import axios from "axios";
+
+function convertTextLinksToAnchorTags(text) {
+  // 正则表达式用于匹配大多数的网址（这里是一个简化版的，可能需要根据实际需求调整）
+  const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+  
+  // 使用正则的 replace 方法来找到所有的链接并将它们转换成 a 标签
+  return text.replace(urlRegex, function(url) {
+    return `<a href="${url}" target="_blank">${url}</a>`;
+  });
+}
+
 export default {
   name: "BlogComment",
   data() {
@@ -372,6 +383,16 @@ export default {
           this.loading = true;
           fetch(`https://playground.z.wiki/comment/list?path=${encodeURIComponent(path)}`)
             .then(res => res.json()).then(info => {
+              if (info) {
+                info.map(item => {
+                  if(item.comment) {
+                    item.comment = convertTextLinksToAnchorTags(item.comment);
+                  }
+                  if(item.replyComment && item.replyComment.comment) {
+                    item.replyComment.comment = convertTextLinksToAnchorTags(item.replyComment.comment)
+                  }
+                })
+              }
               this.list = info;
               this.loading = false;
           })
