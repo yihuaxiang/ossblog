@@ -172,11 +172,11 @@ const pageSize = 5;
 import fetch from 'cross-fetch';
 import axios from "axios";
 
-function convertTextLinksToAnchorTags(text) {
-  // 正则表达式用于匹配大多数的网址（这里是一个简化版的，可能需要根据实际需求调整）
-  const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+function convertSpecificDomainLinksAvoidingKeyword(text, domain, keyword) {
+  // 正则表达式匹配特定域名，且不包含关键词的链接。
+  // 注意：这个示例中的正则表达式是为了简化演示而设计的，并不包含对复杂URL的完全校验。
+  const urlRegex = new RegExp(`\\b(https?|ftp|file):\\/\\/(?!.*${keyword})[-A-Z0-9+&@#\\/%?=~_|!:,.;]*[-A-Z0-9+&@#\\/%=~_|]*\\.${domain}\\b`, 'ig');
   
-  // 使用正则的 replace 方法来找到所有的链接并将它们转换成 a 标签
   return text.replace(urlRegex, function(url) {
     return `<a href="${url}" target="_blank">${url}</a>`;
   });
@@ -386,10 +386,10 @@ export default {
               if (info) {
                 info.map(item => {
                   if(item.comment) {
-                    item.comment = convertTextLinksToAnchorTags(item.comment);
+                    item.comment = convertSpecificDomainLinksAvoidingKeyword(item.comment, "z.wiki", "autoupload");
                   }
                   if(item.replyComment && item.replyComment.comment) {
-                    item.replyComment.comment = convertTextLinksToAnchorTags(item.replyComment.comment)
+                    item.replyComment.comment = convertSpecificDomainLinksAvoidingKeyword(item.replyComment.comment, "z.wiki", "autoupload")
                   }
                 })
               }
