@@ -386,10 +386,10 @@ export default {
               if (info) {
                 info.map(item => {
                   if(item.comment) {
-                    item.comment = convertSpecificDomainLinksAvoidingKeyword(item.comment, "z.wiki", "autoupload");
+                    // item.comment = convertSpecificDomainLinksAvoidingKeyword(item.comment, "z.wiki", "autoupload");
                   }
                   if(item.replyComment && item.replyComment.comment) {
-                    item.replyComment.comment = convertSpecificDomainLinksAvoidingKeyword(item.replyComment.comment, "z.wiki", "autoupload")
+                    // item.replyComment.comment = convertSpecificDomainLinksAvoidingKeyword(item.replyComment.comment, "z.wiki", "autoupload")
                   }
                 })
               }
