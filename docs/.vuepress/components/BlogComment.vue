@@ -504,7 +504,7 @@ export default {
     position: relative;
     padding: 10px;
     border-color: #b2b2b5;
-    min-height: 50px;
+    min-height: 60px;
 
     position: relative;
 
@@ -527,6 +527,7 @@ export default {
     }
 
     .emojis {
+      padding-bottom: 30px;
       img {
         width: 27px;
         height: 27px;
