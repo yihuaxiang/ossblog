@@ -19,6 +19,12 @@
 https://z.wiki/web.js file:///Users/xxx/xxx/web.js
 ```
 
+
+批量映射 js
+```
+^https://s.alicdn.com/@g/sc/pc-home-2022/***/css/***.css http://localhost:3333/css/$2.css
+```
+
 ### 解决跨域问题
 
 ```
