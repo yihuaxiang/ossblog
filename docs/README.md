@@ -33,6 +33,9 @@ meta:
 
 本站作者[敖武](https://z.wiki)，站点为 [z.wiki](https://z.wiki)。
 
+
+朋友，留下评论吧，毕竟这里有<a href="https://8.z.wiki/autoupload/20240606/X4i5/2780X1264/Screenshot_2024-06-06-02-58-36-10_3915bacb930634b7e206116f9dc9486f.jpg" target="_blank" style="color: red;font-weight: bold; text-decoration: underline;">红包🧧</a>
+
 <NaviLinks />
 
 <LastPost :random='true' prefix="" :number="6"/>
