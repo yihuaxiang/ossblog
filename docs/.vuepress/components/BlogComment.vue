@@ -712,6 +712,11 @@ export default {
 #valine-vuepress-comment {
   display: none !important;
 }
+
+.rpl-d img {
+  max-width: 30px;
+  max-height: 30px;
+}
 </style>
 
 
