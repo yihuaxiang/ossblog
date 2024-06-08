@@ -308,6 +308,9 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'bike',
+        'rent-a-house',
+        'economic-downturn',
         'remove',
         'cloud',
         '2024-new-year',
@@ -376,6 +379,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'attack-tuchuang',
         'china-in-1925',
         'aigc',
         'try-files',
