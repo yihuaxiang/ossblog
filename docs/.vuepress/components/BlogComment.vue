@@ -425,258 +425,231 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-.blog-comment {
-  .ctn {
-    margin: 0 14px;
-    padding: 14px 40px 32px;
-
-    .reply-info {
-      font-size: 14px;
-      color: #b2b2b5;
-      padding-bottom: 5px;
-      display: flex;
-
-      .info {
-        white-space: nowrap;
-      }
-
-      .content{
-        flex-grow: 1;
-      }
-
-      .close {
-        padding-left: 10px;
-        padding-right: 10px;
-        cursor: pointer;
-      }
-    }
-  }
-  .vcount {
-    padding: 5px;
-    font-weight: 600;
-    font-size: 1.25em;
-  }
-  .vcards {
-    padding-left: 20px;
-
-    .avatar > img {
-      border-radius: 50%;
-      overflow: hidden;
-    }
-
-    .comment-detail {
-      display: flex;
-      white-space: nowrap;
-
-      .infos {
-        overflow: hidden;
-        padding-left: 12px;
-        padding-top: 6px;
-        flex-shrink: 1;
-        .first-line {
-          display: flex;
-        }
-        .name {
-          font-size: .875em;
-          font-weight: 500;
-          margin-right: 0.875em;
-          cursor: pointer;
-          text-decoration: none;
-          display: inline-block;
-        }
-        .ua {
-          color: #929298;
-          display: inline-block;
-          padding: 0.2em 0.5em;
-          font-size: .75em;
-          border-radius: 0.2em;
-          margin-right: 0.3em;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-        }
-        .time {
-          font-size: .75em;
-          margin-right: 0.875em;
-          color: #929298;
-        }
-      }
-    }
-  }
-  .comment-content {
-    padding-left: 62px;
-    font-size: 14px;
-    color: #b2b2b5;
-    border-bottom: 1px dashed #f5f5f5;
-    padding-bottom: 0.5em;
-    margin-bottom: 12px;
-    white-space: break-spaces;
-
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .form {
-    border: 1px solid #f0f0f0;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    padding: 10px;
-    border-color: #b2b2b5;
-    min-height: 60px;
-
-    position: relative;
-
-    .textarea {
-      border: none;
-      resize: none;
-      outline: none;
-      left: 0px;
-      top: 0px;
-      height: 100%;
-      width: 100%;
-      box-sizing: border-box;
-      color: #b2b2b5;
-      padding: 12px;
-      padding-left: 0px;
-      padding-top: 0px;
-      width: 100%;
-      display: block;
-
-    }
-
-    .emojis {
-      padding-bottom: 30px;
-      img {
-        width: 27px;
-        height: 27px;
-      }
-    }
-    .btns {
-      background: white;
-      position: absolute;
-      bottom: 12px;
-      right: 12px;
-      display: flex;
-      align-items: center;
-
-      .email-input {
-        color: #555;
-        border: 1px solid #ededed;
-        border-radius: .3em;
-        display: inline-block;
-        background: transparent;
-        height: 24px;
-        margin-bottom: 0;
-        font-weight: 400;
-        vertical-align: middle;
-        z-index: 2;
-        margin-right: 5px;
-        padding-left: 5px;
-        outline: none;
-      }
-
-      .emoji {
-        border: none;
-        cursor: pointer;
-        background-color: rgba(0,0,0,0);
-        line-height: 0px;
-        padding: 0px;
-
-        .icon {
-          width: 24px;
-          height: 24px;
-        }
-      }
-      .btn {
-        margin-left: 5px;
-        color: #b2b2b5;
-        border-color: #b2b2b5;
-        transition-duration: .4s;
-        text-align: center;
-        color: #555;
-        border: 1px solid #ededed;
-        border-radius: 0.3em;
-        display: inline-block;
-        background: transparent;
-        height: 24px;
-        margin-bottom: 0;
-        font-weight: 400;
-        vertical-align: middle;
-        z-index: 2;
-        cursor: pointer;
-
-        &:active {
-          border-color: #333;
-        }
-      }
-    }
-
-    &.saving {
-      &::after {
-        content: '提交中';
-        position: absolute;
-        z-index: 3;
-        left: 0px;
-        top: 0px;
-        height: 100%;
-        width: 100%;
-        background: #c3c3c39c;
-        text-align: center;
-        line-height: 60px;
-      }
-    }
-  }
-
-  .reply {
-    color: #b2b2b5;
-    border-color: #b2b2b5;
-    transition-duration: .4s;
-    text-align: center;
-    color: #555;
-    border: 1px solid #ededed;
-    border-radius: 0.3em;
-    display: inline-block;
-    background: transparent;
-    margin-bottom: 0;
-    font-weight: 400;
-    vertical-align: middle;
-    bottom: 12px;
-    right: 12px;
-    z-index: 2;
-    cursor: pointer;
-    margin-top: 10px;
-    height: 24px;
-    display: block;
-
-    margin-left: auto;
-  }
-
-  .pages {
-    display: flex;
-    padding-left: 55px;
-
-    .page {
-       display: inline-block;
-       cursor: pointer;
-       padding-left: 5px;
-       padding-right: 5px;
-       padding-bottom: 2px;
-       padding-top: 2px;
-       color: #555;
-       border: 1px solid #ededed;
-       border-radius: 4px;
-       margin-left: 5px;
-       margin-right: 5px;
-       font-size: 14px;
-
-       &.active {
-         border-color: #ccc;
-       }
-    }
-  }
+<style scoped>
+.blog-comment .ctn {
+	 margin: 0 14px;
+	 padding: 14px 40px 32px;
+}
+ .blog-comment .ctn .reply-info {
+	 font-size: 14px;
+	 color: #b2b2b5;
+	 padding-bottom: 5px;
+	 display: flex;
+}
+ .blog-comment .ctn .reply-info .info {
+	 white-space: nowrap;
+}
+ .blog-comment .ctn .reply-info .content {
+	 flex-grow: 1;
+}
+ .blog-comment .ctn .reply-info .close {
+	 padding-left: 10px;
+	 padding-right: 10px;
+	 cursor: pointer;
+}
+ .blog-comment .vcount {
+	 padding: 5px;
+	 font-weight: 600;
+	 font-size: 1.25em;
+}
+ .blog-comment .vcards {
+	 padding-left: 20px;
+}
+ .blog-comment .vcards .avatar > img {
+	 border-radius: 50%;
+	 overflow: hidden;
+}
+ .blog-comment .vcards .comment-detail {
+	 display: flex;
+	 white-space: nowrap;
+}
+ .blog-comment .vcards .comment-detail .infos {
+	 overflow: hidden;
+	 padding-left: 12px;
+	 padding-top: 6px;
+	 flex-shrink: 1;
+}
+ .blog-comment .vcards .comment-detail .infos .first-line {
+	 display: flex;
+}
+ .blog-comment .vcards .comment-detail .infos .name {
+	 font-size: 0.875em;
+	 font-weight: 500;
+	 margin-right: 0.875em;
+	 cursor: pointer;
+	 text-decoration: none;
+	 display: inline-block;
+}
+ .blog-comment .vcards .comment-detail .infos .ua {
+	 color: #929298;
+	 display: inline-block;
+	 padding: 0.2em 0.5em;
+	 font-size: 0.75em;
+	 border-radius: 0.2em;
+	 margin-right: 0.3em;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	 white-space: nowrap;
+}
+ .blog-comment .vcards .comment-detail .infos .time {
+	 font-size: 0.75em;
+	 margin-right: 0.875em;
+	 color: #929298;
+}
+ .blog-comment .comment-content {
+	 padding-left: 62px;
+	 font-size: 14px;
+	 color: #b2b2b5;
+	 border-bottom: 1px dashed #f5f5f5;
+	 padding-bottom: 0.5em;
+	 margin-bottom: 12px;
+	 white-space: break-spaces;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+}
+ .blog-comment .form {
+	 border: 1px solid #f0f0f0;
+	 border-radius: 4px;
+	 margin-bottom: 10px;
+	 overflow: hidden;
+	 position: relative;
+	 padding: 10px;
+	 border-color: #b2b2b5;
+	 min-height: 60px;
+	 position: relative;
+}
+ .blog-comment .form .textarea {
+	 border: none;
+	 resize: none;
+	 outline: none;
+	 left: 0px;
+	 top: 0px;
+	 height: 100%;
+	 width: 100%;
+	 box-sizing: border-box;
+	 color: #b2b2b5;
+	 padding: 12px;
+	 padding-left: 0px;
+	 padding-top: 0px;
+	 width: 100%;
+	 display: block;
+}
+ .blog-comment .form .emojis {
+	 padding-bottom: 30px;
+}
+ .blog-comment .form .emojis img {
+	 width: 27px;
+	 height: 27px;
+}
+ .blog-comment .form .btns {
+	 background: white;
+	 position: absolute;
+	 bottom: 12px;
+	 right: 12px;
+	 display: flex;
+	 align-items: center;
+}
+ .blog-comment .form .btns .email-input {
+	 color: #555;
+	 border: 1px solid #ededed;
+	 border-radius: 0.3em;
+	 display: inline-block;
+	 background: transparent;
+	 height: 24px;
+	 margin-bottom: 0;
+	 font-weight: 400;
+	 vertical-align: middle;
+	 z-index: 2;
+	 margin-right: 5px;
+	 padding-left: 5px;
+	 outline: none;
+}
+ .blog-comment .form .btns .emoji {
+	 border: none;
+	 cursor: pointer;
+	 background-color: rgba(0, 0, 0, 0);
+	 line-height: 0px;
+	 padding: 0px;
+}
+ .blog-comment .form .btns .emoji .icon {
+	 width: 24px;
+	 height: 24px;
+}
+ .blog-comment .form .btns .btn {
+	 margin-left: 5px;
+	 color: #b2b2b5;
+	 border-color: #b2b2b5;
+	 transition-duration: 0.4s;
+	 text-align: center;
+	 color: #555;
+	 border: 1px solid #ededed;
+	 border-radius: 0.3em;
+	 display: inline-block;
+	 background: transparent;
+	 height: 24px;
+	 margin-bottom: 0;
+	 font-weight: 400;
+	 vertical-align: middle;
+	 z-index: 2;
+	 cursor: pointer;
+}
+ .blog-comment .form .btns .btn:active {
+	 border-color: #333;
+}
+ .blog-comment .form.saving::after {
+	 content: '提交中';
+	 position: absolute;
+	 z-index: 3;
+	 left: 0px;
+	 top: 0px;
+	 height: 100%;
+	 width: 100%;
+	 background: #c3c3c3 9c;
+	 text-align: center;
+	 line-height: 60px;
+}
+ .blog-comment .reply {
+	 color: #b2b2b5;
+	 border-color: #b2b2b5;
+	 transition-duration: 0.4s;
+	 text-align: center;
+	 color: #555;
+	 border: 1px solid #ededed;
+	 border-radius: 0.3em;
+	 display: inline-block;
+	 background: transparent;
+	 margin-bottom: 0;
+	 font-weight: 400;
+	 vertical-align: middle;
+	 bottom: 12px;
+	 right: 12px;
+	 z-index: 2;
+	 cursor: pointer;
+	 margin-top: 10px;
+	 height: 24px;
+	 display: block;
+	 margin-left: auto;
+}
+ .blog-comment .pages {
+	 display: flex;
+	 padding-left: 55px;
+}
+ .blog-comment .pages .page {
+	 display: inline-block;
+	 cursor: pointer;
+	 padding-left: 5px;
+	 padding-right: 5px;
+	 padding-bottom: 2px;
+	 padding-top: 2px;
+	 color: #555;
+	 border: 1px solid #ededed;
+	 border-radius: 4px;
+	 margin-left: 5px;
+	 margin-right: 5px;
+	 font-size: 14px;
+}
+ .blog-comment .pages .page.active {
+	 border-color: #ccc;
 }
 </style>
 <style>
