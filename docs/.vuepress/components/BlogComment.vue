@@ -425,7 +425,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .blog-comment {
   .ctn {
     margin: 0 14px;
