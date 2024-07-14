@@ -380,6 +380,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'meiguodaxuan',
         'aliyun',
         'ai',
         'ussr',
