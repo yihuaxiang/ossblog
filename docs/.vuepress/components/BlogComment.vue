@@ -687,8 +687,8 @@ export default {
 }
 
 .rpl-d img {
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 20px !important;
+  max-height: 20px !important;
 }
 </style>
 
