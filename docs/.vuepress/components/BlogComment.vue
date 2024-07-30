@@ -507,7 +507,7 @@ export default {
 	 border-bottom: 1px dashed #f5f5f5;
 	 padding-bottom: 0.5em;
 	 margin-bottom: 12px;
-	 white-space: break-spaces;
+	 white-space: normal;
 	 overflow: hidden;
 	 text-overflow: ellipsis;
 }
