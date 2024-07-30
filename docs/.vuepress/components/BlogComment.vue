@@ -168,7 +168,7 @@
 </template>
 
 <script>
-const pageSize = 5;
+const pageSize = 8;
 import fetch from 'cross-fetch';
 import axios from "axios";
 
