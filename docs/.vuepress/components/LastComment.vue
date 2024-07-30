@@ -90,4 +90,9 @@ export default {
   height: 18px;;
 }
 
+.comment-link /deep/ h1, .comment-link /deep/ h2, .comment-link /deep/ h3, .comment-link /deep/ h4, .comment-link /deep/ h5, .comment-link /deep/ h6, .comment-link /deep/ p {
+  margin: 0px;
+  padding: 0px;
+}
+
 </style>
