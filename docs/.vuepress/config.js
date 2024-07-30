@@ -308,6 +308,8 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'mingyu',
+        'jeju',
         'life-show',
         'bike',
         'rent-a-house',
@@ -380,6 +382,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'new-macbook',
         'meiguodaxuan',
         'aliyun',
         'ai',
