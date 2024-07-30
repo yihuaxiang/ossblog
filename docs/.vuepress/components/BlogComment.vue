@@ -496,7 +496,7 @@ export default {
 	 margin-right: 0.875em;
 	 color: #929298;
 }
- .blog-comment .comment-content h1,  .blog-comment .comment-content h2, .blog-comment .comment-content h3, .blog-comment .comment-content h4, .blog-comment .comment-content h5, .blog-comment .comment-content h5, .blog-comment .comment-content p {
+ .blog-comment .comment-content  /deep/ h1,  .blog-comment .comment-content  /deep/ h2, .blog-comment .comment-content  /deep/ h3, .blog-comment .comment-content  /deep/ h4, .blog-comment .comment-content  /deep/ h5, .blog-comment .comment-content  /deep/ h6, .blog-comment .comment-content  /deep/ p {
    padding: 0px;
    margin: 0px;
 }
