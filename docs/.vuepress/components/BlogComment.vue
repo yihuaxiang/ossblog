@@ -496,6 +496,10 @@ export default {
 	 margin-right: 0.875em;
 	 color: #929298;
 }
+ .blog-comment .comment-content h1,  .blog-comment .comment-content h2, .blog-comment .comment-content h3, .blog-comment .comment-content h4, .blog-comment .comment-content h5, .blog-comment .comment-content h5, .blog-comment .comment-content p {
+   padding: 0px;
+   margin: 0px;
+}
  .blog-comment .comment-content {
 	 padding-left: 62px;
 	 font-size: 14px;
