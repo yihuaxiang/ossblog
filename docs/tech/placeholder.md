@@ -7,9 +7,13 @@ meta:
 ---
 # 占位图服务
 
-一个简单的占位符服务，服务地址：[占位符服务](https://z.wiki/placeholder)
+一个简单的占位符服务，介绍地址：[占位符服务](https://z.wiki/placeholder)
 
 特点：在线快速生成占位图，可自定义高宽大小、颜色、显示文本、背景色，预加载显示图生成,国内服务，极速响应.
+
+在线编辑地址：[在线编辑占位符](https://z.wiki/jsbin/suquposeki)
+
+![在线编辑占位图](https://z.wiki/autoupload/20240803/5cSU/921X811/99.gif)
 
 ### 使用方法
 

@@ -248,6 +248,8 @@ https://xxx.com reqCookies://{“cookie_name”:”cookie_value”}
 
 轻量级录屏工具，下载地址[LICEcap](https://www.macupdate.com/app/mac/49461/licecap)
 
+> 国内镜像：[快速下载](https://cdn.z.wiki/autoupload/20240803/pQDc/licecap132.dmg)
+
 <ImgView title="LICEcap" url="https://5.z.wiki/images/20220501/dbfba0970e4643e897470b7a21c81c65.png" />
 
 
