@@ -18,3 +18,9 @@
 
 <ImgView title="谷歌广告" url="https://7.z.wiki/autoupload/20240323/cjzJ.1838X2902-image.png" />
 
+### 2024.08.10
+
+<ImgView title="谷歌广告" url="https://cdn.z.wiki/autoupload/20240810/BWGG/2952X1522/image.png" />
+
+我去，PIN 码通过真的“邮件”来发送。🤯
+
