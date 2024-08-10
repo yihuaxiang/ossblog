@@ -20,7 +20,8 @@
 
 ### 2024.08.10
 
+我去，PIN 码通过真的“邮件”来发送。🤯
+
 <ImgView title="谷歌广告" url="https://cdn.z.wiki/autoupload/20240810/BWGG/2952X1522/image.png" />
 
-我去，PIN 码通过真的“邮件”来发送。🤯
 
