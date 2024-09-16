@@ -178,7 +178,7 @@ export default ({
   ChatRoomClient.prototype.changeName = function() {
     if($('.chatroom-rename').size()) return;
     var self = this;
-    var str = '<div class="chatroom-rename" style="display:none;"><label>取个名字：</label><input type="text" value="' +
+    var str = '<div class="chatroom-rename" style="display:none;"><label>用户：</label><input type="text" value="' +
       htmlspecialchars(self.userName) +'" placeholder="不要取太长的名字啦~"><span>确认</span></div>';
     $(str).appendTo($('.chatroom')).fadeIn();
     $('.chatroom-rename span').on('click', function() {
