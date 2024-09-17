@@ -250,6 +250,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'arthas',
         'lets-encrypt',
         'vim-jump',
         'apple-privacy-protection',
