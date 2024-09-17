@@ -206,6 +206,7 @@ module.exports = {
           {text: '在线PS', link: 'https://ps.ooo/'},
           {text: '文心一言', link: 'https://yiyan.baidu.com/'},
           {text: 'URL编辑器', link: 'https://playground.z.wiki/URL-Editor/'},
+          {text: '免费音乐', link: 'https://tool.liumingye.cn/music/'},
           {text: '程序员鱼皮', link: 'https://codefather.cn/'},
         ]
       },
