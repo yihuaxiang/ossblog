@@ -91,7 +91,7 @@ module.exports = {
       }
     ]
   ],
-  title: '敖武的博客 | 生活随享 | 我的日常记录',
+  title: '敖武的博客',
   description: '敖武的博客',
   lang: 'zh-CN',
   plugins: [
