@@ -200,6 +200,13 @@ export default {
     console.info('mounted')
     this.initEvent();
 
+    fetch('https://playground.z.wiki/lbs/getIp').then(res => res.json()).then(data => {
+      console.log('data is', data);
+      const city = data.city || '';
+      const placeholder = document.querySelector('#commentBox').placeholder;
+      document.querySelector('#commentBox').placeholder = city + placeholder;
+    })
+
     if (typeof globalThis.document != undefined && typeof globalThis.localStorage != undefined) {
       const emailValue = localStorage.getItem('email');
       if (emailValue && document.querySelector && document.querySelector('.email-input')) {
