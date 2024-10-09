@@ -204,7 +204,7 @@ export default {
       console.log('data is', data);
       const city = data.city || '';
       const placeholder = document.querySelector('#commentBox').placeholder;
-      document.querySelector('#commentBox').placeholder = city + placeholder;
+      document.querySelector('#commentBox').placeholder = city + '网友，' + placeholder;
     })
 
     if (typeof globalThis.document != undefined && typeof globalThis.localStorage != undefined) {
