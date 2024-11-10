@@ -104,7 +104,7 @@ exports.handleRequest = async (ctx, next) => {
 `
 ```
 
-### 在中断中使用
+### 在终端中使用
 
 
 ```
@@ -128,3 +128,7 @@ __lightproxy-real-url__: https://baidu.com/
 __lightproxy-help__: See https://github.com/alibaba/lightproxy
 
 ```
+
+### 更多文档
+
+lightproxy 基于 whisle 开发而来，因此可以参考 whisle 的语法，文档地址：[https://wproxy.org/whistle/](https://wproxy.org/whistle/)
