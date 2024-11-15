@@ -1,3 +1,10 @@
+---
+meta:
+  - name: description
+    content: lightProxy 常见配置 使用规则 教程 开发必备 前端程序员 后端
+  - name: keywords
+    content: lightProxy 抓包 代理 请求拦截 收集调试 debug
+---
 # lightProxy 常见配置
 
 
