@@ -386,6 +386,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'gmail',
         'ukraine',
         'weibo-jubao',
         'paris-olympic-games',
