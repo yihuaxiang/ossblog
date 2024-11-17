@@ -77,3 +77,16 @@ meta:
 
 <ImgView title="意面" url="https://9.z.wiki/images/20220219/e509255f14384acc81f72576d69821e5.png" />
 
+# 2024年的美食
+
+### 麻婆豆腐
+
+<ImgView title="麻婆豆腐" url="https://cdn.z.wiki/autoupload/20241117/t62D/3072X4096/IMG20241117114838.jpg" />
+
+### 排骨汤
+
+<ImgView title="排骨汤" url="https://cdn.z.wiki/autoupload/20241117/hrZk/4096X3072/IMG20241117114807.jpg" />
+
+### 牛肉
+
+<ImgView title="牛肉" url="https://cdn.z.wiki/autoupload/20241117/XDus/3072X4096/IMG20241117114826.jpg" />
