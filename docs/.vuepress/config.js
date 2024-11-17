@@ -223,6 +223,7 @@ module.exports = {
           {text: '谦行 语雀', link: 'https://www.yuque.com/sunluyong'},
           {text: '鄢云峰的个人网站', link: 'https://yanyunfeng.com/'},
           {text: '程序员工具箱', link: 'https://fukit.cn/'},
+          {text: '余华的个人博客', link: 'https://www.yuhua.pub/'},
           {text: '5杀猪网', link: 'https://51shazhu.com'},
         ]
       },
