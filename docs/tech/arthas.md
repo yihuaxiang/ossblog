@@ -12,6 +12,11 @@ meta:
 
 Arthas 是阿里巴巴开源的一个强大的 Java 诊断工具，它为开发者提供了实时调试和诊断 Java 程序的能力，特别是在生产环境下。它允许你在不重启应用的情况下监控和排查问题。下面是 Arthas 的一些常见用法:
 
+插件：
+
+<ImgView title="Arthas 插件" url="https://hv.z.wiki/autoupload/20241117/U6Xl/2188X1656/image.png" />
+
+
 ### Arthas 安装
 
 #### 下载 Arthas
