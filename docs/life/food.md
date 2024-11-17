@@ -81,7 +81,7 @@ meta:
 
 ### 麻婆豆腐
 
-<ImgView title="麻婆豆腐" url="https://cdn.z.wiki/autoupload/20241117/t62D/3072X4096/IMG20241117114838.jpg" />
+<ImgView title="麻婆豆腐" url="https://hv.z.wiki/autoupload/20241117/t62D/3072X4096/IMG20241117114838.jpg" />
 
 ### 排骨汤
 
@@ -89,4 +89,4 @@ meta:
 
 ### 牛肉
 
-<ImgView title="牛肉" url="https://cdn.z.wiki/autoupload/20241117/XDus/3072X4096/IMG20241117114826.jpg" />
+<ImgView title="牛肉" url="https://hv.z.wiki/autoupload/20241117/XDus/3072X4096/IMG20241117114826.jpg" />
