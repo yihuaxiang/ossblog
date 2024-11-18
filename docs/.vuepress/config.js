@@ -251,6 +251,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'jsonpath',
         'arthas',
         'lets-encrypt',
         'vim-jump',
