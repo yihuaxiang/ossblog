@@ -75,7 +75,7 @@ System.out.println(firstBook); // 输出：{"category":"fiction","price":10}
 ##### JSONPath 表达式：
 `$.store.book[0]`
 
-> [查看在线效果](https://z.wiki/jsonpath/index.html?inputJson=%7B%22store%22%3A%7B%22book%22%3A%5B%7B%22category%22%3A%22fiction%22%2C%22price%22%3A10%7D%2C%7B%22category%22%3A%22science%22%2C%22price%22%3A15%7D%2C%7B%22category%22%3A%22math%22%2C%22price%22%3A20%7D%5D%2C%22bicycle%22%3A%7B%22color%22%3A%22red%22%2C%22price%22%3A100%7D%7D%7D&query=$.store.book[0])
+> [查看在线效果](https://z.wiki/u/2xo98Z)
 
 #### 3. 条件过滤
 ##### 代码：
@@ -88,7 +88,7 @@ System.out.println(expensiveBooks);
 ##### JSONPath 表达式：
 `$.store.book[?(@.price > 15)]`
 
-> [查看在线效果](https://z.wiki/jsonpath/index.html?inputJson=%7B%22store%22%3A%7B%22book%22%3A%5B%7B%22category%22%3A%22fiction%22%2C%22price%22%3A10%7D%2C%7B%22category%22%3A%22science%22%2C%22price%22%3A15%7D%2C%7B%22category%22%3A%22math%22%2C%22price%22%3A20%7D%5D%2C%22bicycle%22%3A%7B%22color%22%3A%22red%22%2C%22price%22%3A100%7D%7D%7D&query=$.store.book[?(@.price > 15)])
+> [查看在线效果](https://z.wiki/u/waf9wz)
 
 #### 4. 使用通配符提取所有子节点
 ##### 代码：
@@ -114,7 +114,7 @@ System.out.println(firstTwoBooks);
 ##### JSONPath 表达式：
 `$.store.book[0:2]`
 
-> [查看在线效果](https://z.wiki/u/waf9wz)
+> [查看在线效果](https://z.wiki/jsonpath/index.html?inputJson=%7B%22store%22%3A%7B%22book%22%3A%5B%7B%22category%22%3A%22fiction%22%2C%22price%22%3A10%7D%2C%7B%22category%22%3A%22science%22%2C%22price%22%3A15%7D%2C%7B%22category%22%3A%22math%22%2C%22price%22%3A20%7D%5D%2C%22bicycle%22%3A%7B%22color%22%3A%22red%22%2C%22price%22%3A100%7D%7D%7D&query=$.store.book[0:2])
 
 ### JSONPath 使用场景
 1. **数据提取**：从复杂 JSON 中快速提取指定字段值。
