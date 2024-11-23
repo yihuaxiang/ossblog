@@ -1,3 +1,11 @@
+---
+meta:
+  - name: description
+    content: 全面介绍 JSONPath 的语法规则与查询技巧，涵盖基本表达式、数组查询、条件过滤等操作。通过丰富的实例讲解，帮助开发者快速掌握 JSON 数据查询与调试的最佳实践。
+  - name: keywords
+    content: JSONPath 教程,JSONPath 语法,JSON 查询,JSON 数据查询,JSONPath 使用案例,JSONPath 实例,JSON 数据调试
+---
+
 # JSONPath 使用总结
 
 ### 什么是 JSONPath？
@@ -106,4 +114,7 @@ System.out.println(firstTwoBooks);
 FastJSON 的 JSONPath 是一种强大的工具，能高效处理复杂 JSON 数据。无论是提取单个字段还是筛选特定数组元素，它都能让开发者事半功倍。
 
 
+### 在线体验
+
+[JSONPath 在线演示工具](https://z.wiki/jsonpath/index.html)
 
