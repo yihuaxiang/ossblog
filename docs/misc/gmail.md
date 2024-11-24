@@ -1,4 +1,12 @@
-# gmail 无限别名
+---
+meta:
+  - name: description
+    content: 了解 Gmail 无限别名的使用方法及技巧，充分利用邮箱扩展功能，轻松实现邮件分类与高效管理。适用于个人和企业用户的必备指南。
+  - name: keywords
+    content: Gmail 无限别名, Gmail 别名功能, Gmail 邮箱管理, Gmail 使用技巧, 邮箱扩展方法
+---
+
+# Gmail 无限别名指南：轻松扩展邮箱用途与管理邮件
 
 经常需要使用邮箱注册某些平台（比如注册多个 github 账号给自己点 star）,但一直苦于没有足够多的邮箱账号。
 
