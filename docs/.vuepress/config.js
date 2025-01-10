@@ -312,6 +312,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'hk',
         'night',
         'shaoxing',
         'mingyu',
