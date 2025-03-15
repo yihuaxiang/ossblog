@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: CSV 转 JSON 的 JavaScript 实现，提供简单高效的 CSV 数据转换为 JSON 格式的方法
+  - name: keywords
+    content: JavaScript,CSV,JSON,转换,数据处理,前端开发
+tags: ["JavaScript", "CSV", "JSON", "数据处理"]
+---
+
 # csv 转 json
 
 

@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: ripgrep 使用教程，介绍 ripgrep 的安装、使用和性能优势，以及与 grep、Ack、Ag 等工具的对比
+  - name: keywords
+    content: ripgrep,rg,grep,文本搜索,代码搜索,性能对比
+tags: ["ripgrep", "grep", "文本搜索", "代码搜索"]
+---
+
 # ripgrep 是个好东西
 
 [项目地址](https://github.com/BurntSushi/ripgrep)

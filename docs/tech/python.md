@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Python 编程语言基础知识，包括 Poetry 依赖管理工具的使用、虚拟环境配置和项目打包发布
+  - name: keywords
+    content: python,poetry,依赖管理,虚拟环境,打包,发布
+tags: ["python", "poetry", "依赖管理"]
+---
+
 # python 知多少
 
 

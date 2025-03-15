@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: shell 中进行字符串比较的方法，包括字符串相等判断、子串判断以及其他常用判断方法
+  - name: keywords
+    content: shell,字符串比较,字符串相等,子串判断,bash,条件判断
+tags: ["shell", "bash", "字符串比较", "条件判断"]
+---
+
 # shell 中进行字符串比较
 
 

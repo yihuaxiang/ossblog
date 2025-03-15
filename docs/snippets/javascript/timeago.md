@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: JavaScript 时间戳转换为"X天之前"、"X小时之前"等友好时间格式的实现方法
+  - name: keywords
+    content: JavaScript,时间戳,timeago,相对时间,友好时间格式,X天前,X小时前
+tags: ["JavaScript", "时间戳", "timeago", "相对时间"]
+---
+
 # 时间戳转 X天之前、X小时之前
 
 

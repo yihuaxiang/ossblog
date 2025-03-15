@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 程序员容易发音错误的单词，包含常见技术词汇的正确发音和在线音频播放
+  - name: keywords
+    content: 程序员,发音,pronunciation,技术词汇,音标,在线发音
+tags: ["发音", "pronunciation", "技术词汇"]
+---
+
 # 容易发音错误的单词
 
 > from [chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)

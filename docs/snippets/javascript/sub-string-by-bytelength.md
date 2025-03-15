@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 按字节长度截取字符串，处理中英文混合字符串按字节长度截取的方法
+  - name: keywords
+    content: JavaScript,字符串,截取,字节长度,中文,英文,混合字符串
+tags: ["JavaScript", "字符串处理", "字节长度"]
+---
+
 # 按字节长度截取字符串
 
 

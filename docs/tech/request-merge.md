@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 高性能请求合并实践，介绍请求合并的原理、实现思路和技术手段，包含完整的代码示例
+  - name: keywords
+    content: 请求合并,高性能,高并发,LinkedBlockingQueue,CompletableFuture,ExecutorService
+tags: ["高性能", "请求合并", "高并发", "Java"]
+---
+
 # 高性能实践：请求合并
 
 在高并发场景下，来自下游服务的请求往往会引起大量的网络`IO`和服务端处理负载。有一种巧妙的方式可以减缓这些压力——请求合并。

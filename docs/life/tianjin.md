@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 天津旅行记录，面朝大海的美丽风景照片集锦
+  - name: keywords
+    content: 天津,旅行,面朝大海,风景,照片
+tags: ["天津", "旅行", "风景", "摄影"]
+---
+
 # 面朝大海
 
 <ImgView title="面向大海" url="https://0.z.wiki/autoupload/20230811/jmH5.2875X2878-IMG_4900.JPG" />

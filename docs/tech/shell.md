@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: shell 函数从入门到精通，介绍 shell 函数的创建、使用、参数传递和返回值
+  - name: keywords
+    content: shell,function,函数,创建,使用,参数,返回值
+tags: ["shell", "function", "函数"]
+---
+
 # shell 函数指北
 
 ### 创建函数

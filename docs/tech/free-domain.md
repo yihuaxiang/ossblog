@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 免费域名申请指南，详细介绍eu.org免费域名的申请流程、使用体验及申请结果
+  - name: keywords
+    content: 免费域名,eu.org,域名申请,免费资源,网站搭建
+tags: ["免费域名", "eu.org", "域名申请", "网站资源"]
+---
+
 # 免费域名
 
 申请了几个免费的`eu.org`域名，等几天看看。

@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: lsof 命令详解，介绍 lsof 的基本用法、查看文件、网络连接、进程、用户和设备文件等功能
+  - name: keywords
+    content: lsof,linux,文件,网络连接,进程,用户,设备
+tags: ["lsof", "linux", "命令行"]
+---
+
 # lsof
 
 `lsof` 含义为：`list of open file`

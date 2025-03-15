@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 动态插入 JavaScript 脚本的方法，介绍如何在网页运行时动态加载 JS 文件
+  - name: keywords
+    content: JavaScript,动态插入,脚本,script,动态加载,异步加载
+tags: ["JavaScript", "动态加载", "脚本注入"]
+---
+
 # 动态插入 js 脚本
 
 

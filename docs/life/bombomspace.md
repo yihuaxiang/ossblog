@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 弹力猩球超级运动中心体验，位于斯普瑞斯奥特莱斯，提供蹦床、滑梯、篮球等多种运动项目
+  - name: keywords
+    content: 弹力猩球,超级运动中心,斯普瑞斯奥特莱斯,蹦床,儿童滑梯,运动
+tags: ["弹力猩球", "运动中心", "亲子活动", "蹦床"]
+---
+
 # 弹力猩球·超级运动中心
 
 <ImgView title="弹力猩球" url="https://z.wiki/images/20220212/2ed66c837cd841dca53c16e62c0ac2fc.png" />

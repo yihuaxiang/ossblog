@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Google Search Console 数据分析与搜索影响力统计，展示网站在 Google 搜索中的表现和流量趋势
+  - name: keywords
+    content: Google,Search Console,搜索影响力,网站流量,SEO,数据分析
+tags: ["Google", "Search Console", "SEO", "数据分析"]
+---
+
 # Google 搜索影响力
 
 

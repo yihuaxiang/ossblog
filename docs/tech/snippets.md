@@ -1,3 +1,15 @@
+---
+meta:
+  - name: description
+    content: 代码片段集合，提供常用的小脚本和代码片段，包括htaccess、JavaScript、shell、css、Nginx、html等多种语言和服务
+  - name: keywords
+    content: 代码片段,snippets,htaccess,JavaScript,shell,css,Nginx,html,小脚本
+tags: ["代码片段", "snippets", "JavaScript", "shell", "Nginx", "html"]
+---
+
+
+
+
 # snippets
 
 新开发的"代码片段"功能，收集常用的小脚本、小片段，

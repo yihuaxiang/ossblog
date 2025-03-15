@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: here document 详解，介绍 shell 中 heredoc 的概念、语法和使用场景，包含多个实用示例
+  - name: keywords
+    content: here document,heredoc,shell,重定向,多行文本,EOF
+tags: ["shell", "heredoc", "重定向"]
+---
+
 # here document
 
 

@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: shell 进度条实现方法，包括初级和高级进度条的代码示例和运行效果展示
+  - name: keywords
+    content: shell,进度条,bash,terminal,console,ANSI,转义序列
+tags: ["shell", "bash", "进度条", "terminal"]
+---
+
 # shell 进度条
 
 

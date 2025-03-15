@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Alfred 备忘录，记录 Alfred 使用的插件，包括 Encode/Decode、Code Case、Hash、IpIp 等工具
+  - name: keywords
+    content: Alfred,Mac,快捷启动器,插件,workflow,Encode,Decode,Code Case,Hash,IpIp
+tags: ["Alfred", "Mac", "工具", "插件", "workflow"]
+---
+
 # alfred 备忘录
 
 > `Alfred` 是一款 `Mac` 平台上的快捷启动器和文件搜索工具。它可以帮助用户快速启动应用程序、查找文件和执行其他常用操作。 

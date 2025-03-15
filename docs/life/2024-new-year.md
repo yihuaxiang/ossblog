@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 2024年春节期间峨眉山之旅记录，分享峨眉山美景和旅行体验
+  - name: keywords
+    content: 峨眉山,春节,2024,旅行,风景,摄影
+tags: ["峨眉山", "春节", "2024", "旅行", "摄影"]
+---
+
 # 2024年春节
 
 大年初一前往[峨眉山](https://baike.baidu.com/item/%E5%B3%A8%E7%9C%89%E5%B1%B1/2676)。

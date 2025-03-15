@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 代码片段集合，包括 CSS、htaccess、HTML、JavaScript、Mac、Nginx、robots.txt 和 Shell 等常用代码片段
+  - name: keywords
+    content: 代码片段,CSS,htaccess,HTML,JavaScript,Mac,Nginx,robots,Shell,snippets
+tags: ["代码片段", "CSS", "htaccess", "HTML", "JavaScript", "Mac", "Nginx", "robots", "Shell", "snippets"]
+---
+
 # 代码片段
 
 <LastPost :random="true" prefix="/snippets/css" :number="10" title="css 代码片段"/>

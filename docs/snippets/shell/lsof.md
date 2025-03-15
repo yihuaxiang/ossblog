@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: lsof 命令详解，介绍如何使用 lsof 查看打开的文件、网络连接、进程和用户信息
+  - name: keywords
+    content: lsof,linux,unix,文件,网络连接,进程,端口,用户
+tags: ["lsof", "linux", "unix", "文件管理"]
+---
+
 # lsof
 
 

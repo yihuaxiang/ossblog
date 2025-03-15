@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: macOS 内置 Apache 服务器的使用指南，包括启动、关闭和配置路径
+  - name: keywords
+    content: macOS,Apache,服务器,启动,关闭,配置
+tags: ["macOS", "Apache", "服务器"]
+---
+
 # 内置 Apache
 
 

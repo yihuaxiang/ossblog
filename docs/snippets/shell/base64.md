@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: base64 编码解码操作指南，介绍如何在服务器和本地之间通过 base64 编码传输文件
+  - name: keywords
+    content: base64,编码,解码,文件传输,shell
+tags: ["base64", "shell", "文件传输", "编码"]
+---
+
 # base64 操作
 
 

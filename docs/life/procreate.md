@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Procreate 绘画作品集，包含花蕊、菠萝、小熊、小树、小蘑菇、小墨鱼等创意插画
+  - name: keywords
+    content: Procreate,绘画,插画,数字艺术,花蕊,菠萝,小熊,小树,小蘑菇,小墨鱼
+tags: ["Procreate", "绘画", "插画", "数字艺术"]
+---
+
 # procreate
 
 ### 2023/01/29

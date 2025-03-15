@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: crontab 定时任务配置指南，包括用户任务和系统级任务的设置、查看和管理方法
+  - name: keywords
+    content: crontab,定时任务,周期性任务,linux,centos,系统任务,用户任务
+tags: ["crontab", "linux", "centos", "定时任务"]
+---
+
 # crontab
 
 

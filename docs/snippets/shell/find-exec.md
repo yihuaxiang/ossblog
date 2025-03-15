@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: find命令与exec结合使用教程，介绍如何查找文件并执行其他命令的高效方法
+  - name: keywords
+    content: find,exec,xargs,查找文件,执行命令,Linux,Shell
+tags: ["find", "exec", "xargs", "shell", "linux"]
+---
+
 # find 并执行其他命令
 
 

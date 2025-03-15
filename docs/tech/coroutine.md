@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 协程从入门到精通，介绍协程的概念、原理、实现方式及在并发编程中的应用
+  - name: keywords
+    content: 协程,coroutine,并发,轻量级线程,任务调度,异步编程
+tags: ["协程", "coroutine", "并发编程", "异步"]
+---
+
 # 协程
 
 协程是一种线程之间的轻量级并发机制，

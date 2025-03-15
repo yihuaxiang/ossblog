@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 阿里云SLA赔付流程及实际案例分享，包括赔偿标准、申请方式和个人经历
+  - name: keywords
+    content: 阿里云,SLA,赔付,服务等级协议,故障赔偿,云服务
+tags: ["阿里云", "SLA", "赔付", "云服务"]
+---
+
 # 阿里云 SLA 赔付
 
 <ImgView title="阿里云 SLA 赔付" url="https://7.z.wiki/autoupload/20231124/UoCJ.220X1470-image.png" />
