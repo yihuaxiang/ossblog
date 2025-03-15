@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 阿里云日志服务SLS介绍，通过logtail收集日志，配置生成报表的使用方法
+  - name: keywords
+    content: 阿里云,SLS,日志服务,logtail,日志收集,报表
+tags: ["阿里云", "SLS", "日志服务", "logtail"]
+---
+
 # sls 是个好东西
 
 通过`logtail`就能轻松收集日志，简单配置下生成各种报表，针不戳针不戳！

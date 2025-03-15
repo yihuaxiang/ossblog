@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: nginx header 添加与删除，解决跨域问题，处理 OSS 自动下载问题
+  - name: keywords
+    content: nginx,header,添加,删除,跨域,CORS,OSS,proxy_hide_header
+tags: ["nginx", "header", "CORS", "proxy"]
+---
+
 # nginx header 添加与删除
 
 

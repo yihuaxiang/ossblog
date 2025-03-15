@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 图床升级计划，展示新版图床UI设计和功能更新，包含图床的使用说明和反馈渠道
+  - name: keywords
+    content: 图床,升级,UI,设计,图片上传,图片托管
+tags: ["图床", "UI设计", "图片上传", "图片托管"]
+---
+
 # 图床升级
 
 [图床](https://tuchuang.z.wiki/misc/tuchuang.html)已经运行一年多了，毫无美感的`UI`已经到了亟需优化的地步了，最近找`UE`给帮忙设计了下，效果如下：

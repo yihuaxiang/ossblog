@@ -1,10 +1,13 @@
 ---
 meta:
   - name: description
-    content: centos 8 更新软件源
+    content: CentOS 8 寿终正寝，解决 CentOS 8 无法更新的问题，提供国内镜像源切换方法
   - name: keywords
-    content: centos 8 更新软件源
+    content: CentOS 8,寿终正寝,镜像源,yum,国内镜像,阿里云,华为云,腾讯云,网易
+tags: ["CentOS", "Linux", "镜像源", "运维"]
 ---
+
+
 # CentOS 8 寿终正寝
 
 > 背景：随着2022年的到来，`CentOS 8`的寿命也终止了，`CentOS 8`将无法获取更新功能，更为致命的是，原来的镜像源也已移除。

@@ -1,6 +1,12 @@
 ---
-tags: ["ANSI", "ANSI 转义序列", "ANSI escape code"]
+meta:
+  - name: description
+    content: 探索ANSI转义序列的奥秘，解析[36m等特殊字符的含义及在终端中的应用
+  - name: keywords
+    content: ANSI,转义序列,终端,控制字符,颜色代码,36m,2K,1G
+tags: ["ANSI", "转义序列", "终端", "控制字符"]
 ---
+
 
 
 # `ANSI`转义序列

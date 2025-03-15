@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Chrome 浏览器实时字幕功能介绍，展示 Chrome 新增的实时字幕功能及其使用方法
+  - name: keywords
+    content: Chrome,实时字幕,Live Caption,字幕功能,谷歌,YouTube
+tags: ["Chrome", "实时字幕", "Live Caption", "字幕功能", "谷歌"]
+---
+
 # chrome 实时字幕
 
 突然发现，`chrome`新加了"实时字幕"功能。

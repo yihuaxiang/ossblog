@@ -1,4 +1,9 @@
 ---
+meta:
+  - name: description
+    content: 健身环大冒险开箱体验，记录了从开箱到初次使用的全过程
+  - name: keywords
+    content: 健身环大冒险,Switch,任天堂,开箱,体验,游戏
 tags: ["敖武", "健身环", "体验"]
 ---
 
