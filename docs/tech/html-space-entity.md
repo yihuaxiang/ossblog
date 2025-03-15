@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: HTML 字符实体空格详解，包括 nbsp、ensp、emsp 和 thinsp 等不同类型空格的用法与区别
+  - name: keywords
+    content: HTML,字符实体,空格,nbsp,ensp,emsp,thinsp,非折行空格
+tags: ["HTML", "字符实体", "空格", "前端"]
+---
+
 # html 字符实体 - 空格
 
 <ImgView title="html 字符实体 - 空格" url="https://z.wiki/images/20220522/3e47dfea08b7490c868ae5624735ee49.jpg?x-oss-process=image/resize,w_800/quality,q_80" width="250px" />
