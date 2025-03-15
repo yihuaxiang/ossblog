@@ -251,6 +251,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'python',
         'jsonpath',
         'arthas',
         'lets-encrypt',
