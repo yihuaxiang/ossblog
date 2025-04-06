@@ -90,13 +90,13 @@ watch com.example.MyClass myMethod returnObj
 尤其是在处理方法参数的时候 。
 `watch` 命令支持表达式，允许你基于方法的输入参数、返回值或者异常来触发监控行为。
 
-举例一，如果你有一个方法 `myMethod(String param)`，并且你希望在 param 参数包含某个特定子串（例如 "test"）的时候才进行监控，可以使用如下命令：
+**举例一**，如果你有一个方法 `myMethod(String param)`，并且你希望在 param 参数包含某个特定子串（例如 "test"）的时候才进行监控，可以使用如下命令：
 
 ```shell
 watch com.example.MyClass myMethod '{params[0]}' -x 2 'params[0].contains("test")'
 ```
 
-举例二，仅监控返回值大于某个值的情况： 如果你想监控方法的返回值大于某个值时触发，可以使用 returnObj 进行条件判断：
+**举例二**，仅监控返回值大于某个值的情况： 如果你想监控方法的返回值大于某个值时触发，可以使用 returnObj 进行条件判断：
 
 ```shell
 watch com.example.MyClass myMethod '{returnObj}' -x 2 'returnObj > 100'
@@ -104,14 +104,14 @@ watch com.example.MyClass myMethod '{returnObj}' -x 2 'returnObj > 100'
 ```
 
 
-举例三、监控抛出异常的情况： 如果你只想监控方法抛出异常时的情况，可以结合 throwExp 进行条件判断：
+**举例三**、监控抛出异常的情况： 如果你只想监控方法抛出异常时的情况，可以结合 throwExp 进行条件判断：
 
 ```shell
 watch com.example.MyClass myMethod throwExp -e
 
 ```
 
-举例四：监控特定参数类型的调用： 比如你希望监控某个参数类型为特定类时，可以这样写：
+**举例四**：监控特定参数类型的调用： 比如你希望监控某个参数类型为特定类时，可以这样写：
 
 ```shell
 watch com.example.MyClass myMethod '{params[0]}' -x 2 'params[0] instanceof java.lang.String'
