@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Linux 后台运行程序指南，详解多种让程序在后台执行的方法及相关命令使用
+  - name: keywords
+    content: Linux,后台运行,nohup,jobs,fg,bg,shell,命令行
+tags: ["Linux", "后台运行", "nohup", "shell", "命令行"]
+---
+
 # 后台运行程序
 
 

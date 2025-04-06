@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 关于图床攻击的讨论，以及使用 Nginx + OSS 构建的简单图床解决方案
+  - name: keywords
+    content: 图床,攻击,Nginx,OSS,安全
+tags: ["图床", "攻击", "Nginx", "OSS", "安全"]
+---
+
 # 攻击图床？
 
 貌似一直有同学尝试来攻击[我的的图床](https://playground.z.wiki/img-cloud/index.html)

@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Docker 容器端口映射动态修改方法，介绍如何为正在运行的 Docker 容器添加或修改端口映射
+  - name: keywords
+    content: Docker,端口映射,动态修改,容器端口,config.v2.json,hostconfig.json
+tags: ["Docker", "端口映射", "容器配置"]
+---
+
 # docker 动态修改端口映射
 
 ### Docker 端口映射动态修改方法

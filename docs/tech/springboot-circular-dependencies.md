@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Spring Boot 循环依赖问题解析，介绍循环依赖的成因、表现形式及解决方案
+  - name: keywords
+    content: Spring Boot,循环依赖,Spring,依赖注入,BeanCurrentlyInCreationException
+tags: ["Spring Boot", "循环依赖", "Spring", "依赖注入"]
+---
+
 # spring 循环依赖
 
 ### 何为循环依赖？

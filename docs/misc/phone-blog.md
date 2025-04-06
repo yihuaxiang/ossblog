@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 手机写博客的体验分享，包括使用手机进行博客创作的优缺点及实际效果展示
+  - name: keywords
+    content: 手机写博客,移动端写作,博客创作,PhoneSnapshot,移动办公
+tags: ["手机写博客", "移动端写作", "博客创作"]
+---
+
 # 手机写博客
 
 <PhoneSnapshot url="https://z.wiki/autoupload/2022-09-12/2c6aadcad41f45e5949378a80ec74cba.95f77c3374684fb59eca84ba1321daa0.052EC7A2-926B-4B17-93A5-76D1E9AC3155.jpeg" title="手机写博客" alt="手机写博客" />

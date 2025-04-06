@@ -1,10 +1,13 @@
 ---
 meta:
   - name: description
-    content: nginx 缓存 http 协议 301 302 程序员 开发 后端 前端
+    content: nginx 缓存设置详解，包括 http 缓存原理、Cache-Control 配置及在 nginx 中的实现方法
   - name: keywords
-    content: nginx 缓存 http 协议 301 302 程序员 开发 后端 前端
+    content: nginx,缓存,http缓存,Cache-Control,web服务器,CDN
+tags: ["nginx", "缓存", "http", "Cache-Control", "CDN"]
 ---
+
+
 # nginx 缓存设置
 
 <ImgView title="nginx 缓存设置" url="https://1.z.wiki/images/20220430/541461df6dca45498a9960f79f9a7de8.png" />

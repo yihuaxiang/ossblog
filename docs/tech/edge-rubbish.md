@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Edge浏览器的垃圾功能及解决方法，介绍如何关闭Edge内置JSON查看器等不友好功能
+  - name: keywords
+    content: Edge,浏览器,JSON查看器,垃圾功能,edge://flags,浏览器设置
+tags: ["Edge", "浏览器", "JSON查看器", "功能优化"]
+---
+
 # Edge 的垃圾功能
 
 Edge 从 112 版本开始内置 JSON 查看器，这个查看器的体验实在无法恭维

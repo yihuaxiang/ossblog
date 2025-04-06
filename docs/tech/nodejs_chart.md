@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Node.js 聊天室项目回顾，包含在线音乐播放器和实时聊天功能的简单实现
+  - name: keywords
+    content: nodejs,聊天室,websocket,音乐播放器,实时聊天,项目回顾
+tags: ["nodejs", "聊天室", "websocket"]
+---
+
 # 重温8年前写的聊天室
 
 附上链接 [聊天室](https://chat.z.wiki/)

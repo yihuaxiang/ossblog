@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: CSS加载动画效果实现，提供简洁易用的loading动画样式代码和使用方法
+  - name: keywords
+    content: CSS,loading,加载动画,动画效果,前端样式,spinZoom
+tags: ["CSS", "loading", "加载动画", "前端样式"]
+---
+
 # 加载中动画
 
 

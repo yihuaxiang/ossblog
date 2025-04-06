@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: GitHub Passkey 登录指南，解决双因素认证的烦恼，介绍 Passkey 的使用方法和优势
+  - name: keywords
+    content: GitHub,Passkey,双因素认证,2FA,安全登录,无密码登录
+tags: ["GitHub", "Passkey", "2FA", "安全"]
+---
+
 # github passkey 登陆
 
 > 从 2023 年 3 月开始到 2023 年底，GitHub 将逐渐开始要求在 GitHub.com 上贡献代码的所有用户启用一种或多种形式的双因素身份验证 (2FA)。 如果你在符合条件的组中，当选择该组进行注册时，将收到一封通知电子邮件，该电子邮件标志着 45 天的 2FA 注册期的开始，并且你会看到要求你在 GitHub.com 上注册 2FA 的横幅。 如果未收到通知，则表示你不是需要启用 2FA 的组的成员，但我们强烈建议启用 2FA。

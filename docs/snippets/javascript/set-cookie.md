@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: JavaScript cookie 操作，包括设置 cookie 和读取 cookie 的方法实现
+  - name: keywords
+    content: JavaScript,cookie,setCookie,getCookie,设置cookie,读取cookie
+tags: ["JavaScript", "cookie", "前端"]
+---
+
 # cookie 操作
 
 

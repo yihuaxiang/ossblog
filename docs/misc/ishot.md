@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: iShot 截图工具功能介绍与效果对比，包括区域截图、窗口截图、长截图、标注、贴图、取色、录屏等功能
+  - name: keywords
+    content: iShot,截图,长截图,窗口截图,标注,贴图,取色,录屏,Mac
+tags: ["iShot", "截图", "Mac工具"]
+---
+
 # 测试下 iShot 截图效果
 
 ### 效果对比

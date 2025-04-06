@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 青春不是年华，而是心境。塞缪尔·厄尔曼的《青春》中英文对照，探讨青春的真谛与心态的重要性
+  - name: keywords
+    content: 青春,youth,塞缪尔·厄尔曼,Samuel Ullman,心境,理想,热忱,生命
+tags: ["青春", "youth", "诗歌", "心灵成长"]
+---
+
 # 青春
 
 ### YOUTH

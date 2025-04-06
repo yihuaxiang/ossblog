@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: SSH 免密登录教程，介绍如何通过公钥认证实现无需密码登录服务器
+  - name: keywords
+    content: SSH,免密登录,公钥,私钥,ssh-copy-id,ssh-keygen,authorized_keys
+tags: ["SSH", "免密登录", "公钥认证", "服务器"]
+---
+
 # ssh 免密登录
 
 

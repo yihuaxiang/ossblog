@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: JavaScript sleep 函数实现，介绍如何在 JavaScript 中实现延时等待功能
+  - name: keywords
+    content: JavaScript,sleep,延时,等待,Promise,setTimeout
+tags: ["JavaScript", "sleep", "Promise", "setTimeout"]
+---
+
 # sleep
 
 

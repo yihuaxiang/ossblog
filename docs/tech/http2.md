@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: HTTP/2 协议详解，介绍 HTTP/2 的主要特性、性能优势及在 Nginx 中的配置方法，包含实际部署案例
+  - name: keywords
+    content: HTTP/2,HTTP2.0,Nginx配置,性能优化,网站加速,协议升级
+tags: ["HTTP2", "Nginx", "性能优化"]
+---
+
 # 全站开启 http 2.0 协议
 
 

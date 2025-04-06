@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 我和大海的美好回忆，记录了海边沙滩、岩石、军舰和战斗机的精彩瞬间
+  - name: keywords
+    content: 大海,沙滩,岩石,军舰,战斗机,海边,旅行
+tags: ["大海", "沙滩", "旅行", "军舰", "风景"]
+---
+
 # 我和大海
 
 <ImgWithTitle :img="{url: 'https://z.wiki/images/20211115/4b7a6d9eaf484b0fb8a37f7108a7c503.png', title: '我和大海', desc: '我和大海的合影', bgColor: 'rgb(186 186 186 / 83%)'}" />

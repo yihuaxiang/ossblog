@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 探讨争论文化与泛滥的敌对情绪，分析争论的本质、原因及其对团队多元文化的影响
+  - name: keywords
+    content: 争论文化,敌对情绪,团队文化,多元文化,辩论,冲突
+tags: ["争论文化", "团队建设", "沟通", "冲突管理"]
+---
+
 # 争论文化与泛滥的敌对情绪
 
 > 翻译自：https://www.kateheddleston.com/blog/argument-cultures-and-unregulated-aggression

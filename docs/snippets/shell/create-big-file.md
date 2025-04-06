@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 在 Linux 系统中创建大文件的方法，包括使用 dd 和 fallocate 命令的详细说明和示例
+  - name: keywords
+    content: Linux,大文件,dd,fallocate,创建文件,shell,命令行
+tags: ["Linux", "Shell", "文件操作", "dd", "fallocate"]
+---
+
 # 创建大文件
 
 

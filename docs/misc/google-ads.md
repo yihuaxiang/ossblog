@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 记录我在网站上添加谷歌广告的经历和收入情况，包括审核过程、收入统计和PIN码验证
+  - name: keywords
+    content: 谷歌广告,Google Ads,网站收入,被动收入,广告收益,PIN码验证
+tags: ["谷歌广告", "Google Ads", "网站收入", "被动收入"]
+---
+
 # 谷歌广告
 
 在网站上加上了谷歌广告，争取挣点额外收入😄😄

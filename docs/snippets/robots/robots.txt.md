@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: robots.txt 文件详解，包括用途、格式及常见配置示例，帮助网站管理员控制搜索引擎爬虫的访问权限
+  - name: keywords
+    content: robots.txt,爬虫,搜索引擎,网站优化,SEO,User-agent,Allow,Disallow
+tags: ["robots.txt", "SEO", "爬虫", "搜索引擎优化"]
+---
+
 # robots.txt
 
 

@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: nginx 限流配置详解，包括限流模块的使用方法、参数配置及实际应用场景
+  - name: keywords
+    content: nginx,limit_req,限流,rate limiting,burst,nodelay
+tags: ["nginx", "limit_req", "限流"]
+---
+
 # nginx 限流
 
 

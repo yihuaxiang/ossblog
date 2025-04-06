@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: nginx 反向代理配置指南，包括如何设置反向代理并追加参数，解决域名解析问题
+  - name: keywords
+    content: nginx,反向代理,proxy_pass,resolver,域名解析,参数追加
+tags: ["nginx", "反向代理", "proxy_pass", "resolver"]
+---
+
 # nginx 反向代理并追加参数
 
 

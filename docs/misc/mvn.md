@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Maven 配置阿里云镜像教程，提高 Maven 依赖下载速度，包括 settings.xml 和 pom.xml 配置方法
+  - name: keywords
+    content: Maven,阿里云镜像,settings.xml,pom.xml,仓库配置,依赖下载
+tags: ["Maven", "阿里云镜像", "依赖管理"]
+---
+
 # maven 设置阿里云镜像
 
 打开 `maven` 的配置文件（ `windows` 机器一般在 `maven` 安装目录的 `conf/settings.xml` ），在`<mirrors></mirrors>`标签中添加 `mirror` 子节点:

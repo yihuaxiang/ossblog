@@ -1,10 +1,13 @@
 ---
 meta:
   - name: description
-    content: Idea 开源使用许可申请
+    content: JetBrains IDEA 开源许可证申请指南，包含申请流程、注意事项和实际申请经验分享
   - name: keywords
-    content: Idea 开源使用许可申请
+    content: IDEA,开源许可,JetBrains,License申请,开源项目,免费许可证
+tags: ["IDEA", "开源许可", "JetBrains", "License"]
 ---
+
+
 # Idea 开源使用许可申请
 
 一直用`Idea`，最头疼的就是`License`过期的问题了，尝试过多种方式（淘宝、激活码、激活服务器等各种方式），没有一个简单好用的，听说过有开源项目的话可以申请开源许可，今日提交申请试试😄😄

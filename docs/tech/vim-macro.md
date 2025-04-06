@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: vim macro 从入门到精通，介绍 vim 宏的定义、录制、执行和进阶使用
+  - name: keywords
+    content: vim,macro,宏,录制,执行,进阶
+tags: ["vim", "macro", "宏"]
+---
+
 # vim macro 从入门到精通
 
 <ImgView title="vim" url="https://5.z.wiki/autoupload/20230712/7VXh.225X224-image.png" />

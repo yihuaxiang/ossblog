@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: nginx 内容注入技巧，介绍如何使用 sub_filter 指令进行内容替换和注入
+  - name: keywords
+    content: nginx,sub_filter,内容注入,内容替换,反向代理
+tags: ["nginx", "sub_filter", "内容注入", "反向代理"]
+---
+
 # nginx 注入内容
 
 

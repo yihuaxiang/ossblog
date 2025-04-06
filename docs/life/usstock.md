@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 蔚来股东大会邀请函及个人感想，分享蔚来公司股东大会的邀请信息和参会体验
+  - name: keywords
+    content: 蔚来,股东大会,NIO,投资,股票,邀请函
+tags: ["蔚来", "股东大会", "投资", "股票"]
+---
+
 # 蔚来股东大会
 
 <ImgView title="蔚来股东大会" url="https://7.z.wiki/autoupload/2022-09-21/fb97285d4e5c4d38aa7de56e17d3523b.image.png" />

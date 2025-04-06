@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: vim 括号跳转技巧，介绍如何在匹配的括号之间快速跳转，以及如何使用 mark 功能快速返回
+  - name: keywords
+    content: vim,括号跳转,mark,百分号,跳转技巧
+tags: ["vim", "跳转", "mark"]
+---
+
 # 在匹配括号之间跳转
 
 vim 提供了大量快速移动的命令，例如：`%` 可以在闭合括号之间快速移动，该括号包括小括号、中括号、大括号。

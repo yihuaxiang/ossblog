@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: GLM-130B 模型部署实践，介绍开源双语大模型 GLM-130B 的特点、性能表现及在 V100 服务器上的部署过程
+  - name: keywords
+    content: GLM-130B,大模型,双语模型,模型部署,V100,A100,推理
+tags: ["GLM-130B", "大模型", "模型部署", "V100"]
+---
+
 # GLM-130B
 
 huggingface 体验地址: [huggingface](https://huggingface.co/spaces/THUDM/GLM-130B)

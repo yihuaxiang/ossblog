@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: karabiner 使用教程，介绍如何在 macOS 系统中自定义键盘快捷键，特别是为 Google Chrome 设置标签切换快捷键
+  - name: keywords
+    content: karabiner,macOS,快捷键,键盘映射,Google Chrome,标签切换,自定义快捷键
+tags: ["karabiner", "macOS", "快捷键", "Google Chrome"]
+---
+
 # 神器的 karabiner
 
 ### 背景

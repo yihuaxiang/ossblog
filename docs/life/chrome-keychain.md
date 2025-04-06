@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Chrome 与 keychain 的使用问题，Chrome 无法将密码存储到 keychain，以及通过 Safari 同步 Chrome 密码的解决方案
+  - name: keywords
+    content: Chrome,keychain,密码,同步,Safari,1password,密码管理
+tags: ["Chrome", "keychain", "密码管理", "Safari"]
+---
+
 # chrome 与 keychain
 
 `Chrome`从`45`版本开始便无法将密码存储到`keychain`。

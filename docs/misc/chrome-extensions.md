@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: 常用的Chrome浏览器插件推荐，包括Postman、广告终结者、WhatFont、Vimium和Tampermonkey等工具的介绍和使用
+  - name: keywords
+    content: Chrome,插件,扩展,Postman,广告终结者,WhatFont,Vimium,Tampermonkey
+tags: ["Chrome", "插件", "浏览器扩展", "工具"]
+---
+
 # 常用的 chrome 插件
 
 一下插件都可以通过`chrome`应用商店安装（需手动翻墙🐶）

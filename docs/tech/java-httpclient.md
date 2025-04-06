@@ -1,3 +1,12 @@
+---
+meta:
+  - name: description
+    content: Java HTTP 客户端库对比与使用指南，包括 HttpURLConnection、Apache HttpClient 和 OkHttp 的特点与示例代码
+  - name: keywords
+    content: Java,HttpClient,HttpURLConnection,Apache HttpClient,OkHttp,HTTP请求,接口调用
+tags: ["Java", "HTTP", "HttpClient", "网络编程"]
+---
+
 # java httpClient
 
 在`Java`中和其他系统进行交互，`http`接口调用是最频繁不过的的一种方式了。
