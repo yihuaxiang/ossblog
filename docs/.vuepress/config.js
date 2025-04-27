@@ -228,6 +228,7 @@ module.exports = {
           {text: 'Python简明教程', link: 'https://memoo.online'},
         ]
       },
+
       {text: '生活', link: '/life/'},
       {text: '搜索', link: 'https://playground.z.wiki/search/page'},
       {
