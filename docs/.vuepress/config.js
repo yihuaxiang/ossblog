@@ -224,7 +224,8 @@ module.exports = {
           {text: '鄢云峰的个人网站', link: 'https://yanyunfeng.com/'},
           {text: '程序员工具箱', link: 'https://fukit.cn/'},
           {text: '余华的个人博客', link: 'https://www.yuhua.pub/'},
-          {text: '5杀猪网', link: 'https://51shazhu.com'},
+          {text: '51杀猪网', link: 'https://51shazhu.com'},
+          {text: 'Python简明教程', link: 'https://memoo.online'},
         ]
       },
       {text: '生活', link: '/life/'},
