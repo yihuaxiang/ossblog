@@ -395,6 +395,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'ddos-new',
         'android',
         'gmail',
         'ukraine',
