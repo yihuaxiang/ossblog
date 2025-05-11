@@ -51,7 +51,6 @@ export default {
         desc: '在线写代码，实时预览，实时分享。',
       }]
     },
-   
   }
 }
 </script>
