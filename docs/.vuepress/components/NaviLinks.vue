@@ -38,6 +38,10 @@ export default {
         url: 'https://playground.z.wiki/img-cloud/index.html',
         desc: '免费图床，上传图片、压缩包等任意文件。',
       }, {
+        title: '🖼 图床小镇',
+        url: 'https://imgbed.cn/',
+        desc: '专业稳定的外贸图床',
+      }, {
         title: '⚒️  IT 工具箱',
         url: 'https://fukit.cn/',
         desc: '程序员的百宝箱',
