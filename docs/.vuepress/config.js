@@ -225,6 +225,7 @@ module.exports = {
           {text: '程序员工具箱', link: 'https://fukit.cn/'},
           {text: '余华的个人博客', link: 'https://www.yuhua.pub/'},
           {text: '51杀猪网', link: 'https://51shazhu.com'},
+          {text: 'Tech Philosopher', link: 'https://blog.bktus.com/'},
           {text: 'Python简明教程', link: 'https://memoo.online'},
         ]
       },
