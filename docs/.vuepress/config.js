@@ -227,6 +227,7 @@ module.exports = {
           {text: '51杀猪网', link: 'https://51shazhu.com'},
           {text: 'Tech Philosopher', link: 'https://blog.bktus.com/'},
           {text: 'Python简明教程', link: 'https://memoo.online'},
+          {text: '飞龙博客', link: 'https://feilong.org'},
         ]
 
       },
