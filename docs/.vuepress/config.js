@@ -228,6 +228,7 @@ module.exports = {
           {text: 'Tech Philosopher', link: 'https://blog.bktus.com/'},
           {text: 'Python简明教程', link: 'https://memoo.online'},
           {text: '飞龙博客', link: 'https://feilong.org'},
+          {text: '好软猫', link: 'https://www.haoruanmao.com/'},
         ]
 
       },
