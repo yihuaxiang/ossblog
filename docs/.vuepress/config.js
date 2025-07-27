@@ -229,6 +229,7 @@ module.exports = {
           {text: 'Python简明教程', link: 'https://memoo.online'},
           {text: '飞龙博客', link: 'https://feilong.org'},
           {text: '好软猫', link: 'https://www.haoruanmao.com/'},
+          {text: 'APP 喵', link: 'https://www.appmiao.com/'},
         ]
 
       },
