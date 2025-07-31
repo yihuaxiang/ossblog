@@ -230,6 +230,7 @@ module.exports = {
           {text: '飞龙博客', link: 'https://feilong.org'},
           {text: '好软猫', link: 'https://www.haoruanmao.com/'},
           {text: 'APP 喵', link: 'https://www.appmiao.com/'},
+          {text: '侯体宗博客', link: 'https://www.zongscan.com'},
         ]
       },
 
