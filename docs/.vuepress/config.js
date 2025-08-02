@@ -259,6 +259,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'codebuddy',
         'python',
         'jsonpath',
         'arthas',
