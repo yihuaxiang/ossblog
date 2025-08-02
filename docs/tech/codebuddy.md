@@ -1,9 +1,9 @@
 ---
 meta:
   - name: description
-    content: 
+    content: 深度体验腾讯 CodeBuddy AI IDE，对比 Cursor 等主流 AI 编程工具，分析其在 Figma 支持、组件选择、设计模式、Plan Mode 等方面的特色功能
   - name: keywords
-    content: 
+    content: CodeBuddy,AI IDE,腾讯,编程辅助,AI 编程,VSCode 插件,Figma 支持,组件选择,设计模式,Plan Mode
 tags: ["CodeBuddy", "AI", "IDE", "编程辅助"]
 ---
 
@@ -31,10 +31,10 @@ tags: ["CodeBuddy", "AI", "IDE", "编程辅助"]
 
 1. Figma 支持
 2. 选择组件
-4. 设计模式
-5. plan mode
-6. 提示词优化
-3. 配置集成和部署
+3. 设计模式
+4. plan mode
+5. 提示词优化
+6. 配置集成和部署
 
 其他如 rule 、MCP、代码补全、agent 模式、chat 模式、多模型选择等功能大差不差。
 
@@ -94,4 +94,3 @@ CodeBuddy 支持 Supabase 和 腾讯云进行集成，毕竟是腾讯的产品�
 预览模式下点选 DOM 进行优化。
 
 ![1307X795/click.gif](https://a.tuchuangyun.top/autoupload/fdd/20250803/aV1p/1307X795/click.gif)
-
