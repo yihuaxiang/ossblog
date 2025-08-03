@@ -402,6 +402,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'domain-banned',
         'virus',
         'ddos-new',
         'android',
