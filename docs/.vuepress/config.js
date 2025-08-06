@@ -259,6 +259,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'codebuddy',
         'python',
         'jsonpath',
         'arthas',
@@ -401,6 +402,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'domain-banned',
         'virus',
         'ddos-new',
         'android',
