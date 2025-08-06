@@ -1,4 +1,4 @@
-HSET blogs:https://playground.z.wiki/img-cloud-page/index.html title "外贸图床" content "专为外贸电商打造，支持任意格式文件存储，提供全球CDN加速的文件托管服务"
+HSET blogs:https://imgbed.cn/img-cloud-page/index.html title "外贸图床" content "专为外贸电商打造，支持任意格式文件存储，提供全球CDN加速的文件托管服务"
 HSET blogs:https://playground.z.wiki/show-headers/index.html title "HTTP 请求头信息查看工具" content "实时显示您的 HTTP 请求头信息"
 HSET blogs:https://zwiki1.wordpress.com title "WordPress 博客" content "WordPress 博客"
 HSET blogs:https://snippets.z.wiki title "代码片段收集平台" content "代码片段收集平台"
