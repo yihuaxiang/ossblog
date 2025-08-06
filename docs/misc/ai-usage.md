@@ -14,7 +14,7 @@ Cursor 相对其他 IDE 在 AI 的应用上更彻底，到处都是 AI 的味道
 
 如下图所示，使用 Cursor 的对话功能快速生成文章的 TDK 信息。
 
-![908X350/99881.gif](https://cdn.z.wiki/autoupload/20250315/mOed/908X350/99881.gif?type=asdf&x-oss-process=image/auto-orient,1/interlace,1/quality,Q_50/contrast,-8/watermark,text_5a6M576O44Gu5pqW5b-D,color_0c0c0c,size_25,g_se,x_20,y_20)
+![908X350/99881.gif](https://tc-new.z.wiki/autoupload/20250315/mOed/908X350/99881.gif?type=asdf&x-oss-process=image/auto-orient,1/interlace,1/quality,Q_50/contrast,-8/watermark,text_5a6M576O44Gu5pqW5b-D,color_0c0c0c,size_25,g_se,x_20,y_20)
 
 ### JetBrain 的优势
 
@@ -24,9 +24,9 @@ Cursor 相对其他 IDE 在 AI 的应用上更彻底，到处都是 AI 的味道
 
 下图第一个为 Cursor 的变更提交界面，第二个图为 JetBrain 的变更和提交界面：
 
-![2284X934/image.png](https://cdn.z.wiki/autoupload/20250315/M1V6/2284X934/image.png?type=asdf&x-oss-process=image/auto-orient,1/interlace,1/quality,Q_50/contrast,-8/watermark,text_5a6M576O44Gu5pqW5b-D,color_0c0c0c,size_25,g_se,x_20,y_20)
+![2284X934/image.png](https://tc-new.z.wiki/autoupload/20250315/M1V6/2284X934/image.png?type=asdf&x-oss-process=image/auto-orient,1/interlace,1/quality,Q_50/contrast,-8/watermark,text_5a6M576O44Gu5pqW5b-D,color_0c0c0c,size_25,g_se,x_20,y_20)
 
-![2870X2040/image.png](https://cdn.z.wiki/autoupload/20250315/HPSY/2870X2040/image.png?type=asdf&x-oss-process=image/auto-orient,1/interlace,1/quality,Q_50/contrast,-8/watermark,text_5a6M576O44Gu5pqW5b-D,color_0c0c0c,size_25,g_se,x_20,y_20)
+![2870X2040/image.png](https://tc-new.z.wiki/autoupload/20250315/HPSY/2870X2040/image.png?type=asdf&x-oss-process=image/auto-orient,1/interlace,1/quality,Q_50/contrast,-8/watermark,text_5a6M576O44Gu5pqW5b-D,color_0c0c0c,size_25,g_se,x_20,y_20)
 
 JetBrain 好用在
 
