@@ -233,6 +233,9 @@ module.exports = {
           {text: '侯体宗博客', link: 'https://www.zongscan.com'},
           {text: '二丫讲梵', link: 'https://wiki.eryajf.net/'},
           {text: '保哥笔记', link: 'https://zhangwenbao.com/'},
+          {text: 'Asutorufaのブログ', link: 'https://asutorufa.com/'},
+          {text: 'DaBai', link: 'https://ucds.me/'},
+          {text: '猫猫博客', link: 'https://catcat.blog/'},
 
         ]
       },
