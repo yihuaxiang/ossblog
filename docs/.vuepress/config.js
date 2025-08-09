@@ -236,6 +236,7 @@ module.exports = {
           {text: 'Asutorufaのブログ', link: 'https://asutorufa.com/'},
           {text: 'DaBai', link: 'https://ucds.me/'},
           {text: '猫猫博客', link: 'https://catcat.blog/'},
+          {text: '码农真经的博客', link: 'https://blog.mzh.ren/'},
 
         ]
       },
