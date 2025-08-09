@@ -404,6 +404,7 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
+        'my-domain',
         'domain-banned',
         'virus',
         'ddos-new',
