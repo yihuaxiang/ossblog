@@ -328,6 +328,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'ruankao',
         'shijiazhuang',
         'taizhou',
         'sanya',
