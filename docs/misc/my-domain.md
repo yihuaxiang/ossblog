@@ -6,6 +6,7 @@
 4. fukit.cn
 5. imgbed.cn
 6. tuchuangyun.top
+7. [urleditor.cn](https://urleditor.cn/)
 
 以及[eu.org](https://z.wiki/tech/free-domain.html)的免费域名
 
