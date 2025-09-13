@@ -10,7 +10,7 @@ meta:
 ## 关于博主
 
 <p>
-  <img title="敖武的头像" alt="敖武的头像" src="https://z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG" style="width: 40px;height: 40px; border-radius: 8px;">
+  <img title="敖武的头像" alt="敖武的头像" src="https://y.z.wiki/autoupload/2022-05-09/fa4355da3640453380d18ce97f4ce98e.IMG_7223.JPG/webp" style="width: 40px;height: 40px; border-radius: 8px;">
 </p>
 
 <style>
@@ -36,7 +36,7 @@ meta:
 
 朋友，留下评论吧，毕竟这里有<a href="https://cdn.z.wiki/autoupload/20240606/X4i5/2780X1264/Screenshot_2024-06-06-02-58-36-10_3915bacb930634b7e206116f9dc9486f.jpg" target="_blank" style="color: red;font-weight: bold; text-decoration: underline;">红包🧧</a>
 
-<img src="https://tc-new.z.wiki/autoupload/20240813/3Nz3/1344X711/image.png" title="党在我心中，永远跟党走" />
+<img src="https://y.z.wiki/autoupload/20240813/3Nz3/1344X711/image.png/webp" title="党在我心中，永远跟党走" />
 
 
 <NaviLinks />
