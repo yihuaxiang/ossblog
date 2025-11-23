@@ -409,7 +409,6 @@ module.exports = {
         'wine'
       ],
       '/misc/': [
-        'gemini',
         'makemoney',
         'my-domain',
         'domain-banned',
