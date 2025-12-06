@@ -265,6 +265,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'server',
         'codebuddy',
         'python',
         'jsonpath',
