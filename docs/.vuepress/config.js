@@ -265,6 +265,7 @@ module.exports = {
     ],
     sidebar: {
       '/tech/': [
+        'controlnet',
         'server',
         'codebuddy',
         'python',
