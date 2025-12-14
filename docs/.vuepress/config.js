@@ -330,6 +330,7 @@ module.exports = {
         'ripgrep'
       ],
       '/life/': [
+        'realme',
         'ruankao',
         'shijiazhuang',
         'taizhou',
