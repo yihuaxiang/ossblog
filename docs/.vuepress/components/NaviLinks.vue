@@ -42,6 +42,10 @@ export default {
         url: 'https://imgbed.cn/',
         desc: '专业稳定的外贸图床',
       }, {
+        title: '💻 AI 中转服务',
+        url: 'https://xiangfaka.com/item/rhm0qc',
+        desc: '为 CodeX 提供的稳定可靠的中转服务',
+      }, {
         title: '⚒️  IT 工具箱',
         url: 'https://fukit.cn/',
         desc: '程序员的百宝箱',
